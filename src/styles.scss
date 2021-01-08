@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+@import "assets/foundation-icons/foundation-icons.scss";
+
+$dark_blue: #25645d;
+
+@font-face {
+  font-family: "SF Cosmic Age";
+  src: url("assets/SFCosmicAge.otf");
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  color: #bbb;
+  font-family: "Open Sans", sans-serif;
+  font-size: em(14);
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+a {
+  color: #008cba;
+  line-height: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  color: $dark_blue;
+  font-family: "Oswald", sans-serif;
+}
+
+ul li {
+  list-style: none;
+  font-size: 14px;
+}
