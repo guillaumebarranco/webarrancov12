@@ -1,134 +1,22 @@
-<app-navbar></app-navbar>
-
-<app-timeline></app-timeline>
-
-<!-- <section class="wrapper" role="main">
-  <div class="row">
-    <div class="bloc">
-      <h2>Qui suis-je ?</h2>
-      <div>
-        <img
-          class="willchange"
-          src="assets/img/build/myPicture.jpg"
-          alt="Photo de Guillaume Barranco"
-          width="140"
-          class="myPicture"
-        />
+<div class="container dark-mode">
+  <div class="terminal">
+    <div class="terminal__header"></div>
+    <div class="terminal__body">
+      <div class="terminal__banner">
+        <div class="terminal__author">Guillaume BARRANCO</div>
+        <p>
+          Bienvenue sur mon site web ! Pour afficher les commandes disponibles
+          tapez
+          <code>help</code>. Pour valider chaque commande appuyez sur
+          <em>Entrer</em>, vous pouvez utiliser la touche
+          <em>Tabulation</em> afin de vous aider à compléter une commande.
+          <br /><br />
+          Vous préférez un site web présentant mon parcours en format non geek,
+          tapez <code>notgeek</code>
+        </p>
       </div>
-      <p>
-        Un jeune développeur passionné par le web depuis des années et
-        actuellement en Licence Chef de Projet Multimedia travaillant pour
-        l'entreprise
-        <a
-          target="_blank"
-          title="Site de l'entreprise Weblib"
-          href="http://weblib.eu/"
-          >Weblib</a
-        >. <br />
-        Un inconditionnel fan de manga, les plus curieux et passionnés pourront
-        en trouver
-        <a href="http://webarranco.fr/read_mangas/" title="Liste des mangas lus"
-          >un exemple ici</a
-        >
-        !<br />
-        Un pro avant tout, un jeune curieux et avide de connaissances qui ne
-        demande qu'à apprendre et transmettre après.
-      </p>
-    </div>
-
-    <div class="bloc">
-      <h2>Mes compétences</h2>
-      <p>
-        Toutes les technologies de développement web les plus connues (HTML5,
-        CSS3, Javascript, PHP, SQL), agrémenté des sciences d'intégration
-        étudiées pour le plaisir de se parfaire (Référencement, Ergonomie,
-        Accessibilité) ainsi que de frameworks bien utiles. Vous pouvez les
-        trouver et mieux les comprendre sur la
-        <a href="/skills">page de mes compétences</a>.
-      </p>
-      <ul class="graphic">
-        <li class="li-graphic-percent">
-          <div class="graphic-percent">25</div>
-          <div class="graphic-percent">50</div>
-          <div class="graphic-percent">75</div>
-          <div class="graphic-percent">100</div>
-        </li>
-        <li>
-          <div class="graphic-name">HTML5</div>
-          <div class="graphic-bar graphic-bar-html5"></div>
-        </li>
-        <li>
-          <div class="graphic-name">CSS3</div>
-          <div class="graphic-bar graphic-bar-css3"></div>
-        </li>
-        <li>
-          <div class="graphic-name">Javascript</div>
-          <div class="graphic-bar graphic-bar-js"></div>
-        </li>
-        <li>
-          <div class="graphic-name">PHP</div>
-          <div class="graphic-bar graphic-bar-php"></div>
-        </li>
-        <li>
-          <div class="graphic-name">SQL</div>
-          <div class="graphic-bar graphic-bar-sql"></div>
-        </li>
-        <li>
-          <div class="graphic-name">Curiosité</div>
-          <div class="graphic-bar graphic-bar-curieux"></div>
-        </li>
-      </ul>
+      <div id="terminal"></div>
     </div>
   </div>
-
-  <div class="row">
-    <div class="bloc large-4 columns">
-      <h2>Mes Projets</h2>
-      <p>
-        Dernier projet en date :
-        <a
-          href="#"
-          target="_blank"
-          class="img-projet last_project_home"
-          title="Voir le dernier projet en date"
-        >
-          <img src="" alt="Image du dernier projet en date" />
-        </a>
-        Je fais partie de ceux qui pensent que l'on fonctionne par projet.
-        L'apprentissage d'un langage, d'un CMS, d'un framework sans son
-        utilisation sur un projet concret ne dépassera jamais les 40% de
-        pertinence. Se lancer un projet personnel ou professionnel, y'a que ça
-        de vrai. Je vous invite donc à regarder
-        <a href="/projects" title="Voir les projets">mon Portfolio</a>, en
-        espérant qu'il vous amusera !
-      </p>
-    </div>
-
-    <div class="bloc large-4 columns">
-      <h2>Me Contacter</h2>
-
-      <div>guillaume.barranco8@hotmail.fr</div>
-
-      <a
-        href="assets/img/build/CV.jpg"
-        data-lightbox="roadtrip"
-        title="Aperçu de mon CV"
-        class="myCV"
-      >
-        <img
-          src="assets/img/build/CV.jpg"
-          width="100"
-          alt="Miniature de mon CV"
-        />
-      </a>
-
-      <a
-        class="download_CV"
-        title="Télécharger mon CV"
-        target="_blank"
-        href="img/CV_Barranco_Guillaume.pdf"
-        >Télécharger mon CV</a
-      >
-    </div>
-  </div>
-</section> -->
+  <div class="editor" [innerHTML]="getJsonResult()"></div>
+</div>
