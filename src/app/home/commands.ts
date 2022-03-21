@@ -25,20 +25,6 @@ export const commands = [
     value: ['Eh oui, on ne va pas refaire la roue.'],
   },
   {
-    command: 'help',
-    responseType: 'list',
-    value: [
-      '<code>a-propos</code> : Affiche les informations me concernant',
-      '<code>clear</code> : Nettoie le terminal',
-      '<code>experiences</code> : Affiche la liste de mes expériences',
-      '<code>get cv</code> : Télécharge le CV',
-      '<code>hobby</code> : Affiche la liste de mes passes temps',
-      '<code>projets-perso</code> : Affiche la liste de mes projets personnels',
-      '<em>Vous pouvez utiliser la touche TAB afin de compléter une commande</em>',
-      '<em>Vous pouvez retrouver les anciennes commandes avec les flèches haut et bas.</em>',
-    ],
-  },
-  {
     command: 'a-propos',
     responseType: 'code',
     value: [

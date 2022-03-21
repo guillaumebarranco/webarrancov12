@@ -15,19 +15,24 @@ export class HomeComponent implements OnInit {
   public currentCommand = 'presentation';
 
   public commandsList = [];
-  public customCommands = ['clear', 'dark', 'light', 'get cv'];
+  public customCommands = ['help', 'clear', 'dark', 'light', 'get cv'];
   public hiddenCommands = ['pif', 'rm -rf /'];
   public commandsHistory = [];
   public historyMode = false;
   public historyIndex = -1;
-  public terminalBody = document.querySelector('.terminal__body');
+  public terminalBody = null;
   public value = '';
+
+  private _previousJsonCommandWorking = null;
 
   public ngOnInit(): void {
     this.initTerminal();
   }
 
   public initTerminal() {
+    this.terminalBody = document.querySelector('.terminal__body');
+    this._clearTerminal();
+
     commands.forEach((c) => {
       this.commandsList.push(c.command);
     });
@@ -46,28 +51,41 @@ export class HomeComponent implements OnInit {
 
   public handleCustomCommands(command) {
     switch (command) {
-      case 'light':
-        if (document.body.classList.length === 0)
-          return 'Vous êtes déjà en mode clair';
-        setDarkMode(false);
-        return 'Vous êtes maintenant en mode clair.';
-      case 'dark':
-        if (document.body.classList.length === 1)
-          return 'Vous êtes déjà en mode sombre';
-        setDarkMode(true);
-        return 'Vous êtes maintenant en mode sombre.';
       case 'get cv':
         getCV();
         return 'Le CV va être téléchargé.';
       case 'clear':
-        this.terminalBody.innerHTML = `<div id="terminal"></div>`;
+        this._clearTerminal();
         return;
+      case 'help':
+        return Object.keys(resultData).reduce((acc, item) => {
+          const splitItem = item.split('/')[0];
+          return `${acc}<code>${splitItem}</code>: ${resultData[item].description}<br />`;
+        }, '');
     }
+  }
+
+  private _clearTerminal() {
+    this.terminalBody.innerHTML = `
+          <div class="terminal__banner">
+            <div class="terminal__author">Guillaume BARRANCO</div>
+            <p>
+              Bienvenue sur mon site web ! Pour afficher les commandes disponibles
+              tapez
+              <code>help</code>. Pour valider chaque commande appuyez sur
+              <em>Entrer</em>, vous pouvez utiliser la touche
+              <em>Tabulation</em> afin de vous aider à compléter une commande.
+              <br /><br />
+              Vous préférez un site web présentant mon parcours en format non geek,
+              tapez <code>notgeek</code>
+            </p>
+
+            <div id="terminal"></div>
+          </div>`;
   }
 
   public getDomForCommand(command) {
     const commandObj = commands.find((el) => el.command === command);
-    console.log('commandObj', commandObj);
 
     let html: any = '';
     if (commandObj === undefined) {
@@ -210,16 +228,20 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  private _getCurrentCommandKey() {
+  private _getCurrentCommandKey(command?) {
+    if (!command) {
+      command = this.currentCommand;
+    }
+
     return Object.keys(resultData)
       .map((key) => key)
       .find((key) => {
-        if (key === this.currentCommand) {
+        if (key === command) {
           return true;
         }
 
         const splitKey = key.split('/');
-        return splitKey.find((keyPart) => keyPart === this.currentCommand);
+        return splitKey.find((keyPart) => keyPart === command);
       });
   }
 
@@ -227,7 +249,14 @@ export class HomeComponent implements OnInit {
     let response =
       '<pre class="code-block"><code class="code"><span class="code-line">{</span>';
 
-    const data = resultData[this._getCurrentCommandKey()];
+    const result = resultData[this._getCurrentCommandKey()];
+
+    const data = result
+      ? result.data
+      : resultData[this._getCurrentCommandKey(this._previousJsonCommandWorking)]
+          .data;
+
+    this._previousJsonCommandWorking = this.currentCommand;
 
     Object.keys(data).forEach((key) => {
       response += '<br />';
