@@ -10,9 +10,9 @@ export const resultData = {
       mangasCount: 563,
       isDad: true,
       github:
-        '<br /><a href="https://github.com/guillaumebarranco" target="_blank">https://github.com/guillaumebarranco</a>',
+        '<a href="https://github.com/guillaumebarranco" target="_blank">https://github.com/guillaumebarranco</a>',
       twitter:
-        '<br /><a href="https://twitter.com/Webarranco" target="_blank">https://twitter.com/Webarranco</a>',
+        '<a href="https://twitter.com/Webarranco" target="_blank">https://twitter.com/Webarranco</a>',
     },
   },
   notgeek: {
@@ -107,5 +107,16 @@ export const resultData = {
       Chronoshirt:
         "Une super idée, encore une fois à une époque où c'était beaucoup moins démocratisée. Dans le cadre d'un projet de 1ère ou 2ème année, avec un ami nous avions choisi de créer une (fausse) boutique en ligne de t-shirts Geek, la très grande majorité designées par nous-même. J'en ai même réellement commandé un via un vrai site par la suite tellement nos t-shirt étaient cools. <br /><a target='_blank' href='https://github.com/guillaumebarranco/Chronoshirt'>https://github.com/guillaumebarranco/Chronoshirt</a>",
     },
+  },
+  'passions/hobby': {
+    description: "Tout ce qui me passionne le plus, ce que j'adore faire",
+    data: [
+      'One Piece',
+      'Les mangas en général',
+      'Le tennis',
+      'Le dev',
+      'Le barbecue',
+      'Les burgers',
+    ],
   },
 };

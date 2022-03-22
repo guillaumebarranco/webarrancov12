@@ -60,7 +60,7 @@ export class HomeComponent implements OnInit {
       case 'help':
         return Object.keys(resultData).reduce((acc, item) => {
           const splitItem = item.split('/')[0];
-          return `${acc}<code>${splitItem}</code>: ${resultData[item].description}<br />`;
+          return `${acc}<p><code>${splitItem}</code>: ${resultData[item].description}</p>`;
         }, '');
     }
   }
