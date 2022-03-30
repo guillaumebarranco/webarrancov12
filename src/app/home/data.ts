@@ -9,6 +9,7 @@ export const resultData = {
       age: 27,
       mangasCount: 563,
       isDad: true,
+      isGeek: true,
       github:
         '<a href="https://github.com/guillaumebarranco" target="_blank">https://github.com/guillaumebarranco</a>',
       twitter:
@@ -38,9 +39,33 @@ export const resultData = {
   },
   skills: {
     description: 'Une petite liste de mes principales compétences acquises',
-    data: ['HTML', 'CSS', 'JavaScript', 'Angular', 'React', 'Express'],
+    data: {
+      languages: ['HTML', 'CSS', 'JavaScript', 'Typescript'],
+      mainTools: ['Angular', 'Node.js', 'Git', 'Express', 'NGRX', 'SASS'],
+      otherTools: [
+        'React',
+        'Docker',
+        'Cypress',
+        'MySQL',
+        'MongoDB',
+        'Storybook',
+        'Firebase',
+      ],
+      skills: [
+        'Agile',
+        'SCRUM',
+        'Responsive',
+        'Functional Programing',
+        'REST',
+        'Unit Testing',
+        'E2E Testing',
+        'WebSockets',
+      ],
+      interestedAbout: ['WASM', 'Flutter', 'Go', 'GraphQL'],
+      lovedTrying: ['WebGL', 'SASS Matrix', 'Cordova', 'Arduino programing'],
+    },
   },
-  projects: {
+  'projects/projets': {
     description: 'Mes principaux projets personnels',
     data: {
       OnePieceTreasureCruiseFR:
@@ -117,6 +142,7 @@ export const resultData = {
       'Le dev',
       'Le barbecue',
       'Les burgers',
+      'Le rap Français',
     ],
   },
 };

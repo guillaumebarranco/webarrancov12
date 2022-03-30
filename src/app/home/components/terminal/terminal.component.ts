@@ -1,29 +1,34 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Input,
+  OnInit,
+  Output,
+  ViewEncapsulation,
+} from '@angular/core';
 
-import { commands } from './commands';
-import { getCV, setDarkMode } from './custom_commands';
+import { commands } from '../../commands';
 
-import { resultData } from './data';
+import { resultData } from '../../data';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  selector: 'app-terminal',
+  templateUrl: './terminal.component.html',
+  styleUrls: ['./terminal.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
-export class HomeComponent implements OnInit {
-  public currentCommand = 'presentation';
+export class TerminalComponent implements OnInit {
+  @Output() updateCurrentCommand = new EventEmitter();
+  @Input() currentCommand: string;
 
   public commandsList = [];
-  public customCommands = ['help', 'clear', 'dark', 'light', 'get cv'];
-  public hiddenCommands = ['pif', 'rm -rf /'];
+  public customCommands = ['help', 'clear'];
+  public hiddenCommands = [];
   public commandsHistory = [];
   public historyMode = false;
   public historyIndex = -1;
   public terminalBody = null;
   public value = '';
-
-  private _previousJsonCommandWorking = null;
 
   public ngOnInit(): void {
     this.initTerminal();
@@ -51,9 +56,6 @@ export class HomeComponent implements OnInit {
 
   public handleCustomCommands(command) {
     switch (command) {
-      case 'get cv':
-        getCV();
-        return 'Le CV va être téléchargé.';
       case 'clear':
         this._clearTerminal();
         return;
@@ -85,7 +87,7 @@ export class HomeComponent implements OnInit {
   }
 
   public getDomForCommand(command) {
-    const commandObj = commands.find((el) => el.command === command);
+    const commandObj: any = commands.find((el) => el.command === command);
 
     let html: any = '';
     if (commandObj === undefined) {
@@ -124,7 +126,7 @@ export class HomeComponent implements OnInit {
       // ENTER
 
       if (commandValue !== '') {
-        this.currentCommand = commandValue;
+        this.updateCurrentCommand.emit(commandValue);
         this.historyMode = false;
         const idResponse = `response-${e.target.dataset.uid}`;
         const responseEl = document.getElementById(idResponse);
@@ -226,76 +228,5 @@ export class HomeComponent implements OnInit {
         activeInput.focus();
       }
     });
-  }
-
-  private _getCurrentCommandKey(command?) {
-    if (!command) {
-      command = this.currentCommand;
-    }
-
-    return Object.keys(resultData)
-      .map((key) => key)
-      .find((key) => {
-        if (key === command) {
-          return true;
-        }
-
-        const splitKey = key.split('/');
-        return splitKey.find((keyPart) => keyPart === command);
-      });
-  }
-
-  public getJsonResult() {
-    let response =
-      '<pre class="code-block"><code class="code"><span class="code-line">{</span>';
-
-    const result = resultData[this._getCurrentCommandKey()];
-
-    const data = result
-      ? result.data
-      : resultData[this._getCurrentCommandKey(this._previousJsonCommandWorking)]
-          .data;
-
-    this._previousJsonCommandWorking = this.currentCommand;
-
-    Object.keys(data).forEach((key) => {
-      response += '<br />';
-
-      if (typeof data[key] === 'string') {
-        response += `<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">${key}</span><span class="code-hidden">"</span>: "<span class="code-value" itemprop="name">${data[key]}</span>",</span>`;
-      } else if (typeof data[key] === 'number') {
-        response += `<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">${key}</span><span class="code-hidden">"</span>: <span class="code-value code-number" itemprop="name">${data[key]}</span>,</span>`;
-      } else if (typeof data[key] === 'boolean') {
-        response += `<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">${key}</span><span class="code-hidden">"</span>: <span class="code-value code-boolean" itemprop="name">${data[key]}</span>,</span>`;
-      } else if (Array.isArray(data[key])) {
-        response += `<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">${key}</span><span class="code-hidden">"</span>: [`;
-
-        data[key].forEach((element, i) => {
-          if (i !== 0) {
-            response += ',';
-          }
-
-          response += `<br />  "<span class="code-value">${element}</span>"`;
-        });
-
-        response += `<br />],</span>`;
-      } else if (typeof data[key] === 'object') {
-        response += `<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">experience</span><span class="code-hidden">"</span>: {</span>`;
-
-        Object.keys(data[key]).forEach((keyElement, j) => {
-          if (j !== 0) {
-            response += ',';
-          }
-
-          response += `<br /><span class="code-line"><span class="code-space">    </span>"<span class="code-key-alt">${keyElement}</span>": "<span class="code-value">${data[key][keyElement]}</span>"</span>`;
-        });
-
-        response +=
-          '<br /><span class="code-line"><span class="code-space">  </span>},</span>';
-      }
-    });
-
-    response += '<br /><span class="code-line">}</span></code></pre>';
-    return response;
   }
 }
