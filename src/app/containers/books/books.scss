@@ -7,7 +7,7 @@
 .sagas {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 60px;
 }
 
 .saga-section {
@@ -28,7 +28,8 @@
 .books {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 50px;
+  align-items: stretch;
 }
 
 h1 {
@@ -47,5 +48,6 @@ h1 {
 }
 
 .book-card {
-  max-width: 200px;
+  width: 180px;
+  height: 380px;
 }

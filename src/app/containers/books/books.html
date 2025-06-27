@@ -5,7 +5,7 @@
   <div class="sagas">
     @for (sagaGroup of booksBySaga; track sagaGroup.saga) {
     <div class="saga-section">
-      <h2 class="saga-title">{{ sagaGroup.saga }}</h2>
+      <h2 class="saga-title">{{ sagaGroup.saga }} ({{ sagaGroup.books.length }} livres)</h2>
       <div class="books">
         @for (book of sagaGroup.books; track book.title) {
         <div class="book-card">
