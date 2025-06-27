@@ -1,0 +1,19 @@
+<div class="books-container">
+  <h1>Ma Bibliothèque</h1>
+  <p class="books-count">{{ books.length }} livres lus</p>
+
+  <div class="sagas">
+    @for (sagaGroup of booksBySaga; track sagaGroup.saga) {
+    <div class="saga-section">
+      <h2 class="saga-title">{{ sagaGroup.saga }}</h2>
+      <div class="books">
+        @for (book of sagaGroup.books; track book.title) {
+        <div class="book-card">
+          <app-book [book]="book" />
+        </div>
+        }
+      </div>
+    </div>
+    }
+  </div>
+</div>

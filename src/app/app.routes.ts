@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/containers';
+import { HomeComponent } from './containers/home/home.component';
+import { BooksComponent } from './containers/books/books';
 
 export const routes: Routes = [
   {
@@ -9,5 +10,9 @@ export const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent,
+  },
+  {
+    path: 'books',
+    component: BooksComponent,
   },
 ];

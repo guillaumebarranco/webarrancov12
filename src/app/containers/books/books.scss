@@ -1,0 +1,51 @@
+.books-container {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sagas {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.saga-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.saga-title {
+  color: #34495e;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.books-count {
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+}
+
+.book-card {
+  max-width: 200px;
+}

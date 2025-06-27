@@ -1,0 +1,20 @@
+<div class="book-card">
+  <div class="book-cover">
+    <img [src]="book.coverUrl" [alt]="book.title" class="cover-image">
+  </div>
+  <div class="book-info">
+    <h3 class="book-title">{{ book.title }}</h3>
+    @if (book.saga && book.sagaOrder) {
+    <p class="book-saga">Tome {{ book.sagaOrder }}</p>
+    }
+    <p class="book-author">{{ book.author }}</p>
+    <p class="book-pages">{{ book.pages }} pages</p>
+    <div class="book-rating">
+      <span class="stars">
+        <span *ngFor="let star of getRatingStars(book.rating || 0)" [class]="'star star-' + star.type"></span>
+      </span>
+      <span class="rating-text">{{ book.rating }}/5</span>
+    </div>
+    <p class="book-genre">{{ book.genre }}</p>
+  </div>
+</div>
