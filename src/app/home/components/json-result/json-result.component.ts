@@ -7,13 +7,14 @@ import { resultData } from '../../data';
   templateUrl: './json-result.component.html',
   styleUrls: ['./json-result.component.scss'],
   encapsulation: ViewEncapsulation.None,
+  standalone: true,
 })
 export class JsonResultComponent {
-  @Input() currentCommand: string;
+  @Input() currentCommand: string = '';
 
-  private _previousJsonCommandWorking = null;
+  private _previousJsonCommandWorking: string = '';
 
-  private _getCurrentCommandKey(command?) {
+  private _getCurrentCommandKey(command?: string) {
     if (!command) {
       command = this.currentCommand;
     }
@@ -34,11 +35,11 @@ export class JsonResultComponent {
     let response =
       '<pre class="code-block"><code class="code"><span class="code-line">{</span>';
 
-    const result = resultData[this._getCurrentCommandKey()];
+    const result = resultData[this._getCurrentCommandKey() as keyof typeof resultData];
 
-    const data = result
+    const data: any = result
       ? result.data
-      : resultData[this._getCurrentCommandKey(this._previousJsonCommandWorking)]
+      : resultData[this._getCurrentCommandKey(this._previousJsonCommandWorking) as keyof typeof resultData]
           .data;
 
     this._previousJsonCommandWorking = this.currentCommand;
@@ -55,7 +56,7 @@ export class JsonResultComponent {
       } else if (Array.isArray(data[key])) {
         response += `<span class="code-line"><span class="code-space">  </span><span class="code-hidden">"</span><span class="code-key">${key}</span><span class="code-hidden">"</span>: [`;
 
-        data[key].forEach((element, i) => {
+        data[key].forEach((element: string, i: number) => {
           if (i !== 0) {
             response += ',';
           }

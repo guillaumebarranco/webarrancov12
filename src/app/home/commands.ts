@@ -1,4 +1,4 @@
-export const commands = [
+export const commands: { command: string; responseType: string; value: string[] }[] = [
   {
     command: 'presentation',
     responseType: 'list',
