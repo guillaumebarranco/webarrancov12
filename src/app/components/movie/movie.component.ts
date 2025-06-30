@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Book } from '../../utils/books/books';
+import { Movie } from '../../utils/movies/movies';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -8,14 +8,14 @@ interface StarInfo {
 }
 
 @Component({
-  selector: 'app-book',
+  selector: 'app-movie',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './book.component.html',
-  styleUrls: ['./book.component.scss']
+  templateUrl: './movie.component.html',
+  styleUrls: ['./movie.component.scss']
 })
-export class BookComponent {
-  @Input() book!: Book;
+export class MovieComponent {
+  @Input() movie!: Movie;
 
   getRatingStars(rating: number): StarInfo[] {
     const stars: StarInfo[] = [];

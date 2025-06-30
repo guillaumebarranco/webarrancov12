@@ -8,7 +8,18 @@
     <p class="book-saga">Tome {{ book.sagaOrder }}</p>
     }
     <p class="book-author">{{ book.author }}</p>
+    @if (book.pages) {
     <p class="book-pages">{{ book.pages }} pages</p>
+    }
+    @if (book.nbTomes) {
+    <p>
+      <span class="book-pages">{{ book.nbTomes }} tomes</span>
+      @if(!book.isFinished) {
+      <span class="book-pages"> (En cours)</span>
+      }
+    </p>
+
+    }
     <div class="book-rating">
       <span class="stars">
         <span *ngFor="let star of getRatingStars(book.rating || 0)" [class]="'star star-' + star.type"></span>

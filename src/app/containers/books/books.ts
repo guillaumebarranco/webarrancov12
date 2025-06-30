@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BookComponent } from '../../components/book/book.component';
-import { books, Book } from '../../utils/books';
-import { booksSaga } from '../../utils/books-saga';
+import { MenuComponent } from '../../components/menu/menu.component';
+import { books, Book } from '../../utils/books/books';
+import { booksSaga } from '../../utils/books/books-saga';
+import { booksFantasySaga } from '../../utils/books/books-fantasy-saga';
 
 interface SagaGroup {
   saga: string;
@@ -12,12 +14,12 @@ interface SagaGroup {
 @Component({
   selector: 'app-books',
   standalone: true,
-  imports: [CommonModule, BookComponent],
+  imports: [CommonModule, BookComponent, MenuComponent],
   templateUrl: './books.html',
   styleUrls: ['./books.scss']
 })
 export class BooksComponent {
-  books = booksSaga.concat(books);
+  books = booksFantasySaga.concat(booksSaga).concat(books);
 
   get booksBySaga(): SagaGroup[] {
     // Grouper les livres par saga

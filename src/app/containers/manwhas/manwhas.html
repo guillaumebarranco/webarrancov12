@@ -1,0 +1,16 @@
+<app-menu></app-menu>
+
+<div class="books-container">
+  <h1>Ma Bibliothèque</h1>
+  <p class="books-count">{{ getManwhas().length }} mangas lus</p>
+
+  <div class="sagas">
+    <div class="books">
+      @for (manwha of getManwhas(); track manwha.title) {
+      <div class="book-card">
+        <app-book [book]="manwha" />
+      </div>
+      }
+    </div>
+  </div>
+</div>
