@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Movie } from '../../utils/movies/movies';
+import { Movie } from '../../utils/movies/movies_1';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';

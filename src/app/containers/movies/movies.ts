@@ -2,10 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../components/movie/movie.component';
 import { MenuComponent } from '../../components/menu/menu.component';
-import { Movie } from '../../utils/movies/movies';
+import { Movie } from '../../utils/movies/movies_1';
 
 // Import de tous les fichiers de films
-import { movies as moviesPage1 } from '../../utils/movies/movies';
+import { moviesPage1 } from '../../utils/movies/movies_1';
+import { moviesPage2 } from '../../utils/movies/movies_2';
 import { moviesPage3 } from '../../utils/movies/movies_3';
 import { moviesPage4 } from '../../utils/movies/movies_4';
 import { moviesPage5 } from '../../utils/movies/movies_5';
@@ -30,6 +31,7 @@ export class MoviesComponent implements OnInit {
     // Agréger tous les films de tous les fichiers
     this.allMovies = [
       ...moviesPage1,
+      ...moviesPage2,
       ...moviesPage3,
       ...moviesPage4,
       ...moviesPage5,
