@@ -1,9 +1,13 @@
 <app-menu></app-menu>
 
 <div class="movies-container">
-  <h1>Films visionnés</h1>
+  <h1>Ma Collection de Films</h1>
 
   <div class="movies-header">
+    <div class="movies-watching-time">
+      <span>⏱️ Temps total passé devant des films :</span>
+      <strong>{{ totalWatchingTime }}</strong>
+    </div>
     <div class="movies-count">{{ allMovies.length }} films</div>
 
     <app-sort-dropdown [sortOptions]="sortOptions" [selectedSort]="selectedSort" (sortChange)="onSortChange($event)">

@@ -20,6 +20,26 @@
   @include containers.card-base;
 }
 
+.movies-watching-time {
+  color: #fffbe6;
+  background: #7f53ac;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-right: 18px;
+  box-shadow: 0 2px 8px rgba(127, 83, 172, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.movies-watching-time strong {
+  color: #ffe082;
+  margin-left: 6px;
+  font-size: 1.15em;
+}
+
 // Responsive
 @include containers.responsive-base {
   .movies-container {
