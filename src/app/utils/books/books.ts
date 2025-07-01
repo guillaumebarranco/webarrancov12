@@ -16,7 +16,7 @@ export const books: Book[] = [
   {
     title: "Une enfance en nORd",
     author: "Marion Cuerq",
-    coverUrl: "/books/une_enfance_en_nord.webp",
+    coverUrl: "/books_pictures/une_enfance_en_nord.webp",
     readDate: "2025-05-13",
     rating: 4.5,
     pages: 256,
@@ -27,7 +27,7 @@ export const books: Book[] = [
   {
     title: "Les liaisons dangereuses",
     author: "Eny Heli",
-    coverUrl: "/books/les-liaisons-dangereuses-5536921.jpg",
+    coverUrl: "/books_pictures/les-liaisons-dangereuses-5536921.jpg",
     readDate: "2024-12-15",
     rating: 4,
     pages: 400,
@@ -38,7 +38,7 @@ export const books: Book[] = [
   {
     title: "En bons pères de famille",
     author: "Rose Lamy",
-    coverUrl: "/books/en_bons_peres_de_famille.webp",
+    coverUrl: "/books_pictures/en_bons_peres_de_famille.webp",
     readDate: "2025-05-15",
     rating: 4.5,
     pages: 194,
@@ -49,7 +49,7 @@ export const books: Book[] = [
   {
     title: "Où va l'argent des pauvres",
     author: "Denis Colombi",
-    coverUrl: "/books/ou_va_l_argent_des_pauvres.jpg",
+    coverUrl: "/books_pictures/ou_va_l_argent_des_pauvres.jpg",
     readDate: "2025-01-01",
     rating: 3.5,
     pages: 352,
@@ -60,7 +60,7 @@ export const books: Book[] = [
   {
     title: "L'Arnaque des nouveaux pères",
     author: "Stephane Jourdain",
-    coverUrl: "/books/arnaque_des_nouveaux_peres.jpeg",
+    coverUrl: "/books_pictures/arnaque_des_nouveaux_peres.jpeg",
     readDate: "2024-11-11",
     rating: 4,
     pages: 184,
@@ -71,7 +71,7 @@ export const books: Book[] = [
   {
     title: "Les tout-petits face aux écrans",
     author: "Dr Anne-Lise Ducanda",
-    coverUrl: "/books/les_tout_petit_face_aux_ecrans.jpg",
+    coverUrl: "/books_pictures/les_tout_petit_face_aux_ecrans.jpg",
     readDate: "2023-10-16",
     rating: 4,
     pages: 288,
@@ -82,7 +82,7 @@ export const books: Book[] = [
   {
     title: "Les serres sous le velours noir",
     author: "Charlène Ferlay",
-    coverUrl: "/books/les_serres_sous_le_velours_noir.jpg",
+    coverUrl: "/books_pictures/les_serres_sous_le_velours_noir.jpg",
     readDate: "2025-01-14",
     rating: 4,
     pages: 312,
@@ -93,7 +93,7 @@ export const books: Book[] = [
   {
     title: "Ne tirez pas sur l'oiseau moqueur",
     author: "Harper Lee",
-    coverUrl: "/books/ne_tirez_pas_sur_l_oiseau_moqueur.jpg",
+    coverUrl: "/books_pictures/ne_tirez_pas_sur_l_oiseau_moqueur.jpg",
     readDate: "2024-03-11",
     rating: 3,
     pages: 323,
@@ -104,7 +104,7 @@ export const books: Book[] = [
   {
     title: "Les Hauts de Hurlevent",
     author: "Emily Brontë",
-    coverUrl: "/books/les_hauts_de_hurlevent.jpg",
+    coverUrl: "/books_pictures/les_hauts_de_hurlevent.jpg",
     readDate: "2024-02-24",
     rating: 2.5,
     pages: 464,
@@ -115,7 +115,7 @@ export const books: Book[] = [
   {
     title: "Voyage au centre de la terre",
     author: "Jules Verne",
-    coverUrl: "/books/voyage_au_centre_de_la_terre.jpg",
+    coverUrl: "/books_pictures/voyage_au_centre_de_la_terre.jpg",
     readDate: "2024-01-10",
     rating: 4,
     pages: 240,
@@ -126,7 +126,7 @@ export const books: Book[] = [
   {
     title: "Le tour du monde en 80 jours",
     author: "Jules Verne",
-    coverUrl: "/books/le_tour_du_monde_80_jours.jpg",
+    coverUrl: "/books_pictures/le_tour_du_monde_80_jours.jpg",
     readDate: "2024-01-05",
     rating: 3.5,
     pages: 247,
@@ -137,7 +137,7 @@ export const books: Book[] = [
   {
     title: "Vingt Mille Lieues sous les mers",
     author: "Jules Verne",
-    coverUrl: "/books/20000_lieues_sous_les_mers.jpg",
+    coverUrl: "/books_pictures/20000_lieues_sous_les_mers.jpg",
     readDate: "2024-01-25",
     rating: 4.5,
     pages: 640,
@@ -148,7 +148,7 @@ export const books: Book[] = [
   {
     title: "L'Île mystérieuse",
     author: "Jules Verne",
-    coverUrl: "/books/l_ile_mysterieuse.webp",
+    coverUrl: "/books_pictures/l_ile_mysterieuse.webp",
     readDate: "2024-01-15",
     rating: 4,
     pages: 640,
@@ -159,7 +159,7 @@ export const books: Book[] = [
   {
     title: "De la Terre à la Lune",
     author: "Jules Verne",
-    coverUrl: "/books/de_la_terre_a_la_lune.jpg",
+    coverUrl: "/books_pictures/de_la_terre_a_la_lune.jpg",
     readDate: "2024-01-08",
     rating: 3.5,
     pages: 240,
@@ -170,7 +170,7 @@ export const books: Book[] = [
   {
     title: "Le Comte de Monte-Cristo",
     author: "Alexandre Dumas",
-    coverUrl: "/books/le_comte_de_monte_cristo.jpg",
+    coverUrl: "/books_pictures/le_comte_de_monte_cristo.jpg",
     readDate: "2024-10-15",
     rating: 5,
     pages: 1056,
@@ -181,7 +181,7 @@ export const books: Book[] = [
   {
     title: "Frankenstein",
     author: "Mary Shelley",
-    coverUrl: "/books/frankenstein.jpg",
+    coverUrl: "/books_pictures/frankenstein.jpg",
     readDate: "2024-05-16",
     rating: 2,
     pages: 260,
@@ -192,7 +192,7 @@ export const books: Book[] = [
   {
     title: "Le Portrait de Dorian Gray",
     author: "Oscar Wilde",
-    coverUrl: "/books/le_portrait_de_dorian_gray.jpg",
+    coverUrl: "/books_pictures/le_portrait_de_dorian_gray.jpg",
     readDate: "2024-01-07",
     rating: 3.5,
     pages: 272,
@@ -203,7 +203,7 @@ export const books: Book[] = [
   {
     title: "La Ferme des animaux",
     author: "George Orwell",
-    coverUrl: "/books/la_ferme_des_animaux.jpg",
+    coverUrl: "/books_pictures/la_ferme_des_animaux.jpg",
     readDate: "2024-06-12",
     rating: 4,
     pages: 141,
@@ -214,7 +214,7 @@ export const books: Book[] = [
   {
     title: "Orgueil et Préjugés",
     author: "Jane Austen",
-    coverUrl: "/books/orgueil_et_prejuges.jpg",
+    coverUrl: "/books_pictures/orgueil_et_prejuges.jpg",
     readDate: "2024-01-03",
     rating: 3.5,
     pages: 279,
@@ -225,7 +225,7 @@ export const books: Book[] = [
   {
     title: "1984",
     author: "George Orwell",
-    coverUrl: "/books/1984.jpg",
+    coverUrl: "/books_pictures/1984.jpg",
     readDate: "2024-11-20",
     rating: 4,
     pages: 376,
@@ -236,7 +236,7 @@ export const books: Book[] = [
   {
     title: "Fondation",
     author: "Isaac Asimov",
-    coverUrl: "/books/fondation_asimov.jpg",
+    coverUrl: "/books_pictures/fondation_asimov.jpg",
     readDate: "2024-11-15",
     rating: 4,
     pages: 255,
@@ -247,7 +247,7 @@ export const books: Book[] = [
   {
     title: "Fahrenheit 451",
     author: "Ray Bradbury",
-    coverUrl: "/books/farenheit_451.jpg",
+    coverUrl: "/books_pictures/farenheit_451.jpg",
     readDate: "2024-02-15",
     rating: 2.5,
     pages: 176,
@@ -258,7 +258,7 @@ export const books: Book[] = [
   {
     title: "Miss Marple au club du mardi",
     author: "Agatha Christie",
-    coverUrl: "/books/miss_marple_club_du_mardi.webp",
+    coverUrl: "/books_pictures/miss_marple_club_du_mardi.webp",
     readDate: "2024-02-05",
     rating: 3,
     pages: 256,
@@ -269,7 +269,7 @@ export const books: Book[] = [
   {
     title: "L'Affaire Protheroe",
     author: "Agatha Christie",
-    coverUrl: "/books/affaire_protheroe.jpg",
+    coverUrl: "/books_pictures/affaire_protheroe.jpg",
     readDate: "2024-01-30",
     rating: 3,
     pages: 288,
@@ -280,7 +280,7 @@ export const books: Book[] = [
   {
     title: "Le crime de l'Orient Express",
     author: "Agatha Christie",
-    coverUrl: "/books/crime_orient_express.jpg",
+    coverUrl: "/books_pictures/crime_orient_express.jpg",
     readDate: "2024-01-20",
     rating: 3.5,
     pages: 274,
@@ -291,7 +291,7 @@ export const books: Book[] = [
   {
     title: "Mort sur le Nil",
     author: "Agatha Christie",
-    coverUrl: "/books/mort_sur_le_nil.webp",
+    coverUrl: "/books_pictures/mort_sur_le_nil.webp",
     readDate: "2024-02-10",
     rating: 3,
     pages: 352,
@@ -302,7 +302,7 @@ export const books: Book[] = [
   {
     title: "Ils étaient dix",
     author: "Agatha Christie",
-    coverUrl: "/books/ils_etaient_dix.webp",
+    coverUrl: "/books_pictures/ils_etaient_dix.webp",
     readDate: "2024-02-19",
     rating: 5,
     pages: 264,
@@ -313,7 +313,7 @@ export const books: Book[] = [
   {
     title: "Le Meurtre de Roger Ackroyd",
     author: "Agatha Christie",
-    coverUrl: "/books/meutre_roger_acroyd.jpg",
+    coverUrl: "/books_pictures/meutre_roger_acroyd.jpg",
     readDate: "2024-02-15",
     rating: 3.5,
     pages: 288,
@@ -324,7 +324,7 @@ export const books: Book[] = [
   {
     title: "Meurtre en Mésopotamie",
     author: "Agatha Christie",
-    coverUrl: "/books/meutre_en_mesopotamie.jpg",
+    coverUrl: "/books_pictures/meutre_en_mesopotamie.jpg",
     readDate: "2024-02-25",
     rating: 2.5,
     pages: 288,
@@ -336,7 +336,7 @@ export const books: Book[] = [
   {
     title: "Cinq petits cochons",
     author: "Agatha Christie",
-    coverUrl: "/books/cinq_petits_cochons.webp",
+    coverUrl: "/books_pictures/cinq_petits_cochons.webp",
     readDate: "2024-02-10",
     rating: 3.5,
     pages: 288,
@@ -347,7 +347,7 @@ export const books: Book[] = [
   {
     title: "Dracula",
     author: "Bram Stoker",
-    coverUrl: "/books/dracula.jpg",
+    coverUrl: "/books_pictures/dracula.jpg",
     readDate: "2024-03-15",
     rating: 3,
     pages: 488,
@@ -358,7 +358,7 @@ export const books: Book[] = [
   {
     title: "Jane Eyre",
     author: "Charlotte Brontë",
-    coverUrl: "/books/jane_eyre.jpg",
+    coverUrl: "/books_pictures/jane_eyre.jpg",
     readDate: "2024-04-15",
     rating: 4.5,
     pages: 532,
@@ -370,7 +370,7 @@ export const books: Book[] = [
   {
     title: "Une vie",
     author: "Guy de Maupassant",
-    coverUrl: "/books/une_vie.jpg",
+    coverUrl: "/books_pictures/une_vie.jpg",
     readDate: "2024-02-20",
     rating: 1,
     pages: 272,
@@ -381,7 +381,7 @@ export const books: Book[] = [
   {
     title: "La tête sur les épaules",
     author: "Henri Troyat",
-    coverUrl: "/books/la_tete_sur_les_epaules.jpg",
+    coverUrl: "/books_pictures/la_tete_sur_les_epaules.jpg",
     readDate: "2024-02-25",
     rating: 3,
     pages: 224,
@@ -392,7 +392,7 @@ export const books: Book[] = [
   {
     title: "La Nuit des temps",
     author: "René Barjavel",
-    coverUrl: "/books/la_nuit_des_temps.jpg",
+    coverUrl: "/books_pictures/la_nuit_des_temps.jpg",
     readDate: "2024-03-10",
     rating: 3.5,
     pages: 320,
@@ -403,7 +403,7 @@ export const books: Book[] = [
   {
     title: "La Horde du Contrevent",
     author: "Alain Damasio",
-    coverUrl: "/books/la_horde_du_contrevent.jpg",
+    coverUrl: "/books_pictures/la_horde_du_contrevent.jpg",
     readDate: "2024-06-20",
     rating: 4.5,
     pages: 704,
@@ -414,7 +414,7 @@ export const books: Book[] = [
   {
     title: "Madame Bovary",
     author: "Gustave Flaubert",
-    coverUrl: "/books/madame-bovary.jpg",
+    coverUrl: "/books_pictures/madame-bovary.jpg",
     readDate: "2024-04-10",
     rating: 1,
     pages: 528,
@@ -425,7 +425,7 @@ export const books: Book[] = [
   {
     title: "Bel-Ami",
     author: "Guy de Maupassant",
-    coverUrl: "/books/bel_ami.jpg",
+    coverUrl: "/books_pictures/bel_ami.jpg",
     readDate: "2024-03-05",
     rating: 3,
     pages: 432,
@@ -436,7 +436,7 @@ export const books: Book[] = [
   {
     title: "Résister",
     author: "Salomé Saqué",
-    coverUrl: "/books/resister.jpg",
+    coverUrl: "/books_pictures/resister.jpg",
     readDate: "2024-11-15",
     rating: 4.5,
     pages: 200,
@@ -447,7 +447,7 @@ export const books: Book[] = [
   {
     title: "Le coût de la virilité",
     author: "Lucile Peytavin",
-    coverUrl: "/books/le_cout_de_la_virilite.webp",
+    coverUrl: "/books_pictures/le_cout_de_la_virilite.webp",
     readDate: "2024-10-20",
     rating: 4,
     pages: 320,
@@ -458,7 +458,7 @@ export const books: Book[] = [
   {
     title: "Sois jeune et tais-toi",
     author: "Salomé Saqué",
-    coverUrl: "/books/Sois-jeune-et-tais-toi.jpg",
+    coverUrl: "/books_pictures/Sois-jeune-et-tais-toi.jpg",
     readDate: "2024-09-10",
     rating: 4.5,
     pages: 180,
@@ -469,7 +469,7 @@ export const books: Book[] = [
   {
     title: "L'Île au trésor",
     author: "Robert Louis Stevenson",
-    coverUrl: "/books/l_ile_au_tresor.jpg",
+    coverUrl: "/books_pictures/l_ile_au_tresor.jpg",
     readDate: "2024-03-20",
     rating: 2.5,
     pages: 272,
@@ -480,7 +480,7 @@ export const books: Book[] = [
   {
     title: "Faites-les lire !",
     author: "Michel Desmurget",
-    coverUrl: "/books/faites_les_lire.jpg",
+    coverUrl: "/books_pictures/faites_les_lire.jpg",
     readDate: "2023-12-10",
     rating: 3.5,
     pages: 391,
@@ -491,7 +491,7 @@ export const books: Book[] = [
   {
     title: "Candide",
     author: "Voltaire",
-    coverUrl: "/books/candide.jpg",
+    coverUrl: "/books_pictures/candide.jpg",
     readDate: "2011-03-10",
     rating: 3.5,
     pages: 129,

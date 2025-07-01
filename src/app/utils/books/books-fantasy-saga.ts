@@ -4,7 +4,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Le grand éveil",
     author: "Sara Schneider",
-    coverUrl: "/books/les_enfants_daliel_tome_1_le_grand_eveil-1301631-264-432.jpg",
+    coverUrl: "/books_pictures/les_enfants_daliel_tome_1_le_grand_eveil-1301631-264-432.jpg",
     readDate: "2012-11-01",
     rating: 3.5,
     pages: 411,
@@ -15,7 +15,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Le cheval de feu",
     author: "Sara Schneider",
-    coverUrl: "/books/les_enfants_daliel_tome_2_le_cheval_de_feu-1235625-264-432.jpg",
+    coverUrl: "/books_pictures/les_enfants_daliel_tome_2_le_cheval_de_feu-1235625-264-432.jpg",
     readDate: "2012-12-01",
     rating: 3.5,
     pages: 411,
@@ -26,7 +26,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Mâchoires d'écume",
     author: "Sara Schneider",
-    coverUrl: "/books/les_enfants_daliel_tome_3_machoires_decume-1347405-264-432.jpg",
+    coverUrl: "/books_pictures/les_enfants_daliel_tome_3_machoires_decume-1347405-264-432.jpg",
     readDate: "2012-12-15",
     rating: 4,
     pages: 411,
@@ -37,7 +37,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Le porteur d'espoir",
     author: "Sara Schneider",
-    coverUrl: "/books/les_enfants_daliel_tome_4_le_porteur_despoir-1497527-264-432.jpg",
+    coverUrl: "/books_pictures/les_enfants_daliel_tome_4_le_porteur_despoir-1497527-264-432.jpg",
     readDate: "2013-01-01",
     rating: 4.5,
     pages: 411,
@@ -48,7 +48,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Ciel de cendres",
     author: "Sara Schneider",
-    coverUrl: "/books/les_enfants_daliel_tome_5_ciel_de_cendres-5009301-264-432.jpg",
+    coverUrl: "/books_pictures/les_enfants_daliel_tome_5_ciel_de_cendres-5009301-264-432.jpg",
     readDate: "2013-01-15",
     rating: 3.5,
     pages: 411,
@@ -59,7 +59,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "D'un monde à l'autre",
     author: "Pierre Bottero",
-    coverUrl: "/books/la_quete_dewilan_tome_1_dun_monde_a_lautre-605310-264-432.jpg",
+    coverUrl: "/books_pictures/la_quete_dewilan_tome_1_dun_monde_a_lautre-605310-264-432.jpg",
     readDate: "2012-08-01",
     rating: 3.5,
     pages: 411,
@@ -70,7 +70,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Les frontières de glace",
     author: "Pierre Bottero",
-    coverUrl: "/books/la_quete_dewilan_tome_2_les_frontieres_de_glace-605311-264-432.jpg",
+    coverUrl: "/books_pictures/la_quete_dewilan_tome_2_les_frontieres_de_glace-605311-264-432.jpg",
     readDate: "2012-08-15",
     rating: 3,
     pages: 411,
@@ -81,7 +81,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "L'île du destin",
     author: "Pierre Bottero",
-    coverUrl: "/books/la_quete_dewilan_tome_3_lile_du_destin-605313-264-432.jpg",
+    coverUrl: "/books_pictures/la_quete_dewilan_tome_3_lile_du_destin-605313-264-432.jpg",
     readDate: "2012-09-01",
     rating: 3.5,
     pages: 411,
@@ -92,7 +92,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "La Forêt des captifs",
     author: "Pierre Bottero",
-    coverUrl: "/books/les_mondes_dewilan_tome_1_la_foret_des_captifs-686716-264-432.jpg",
+    coverUrl: "/books_pictures/les_mondes_dewilan_tome_1_la_foret_des_captifs-686716-264-432.jpg",
     readDate: "2012-07-01",
     rating: 3.5,
     pages: 411,
@@ -103,7 +103,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "L'Œil d'Otolep",
     author: "Pierre Bottero",
-    coverUrl: "/books/les_mondes_dewilan_tome_2_loeil_dotolep-6550-264-432.jpg",
+    coverUrl: "/books_pictures/les_mondes_dewilan_tome_2_loeil_dotolep-6550-264-432.jpg",
     readDate: "2012-07-15",
     rating: 4,
     pages: 411,
@@ -114,7 +114,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Les Tentacules du mal",
     author: "Pierre Bottero",
-    coverUrl: "/books/les_mondes_dewilan_tome_3_les_tentacules_du_mal-6551-264-432.jpg",
+    coverUrl: "/books_pictures/les_mondes_dewilan_tome_3_les_tentacules_du_mal-6551-264-432.jpg",
     readDate: "2025-01-05",
     rating: 4.5,
     pages: 411,
@@ -125,7 +125,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Ellana",
     author: "Pierre Bottero",
-    coverUrl: "/books/le_pacte_des_marchombres_tome_1_ellana-54302-264-432.jpg",
+    coverUrl: "/books_pictures/le_pacte_des_marchombres_tome_1_ellana-54302-264-432.jpg",
     readDate: "2012-09-15",
     rating: 4.5,
     pages: 411,
@@ -136,7 +136,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Ellana, l'Envol",
     author: "Pierre Bottero",
-    coverUrl: "/books/le_pacte_des_marchombres_tome_2_ellana_lenvol-6778-264-432.jpg",
+    coverUrl: "/books_pictures/le_pacte_des_marchombres_tome_2_ellana_lenvol-6778-264-432.jpg",
     readDate: "2012-10-01",
     rating: 4.5,
     pages: 411,
@@ -147,7 +147,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Ellana, la Prophétie",
     author: "Pierre Bottero",
-    coverUrl: "/books/le_pacte_des_marchombres_tome_3_ellana_la_prophetie-6781-264-432.jpg",
+    coverUrl: "/books_pictures/le_pacte_des_marchombres_tome_3_ellana_la_prophetie-6781-264-432.jpg",
     readDate: "2012-10-15",
     rating: 5,
     pages: 411,
@@ -158,7 +158,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Les sortceliers",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_1_les_sortceliers-2285542-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_1_les_sortceliers-2285542-264-432.jpg",
     readDate: "2012-07-31",
     rating: 4,
     pages: 501,
@@ -169,7 +169,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Le livre interdit",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_2_le_livre_interdit-52137-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_2_le_livre_interdit-52137-264-432.jpg",
     readDate: "2012-08-01",
     rating: 4,
     pages: 502,
@@ -180,7 +180,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Le sceptre maudit",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_3_le_sceptre_maudit-236537-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_3_le_sceptre_maudit-236537-264-432.jpg",
     readDate: "2012-08-02",
     rating: 4,
     pages: 503,
@@ -191,7 +191,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Le dragon renégat",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_4_le_dragon_renegat-9381-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_4_le_dragon_renegat-9381-264-432.jpg",
     readDate: "2012-08-03",
     rating: 3.5,
     pages: 507,
@@ -202,7 +202,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Le continent interdit",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_5_le_continent_interdit-39259-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_5_le_continent_interdit-39259-264-432.jpg",
     readDate: "2012-08-04",
     rating: 5,
     pages: 506,
@@ -213,7 +213,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Dans le piège de Magister",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_6_dans_le_piege_de_magister-100912-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_6_dans_le_piege_de_magister-100912-264-432.jpg",
     readDate: "2012-08-06",
     rating: 4,
     pages: 508,
@@ -224,7 +224,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Tara Duncan et l'invasion fantôme",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_7_linvasion_fantome-118545-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_7_linvasion_fantome-118545-264-432.jpg",
     readDate: "2012-08-05",
     rating: 4,
     pages: 504,
@@ -235,7 +235,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "L'impératrice maléfique",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_8_limperatrice_malefique-68463-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_8_limperatrice_malefique-68463-264-432.jpg",
     readDate: "2012-08-08",
     rating: 4.5,
     pages: 505,
@@ -246,7 +246,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Tara Duncan contre la reine noire",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_9_tara_duncan_contre_la_reine_noire-233246-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_9_tara_duncan_contre_la_reine_noire-233246-264-432.jpg",
     readDate: "2012-08-09",
     rating: 4.5,
     pages: 503,
@@ -257,7 +257,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Dragons contre Démons",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_10_dragons_contre_demons-2576032-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_10_dragons_contre_demons-2576032-264-432.jpg",
     readDate: "2012-09-27",
     rating: 4.5,
     pages: 527,
@@ -268,7 +268,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "La Guerre des planètes",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_11_la_guerre_des_planetes-323656-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_11_la_guerre_des_planetes-323656-264-432.jpg",
     readDate: "2013-09-19",
     rating: 4.5,
     pages: 519,
@@ -279,7 +279,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "L'Ultime Combat",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_12_lultime_combat-493535-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_12_lultime_combat-493535-264-432.jpg",
     readDate: "2014-09-18",
     rating: 4.5,
     pages: 518,
@@ -290,7 +290,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Tara et Cal",
     author: "Sophie Audouin-Mamikonian",
-    coverUrl: "/books/tara_duncan_tome_13_tara_et_cal-684594-264-432.jpg",
+    coverUrl: "/books_pictures/tara_duncan_tome_13_tara_et_cal-684594-264-432.jpg",
     readDate: "2015-09-20",
     rating: 3,
     pages: 520,
@@ -301,7 +301,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Le Trône de fer, L'Intégrale Tome 2",
     author: "George R.R. Martin",
-    coverUrl: "/books/le_trone_de_fer_integrale_tome_2-1235271-264-432.jpg",
+    coverUrl: "/books_pictures/le_trone_de_fer_integrale_tome_2-1235271-264-432.jpg",
     readDate: "2024-10-11",
     rating: 3,
     pages: 960,
@@ -312,7 +312,7 @@ export const booksFantasySaga: Book[] = [
   {
     title: "Le Trône de fer, L'Intégrale Tome 3",
     author: "George R.R. Martin",
-    coverUrl: "/books/le_trone_de_fer_integrale_tome_3-4198983-264-432.jpg",
+    coverUrl: "/books_pictures/le_trone_de_fer_integrale_tome_3-4198983-264-432.jpg",
     readDate: "2024-12-04",
     rating: 3.5,
     pages: 1149,

@@ -4,7 +4,7 @@ export const booksSaga: Book[] = [
   {
     title: "Hunger Games",
     author: "Suzanne Collins",
-    coverUrl: "/books/hunger_games_tome_1-337660-264-432.jpg",
+    coverUrl: "/books_pictures/hunger_games_tome_1-337660-264-432.jpg",
     readDate: "2025-02-12",
     rating: 4,
     pages: 374,
@@ -15,7 +15,7 @@ export const booksSaga: Book[] = [
   {
     title: "L'Embrasement",
     author: "Suzanne Collins",
-    coverUrl: "/books/hunger_games_tome_2_lembrasement-54688-264-432.jpg",
+    coverUrl: "/books_pictures/hunger_games_tome_2_lembrasement-54688-264-432.jpg",
     readDate: "2025-02-14",
     rating: 4,
     pages: 391,
@@ -26,7 +26,7 @@ export const booksSaga: Book[] = [
   {
     title: "La Révolte",
     author: "Suzanne Collins",
-    coverUrl: "/books/hunger_games_tome_3_la_revolte-132534-264-432.jpg",
+    coverUrl: "/books_pictures/hunger_games_tome_3_la_revolte-132534-264-432.jpg",
     readDate: "2025-02-15",
     rating: 4,
     pages: 390,
@@ -37,7 +37,7 @@ export const booksSaga: Book[] = [
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
     author: "Suzanne Collins",
-    coverUrl: "/books/hunger_games_tome_0_la_ballade_du_serpent_et_de_loiseau_chanteur-1349048-264-432.jpg",
+    coverUrl: "/books_pictures/hunger_games_tome_0_la_ballade_du_serpent_et_de_loiseau_chanteur-1349048-264-432.jpg",
     readDate: "2020-05-19",
     rating: 3.5,
     pages: 517,
@@ -48,7 +48,7 @@ export const booksSaga: Book[] = [
   {
     title: "Harry Potter à l'école des sorciers",
     author: "J.K. Rowling",
-    coverUrl: "/books/harry_potter_tome_1_harry_potter_a_lecole_des_sorciers-835229-264-432.jpg",
+    coverUrl: "/books_pictures/harry_potter_tome_1_harry_potter_a_lecole_des_sorciers-835229-264-432.jpg",
     readDate: "2024-09-15",
     rating: 4,
     pages: 320,
@@ -59,7 +59,7 @@ export const booksSaga: Book[] = [
   {
     title: "Harry Potter et la Chambre des secrets",
     author: "J.K. Rowling",
-    coverUrl: "/books/harry_potter_tome_2_harry_potter_et_la_chambre_des_secrets-835227-264-432.jpg",
+    coverUrl: "/books_pictures/harry_potter_tome_2_harry_potter_et_la_chambre_des_secrets-835227-264-432.jpg",
     readDate: "2007-07-02",
     rating: 4,
     pages: 352,
@@ -70,7 +70,7 @@ export const booksSaga: Book[] = [
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
     author: "J.K. Rowling",
-    coverUrl: "/books/harry_potter_tome_3_harry_potter_et_le_prisonnier_dazkaban-835226-264-432.jpg",
+    coverUrl: "/books_pictures/harry_potter_tome_3_harry_potter_et_le_prisonnier_dazkaban-835226-264-432.jpg",
     readDate: "2007-07-03",
     rating: 4.5,
     pages: 435,
@@ -81,7 +81,7 @@ export const booksSaga: Book[] = [
   {
     title: "Harry Potter et la Coupe de feu",
     author: "J.K. Rowling",
-    coverUrl: "/books/harry_potter_tome_4_harry_potter_et_la_coupe_de_feu-835225-264-432.jpg",
+    coverUrl: "/books_pictures/harry_potter_tome_4_harry_potter_et_la_coupe_de_feu-835225-264-432.jpg",
     readDate: "2007-07-04",
     rating: 5,
     pages: 734,
@@ -92,7 +92,7 @@ export const booksSaga: Book[] = [
   {
     title: "Harry Potter et l'Ordre du Phénix",
     author: "J.K. Rowling",
-    coverUrl: "/books/harry_potter_tome_5_harry_potter_et_lordre_du_phenix-835224-264-432.jpg",
+    coverUrl: "/books_pictures/harry_potter_tome_5_harry_potter_et_lordre_du_phenix-835224-264-432.jpg",
     readDate: "2007-07-05",
     rating: 4,
     pages: 912,
@@ -103,7 +103,7 @@ export const booksSaga: Book[] = [
   {
     title: "Harry Potter et le Prince de sang-mêlé",
     author: "J.K. Rowling",
-    coverUrl: "/books/harry_potter_tome_6_harry_potter_et_le_prince_de_sang_mele-835223-264-432.jpg",
+    coverUrl: "/books_pictures/harry_potter_tome_6_harry_potter_et_le_prince_de_sang_mele-835223-264-432.jpg",
     readDate: "2007-07-06",
     rating: 5,
     pages: 652,
@@ -114,7 +114,7 @@ export const booksSaga: Book[] = [
   {
     title: "Harry Potter et les Reliques de la Mort",
     author: "J.K. Rowling",
-    coverUrl: "/books/harry_potter_tome_7_harry_potter_et_les_reliques_de_la_mort-835220-264-432.jpg",
+    coverUrl: "/books_pictures/harry_potter_tome_7_harry_potter_et_les_reliques_de_la_mort-835220-264-432.jpg",
     readDate: "2007-07-07",
     rating: 5,
     pages: 759,
@@ -125,7 +125,7 @@ export const booksSaga: Book[] = [
   {
     title: "Harry Potter et l'Enfant maudit",
     author: "J.K. Rowling",
-    coverUrl: "/books/harry_potter_tome_8_enfant_maudit.jpg",
+    coverUrl: "/books_pictures/harry_potter_tome_8_enfant_maudit.jpg",
     readDate: "2016-07-31",
     rating: 3,
     pages: 330,
@@ -136,7 +136,7 @@ export const booksSaga: Book[] = [
   {
     title: "Fascination",
     author: "Stephenie Meyer",
-    coverUrl: "/books/twilight_tome_1_fascination-524543-264-432.jpg",
+    coverUrl: "/books_pictures/twilight_tome_1_fascination-524543-264-432.jpg",
     readDate: "2010-07-16",
     rating: 4.5,
     pages: 498,
@@ -147,7 +147,7 @@ export const booksSaga: Book[] = [
   {
     title: "Tentation",
     author: "Stephenie Meyer",
-    coverUrl: "/books/twilight_tome_2_tentation-888-264-432.jpg",
+    coverUrl: "/books_pictures/twilight_tome_2_tentation-888-264-432.jpg",
     readDate: "2010-07-17",
     rating: 3.5,
     pages: 563,
@@ -158,7 +158,7 @@ export const booksSaga: Book[] = [
   {
     title: "Hésitation",
     author: "Stephenie Meyer",
-    coverUrl: "/books/twilight_tome_3_hesitation-890-264-432.jpg",
+    coverUrl: "/books_pictures/twilight_tome_3_hesitation-890-264-432.jpg",
     readDate: "2010-07-19",
     rating: 3.5,
     pages: 629,
@@ -169,7 +169,7 @@ export const booksSaga: Book[] = [
   {
     title: "Révélation",
     author: "Stephenie Meyer",
-    coverUrl: "/books/twilight_tome_4_revelation-889-264-432.jpg",
+    coverUrl: "/books_pictures/twilight_tome_4_revelation-889-264-432.jpg",
     readDate: "2010-07-18",
     rating: 4.5,
     pages: 756,
@@ -180,7 +180,7 @@ export const booksSaga: Book[] = [
   {
     title: "Midnight Sun",
     author: "Stephenie Meyer",
-    coverUrl: "/books/midnight_sun-5006281-264-432.jpg",
+    coverUrl: "/books_pictures/midnight_sun-5006281-264-432.jpg",
     readDate: "2020-08-04",
     rating: 5,
     pages: 662,
@@ -191,7 +191,7 @@ export const booksSaga: Book[] = [
   {
     title: "Le Voleur de foudre",
     author: "Rick Riordan",
-    coverUrl: "/books/percy_jackson_tome_1_le_voleur_de_foudre-997184-264-432.jpg",
+    coverUrl: "/books_pictures/percy_jackson_tome_1_le_voleur_de_foudre-997184-264-432.jpg",
     readDate: "2010-08-15",
     rating: 3.5,
     pages: 377,
@@ -202,7 +202,7 @@ export const booksSaga: Book[] = [
   {
     title: "La Mer des monstres",
     author: "Rick Riordan",
-    coverUrl: "/books/percy_jackson_tome_2_la_mer_des_monstres-48633-264-432.jpg",
+    coverUrl: "/books_pictures/percy_jackson_tome_2_la_mer_des_monstres-48633-264-432.jpg",
     readDate: "2010-08-20",
     rating: 3,
     pages: 279,
@@ -213,7 +213,7 @@ export const booksSaga: Book[] = [
   {
     title: "Le Sort du titan",
     author: "Rick Riordan",
-    coverUrl: "/books/percy_jackson_tome_3_le_sort_du_titan-70591-264-432.jpg",
+    coverUrl: "/books_pictures/percy_jackson_tome_3_le_sort_du_titan-70591-264-432.jpg",
     readDate: "2010-08-25",
     rating: 3.5,
     pages: 312,
@@ -224,7 +224,7 @@ export const booksSaga: Book[] = [
   {
     title: "La Bataille du labyrinthe",
     author: "Rick Riordan",
-    coverUrl: "/books/percy_jackson_tome_4_la_bataille_du_labyrinthe-380098-264-432.jpg",
+    coverUrl: "/books_pictures/percy_jackson_tome_4_la_bataille_du_labyrinthe-380098-264-432.jpg",
     readDate: "2010-09-05",
     rating: 4,
     pages: 361,
@@ -235,7 +235,7 @@ export const booksSaga: Book[] = [
   {
     title: "Le Dernier Olympien",
     author: "Rick Riordan",
-    coverUrl: "/books/percy_jackson_tome_5_le_dernier_olympien-77283-264-432.jpg",
+    coverUrl: "/books_pictures/percy_jackson_tome_5_le_dernier_olympien-77283-264-432.jpg",
     readDate: "2010-09-15",
     rating: 4,
     pages: 381,
@@ -246,7 +246,7 @@ export const booksSaga: Book[] = [
   {
     title: "Le Calice des dieux",
     author: "Rick Riordan",
-    coverUrl: "/books/percy_jackson_tome_6_le_calice_des_dieux-5319264-264-432.jpg",
+    coverUrl: "/books_pictures/percy_jackson_tome_6_le_calice_des_dieux-5319264-264-432.jpg",
     readDate: "2023-09-26",
     rating: 2,
     pages: 288,
@@ -258,7 +258,7 @@ export const booksSaga: Book[] = [
   {
     title: "Divergente",
     author: "Veronica Roth",
-    coverUrl: "/books/divergente.jpg",
+    coverUrl: "/books_pictures/divergente.jpg",
     readDate: "2025-06-25",
     rating: 3.5,
     pages: 487,
@@ -269,7 +269,7 @@ export const booksSaga: Book[] = [
   {
     title: "Le Labyrinthe",
     author: "James Dashner",
-    coverUrl: "/books/le_labyrinthe_tome_1.jpg",
+    coverUrl: "/books_pictures/le_labyrinthe_tome_1.jpg",
     readDate: "2025-02-11",
     rating: 3.5,
     pages: 384,
@@ -280,7 +280,7 @@ export const booksSaga: Book[] = [
   {
     title: "Une étude en rouge",
     author: "Arthur Conan Doyle",
-    coverUrl: "/books/une_etude_en_rouge-1179327-264-432.jpg",
+    coverUrl: "/books_pictures/une_etude_en_rouge-1179327-264-432.jpg",
     readDate: "2024-01-20",
     rating: 4,
     pages: 192,
@@ -291,7 +291,7 @@ export const booksSaga: Book[] = [
   {
     title: "Le Signe des quatre",
     author: "Arthur Conan Doyle",
-    coverUrl: "/books/le_signe_des_quatre-778479-264-432.jpg",
+    coverUrl: "/books_pictures/le_signe_des_quatre-778479-264-432.jpg",
     readDate: "2024-01-30",
     rating: 4,
     pages: 240,
@@ -302,7 +302,7 @@ export const booksSaga: Book[] = [
   {
     title: "Le Chien des Baskerville",
     author: "Arthur Conan Doyle",
-    coverUrl: "/books/le_chien_des_baskerville-1048754-264-432.jpg",
+    coverUrl: "/books_pictures/le_chien_des_baskerville-1048754-264-432.jpg",
     readDate: "2024-02-05",
     rating: 4,
     pages: 256,
@@ -313,7 +313,7 @@ export const booksSaga: Book[] = [
   {
     title: "La vallée de la peur",
     author: "Arthur Conan Doyle",
-    coverUrl: "/books/la_vallee_de_la_peur-599895-264-432.jpg",
+    coverUrl: "/books_pictures/la_vallee_de_la_peur-599895-264-432.jpg",
     readDate: "2024-01-25",
     rating: 4,
     pages: 256,
@@ -324,7 +324,7 @@ export const booksSaga: Book[] = [
   {
     title: "Les Mobilisés",
     author: "Margot Dessenne",
-    coverUrl: "/books/absolu_tome_1_les_mobilises-5068580-264-432.jpg",
+    coverUrl: "/books_pictures/absolu_tome_1_les_mobilises-5068580-264-432.jpg",
     readDate: "2024-02-26",
     rating: 4,
     pages: 540,
@@ -335,7 +335,7 @@ export const booksSaga: Book[] = [
   {
     title: "Les Effacés",
     author: "Margot Dessenne",
-    coverUrl: "/books/absolu_tome_2_les_effaces-5229178-264-432.jpg",
+    coverUrl: "/books_pictures/absolu_tome_2_les_effaces-5229178-264-432.jpg",
     readDate: "2024-02-27",
     rating: 3.5,
     pages: 608,
@@ -346,7 +346,7 @@ export const booksSaga: Book[] = [
   {
     title: "Les Éveillés",
     author: "Margot Dessenne",
-    coverUrl: "/books/absolu_tome_3_les_eveilles-5515539-264-432.jpg",
+    coverUrl: "/books_pictures/absolu_tome_3_les_eveilles-5515539-264-432.jpg",
     readDate: "2024-03-15",
     rating: 4,
     pages: 600,
@@ -357,7 +357,7 @@ export const booksSaga: Book[] = [
   {
     title: "Le Trône de fer, L'Intégrale Tome 1",
     author: "George R.R. Martin",
-    coverUrl: "/books/le_trone_de_fer_integrale_tome_1-89278-264-432.jpg",
+    coverUrl: "/books_pictures/le_trone_de_fer_integrale_tome_1-89278-264-432.jpg",
     readDate: "2024-08-15",
     rating: 3,
     pages: 835,
@@ -369,7 +369,7 @@ export const booksSaga: Book[] = [
   {
     title: "Inside Mac: Tome 1",
     author: "Eny Heli",
-    coverUrl: "/books/inside_mac_tome_1-5310515-264-432.jpg",
+    coverUrl: "/books_pictures/inside_mac_tome_1-5310515-264-432.jpg",
     readDate: "2024-05-20",
     rating: 5,
     pages: 380,
@@ -380,7 +380,7 @@ export const booksSaga: Book[] = [
   {
     title: "Inside Mac: Tome 2",
     author: "Eny Heli",
-    coverUrl: "/books/inside_mac_tome_2-5453083-264-432.jpg",
+    coverUrl: "/books_pictures/inside_mac_tome_2-5453083-264-432.jpg",
     readDate: "2024-06-19",
     rating: 4.5,
     pages: 404,
@@ -391,7 +391,7 @@ export const booksSaga: Book[] = [
   {
     title: "Player One",
     author: "Ernest Cline",
-    coverUrl: "/books/player_one-566845-264-432.jpg",
+    coverUrl: "/books_pictures/player_one-566845-264-432.jpg",
     readDate: "2025-01-29",
     rating: 5,
     pages: 480,
@@ -402,7 +402,7 @@ export const booksSaga: Book[] = [
   {
     title: "Ready Player Two",
     author: "Ernest Cline",
-    coverUrl: "/books/ready_player_one_tome_2_ready_player_two-5119233-264-432.jpg",
+    coverUrl: "/books_pictures/ready_player_one_tome_2_ready_player_two-5119233-264-432.jpg",
     readDate: "2020-11-24",
     rating: 3,
     pages: 384,
@@ -413,7 +413,7 @@ export const booksSaga: Book[] = [
   {
     title: "La Femme de ménage",
     author: "Freida McFadden",
-    coverUrl: "/books/la_femme_de_menage.jpg",
+    coverUrl: "/books_pictures/la_femme_de_menage.jpg",
     readDate: "2024-12-20",
     rating: 4,
     pages: 320,
@@ -424,7 +424,7 @@ export const booksSaga: Book[] = [
   {
     title: "Les Trois Mousquetaires",
     author: "Alexandre Dumas",
-    coverUrl: "/books/les_trois_mousquetaires-72124-264-432.jpg",
+    coverUrl: "/books_pictures/les_trois_mousquetaires-72124-264-432.jpg",
     readDate: "2024-08-20",
     rating: 4.5,
     pages: 704,
@@ -435,7 +435,7 @@ export const booksSaga: Book[] = [
   {
     title: "Le Faucon malté",
     author: "Dashiell Hammett",
-    coverUrl: "/books/les_freres_diamant_tome_1_le_faucon_malte-5047175-264-432.jpg",
+    coverUrl: "/books_pictures/les_freres_diamant_tome_1_le_faucon_malte-5047175-264-432.jpg",
     readDate: "2024-02-28",
     rating: 4,
     pages: 217,
