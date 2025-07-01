@@ -1,20 +1,19 @@
 <app-menu></app-menu>
 
 <div class="books-container">
-  <h1>Ma Bibliothèque</h1>
-  <p class="books-count">{{ books.length }} livres lus</p>
+  <h1>Livres lus</h1>
 
-  <div class="sagas">
-    @for (sagaGroup of booksBySaga; track sagaGroup.saga) {
-    <div class="saga-section">
-      <h2 class="saga-title">{{ sagaGroup.saga }} ({{ sagaGroup.books.length }} livres)</h2>
-      <div class="books">
-        @for (book of sagaGroup.books; track book.title) {
-        <div class="book-card">
-          <app-book [book]="book" />
-        </div>
-        }
-      </div>
+  <div class="books-header">
+    <div class="books-count">{{ allBooks.length }} livres</div>
+
+    <app-sort-dropdown [sortOptions]="sortOptions" [selectedSort]="selectedSort" (sortChange)="onSortChange($event)">
+    </app-sort-dropdown>
+  </div>
+
+  <div class="books">
+    @for (book of sortedBooks; track book.title) {
+    <div class="book-card">
+      <app-book [book]="book"></app-book>
     </div>
     }
   </div>

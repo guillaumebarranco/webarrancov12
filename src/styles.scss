@@ -1,3 +1,6 @@
+// Import des styles partagés pour les containers
+@use './app/styles/containers.scss';
+
 $dark_blue: #25645d;
 
 @font-face {

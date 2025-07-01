@@ -1,53 +1,43 @@
-.books-container {
-  padding: 24px;
-  max-width: 1200px;
-  margin: 0 auto;
+@use '../../styles/containers.scss' as containers;
+
+.manwhas-container {
+  @include containers.container-base;
 }
 
-.sagas {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
+.manwhas-header {
+  @include containers.header-base;
 }
 
-.saga-section {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+.manwhas-count {
+  @include containers.count;
 }
 
-.saga-title {
-  color: #34495e;
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin: 0;
-  padding-bottom: 8px;
-  border-bottom: 2px solid #ecf0f1;
+.manwhas {
+  @include containers.grid-base;
 }
 
-.books {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-  align-items: stretch;
+.manwha-card {
+  @include containers.card-base;
 }
 
-h1 {
-  color: #2c3e50;
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 8px;
-  text-align: center;
-}
+// Responsive
+@include containers.responsive-base {
+  .manwhas-container {
+    padding: 15px;
 
-.books-count {
-  text-align: center;
-  color: #7f8c8d;
-  font-size: 1.1rem;
-  margin-bottom: 32px;
-}
+    h1 {
+      font-size: 2rem;
+    }
+  }
 
-.book-card {
-  width: 180px;
-  height: 380px;
+  .manwhas-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .manwhas {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
 }

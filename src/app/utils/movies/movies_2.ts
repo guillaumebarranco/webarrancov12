@@ -14,7 +14,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Raya et le Dernier Dragon",
@@ -26,10 +26,10 @@ export const moviesPage2: Movie[] = [
     ],
     coverUrl: "/movies/validated/457180-raya-and-the-last-dragon-0-150-0-225-crop.jpg",
     releaseDate: "2021-03-05",
-    rating: 0,
+    rating: 4,
     length: 0,
     genre: "Animation",
-    timesWatched: 0,
+    timesWatched: 3,
   },
   {
     title: "Chaos Walking",
@@ -44,37 +44,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Science Fiction",
-    timesWatched: 0,
-  },
-  {
-    title: "Amour au Carré",
-    director: "Filip Zylber",
-    actors: [
-      {
-        name: "Adrianna Chlebicka",
-      },
-    ],
-    coverUrl: "/movies/validated/705695-squared-love-0-150-0-225-crop.jpg",
-    releaseDate: "2021-02-11",
-    rating: 0,
-    length: 0,
-    genre: "Romance",
-    timesWatched: 0,
-  },
-  {
-    title: "WandaVision",
-    director: "Matt Shakman",
-    actors: [
-      {
-        name: "Elizabeth Olsen",
-      },
-    ],
-    coverUrl: "/movies/validated/671813-wandavision-0-150-0-225-crop.jpg",
-    releaseDate: "2021-01-15",
-    rating: 0,
-    length: 0,
-    genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Wonder Woman 1984",
@@ -89,7 +59,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "The Princess Switch : Switched Again",
@@ -104,7 +74,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Romance",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Holidate",
@@ -119,22 +89,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Romance",
-    timesWatched: 0,
-  },
-  {
-    title: "Le Jeu de la Dame",
-    director: "Scott Frank",
-    actors: [
-      {
-        name: "Anya Taylor-Joy",
-      },
-    ],
-    coverUrl: "/movies/validated/668077-the-queen-s-gambit-0-150-0-225-crop.jpg",
-    releaseDate: "2020-10-23",
-    rating: 0,
-    length: 0,
-    genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Love and Monsters",
@@ -146,10 +101,10 @@ export const moviesPage2: Movie[] = [
     ],
     coverUrl: "/movies/validated/517828-love-and-monsters-0-150-0-225-crop.jpg",
     releaseDate: "2020-10-16",
-    rating: 0,
+    rating: 3.5,
     length: 0,
     genre: "Adventure",
-    timesWatched: 0,
+    timesWatched: 2,
   },
   {
     title: "Enola Holmes",
@@ -161,10 +116,10 @@ export const moviesPage2: Movie[] = [
     ],
     coverUrl: "/movies/validated/427852-enola-holmes-0-150-0-225-crop.jpg",
     releaseDate: "2020-09-23",
-    rating: 0,
+    rating: 3.75,
     length: 0,
     genre: "Mystery",
-    timesWatched: 0,
+    timesWatched: 5,
   },
   {
     title: "Tenet",
@@ -179,7 +134,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Ava",
@@ -194,7 +149,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Rich in Love",
@@ -209,7 +164,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Romance",
-    timesWatched: 0,
+    timesWatched: 2,
   },
   {
     title: "Mulan",
@@ -224,7 +179,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Isi & Ossi",
@@ -239,7 +194,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Romance",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Palm Springs",
@@ -251,13 +206,13 @@ export const moviesPage2: Movie[] = [
     ],
     coverUrl: "/movies/validated/515467-palm-springs-0-150-0-225-crop.jpg",
     releaseDate: "2020-07-10",
-    rating: 0,
+    rating: 3.75,
     length: 0,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 5,
   },
   {
-    title: "Birds of Prey (et la Fantabuleuse Émancipation d'Harley Quinn)",
+    title: "Birds of Prey",
     director: "Cathy Yan",
     actors: [
       {
@@ -269,22 +224,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Action",
-    timesWatched: 0,
-  },
-  {
-    title: "Star Wars : L'Ascension de Skywalker",
-    director: "J.J. Abrams",
-    actors: [
-      {
-        name: "Daisy Ridley",
-      },
-    ],
-    coverUrl: "/movies/validated/131984-star-wars-the-rise-of-skywalker-0-150-0-225-crop.jpg",
-    releaseDate: "2019-12-20",
-    rating: 0,
-    length: 0,
-    genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Last Christmas",
@@ -299,22 +239,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Romance",
-    timesWatched: 0,
-  },
-  {
-    title: "Terminator: Dark Fate",
-    director: "Tim Miller",
-    actors: [
-      {
-        name: "Linda Hamilton",
-      },
-    ],
-    coverUrl: "/movies/validated/217178-terminator-dark-fate-0-150-0-225-crop.jpg",
-    releaseDate: "2019-11-01",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Guns Akimbo",
@@ -329,7 +254,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Knives Out",
@@ -341,10 +266,10 @@ export const moviesPage2: Movie[] = [
     ],
     coverUrl: "/movies/validated/475370-knives-out-0-150-0-225-crop.jpg",
     releaseDate: "2019-11-27",
-    rating: 0,
+    rating: 4,
     length: 0,
     genre: "Mystery",
-    timesWatched: 0,
+    timesWatched: 5,
   },
   {
     title: "Joker",
@@ -359,7 +284,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Crime",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Someone, Somewhere",
@@ -374,37 +299,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Drama",
-    timesWatched: 0,
-  },
-  {
-    title: "Fast & Furious Presents: Hobbs & Shaw",
-    director: "David Leitch",
-    actors: [
-      {
-        name: "Dwayne Johnson",
-      },
-    ],
-    coverUrl: "/movies/validated/318913-fast-furious-presents-hobbs-shaw-0-150-0-225-crop.jpg",
-    releaseDate: "2019-08-02",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
-  },
-  {
-    title: "Spider-Man: Far From Home",
-    director: "Jon Watts",
-    actors: [
-      {
-        name: "Tom Holland",
-      },
-    ],
-    coverUrl: "/movies/validated/362977-spider-man-far-from-home-0-150-0-225-crop.jpg",
-    releaseDate: "2019-07-02",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Escape Plan: The Extractors",
@@ -419,23 +314,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Action",
-    timesWatched: 0,
-  },
-
-  {
-    title: "Dark Phoenix",
-    director: "Simon Kinberg",
-    actors: [
-      {
-        name: "Sophie Turner",
-      },
-    ],
-    coverUrl: "/movies/validated/247385-dark-phoenix-0-150-0-225-crop.jpg",
-    releaseDate: "2019-06-07",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Murder Mystery",
@@ -453,7 +332,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "John Wick: Chapter 3 – Parabellum",
@@ -468,7 +347,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Aladdin",
@@ -483,52 +362,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Fantasy",
-    timesWatched: 0,
-  },
-  {
-    title: "Avengers: Endgame",
-    director: "Anthony Russo, Joe Russo",
-    actors: [
-      {
-        name: "Robert Downey Jr.",
-      },
-    ],
-    coverUrl: "/movies/validated/226660-avengers-endgame-0-150-0-225-crop.jpg",
-    releaseDate: "2019-04-26",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
-  },
-  {
-    title: "Shazam!",
-    director: "David F. Sandberg",
-    actors: [
-      {
-        name: "Zachary Levi",
-      },
-    ],
-    coverUrl: "/movies/validated/213190-shazam--0-150-0-225-crop.jpg",
-    releaseDate: "2019-04-05",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
-  },
-  {
-    title: "Captain Marvel",
-    director: "Anna Boden, Ryan Fleck",
-    actors: [
-      {
-        name: "Brie Larson",
-      },
-    ],
-    coverUrl: "/movies/validated/226750-captain-marvel-0-150-0-225-crop.jpg",
-    releaseDate: "2019-03-08",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Alita: Battle Angel",
@@ -543,25 +377,11 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 2,
   },
+
   {
-    title: "Love at Second Sight",
-    director: "Hugo Gélin",
-    actors: [
-      {
-        name: "François Civil",
-      },
-    ],
-    coverUrl: "/movies/validated/498516-love-at-second-sight-0-150-0-225-crop.jpg",
-    releaseDate: "2019-01-30",
-    rating: 0,
-    length: 0,
-    genre: "Romance",
-    timesWatched: 0,
-  },
-  {
-    title: "The Wolf's Call",
+    title: "Le chant du loup",
     director: "Antonin Baudry",
     actors: [
       {
@@ -570,10 +390,10 @@ export const moviesPage2: Movie[] = [
     ],
     coverUrl: "/movies/validated/415280-the-wolf-s-call-0-150-0-225-crop.jpg",
     releaseDate: "2019-02-20",
-    rating: 0,
+    rating: 3.75,
     length: 0,
     genre: "Thriller",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Glass",
@@ -588,53 +408,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Thriller",
-    timesWatched: 0,
-  },
-  {
-    title: "How to Train Your Dragon: The Hidden World",
-    director: "Dean DeBlois",
-    actors: [
-      {
-        name: "Jay Baruchel",
-      },
-    ],
-    coverUrl: "/movies/validated/123067-how-to-train-your-dragon-the-hidden-world-0-150-0-225-crop.jpg",
-    releaseDate: "2019-02-22",
-    rating: 0,
-    length: 0,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-  {
-    title: "Spider-Man: Into the Spider-Verse",
-    director: "Bob Persichetti, Peter Ramsey, Rodney Rothman",
-    actors: [
-      {
-        name: "Shameik Moore",
-      },
-    ],
-    coverUrl: "/movies/validated/251943-spider-man-into-the-spider-verse-0-150-0-225-crop.jpg",
-    releaseDate: "2018-12-14",
-    rating: 0,
-    length: 0,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-  {
-    title: "Aquaman",
-    director: "James Wan",
-    actors: [
-      {
-        name: "Jason Momoa",
-      },
-    ],
-    coverUrl: "/movies/validated/225060-aquaman-0-150-0-225-crop.jpg",
-    releaseDate: "2018-12-21",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
+    timesWatched: 3,
   },
   {
     title: "Creed II",
@@ -649,7 +423,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Bird Box",
@@ -664,7 +438,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Thriller",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Fantastic Beasts: The Crimes of Grindelwald",
@@ -679,52 +453,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Fantasy",
-    timesWatched: 0,
-  },
-  {
-    title: "Ralph Breaks the Internet",
-    director: "Rich Moore, Phil Johnston",
-    actors: [
-      {
-        name: "John C. Reilly",
-      },
-    ],
-    coverUrl: "/movies/validated/338883-ralph-breaks-the-internet-0-150-0-225-crop.jpg",
-    releaseDate: "2018-11-21",
-    rating: 0,
-    length: 0,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-  {
-    title: "The Princess Switch",
-    director: "Mike Rohl",
-    actors: [
-      {
-        name: "Vanessa Hudgens",
-      },
-    ],
-    coverUrl: "/movies/validated/485841-the-princess-switch-0-150-0-225-crop.jpg",
-    releaseDate: "2018-11-16",
-    rating: 0,
-    length: 0,
-    genre: "Romance",
-    timesWatched: 0,
-  },
-  {
-    title: "Venom",
-    director: "Ruben Fleischer",
-    actors: [
-      {
-        name: "Tom Hardy",
-      },
-    ],
-    coverUrl: "/movies/validated/265438-venom-0-150-0-225-crop.jpg",
-    releaseDate: "2018-10-05",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "The Predator",
@@ -739,7 +468,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "A Star Is Born",
@@ -754,37 +483,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Drama",
-    timesWatched: 0,
-  },
-  {
-    title: "Ant-Man and the Wasp",
-    director: "Peyton Reed",
-    actors: [
-      {
-        name: "Paul Rudd",
-      },
-    ],
-    coverUrl: "/movies/validated/296341-ant-man-and-the-wasp-0-150-0-225-crop.jpg",
-    releaseDate: "2018-07-06",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
-  },
-  {
-    title: "Set It Up",
-    director: "Claire Scanlon",
-    actors: [
-      {
-        name: "Zoey Deutch",
-      },
-    ],
-    coverUrl: "/movies/validated/319550-set-it-up-0-150-0-225-crop.jpg",
-    releaseDate: "2018-06-15",
-    rating: 0,
-    length: 0,
-    genre: "Romance",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Escape Plan 2: Hades",
@@ -799,7 +498,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Ocean's Eight",
@@ -814,67 +513,7 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Crime",
-    timesWatched: 0,
-  },
-  {
-    title: "Incredibles 2",
-    director: "Brad Bird",
-    actors: [
-      {
-        name: "Craig T. Nelson",
-      },
-    ],
-    coverUrl: "/movies/validated/184061-incredibles-2-0-150-0-225-crop.jpg",
-    releaseDate: "2018-06-15",
-    rating: 0,
-    length: 0,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-  {
-    title: "Deadpool 2",
-    director: "David Leitch",
-    actors: [
-      {
-        name: "Ryan Reynolds",
-      },
-    ],
-    coverUrl: "/movies/validated/318195-deadpool-2-0-150-0-225-crop.jpg",
-    releaseDate: "2018-05-18",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
-  },
-  {
-    title: "Solo: A Star Wars Story",
-    director: "Ron Howard",
-    actors: [
-      {
-        name: "Alden Ehrenreich",
-      },
-    ],
-    coverUrl: "/movies/validated/278668-solo-a-star-wars-story-0-150-0-225-crop.jpg",
-    releaseDate: "2018-05-25",
-    rating: 0,
-    length: 0,
-    genre: "Science Fiction",
-    timesWatched: 0,
-  },
-  {
-    title: "Avengers: Infinity War",
-    director: "Anthony Russo, Joe Russo",
-    actors: [
-      {
-        name: "Robert Downey Jr.",
-      },
-    ],
-    coverUrl: "/movies/validated/226661-avengers-infinity-war-0-150-0-225-crop.jpg",
-    releaseDate: "2018-04-27",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
   {
     title: "Ready Player One",
@@ -886,25 +525,10 @@ export const moviesPage2: Movie[] = [
     ],
     coverUrl: "/movies/validated/261866-ready-player-one-0-150-0-225-crop.jpg",
     releaseDate: "2018-03-29",
-    rating: 0,
+    rating: 4.5,
     length: 0,
     genre: "Science Fiction",
-    timesWatched: 0,
-  },
-  {
-    title: "Black Panther",
-    director: "Ryan Coogler",
-    actors: [
-      {
-        name: "Chadwick Boseman",
-      },
-    ],
-    coverUrl: "/movies/validated/209383-black-panther-0-150-0-225-crop.jpg",
-    releaseDate: "2018-02-16",
-    rating: 0,
-    length: 0,
-    genre: "Action",
-    timesWatched: 0,
+    timesWatched: 5,
   },
   {
     title: "Maze Runner: The Death Cure",
@@ -919,22 +543,6 @@ export const moviesPage2: Movie[] = [
     rating: 0,
     length: 0,
     genre: "Action",
-    timesWatched: 0,
-  },
-
-  {
-    title: "Star Wars: The Last Jedi",
-    director: "Rian Johnson",
-    actors: [
-      {
-        name: "Daisy Ridley",
-      },
-    ],
-    coverUrl: "/movies/validated/star_wars_le_dernier_jedi.jpg",
-    releaseDate: "2017-12-15",
-    rating: 0,
-    length: 0,
-    genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 1,
   },
 ];

@@ -8,6 +8,7 @@ export interface Serie {
   length: number;
   genre: string;
   nbEpisodes?: number;
+  timesWatched: number;
 }
 
 export const series: Serie[] = [
@@ -25,6 +26,7 @@ export const series: Serie[] = [
     length: 0,
     genre: "Thriller",
     nbEpisodes: 10,
+    timesWatched: 0,
   },
   {
     title: "Black Mirror : Mazey Day",
@@ -39,6 +41,7 @@ export const series: Serie[] = [
     rating: 0,
     length: 0,
     genre: "Science Fiction",
+    timesWatched: 0,
   },
   {
     title: "Black Mirror : Joan est Horrible",
@@ -53,6 +56,7 @@ export const series: Serie[] = [
     rating: 0,
     length: 0,
     genre: "Science Fiction",
+    timesWatched: 0,
   },
   {
     title: "Black Mirror: Striking Vipers",
@@ -67,6 +71,7 @@ export const series: Serie[] = [
     rating: 0,
     length: 0,
     genre: "Science Fiction",
+    timesWatched: 0,
   },
   {
     title: "Black Mirror: Bandersnatch",
@@ -81,6 +86,7 @@ export const series: Serie[] = [
     rating: 0,
     length: 0,
     genre: "Science Fiction",
+    timesWatched: 0,
   },
   {
     title: "Black Mirror: Black Museum",
@@ -95,6 +101,7 @@ export const series: Serie[] = [
     rating: 0,
     length: 0,
     genre: "Science Fiction",
+    timesWatched: 0,
   },
   {
     title: "Black Mirror: USS Callister",
@@ -109,6 +116,7 @@ export const series: Serie[] = [
     rating: 0,
     length: 0,
     genre: "Science Fiction",
+    timesWatched: 0,
   },
   {
     title: "Black Mirror : Shut Up and Dance",
@@ -119,6 +127,7 @@ export const series: Serie[] = [
     rating: 0,
     length: 52,
     genre: "Science Fiction",
+    timesWatched: 0,
   },
   {
     title: "Black Mirror : Nosedive",
@@ -129,6 +138,7 @@ export const series: Serie[] = [
     rating: 0,
     length: 63,
     genre: "Science Fiction",
+    timesWatched: 0,
   },
   {
     title: "Black Mirror : White Christmas",
@@ -139,6 +149,7 @@ export const series: Serie[] = [
     rating: 0,
     length: 74,
     genre: "Science Fiction",
+    timesWatched: 0,
   },
   {
     title: "Black Mirror : White Bear",
@@ -149,6 +160,7 @@ export const series: Serie[] = [
     rating: 0,
     length: 42,
     genre: "Science Fiction",
+    timesWatched: 0,
   },
   {
     title: "Black Mirror : The National Anthem",
@@ -159,5 +171,67 @@ export const series: Serie[] = [
     rating: 0,
     length: 44,
     genre: "Science Fiction",
+    timesWatched: 0,
+  },
+
+  {
+    title: "DAHMER - Monstre : L'Histoire de Jeffrey Dahmer",
+    director: "Carl Franklin",
+    actors: [
+      {
+        name: "Evan Peters",
+      },
+    ],
+    coverUrl: "/movies/validated/926280-dahmer-monster-the-jeffrey-dahmer-story-0-150-0-225-crop.jpg",
+    releaseDate: "2022-09-21",
+    rating: 0,
+    length: 0,
+    genre: "Crime",
+    timesWatched: 0,
+  },
+  {
+    title: "Obi-Wan Kenobi",
+    director: "Deborah Chow",
+    actors: [
+      {
+        name: "Ewan McGregor",
+      },
+    ],
+    coverUrl: "/movies/validated/828615-obi-wan-kenobi-0-150-0-225-crop.jpg",
+    releaseDate: "2022-05-27",
+    rating: 0,
+    length: 0,
+    genre: "Science Fiction",
+    timesWatched: 0,
+  },
+  {
+    title: "WandaVision",
+    director: "Matt Shakman",
+    actors: [
+      {
+        name: "Elizabeth Olsen",
+      },
+    ],
+    coverUrl: "/movies/validated/671813-wandavision-0-150-0-225-crop.jpg",
+    releaseDate: "2021-01-15",
+    rating: 0,
+    length: 0,
+    genre: "Science Fiction",
+    timesWatched: 0,
+  },
+  {
+    title: "Le Jeu de la Dame",
+    director: "Scott Frank",
+    actors: [
+      {
+        name: "Anya Taylor-Joy",
+      },
+    ],
+    coverUrl: "/movies/validated/668077-the-queen-s-gambit-0-150-0-225-crop.jpg",
+    releaseDate: "2020-10-23",
+    rating: 0,
+    length: 0,
+    genre: "Drama",
+    timesWatched: 0,
   },
 ];

@@ -10,10 +10,8 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 96,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "Predator",
     director: "John McTiernan",
@@ -23,10 +21,8 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 107,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 10,
   },
-
-
   {
     title: "Les Incorruptibles",
     director: "Brian De Palma",
@@ -36,10 +32,8 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 119,
     genre: "Crime",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Dirty Dancing",
     director: "Emile Ardolino",
@@ -49,23 +43,19 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 100,
     genre: "Romance",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
-    title: "Lethal Weapon",
+    title: "L'arme fatale",
     director: "Richard Donner",
     actors: [{ name: "Mel Gibson" }],
-    coverUrl: "/movies/validated/mF2bTqJuxbZPeEJRIMrA2WeQVxu-0-150-0-225-crop.jpg.jpg",
+    coverUrl: "/movies/validated/mF2bTqJuxbZPeEJRIMrA2WeQVxu-0-150-0-225-crop.jpg",
     releaseDate: "1987-03-06",
     rating: 0,
     length: 110,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 15,
   },
-
-
   {
     title: "Over the Top",
     director: "Menahem Golan",
@@ -75,10 +65,8 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 93,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "Aliens",
     director: "James Cameron",
@@ -88,23 +76,8 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 137,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
-  {
-    title: "Rocky IV",
-    director: "Sylvester Stallone",
-    actors: [{ name: "Sylvester Stallone" }],
-    coverUrl: "/movies/validated/51082-rocky-iv-0-150-0-225-crop.jpg",
-    releaseDate: "1985-11-27",
-    rating: 0,
-    length: 91,
-    genre: "Drama",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Commando",
     director: "Mark L. Lester",
@@ -114,12 +87,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 90,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
   {
-    title: "Back to the Future",
+    title: "Retour vers le futur",
     director: "Robert Zemeckis",
     actors: [{ name: "Michael J. Fox" }],
     coverUrl: "/movies/validated/51945-back-to-the-future-0-150-0-225-crop.jpg",
@@ -127,12 +98,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 116,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 30,
   },
-
-
   {
-    title: "Rambo: First Blood Part II",
+    title: "Rambo 2 : la mission",
     director: "George P. Cosmatos",
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies/validated/51087-rambo-first-blood-part-ii-0-150-0-225-crop.jpg",
@@ -140,12 +109,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 96,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
   {
-    title: "Beverly Hills Cop",
+    title: "Le flic de Beverly Hills",
     director: "Martin Brest",
     actors: [{ name: "Eddie Murphy" }],
     coverUrl: "/movies/validated/le_flic_de_beverly_hills.jpg",
@@ -153,25 +120,9 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 105,
     genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "The Terminator",
-    director: "James Cameron",
-    actors: [{ name: "Arnold Schwarzenegger" }],
-    coverUrl: "/movies/validated/the-terminator-original-0-150-0-225-crop.jpg",
-    releaseDate: "1984-10-26",
-    rating: 0,
-    length: 107,
-    genre: "Science Fiction",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "The Karate Kid",
+    timesWatched: 1,
+  }, {
+    title: "Karate Kid",
     director: "John G. Avildsen",
     actors: [{ name: "Ralph Macchio" }],
     coverUrl: "/movies/validated/50718-the-karate-kid-0-150-0-225-crop.jpg",
@@ -179,23 +130,19 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 126,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Scarface",
     director: "Brian De Palma",
     actors: [{ name: "Al Pacino" }],
-    coverUrl: "/movies/validated/.jpg",
+    coverUrl: "/movies/validated/71wr6ah15sL._UF1000,1000_QL80_.jpg",
     releaseDate: "1983-12-09",
     rating: 0,
     length: 170,
     genre: "Crime",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "The Dead Zone",
     director: "David Cronenberg",
@@ -205,25 +152,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 103,
     genre: "Thriller",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "Return of the Jedi",
-    director: "Richard Marquand",
-    actors: [{ name: "Mark Hamill" }],
-    coverUrl: "/movies/validated/star_wars_retour_du_jedi.jpg",
-    releaseDate: "1983-05-25",
-    rating: 0,
-    length: 131,
-    genre: "Science Fiction",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "First Blood",
+    title: "Rambo : First Blood",
     director: "Ted Kotcheff",
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies/validated/51088-first-blood-0-150-0-225-crop.jpg",
@@ -231,23 +163,8 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 93,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 20,
   },
-
-
-  {
-    title: "Rocky III",
-    director: "Sylvester Stallone",
-    actors: [{ name: "Sylvester Stallone" }],
-    coverUrl: "/movies/validated/eX2RbfTV5figCysWEmC6ubmXIgm-0-150-0-225-crop.jpg",
-    releaseDate: "1982-05-28",
-    rating: 0,
-    length: 99,
-    genre: "Drama",
-    timesWatched: 0,
-  },
-
-
   {
     title: "E.T. the Extra-Terrestrial",
     director: "Steven Spielberg",
@@ -257,12 +174,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 115,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
-    title: "The Cabbage Soup",
+    title: "La soupe aux choux",
     director: "Jean-Charles Tacchella",
     actors: [{ name: "Philippe Noiret" }],
     coverUrl: "/movies/validated/47276-the-cabbage-soup-0-150-0-225-crop.jpg",
@@ -270,10 +185,8 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 100,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "The Shining",
     director: "Stanley Kubrick",
@@ -283,25 +196,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 146,
     genre: "Horror",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "The Empire Strikes Back",
-    director: "Irvin Kershner",
-    actors: [{ name: "Mark Hamill" }],
-    coverUrl: "/movies/validated/star_wars_empire_contre_attaque.jpg",
-    releaseDate: "1980-05-21",
-    rating: 0,
-    length: 124,
-    genre: "Science Fiction",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "French Fried Vacation 2",
+    title: "Les bronzés font du ski",
     director: "Patrice Leconte",
     actors: [{ name: "Josiane Balasko" }],
     coverUrl: "/movies/validated/29599-french-fried-vacation-2-the-bronzes-go-skiing-0-150-0-225-crop.jpg",
@@ -309,23 +207,8 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 95,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
-  {
-    title: "Rocky II",
-    director: "Sylvester Stallone",
-    actors: [{ name: "Sylvester Stallone" }],
-    coverUrl: "/movies/validated/51089-rocky-ii-0-150-0-225-crop.jpg",
-    releaseDate: "1979-06-15",
-    rating: 0,
-    length: 119,
-    genre: "Drama",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Alien",
     director: "Ridley Scott",
@@ -335,12 +218,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 117,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
   {
-    title: "French Fried Vacation",
+    title: "Les bronzés",
     director: "Patrice Leconte",
     actors: [{ name: "Josiane Balasko" }],
     coverUrl: "/movies/validated/45526-french-fried-vacation-0-150-0-225-crop.jpg",
@@ -348,38 +229,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 95,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
-    title: "Star Wars",
-    director: "George Lucas",
-    actors: [{ name: "Mark Hamill" }],
-    coverUrl: "/movies/validated/star_wars_nouvel_espoir.jpg",
-    releaseDate: "1977-05-25",
-    rating: 0,
-    length: 121,
-    genre: "Science Fiction",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Rocky",
-    director: "John G. Avildsen",
-    actors: [{ name: "Sylvester Stallone" }],
-    coverUrl: "/movies/validated/rocky.jpg",
-    releaseDate: "1976-11-21",
-    rating: 0,
-    length: 120,
-    genre: "Drama",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "The Wing or the Thigh?",
+    title: "L'aile ou la cuisse",
     director: "Claude Zidi",
     actors: [{ name: "Louis de Funès" }],
     coverUrl: "/movies/validated/51391-the-wing-or-the-thigh--0-150-0-225-crop.jpg",
@@ -387,10 +240,8 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 104,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
   {
     title: "Taxi Driver",
     director: "Martin Scorsese",
@@ -400,12 +251,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 114,
     genre: "Crime",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "The Godfather Part II",
+    title: "Le Parrain 2",
     director: "Francis Ford Coppola",
     actors: [{ name: "Al Pacino" }],
     coverUrl: "/movies/validated/51816-the-godfather-part-ii-0-150-0-225-crop.jpg",
@@ -413,12 +262,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 202,
     genre: "Crime",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "The Exorcist",
+    title: "L'exorciste",
     director: "William Friedkin",
     actors: [{ name: "Ellen Burstyn" }],
     coverUrl: "/movies/validated/47048-the-exorcist-0-150-0-225-crop.jpg",
@@ -426,12 +273,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 122,
     genre: "Horror",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "The Mad Adventures of Rabbi Jacob",
+    title: "Les aventures de Rabbi Jacob",
     director: "Gérard Oury",
     actors: [{ name: "Louis de Funès" }],
     coverUrl: "/movies/validated/51392-the-mad-adventures-of-rabbi-jacob-0-150-0-225-crop.jpg",
@@ -439,12 +284,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 95,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
-    title: "The Godfather",
+    title: "Le Parrain",
     director: "Francis Ford Coppola",
     actors: [{ name: "Marlon Brando" }],
     coverUrl: "/movies/validated/51818-the-godfather-0-150-0-225-crop.jpg",
@@ -452,12 +295,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 175,
     genre: "Crime",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "Delusions of Grandeur",
+    title: "La Folie des grandeurs",
     director: "Gérard Oury",
     actors: [{ name: "Louis de Funès" }],
     coverUrl: "/movies/validated/43223-delusions-of-grandeur-0-150-0-225-crop.jpg",
@@ -465,10 +306,8 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 95,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Oscar",
     director: "Édouard Molinaro",
@@ -478,10 +317,8 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 85,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 10,
   },
-
-
   {
     title: "Fantomas",
     director: "André Hunebelle",
@@ -491,10 +328,8 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 105,
     genre: "Adventure",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Le Gendarme de Saint-Tropez",
     director: "Jean Girault",
@@ -504,12 +339,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 95,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
-    title: "The Birds",
+    title: "Les oiseaux",
     director: "Alfred Hitchcock",
     actors: [{ name: "Tippi Hedren" }],
     coverUrl: "/movies/validated/51549-the-birds-0-150-0-225-crop.jpg",
@@ -517,12 +350,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 119,
     genre: "Horror",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "Psycho",
+    title: "Psychose",
     director: "Alfred Hitchcock",
     actors: [{ name: "Anthony Perkins" }],
     coverUrl: "/movies/validated/51578-psycho-0-150-0-225-crop.jpg",
@@ -530,36 +361,19 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 109,
     genre: "Horror",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "12 Angry Men",
+    title: "12 hommes en colère",
     director: "Sidney Lumet",
     actors: [{ name: "Henry Fonda" }],
     coverUrl: "/movies/validated/51700-12-angry-men-0-150-0-225-crop.jpg",
     releaseDate: "1957-04-10",
-    rating: 0,
+    rating: 4,
     length: 96,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
-  {
-    title: "Peter Pan",
-    director: "Clyde Geronimi, Wilfred Jackson, Hamilton Luske",
-    actors: [{ name: "Bobby Driscoll" }],
-    coverUrl: "/movies/validated/45983-peter-pan-0-150-0-225-crop.jpg",
-    releaseDate: "1953-02-05",
-    rating: 0,
-    length: 77,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Citizen Kane",
     director: "Orson Welles",
@@ -569,25 +383,10 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 119,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "Pinocchio",
-    director: "Norman Ferguson, T. Hee, Wilfred Jackson, Jack Kinney, Hamilton Luske, Bill Roberts, Ben Sharpsteen",
-    actors: [{ name: "Dickie Jones" }],
-    coverUrl: "/movies/validated/45797-pinocchio-0-150-0-225-crop.jpg",
-    releaseDate: "1940-02-07",
-    rating: 0,
-    length: 88,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Modern Times",
+    title: "Les temps modernes",
     director: "Charles Chaplin",
     actors: [{ name: "Charles Chaplin" }],
     coverUrl: "/movies/validated/49889-modern-times-0-150-0-225-crop.jpg",
@@ -595,8 +394,74 @@ export const moviesPage11: Movie[] = [
     rating: 0,
     length: 87,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 1,
   },
 
 
+  {
+    title: "Babylon A.D",
+    director: "Mathieu Kassovitz",
+    actors: [{ name: "Vin Diesel" }],
+    coverUrl: "/movies/validated/3YXtGZ0jKHhh2bhqr0lu8qefKLr-0-1000-0-1500-crop.jpg",
+    releaseDate: "2008-02-05",
+    rating: 0,
+    length: 101,
+    genre: "Action",
+    timesWatched: 10,
+  },
+  {
+    title: "Maman je m'occupe des méchants",
+    director: "Raja Gosnell",
+    actors: [{ name: "" }],
+    coverUrl: "/movies/validated/46891-home-alone-3-0-1000-0-1500-crop.jpg",
+    releaseDate: "1997-02-05",
+    rating: 0,
+    length: 102,
+    genre: "Comedy",
+    timesWatched: 20,
+  },
+  {
+    title: "Yamakasi",
+    director: "Julien Seri",
+    actors: [{ name: "" }],
+    coverUrl: "/movies/validated/48171-yamakasi-0-1000-0-1500-crop.jpg",
+    releaseDate: "2001-02-05",
+    rating: 0,
+    length: 90,
+    genre: "Comedy",
+    timesWatched: 40,
+  },
+  {
+    title: "Jackie chan dans le bronx",
+    director: "Stanley Tong Gwai-Lai",
+    actors: [{ name: "Jackie Chan" }],
+    coverUrl: "/movies/validated/y7AxKPPCtZyrGQKvxzn5zTQ8wFm-0-1000-0-1500-crop.jpg",
+    releaseDate: "1995-02-05",
+    rating: 0,
+    length: 106,
+    genre: "Comedy",
+    timesWatched: 30,
+  },
+  {
+    title: "Le médaillon",
+    director: "Gordon Chan",
+    actors: [{ name: "Jackie Chan" }],
+    coverUrl: "/movies/validated/46064-the-medallion-0-1000-0-1500-crop.jpg",
+    releaseDate: "2003-02-05",
+    rating: 0,
+    length: 88,
+    genre: "Comedy",
+    timesWatched: 1,
+  },
+  {
+    title: "Smoking",
+    director: "Kevin Donovan",
+    actors: [{ name: "Jackie Chan" }],
+    coverUrl: "/movies/validated/45912-the-tuxedo-0-1000-0-1500-crop.jpg",
+    releaseDate: "2002-02-05",
+    rating: 0,
+    length: 98,
+    genre: "Comedy",
+    timesWatched: 1,
+  },
 ];

@@ -10,10 +10,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 97,
     genre: "Fantasy",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Edge of Tomorrow",
     director: "Doug Liman",
@@ -23,50 +21,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 113,
     genre: "Science Fiction",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Dragons 2",
-    director: "Dean DeBlois",
-    actors: [{ name: "Jay Baruchel" }],
-    coverUrl: "/movies/validated/69142-how-to-train-your-dragon-2-0-150-0-225-crop.jpg",
-    releaseDate: "2014-06-13",
-    rating: 0,
-    length: 102,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "X-Men : Days of Future Past",
-    director: "Bryan Singer",
-    actors: [{ name: "Hugh Jackman" }],
-    coverUrl: "/movies/validated/99507-x-men-days-of-future-past-0-150-0-225-crop.jpg",
-    releaseDate: "2014-05-23",
-    rating: 0,
-    length: 132,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "The Amazing Spider-Man : Le Destin d'un Héros",
-    director: "Marc Webb",
-    actors: [{ name: "Andrew Garfield" }],
-    coverUrl: "/movies/validated/47306-final-destination-3-0-150-0-225-crop.jpg",
-    releaseDate: "2014-05-02",
-    rating: 0,
-    length: 142,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
+    timesWatched: 10,
+  }, {
     title: "Divergente",
     director: "Neil Burger",
     actors: [{ name: "Shailene Woodley" }],
@@ -75,25 +31,9 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 139,
     genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Captain America : Le Soldat de l'Hiver",
-    director: "Anthony Russo, Joe Russo",
-    actors: [{ name: "Chris Evans" }],
-    coverUrl: "/movies/validated/captain_america_le_soldat_de_lhiver.jpg",
-    releaseDate: "2014-04-04",
-    rating: 0,
-    length: 136,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "RoboCop",
+    timesWatched: 3,
+  }, {
+    title: "Robocop",
     director: "José Padilha",
     actors: [{ name: "Joel Kinnaman" }],
     coverUrl: "/movies/validated/79982-robocop-0-150-0-225-crop.jpg",
@@ -101,10 +41,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 117,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Le Loup de Wall Street",
     director: "Martin Scorsese",
@@ -114,10 +52,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 180,
     genre: "Crime",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
   {
     title: "La Vie Rêvée de Walter Mitty",
     director: "Ben Stiller",
@@ -127,37 +63,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 114,
     genre: "Adventure",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "La Reine des Neiges",
-    director: "Chris Buck, Jennifer Lee",
-    actors: [{ name: "Kristen Bell" }],
-    coverUrl: "/movies/validated/reine_des_neiges.jpg",
-    releaseDate: "2013-11-27",
-    rating: 0,
-    length: 102,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Thor: The Dark World",
-    director: "Alan Taylor",
-    actors: [{ name: "Chris Hemsworth" }],
-    coverUrl: "/movies/validated/bnX5PqAdQZRXSw3aX3DutDcdso5-0-150-0-225-crop.jpg",
-    releaseDate: "2013-11-08",
-    rating: 0,
-    length: 112,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
+    timesWatched: 1,
+  }, {
     title: "Prisoners",
     director: "Denis Villeneuve",
     actors: [{ name: "Hugh Jackman" }],
@@ -166,10 +73,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 153,
     genre: "Thriller",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Gravity",
     director: "Alfonso Cuarón",
@@ -179,10 +84,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 91,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Elysium",
     director: "Neill Blomkamp",
@@ -192,37 +95,19 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 109,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Le Majordome",
     director: "Lee Daniels",
     actors: [{ name: "Forest Whitaker" }],
     coverUrl: "/movies/validated/le_majordome.jpg",
     releaseDate: "2013-08-16",
-    rating: 0,
+    rating: 3.5,
     length: 132,
     genre: "Drama",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "The Wolverine",
-    director: "James Mangold",
-    actors: [{ name: "Hugh Jackman" }],
-    coverUrl: "/movies/validated/62638-the-wolverine-0-150-0-225-crop.jpg",
-    releaseDate: "2013-07-26",
-    rating: 0,
-    length: 126,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
+    timesWatched: 1,
+  }, {
     title: "RED 2",
     director: "Dean Parisot",
     actors: [{ name: "Bruce Willis" }],
@@ -231,37 +116,19 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 116,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "Escape Plan",
+    title: "Evasion",
     director: "Mikael Håfström",
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies/validated/86856-escape-plan-0-150-0-225-crop.jpg",
     releaseDate: "2013-10-18",
-    rating: 0,
+    rating: 3.25,
     length: 115,
     genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Kick-Ass 2",
-    director: "Jeff Wadlow",
-    actors: [{ name: "Aaron Taylor-Johnson" }],
-    coverUrl: "/movies/validated/kick_ass_2.jpg",
-    releaseDate: "2013-08-16",
-    rating: 0,
-    length: 103,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
+    timesWatched: 2,
+  }, {
     title: "Pacific Rim",
     director: "Guillermo del Toro",
     actors: [{ name: "Charlie Hunnam" }],
@@ -270,10 +137,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 131,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "World War Z",
     director: "Marc Forster",
@@ -283,37 +148,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 116,
     genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Moi, Moche et Méchant 2",
-    director: "Pierre Coffin, Chris Renaud",
-    actors: [{ name: "Steve Carell" }],
-    coverUrl: "/movies/validated/moi_moi_mechant_2.jpg",
-    releaseDate: "2013-07-03",
-    rating: 0,
-    length: 98,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Man of Steel",
-    director: "Zack Snyder",
-    actors: [{ name: "Henry Cavill" }],
-    coverUrl: "/movies/validated/man_of_steel.jpg",
-    releaseDate: "2013-06-14",
-    rating: 0,
-    length: 143,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
+    timesWatched: 1,
+  }, {
     title: "The Conjuring : Les Dossiers Warren",
     director: "James Wan",
     actors: [{ name: "Vera Farmiga" }],
@@ -322,10 +158,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 112,
     genre: "Horror",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "After Earth",
     director: "M. Night Shyamalan",
@@ -335,12 +169,10 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 100,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "Now You See Me",
+    title: "Insaisissables",
     director: "Louis Leterrier",
     actors: [{ name: "Jesse Eisenberg" }],
     coverUrl: "/movies/validated/insaisissables.jpg",
@@ -348,10 +180,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 115,
     genre: "Thriller",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "Very Bad Trip 3",
     director: "Todd Phillips",
@@ -361,38 +191,9 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 100,
     genre: "Comedy",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Fast & Furious 6",
-    director: "Justin Lin",
-    actors: [{ name: "Vin Diesel" }],
-    coverUrl: "/movies/validated/69453-fast-furious-6-0-150-0-225-crop.jpg",
-    releaseDate: "2013-05-24",
-    rating: 0,
-    length: 130,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Iron Man 3",
-    director: "Shane Black",
-    actors: [{ name: "Robert Downey Jr." }],
-    coverUrl: "/movies/validated/iron_man_3.jpg",
-    releaseDate: "2013-05-03",
-    rating: 0,
-    length: 130,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Pain & Gain",
+    timesWatched: 2,
+  }, {
+    title: "No pain no gain",
     director: "Michael Bay",
     actors: [{ name: "Mark Wahlberg" }],
     coverUrl: "/movies/validated/103559-pain-gain-0-150-0-225-crop.jpg",
@@ -400,10 +201,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 129,
     genre: "Crime",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Oblivion",
     director: "Joseph Kosinski",
@@ -413,11 +212,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 124,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
-
   {
     title: "Die Hard : Belle Journée pour Mourir",
     director: "John Moore",
@@ -427,10 +223,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 98,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Django Unchained",
     director: "Quentin Tarantino",
@@ -440,10 +234,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 165,
     genre: "Western",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
     title: "Jack Reacher",
     director: "Christopher McQuarrie",
@@ -453,36 +245,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 130,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 10,
   },
-
-
-  {
-    title: "Ending the Knight",
-    director: "Christopher Nolan",
-    actors: [{ name: "Christian Bale" }],
-    coverUrl: "/movies/validated/626829-ending-the-knight-0-150-0-225-crop.jpg",
-    releaseDate: "2012-12-07",
-    rating: 0,
-    length: 164,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Les Cinq Légendes",
-    director: "Peter Ramsey",
-    actors: [{ name: "Chris Pine" }],
-    coverUrl: "/movies/validated/les_cinq_legendes.jpg",
-    releaseDate: "2012-11-21",
-    rating: 0,
-    length: 97,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Twilight : Chapitre 5 - Révélation - Partie 2",
     director: "Bill Condon",
@@ -492,24 +256,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 115,
     genre: "Fantasy",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Les Mondes de Ralph",
-    director: "Rich Moore",
-    actors: [{ name: "John C. Reilly" }],
-    coverUrl: "/movies/validated/69154-wreck-it-ralph-0-150-0-225-crop.jpg",
-    releaseDate: "2012-11-02",
-    rating: 0,
-    length: 101,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
-  {
+    timesWatched: 2,
+  }, {
     title: "Skyfall",
     director: "Sam Mendes",
     actors: [{ name: "Daniel Craig" }],
@@ -518,10 +266,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 143,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "Taken 2",
     director: "Olivier Megaton",
@@ -531,10 +277,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 92,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
     title: "The Dream Team",
     director: "Thomas Sorriaux",
@@ -544,10 +288,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 105,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Dredd",
     director: "Pete Travis",
@@ -557,10 +299,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 95,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Expendables 2",
     director: "Simon West",
@@ -570,63 +310,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 103,
     genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "The Dark Knight Rises",
-    director: "Christopher Nolan",
-    actors: [{ name: "Christian Bale" }],
-    coverUrl: "/movies/validated/16550-the-dark-knight-rises-0-150-0-225-crop.jpg",
-    releaseDate: "2012-07-20",
-    rating: 0,
-    length: 164,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "L'Âge de Glace 4 : La Dérive des Continents",
-    director: "Steve Martino, Mike Thurmeier",
-    actors: [{ name: "Ray Romano" }],
-    coverUrl: "/movies/validated/age_de_glace_4.jpg",
-    releaseDate: "2012-07-13",
-    rating: 0,
-    length: 88,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "The Amazing Spider-Man",
-    director: "Marc Webb",
-    actors: [{ name: "Andrew Garfield" }],
-    coverUrl: "/movies/validated/50677-the-amazing-spider-man-0-150-0-225-crop.jpg",
-    releaseDate: "2012-07-03",
-    rating: 0,
-    length: 136,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Rebelle",
-    director: "Mark Andrews, Brenda Chapman",
-    actors: [{ name: "Kelly Macdonald" }],
-    coverUrl: "/movies/validated/rebelle.jpg",
-    releaseDate: "2012-06-22",
-    rating: 0,
-    length: 93,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
-  {
+    timesWatched: 1,
+  }, {
     title: "The Dictator",
     director: "Larry Charles",
     actors: [{ name: "Sacha Baron Cohen" }],
@@ -635,10 +320,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 83,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "Men in Black 3",
     director: "Barry Sonnenfeld",
@@ -648,24 +331,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 106,
     genre: "Science Fiction",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Avengers",
-    director: "Joss Whedon",
-    actors: [{ name: "Robert Downey Jr." }],
-    coverUrl: "/movies/validated/avengers.jpg",
-    releaseDate: "2012-05-04",
-    rating: 0,
-    length: 143,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
+    timesWatched: 2,
+  }, {
     title: "The Lucky One",
     director: "Scott Hicks",
     actors: [{ name: "Zac Efron" }],
@@ -674,10 +341,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 101,
     genre: "Romance",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Prometheus",
     director: "Ridley Scott",
@@ -687,23 +352,19 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 124,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "American Pie : Campus",
+    title: "American Pie 4",
     director: "Jon Hurwitz, Hayden Schlossberg",
     actors: [{ name: "Jason Biggs" }],
-    coverUrl: "/movies/validated/.jpg",
+    coverUrl: "/movies/validated/57927-american-reunion-0-150-0-225-crop.jpg",
     releaseDate: "2012-04-06",
     rating: 0,
     length: 113,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "21 Jump Street",
     director: "Phil Lord, Christopher Miller",
@@ -713,10 +374,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 109,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
     title: "Hunger Games",
     director: "Gary Ross",
@@ -726,12 +385,10 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 142,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
-    title: "This Means War",
+    title: "Target",
     director: "McG",
     actors: [{ name: "Chris Pine" }],
     coverUrl: "/movies/validated/this-means-war-0-150-0-225-crop.jpg",
@@ -739,10 +396,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 98,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Chronicle",
     director: "Josh Trank",
@@ -752,10 +407,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 84,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "Underworld : Éveil",
     director: "Måns Mårlind, Björn Stein",
@@ -765,26 +418,21 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 88,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 10,
   },
-
-
-
   {
     title: "Twilight : Chapitre 5 - Révélation - Partie 1",
     director: "Bill Condon",
     actors: [{ name: "Kristen Stewart" }],
-    coverUrl: "/movies/validated/.jpg",
+    coverUrl: "/movies/validated/15077-the-twilight-saga-breaking-dawn-part-1-0-1000-0-1500-crop.jpg",
     releaseDate: "2011-11-18",
     rating: 0,
     length: 117,
     genre: "Fantasy",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
-    title: "In Time",
+    title: "Time Out",
     director: "Andrew Niccol",
     actors: [{ name: "Justin Timberlake" }],
     coverUrl: "/movies/validated/16082-in-time-0-150-0-225-crop.jpg",
@@ -792,10 +440,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 109,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 10,
   },
-
-
   {
     title: "Footloose",
     director: "Craig Brewer",
@@ -805,10 +451,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 113,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Real Steel",
     director: "Shawn Levy",
@@ -818,23 +462,19 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 127,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
   {
     title: "Intouchables",
     director: "Olivier Nakache, Éric Toledano",
     actors: [{ name: "François Cluzet" }],
     coverUrl: "/movies/validated/intouchables-0-150-0-225-crop.jpg",
     releaseDate: "2011-11-02",
-    rating: 0,
+    rating: 4.5,
     length: 112,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 10,
   },
-
-
   {
     title: "Warrior",
     director: "Gavin O'Connor",
@@ -844,10 +484,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 140,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Never Back Down 2: The Beatdown",
     director: "Michael Jai White",
@@ -857,10 +495,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 90,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "The Raid",
     director: "Gareth Evans",
@@ -870,10 +506,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 101,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Destination Finale 5",
     director: "Steven Quale",
@@ -883,10 +517,8 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 92,
     genre: "Horror",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Cowboys & Aliens",
     director: "Jon Favreau",
@@ -896,21 +528,6 @@ export const moviesPage4: Movie[] = [
     rating: 0,
     length: 118,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
-  {
-    title: "Captain America : First Avenger",
-    director: "Joe Johnston",
-    actors: [{ name: "Chris Evans" }],
-    coverUrl: "/movies/validated/50809-captain-america-the-first-avenger-0-150-0-225-crop.jpg",
-    releaseDate: "2011-07-22",
-    rating: 0,
-    length: 124,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
 ];

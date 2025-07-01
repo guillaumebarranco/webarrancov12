@@ -1,16 +1,20 @@
 <app-menu></app-menu>
 
-<div class="books-container">
-  <h1>Ma Bibliothèque</h1>
-  <p class="books-count">{{ getMangas().length }} mangas lus</p>
+<div class="mangas-container">
+  <h1>Mangas lus</h1>
 
-  <div class="sagas">
-    <div class="books">
-      @for (manga of getMangas(); track manga.title) {
-      <div class="book-card">
-        <app-book [book]="manga" />
-      </div>
-      }
+  <div class="mangas-header">
+    <div class="mangas-count">{{ allMangas.length }} mangas</div>
+
+    <app-sort-dropdown [sortOptions]="sortOptions" [selectedSort]="selectedSort" (sortChange)="onSortChange($event)">
+    </app-sort-dropdown>
+  </div>
+
+  <div class="mangas">
+    @for (manga of sortedMangas; track manga.title) {
+    <div class="manga-card">
+      <app-book [book]="manga"></app-book>
     </div>
+    }
   </div>
 </div>

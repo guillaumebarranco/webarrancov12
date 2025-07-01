@@ -1,16 +1,20 @@
 <app-menu></app-menu>
 
-<div class="books-container">
-  <h1>Ma Bibliothèque</h1>
-  <p class="books-count">{{ getManwhas().length }} manwhas lus</p>
+<div class="manwhas-container">
+  <h1>Manwhas lus</h1>
 
-  <div class="sagas">
-    <div class="books">
-      @for (manwha of getManwhas(); track manwha.title) {
-      <div class="book-card">
-        <app-book [book]="manwha" />
-      </div>
-      }
+  <div class="manwhas-header">
+    <div class="manwhas-count">{{ allManwhas.length }} manwhas</div>
+
+    <app-sort-dropdown [sortOptions]="sortOptions" [selectedSort]="selectedSort" (sortChange)="onSortChange($event)">
+    </app-sort-dropdown>
+  </div>
+
+  <div class="manwhas">
+    @for (manwha of sortedManwhas; track manwha.title) {
+    <div class="manwha-card">
+      <app-book [book]="manwha"></app-book>
     </div>
+    }
   </div>
 </div>

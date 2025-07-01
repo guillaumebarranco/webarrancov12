@@ -10,23 +10,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 101,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
-  {
-    title: "Fast & Furious",
-    director: "Justin Lin",
-    actors: [{ name: "Vin Diesel" }],
-    coverUrl: "/movies/validated/43582-fast-furious-0-150-0-225-crop.jpg",
-    releaseDate: "2009-04-03",
-    rating: 0,
-    length: 107,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Knowing",
     director: "Alex Proyas",
@@ -36,49 +21,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 121,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
-  {
-    title: "Monstres contre Aliens",
-    director: "Rob Letterman, Conrad Vernon",
-    actors: [{ name: "Reese Witherspoon" }],
-    coverUrl: "/movies/validated/42315-monsters-vs-aliens-0-150-0-225-crop.jpg",
-    releaseDate: "2009-03-27",
-    rating: 0,
-    length: 94,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "17 Again",
-    director: "Burr Steers",
-    actors: [{ name: "Zac Efron" }],
-    coverUrl: "/movies/validated/41276-17-again-0-150-0-225-crop.jpg",
-    releaseDate: "2009-04-17",
-    rating: 0,
-    length: 102,
-    genre: "Comedy",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Watchmen : Les Gardiens",
-    director: "Zack Snyder",
-    actors: [{ name: "Jackie Earle Haley" }],
-    coverUrl: "/movies/validated/44070-watchmen-0-150-0-225-crop.jpg",
-    releaseDate: "2009-03-06",
-    rating: 0,
-    length: 162,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Banlieue 13 : Ultimatum",
     director: "Patrick Alessandrin",
@@ -88,10 +32,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 101,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
     title: "Underworld : Rise of the Lycans",
     director: "Patrick Tatopoulos",
@@ -101,10 +43,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 92,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "I Love You Phillip Morris",
     director: "Glenn Ficarra, John Requa",
@@ -114,25 +54,10 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 98,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "(500) Jours Ensemble",
-    director: "Marc Webb",
-    actors: [{ name: "Joseph Gordon-Levitt" }],
-    coverUrl: "/movies/validated/39350--500-days-of-summer-0-150-0-225-crop.jpg",
-    releaseDate: "2009-07-17",
-    rating: 0,
-    length: 95,
-    genre: "Romance",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Seven Pounds",
+    title: "Sept Vies",
     director: "Gabriele Muccino",
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies/validated/45412-seven-pounds-0-150-0-225-crop.jpg",
@@ -140,10 +65,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 123,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "Yes Man",
     director: "Peyton Reed",
@@ -153,10 +76,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 104,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
     title: "Gran Torino",
     director: "Clint Eastwood",
@@ -166,10 +87,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 116,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Ong Bak 2",
     director: "Tony Jaa",
@@ -179,10 +98,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 98,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Le Transporteur 3",
     director: "Olivier Megaton",
@@ -192,10 +109,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 104,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
   {
     title: "Twilight : Chapitre 1 - Fascination",
     director: "Catherine Hardwicke",
@@ -205,10 +120,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 122,
     genre: "Fantasy",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
   {
     title: "Quantum of Solace",
     director: "Marc Forster",
@@ -218,10 +131,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 106,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "Eagle Eye",
     director: "D.J. Caruso",
@@ -231,10 +142,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 118,
     genre: "Thriller",
-    timesWatched: 0,
+    timesWatched: 15,
   },
-
-
   {
     title: "Slumdog Millionaire",
     director: "Danny Boyle",
@@ -244,10 +153,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 120,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Death Race",
     director: "Paul W.S. Anderson",
@@ -257,23 +164,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 105,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 10,
   },
-
-
-  {
-    title: "The Dark Knight : Le Chevalier Noir",
-    director: "Christopher Nolan",
-    actors: [{ name: "Christian Bale" }],
-    coverUrl: "/movies/validated/the_dark_knight.jpg",
-    releaseDate: "2008-07-18",
-    rating: 0,
-    length: 152,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
     director: "Guillermo del Toro",
@@ -283,10 +175,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 120,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
     title: "Voyage au Centre de la Terre",
     director: "Eric Brevig",
@@ -296,36 +186,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 93,
     genre: "Adventure",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
-  {
-    title: "Hancock",
-    director: "Peter Berg",
-    actors: [{ name: "Will Smith" }],
-    coverUrl: "/movies/validated/hancock.jpg",
-    releaseDate: "2008-07-02",
-    rating: 0,
-    length: 92,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "WALL-E",
-    director: "Andrew Stanton",
-    actors: [{ name: "Ben Burtt" }],
-    coverUrl: "/movies/validated/45994-walle-0-150-0-225-crop.jpg",
-    releaseDate: "2008-06-27",
-    rating: 0,
-    length: 98,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Wanted : Choisis ton Destin",
     director: "Timur Bekmambetov",
@@ -335,25 +197,10 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 110,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
-    title: "L'Incroyable Hulk",
-    director: "Louis Leterrier",
-    actors: [{ name: "Edward Norton" }],
-    coverUrl: "/movies/validated/50827-the-incredible-hulk-0-150-0-225-crop.jpg",
-    releaseDate: "2008-06-13",
-    rating: 0,
-    length: 112,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "You Don't Mess with the Zohan",
+    title: "Rien que pour vos cheveux",
     director: "Dennis Dugan",
     actors: [{ name: "Adam Sandler" }],
     coverUrl: "/movies/validated/dont-mess-with-the-zohan-0-150-0-225-crop.jpg",
@@ -361,23 +208,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 113,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 10,
   },
-
-
-  {
-    title: "Kung Fu Panda",
-    director: "Mark Osborne, John Stevenson",
-    actors: [{ name: "Jack Black" }],
-    coverUrl: "/movies/validated/mk3UyyaLyXhgIhmLji25OUPXvGR-0-150-0-225-crop.jpg",
-    releaseDate: "2008-06-06",
-    rating: 0,
-    length: 92,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Speed Racer",
     director: "Lana Wachowski, Lilly Wachowski",
@@ -387,38 +219,10 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 135,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
-    title: "Iron Man",
-    director: "Jon Favreau",
-    actors: [{ name: "Robert Downey Jr." }],
-    coverUrl: "/movies/validated/50825-iron-man-0-150-0-225-crop.jpg",
-    releaseDate: "2008-05-02",
-    rating: 0,
-    length: 126,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "What Happens in Vegas",
-    director: "Tom Vaughan",
-    actors: [{ name: "Ashton Kutcher" }],
-    coverUrl: "/movies/validated/47414-what-happens-in-vegas--0-150-0-225-crop.jpg",
-    releaseDate: "2008-05-09",
-    rating: 0,
-    length: 99,
-    genre: "Comedy",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "The Wave",
+    title: "La vague",
     director: "Dennis Gansel",
     actors: [{ name: "Jürgen Vogel" }],
     coverUrl: "/movies/validated/47981-the-wave-0-150-0-225-crop.jpg",
@@ -426,10 +230,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 107,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Never Back Down",
     director: "Jeff Wadlow",
@@ -439,49 +241,19 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 110,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 20,
   },
-
-
-  {
-    title: "Horton",
-    director: "Jimmy Hayward, Steve Martino",
-    actors: [{ name: "Jim Carrey" }],
-    coverUrl: "/movies/validated/horton.jpg",
-    releaseDate: "2008-03-14",
-    rating: 0,
-    length: 86,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Taken",
     director: "Pierre Morel",
     actors: [{ name: "Liam Neeson" }],
-    coverUrl: "/movies/validated/.jpg",
+    coverUrl: "/movies/validated/47648-taken-0-230-0-345-crop.jpg",
     releaseDate: "2008-02-27",
     rating: 0,
     length: 93,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 15,
   },
-
-
-  {
-    title: "Sexy Dance 2",
-    director: "Jon M. Chu",
-    actors: [{ name: "Briana Evigan" }],
-    coverUrl: "/movies/validated/47804-step-up-2-0-150-0-225-crop.jpg",
-    releaseDate: "2008-02-14",
-    rating: 0,
-    length: 98,
-    genre: "Drama",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Jumper",
     director: "Doug Liman",
@@ -491,12 +263,10 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 88,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "Rambo",
+    title: "John Rambo",
     director: "Sylvester Stallone",
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies/validated/47983-rambo-0-150-0-225-crop.jpg",
@@ -504,10 +274,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 92,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "American Pie Presents: Beta House",
     director: "Andrew Waller",
@@ -517,10 +285,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 88,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 10,
   },
-
-
   {
     title: "Alien vs. Predator : Requiem",
     director: "Colin Strause, Greg Strause",
@@ -530,10 +296,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 94,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "Je Suis une Légende",
     director: "Francis Lawrence",
@@ -543,23 +307,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 101,
     genre: "Science Fiction",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
-  {
-    title: "Bee Movie : Drôle d'Abeille",
-    director: "Steve Hickner, Simon J. Smith",
-    actors: [{ name: "Jerry Seinfeld" }],
-    coverUrl: "/movies/validated/48791-bee-movie-0-150-0-225-crop.jpg",
-    releaseDate: "2007-11-02",
-    rating: 0,
-    length: 91,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Resident Evil : Extinction",
     director: "Russell Mulcahy",
@@ -569,10 +318,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 94,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "Paranormal Activity",
     director: "Oren Peli",
@@ -582,10 +329,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 86,
     genre: "Horror",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Gone Baby Gone",
     director: "Ben Affleck",
@@ -595,10 +340,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 114,
     genre: "Crime",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Into the Wild",
     director: "Sean Penn",
@@ -608,23 +351,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 148,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
-  {
-    title: "Juno",
-    director: "Jason Reitman",
-    actors: [{ name: "Ellen Page" }],
-    coverUrl: "/movies/validated/48051-juno-0-150-0-225-crop.jpg",
-    releaseDate: "2007-12-25",
-    rating: 0,
-    length: 96,
-    genre: "Comedy",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Rush Hour 3",
     director: "Brett Ratner",
@@ -634,10 +362,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 91,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 10,
   },
-
-
   {
     title: "La Vengeance dans la Peau : L'Héritage Bourne",
     director: "Paul Greengrass",
@@ -647,36 +373,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 115,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 10,
   },
-
-
-  {
-    title: "Les Simpson, le Film",
-    director: "David Silverman",
-    actors: [{ name: "Dan Castellaneta" }],
-    coverUrl: "/movies/validated/2684-the-simpsons-movie-0-150-0-225-crop.jpg",
-    releaseDate: "2007-07-27",
-    rating: 0,
-    length: 87,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Harry Potter et l'Ordre du Phénix",
-    director: "David Yates",
-    actors: [{ name: "Daniel Radcliffe" }],
-    coverUrl: "/movies/validated/harry_potter_ordre_du_phenix.jpg",
-    releaseDate: "2007-07-11",
-    rating: 0,
-    length: 138,
-    genre: "Fantasy",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Transformers",
     director: "Michael Bay",
@@ -686,23 +384,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 144,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 10,
   },
-
-
-  {
-    title: "Ratatouille",
-    director: "Brad Bird",
-    actors: [{ name: "Patton Oswalt" }],
-    coverUrl: "/movies/validated/ratatouille.jpg",
-    releaseDate: "2007-06-29",
-    rating: 0,
-    length: 111,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
   {
     title: "Die Hard 4 : Retour en Enfer",
     director: "Len Wiseman",
@@ -712,12 +395,10 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 128,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 15,
   },
-
-
   {
-    title: "1408",
+    title: "La chambre 1408",
     director: "Mikael Håfström",
     actors: [{ name: "John Cusack" }],
     coverUrl: "/movies/validated/49944-1408-0-150-0-225-crop.jpg",
@@ -725,25 +406,10 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 104,
     genre: "Horror",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "Les 4 Fantastiques et le Surfeur d'Argent",
-    director: "Tim Story",
-    actors: [{ name: "Ioan Gruffudd" }],
-    coverUrl: "/movies/validated/50631-fantastic-four-rise-of-the-silver-surfer-0-150-0-225-crop.jpg",
-    releaseDate: "2007-06-15",
-    rating: 0,
-    length: 92,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Evan Almighty",
+    title: "Evan tout-puissant",
     director: "Tom Shadyac",
     actors: [{ name: "Steve Carell" }],
     coverUrl: "/movies/validated/50146-evan-almighty-0-150-0-225-crop.jpg",
@@ -751,10 +417,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 95,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Ocean's Thirteen",
     director: "Steven Soderbergh",
@@ -764,10 +428,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 122,
     genre: "Crime",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
   {
     title: "No Country for Old Men",
     director: "Joel Coen, Ethan Coen",
@@ -777,10 +439,8 @@ export const moviesPage6: Movie[] = [
     rating: 3,
     length: 122,
     genre: "Crime",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Pirates des Caraïbes : Jusqu'au Bout du Monde",
     director: "Gore Verbinski",
@@ -790,23 +450,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 169,
     genre: "Adventure",
-    timesWatched: 0,
+    timesWatched: 3,
   },
-
-
-  {
-    title: "Shrek le Troisième",
-    director: "Chris Miller",
-    actors: [{ name: "Mike Myers" }],
-    coverUrl: "/movies/validated/shrek_3.jpg",
-    releaseDate: "2007-05-18",
-    rating: 0,
-    length: 93,
-    genre: "Animation",
-    timesWatched: 0,
-  },
-
-
   {
     title: "28 Semaines Plus Tard",
     director: "Juan Carlos Fresnadillo",
@@ -816,25 +461,10 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 100,
     genre: "Horror",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "Spider-Man 3",
-    director: "Sam Raimi",
-    actors: [{ name: "Tobey Maguire" }],
-    coverUrl: "/movies/validated/spiderman_3.jpg",
-    releaseDate: "2007-05-04",
-    rating: 0,
-    length: 139,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Perfect Stranger",
+    title: "Dangereuse séduction",
     director: "James Foley",
     actors: [{ name: "Halle Berry" }],
     coverUrl: "/movies/validated/48107-perfect-stranger-0-150-0-225-crop.jpg",
@@ -842,12 +472,10 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 109,
     genre: "Thriller",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
-    title: "Disturbia",
+    title: "Paranoïaque",
     director: "D.J. Caruso",
     actors: [{ name: "Shia LaBeouf" }],
     coverUrl: "/movies/validated/47835-disturbia-0-150-0-225-crop.jpg",
@@ -855,10 +483,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 105,
     genre: "Thriller",
-    timesWatched: 0,
+    timesWatched: 5,
   },
-
-
   {
     title: "Superbad",
     director: "Greg Mottola",
@@ -868,10 +494,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 113,
     genre: "Comedy",
-    timesWatched: 0,
+    timesWatched: 2,
   },
-
-
   {
     title: "Zodiac",
     director: "David Fincher",
@@ -881,10 +505,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 157,
     genre: "Crime",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
     title: "Taxi 4",
     director: "Gérard Krawczyk",
@@ -894,10 +516,8 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 91,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 20,
   },
-
-
   {
     title: "Premonition",
     director: "Mennan Yapo",
@@ -907,25 +527,10 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 96,
     genre: "Thriller",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
   {
-    title: "Ghost Rider",
-    director: "Mark Steven Johnson",
-    actors: [{ name: "Nicolas Cage" }],
-    coverUrl: "/movies/validated/51130-ghost-rider-0-150-0-225-crop.jpg",
-    releaseDate: "2007-02-16",
-    rating: 0,
-    length: 114,
-    genre: "Action",
-    timesWatched: 0,
-  },
-
-
-  {
-    title: "Freedom Writers",
+    title: "Ecrire pour exister",
     director: "Richard LaGravenese",
     actors: [{ name: "Hilary Swank" }],
     coverUrl: "/movies/validated/50896-freedom-writers-0-150-0-225-crop.jpg",
@@ -933,8 +538,6 @@ export const moviesPage6: Movie[] = [
     rating: 0,
     length: 123,
     genre: "Drama",
-    timesWatched: 0,
+    timesWatched: 1,
   },
-
-
 ];
