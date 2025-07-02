@@ -11,10 +11,12 @@ import { CommonModule } from '@angular/common';
 })
 export class MenuComponent {
   menuItems = [
+    { label: 'Tableau de bord', route: '/dashboard', icon: '📊' },
     { label: 'Livres', route: '/books', icon: '📚' },
     { label: 'Mangas', route: '/mangas', icon: '📖' },
     { label: 'Manwhas', route: '/manwhas', icon: '🎨' },
-    { label: 'Films', route: '/movies', icon: '🎬' }
+    { label: 'Films', route: '/movies', icon: '🎬' },
+    { label: 'Séries', route: '/series', icon: '📺' }
   ];
 
   constructor(private router: Router) { }

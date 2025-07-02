@@ -10,7 +10,8 @@ export const booksSaga: Book[] = [
     pages: 374,
     genre: "Young Adult",
     saga: "Hunger Games",
-    sagaOrder: 1
+    sagaOrder: 1,
+    readTimes: 1
   },
   {
     title: "L'Embrasement",
@@ -21,7 +22,8 @@ export const booksSaga: Book[] = [
     pages: 391,
     genre: "Young Adult",
     saga: "Hunger Games",
-    sagaOrder: 2
+    sagaOrder: 2,
+    readTimes: 1
   },
   {
     title: "La Révolte",
@@ -32,7 +34,8 @@ export const booksSaga: Book[] = [
     pages: 390,
     genre: "Young Adult",
     saga: "Hunger Games",
-    sagaOrder: 3
+    sagaOrder: 3,
+    readTimes: 1
   },
   {
     title: "La Ballade du serpent et de l'oiseau chanteur",
@@ -43,7 +46,8 @@ export const booksSaga: Book[] = [
     pages: 517,
     genre: "Young Adult",
     saga: "Hunger Games",
-    sagaOrder: 4
+    sagaOrder: 4,
+    readTimes: 1
   },
   {
     title: "Harry Potter à l'école des sorciers",
@@ -54,7 +58,8 @@ export const booksSaga: Book[] = [
     pages: 320,
     genre: "Fantasy",
     saga: "Harry Potter",
-    sagaOrder: 1
+    sagaOrder: 1,
+    readTimes: 5
   },
   {
     title: "Harry Potter et la Chambre des secrets",
@@ -65,7 +70,8 @@ export const booksSaga: Book[] = [
     pages: 352,
     genre: "Fantasy",
     saga: "Harry Potter",
-    sagaOrder: 2
+    sagaOrder: 2,
+    readTimes: 5
   },
   {
     title: "Harry Potter et le Prisonnier d'Azkaban",
@@ -76,7 +82,8 @@ export const booksSaga: Book[] = [
     pages: 435,
     genre: "Fantasy",
     saga: "Harry Potter",
-    sagaOrder: 3
+    sagaOrder: 3,
+    readTimes: 5
   },
   {
     title: "Harry Potter et la Coupe de feu",
@@ -87,7 +94,8 @@ export const booksSaga: Book[] = [
     pages: 734,
     genre: "Fantasy",
     saga: "Harry Potter",
-    sagaOrder: 4
+    sagaOrder: 4,
+    readTimes: 10
   },
   {
     title: "Harry Potter et l'Ordre du Phénix",
@@ -98,7 +106,8 @@ export const booksSaga: Book[] = [
     pages: 912,
     genre: "Fantasy",
     saga: "Harry Potter",
-    sagaOrder: 5
+    sagaOrder: 5,
+    readTimes: 5
   },
   {
     title: "Harry Potter et le Prince de sang-mêlé",
@@ -109,7 +118,8 @@ export const booksSaga: Book[] = [
     pages: 652,
     genre: "Fantasy",
     saga: "Harry Potter",
-    sagaOrder: 6
+    sagaOrder: 6,
+    readTimes: 20
   },
   {
     title: "Harry Potter et les Reliques de la Mort",
@@ -120,7 +130,8 @@ export const booksSaga: Book[] = [
     pages: 759,
     genre: "Fantasy",
     saga: "Harry Potter",
-    sagaOrder: 7
+    sagaOrder: 7,
+    readTimes: 15
   },
   {
     title: "Harry Potter et l'Enfant maudit",
@@ -131,7 +142,8 @@ export const booksSaga: Book[] = [
     pages: 330,
     genre: "Fantasy",
     saga: "Harry Potter",
-    sagaOrder: 8
+    sagaOrder: 8,
+    readTimes: 1
   },
   {
     title: "Fascination",
@@ -142,7 +154,8 @@ export const booksSaga: Book[] = [
     pages: 498,
     genre: "Young Adult",
     saga: "Twilight",
-    sagaOrder: 1
+    sagaOrder: 1,
+    readTimes: 30
   },
   {
     title: "Tentation",
@@ -153,7 +166,8 @@ export const booksSaga: Book[] = [
     pages: 563,
     genre: "Young Adult",
     saga: "Twilight",
-    sagaOrder: 2
+    sagaOrder: 2,
+    readTimes: 10
   },
   {
     title: "Hésitation",
@@ -164,7 +178,8 @@ export const booksSaga: Book[] = [
     pages: 629,
     genre: "Young Adult",
     saga: "Twilight",
-    sagaOrder: 3
+    sagaOrder: 3,
+    readTimes: 10
   },
   {
     title: "Révélation",
@@ -175,7 +190,8 @@ export const booksSaga: Book[] = [
     pages: 756,
     genre: "Young Adult",
     saga: "Twilight",
-    sagaOrder: 4
+    sagaOrder: 4,
+    readTimes: 20
   },
   {
     title: "Midnight Sun",
@@ -186,7 +202,8 @@ export const booksSaga: Book[] = [
     pages: 662,
     genre: "Young Adult",
     saga: "Twilight",
-    sagaOrder: 5
+    sagaOrder: 5,
+    readTimes: 5
   },
   {
     title: "Le Voleur de foudre",
@@ -197,7 +214,8 @@ export const booksSaga: Book[] = [
     pages: 377,
     genre: "Young Adult",
     saga: "Percy Jackson",
-    sagaOrder: 1
+    sagaOrder: 1,
+    readTimes: 1
   },
   {
     title: "La Mer des monstres",
@@ -208,7 +226,8 @@ export const booksSaga: Book[] = [
     pages: 279,
     genre: "Young Adult",
     saga: "Percy Jackson",
-    sagaOrder: 2
+    sagaOrder: 2,
+    readTimes: 1
   },
   {
     title: "Le Sort du titan",
@@ -219,7 +238,8 @@ export const booksSaga: Book[] = [
     pages: 312,
     genre: "Young Adult",
     saga: "Percy Jackson",
-    sagaOrder: 3
+    sagaOrder: 3,
+    readTimes: 1
   },
   {
     title: "La Bataille du labyrinthe",
@@ -230,7 +250,8 @@ export const booksSaga: Book[] = [
     pages: 361,
     genre: "Young Adult",
     saga: "Percy Jackson",
-    sagaOrder: 4
+    sagaOrder: 4,
+    readTimes: 1
   },
   {
     title: "Le Dernier Olympien",
@@ -241,7 +262,8 @@ export const booksSaga: Book[] = [
     pages: 381,
     genre: "Young Adult",
     saga: "Percy Jackson",
-    sagaOrder: 5
+    sagaOrder: 5,
+    readTimes: 1
   },
   {
     title: "Le Calice des dieux",
@@ -252,9 +274,9 @@ export const booksSaga: Book[] = [
     pages: 288,
     genre: "Young Adult",
     saga: "Percy Jackson",
-    sagaOrder: 6
+    sagaOrder: 6,
+    readTimes: 1
   },
-
   {
     title: "Divergente",
     author: "Veronica Roth",
@@ -265,6 +287,7 @@ export const booksSaga: Book[] = [
     genre: "Young Adult",
     saga: "Divergente",
     sagaOrder: 1,
+    readTimes: 1
   },
   {
     title: "Le Labyrinthe",
@@ -276,6 +299,7 @@ export const booksSaga: Book[] = [
     genre: "Young Adult",
     saga: "Le Labyrinthe",
     sagaOrder: 1,
+    readTimes: 1
   },
   {
     title: "Une étude en rouge",
@@ -286,7 +310,8 @@ export const booksSaga: Book[] = [
     pages: 192,
     genre: "Mystery",
     saga: "Sherlock Holmes",
-    sagaOrder: 1
+    sagaOrder: 1,
+    readTimes: 1
   },
   {
     title: "Le Signe des quatre",
@@ -297,7 +322,8 @@ export const booksSaga: Book[] = [
     pages: 240,
     genre: "Mystery",
     saga: "Sherlock Holmes",
-    sagaOrder: 2
+    sagaOrder: 2,
+    readTimes: 1
   },
   {
     title: "Le Chien des Baskerville",
@@ -308,7 +334,8 @@ export const booksSaga: Book[] = [
     pages: 256,
     genre: "Mystery",
     saga: "Sherlock Holmes",
-    sagaOrder: 3
+    sagaOrder: 3,
+    readTimes: 1
   },
   {
     title: "La vallée de la peur",
@@ -319,7 +346,8 @@ export const booksSaga: Book[] = [
     pages: 256,
     genre: "Mystery",
     saga: "Sherlock Holmes",
-    sagaOrder: 4
+    sagaOrder: 4,
+    readTimes: 1
   },
   {
     title: "Les Mobilisés",
@@ -330,7 +358,8 @@ export const booksSaga: Book[] = [
     pages: 540,
     genre: "Fiction",
     saga: "Absolu",
-    sagaOrder: 1
+    sagaOrder: 1,
+    readTimes: 1
   },
   {
     title: "Les Effacés",
@@ -341,7 +370,8 @@ export const booksSaga: Book[] = [
     pages: 608,
     genre: "Fiction",
     saga: "Absolu",
-    sagaOrder: 2
+    sagaOrder: 2,
+    readTimes: 1
   },
   {
     title: "Les Éveillés",
@@ -352,7 +382,8 @@ export const booksSaga: Book[] = [
     pages: 600,
     genre: "Fiction",
     saga: "Absolu",
-    sagaOrder: 3
+    sagaOrder: 3,
+    readTimes: 1
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 1",
@@ -363,7 +394,8 @@ export const booksSaga: Book[] = [
     pages: 835,
     genre: "Fantasy",
     saga: "Le Trône de fer",
-    sagaOrder: 1
+    sagaOrder: 1,
+    readTimes: 1
   },
 
   {
@@ -375,7 +407,8 @@ export const booksSaga: Book[] = [
     pages: 380,
     genre: "Fiction",
     saga: "Inside Mac",
-    sagaOrder: 1
+    sagaOrder: 1,
+    readTimes: 3
   },
   {
     title: "Inside Mac: Tome 2",
@@ -386,7 +419,8 @@ export const booksSaga: Book[] = [
     pages: 404,
     genre: "Fiction",
     saga: "Inside Mac",
-    sagaOrder: 2
+    sagaOrder: 2,
+    readTimes: 2
   },
   {
     title: "Player One",
@@ -398,6 +432,7 @@ export const booksSaga: Book[] = [
     genre: "Science Fiction",
     saga: "Ready Player One",
     sagaOrder: 1,
+    readTimes: 1
   },
   {
     title: "Ready Player Two",
@@ -409,6 +444,7 @@ export const booksSaga: Book[] = [
     genre: "Science Fiction",
     saga: "Ready Player One",
     sagaOrder: 2,
+    readTimes: 1
   },
   {
     title: "La Femme de ménage",
@@ -420,6 +456,7 @@ export const booksSaga: Book[] = [
     genre: "Thriller",
     saga: "La femme de ménage",
     sagaOrder: 1,
+    readTimes: 1
   },
   {
     title: "Les Trois Mousquetaires",
@@ -431,6 +468,7 @@ export const booksSaga: Book[] = [
     genre: "Classic",
     saga: "Les trois mousquetaires",
     sagaOrder: 1,
+    readTimes: 1
   },
   {
     title: "Le Faucon malté",
@@ -442,5 +480,6 @@ export const booksSaga: Book[] = [
     genre: "Mystery",
     saga: "Les frères Diamant",
     sagaOrder: 1,
+    readTimes: 5
   },
 ];

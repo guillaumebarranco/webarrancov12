@@ -3,6 +3,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pKOzTdbq0wiqMfJ',
     _score: 6.5,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'The Gamer',
@@ -45,6 +46,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pQ6zTdbq0wiqMfx',
     _score: 3.5,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'Kubera',
@@ -86,6 +88,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pGjzTdbq0wiqMe6',
     _score: 4.5,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'Red Storm',
@@ -136,6 +139,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pKwzTdbq0wiqMfM',
     _score: 8,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'Noblesse',
@@ -181,6 +185,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pM7zTdbq0wiqMfY',
     _score: 8.5,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'Tower Of God',
@@ -223,6 +228,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pSczTdbq0wiqMf3',
     _score: 6.5,
+    _readTimes: 1,
     _source: {
       manga: {
         name: "Girls of The Wild's",
@@ -266,6 +272,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pHQzTdbq0wiqMe8',
     _score: 7,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'DICE: The Cube that Changes Everything',
@@ -309,6 +316,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
     _score: 5.5,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'Dr. Frost',
@@ -347,6 +355,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
     _score: 8.5,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'Unordinary',
@@ -385,6 +394,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
     _score: 5.5,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'I Love Yoo',
@@ -423,6 +433,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
     _score: 6,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'Wind Breaker',
@@ -461,6 +472,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
     _score: 6,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'Lookism',
@@ -499,6 +511,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
     _score: 7.5,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'Bastard',
@@ -540,6 +553,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
     _score: 7.5,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'Sidekicks',
@@ -578,6 +592,7 @@ export const manwhas = [
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
     _score: 8.5,
+    _readTimes: 1,
     _source: {
       manga: {
         name: 'Solo Leveling',

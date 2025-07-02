@@ -13,12 +13,8 @@
     <p class="movie-length">{{ movie.length }} min</p>
     }
     <p class="movie-release-date">{{ movie.releaseDate | date:'yyyy' }}</p>
-    @if (movie.timesWatched > 1) {
-    <p class="movie-times-watched">Visionné environ {{ movie.timesWatched }} fois</p>
-    }
-
-    @if (movie.timesWatched === 1) {
-    <p class="movie-times-watched">Visionné {{ movie.timesWatched }} fois</p>
+    @if (movie.timesWatched && movie.timesWatched > 1) {
+    <p class="movie-times-watched">🎬 Visionné {{ movie.timesWatched }} fois</p>
     }
     <div class="movie-rating">
       <span class="stars">

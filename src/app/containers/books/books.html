@@ -1,10 +1,11 @@
 <app-menu></app-menu>
 
 <div class="books-container">
-  <h1>Livres lus</h1>
+  <h1>Livres lus ({{ allBooks.length }})</h1>
 
   <div class="books-header">
-    <div class="books-count">{{ allBooks.length }} livres</div>
+    <app-stats-display [stats]="stats" [count]="allBooks.length" countLabel="livres">
+    </app-stats-display>
 
     <app-sort-dropdown [sortOptions]="sortOptions" [selectedSort]="selectedSort" (sortChange)="onSortChange($event)">
     </app-sort-dropdown>

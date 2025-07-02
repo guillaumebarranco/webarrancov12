@@ -3,11 +3,12 @@ export interface Book {
   author: string;
   coverUrl: string;
   readDate: string;
-  rating?: number;
+  rating: number;
   pages?: number;
   genre: string;
   saga: string;
-  sagaOrder?: number;
+  sagaOrder: number;
+  readTimes?: number;
   nbTomes?: number;
   isFinished?: boolean;
 }
@@ -23,6 +24,7 @@ export const books: Book[] = [
     genre: "Nonfiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Les liaisons dangereuses",
@@ -34,6 +36,7 @@ export const books: Book[] = [
     genre: "Classic",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "En bons pères de famille",
@@ -45,6 +48,7 @@ export const books: Book[] = [
     genre: "Nonfiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Où va l'argent des pauvres",
@@ -56,6 +60,7 @@ export const books: Book[] = [
     genre: "Nonfiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "L'Arnaque des nouveaux pères",
@@ -67,6 +72,7 @@ export const books: Book[] = [
     genre: "Nonfiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Les tout-petits face aux écrans",
@@ -78,6 +84,7 @@ export const books: Book[] = [
     genre: "Nonfiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Les serres sous le velours noir",
@@ -89,6 +96,7 @@ export const books: Book[] = [
     genre: "Fiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Ne tirez pas sur l'oiseau moqueur",
@@ -100,6 +108,7 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Les Hauts de Hurlevent",
@@ -111,6 +120,7 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Voyage au centre de la terre",
@@ -122,6 +132,7 @@ export const books: Book[] = [
     genre: "Science Fiction",
     saga: "Les voyages extraordinaires",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Le tour du monde en 80 jours",
@@ -133,6 +144,7 @@ export const books: Book[] = [
     genre: "Science Fiction",
     saga: "Les voyages extraordinaires",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Vingt Mille Lieues sous les mers",
@@ -144,6 +156,7 @@ export const books: Book[] = [
     genre: "Science Fiction",
     saga: "Les voyages extraordinaires",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "L'Île mystérieuse",
@@ -155,6 +168,7 @@ export const books: Book[] = [
     genre: "Science Fiction",
     saga: "Les voyages extraordinaires",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "De la Terre à la Lune",
@@ -166,6 +180,7 @@ export const books: Book[] = [
     genre: "Science Fiction",
     saga: "Les voyages extraordinaires",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Le Comte de Monte-Cristo",
@@ -177,6 +192,7 @@ export const books: Book[] = [
     genre: "Classic",
     saga: "",
     sagaOrder: 0,
+    readTimes: 2
   },
   {
     title: "Frankenstein",
@@ -188,6 +204,7 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Le Portrait de Dorian Gray",
@@ -199,6 +216,7 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "La Ferme des animaux",
@@ -210,6 +228,7 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Orgueil et Préjugés",
@@ -221,6 +240,7 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "1984",
@@ -232,6 +252,7 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Fondation",
@@ -243,6 +264,7 @@ export const books: Book[] = [
     genre: "Science Fiction",
     saga: "Fondation",
     sagaOrder: 1,
+    readTimes: 1
   },
   {
     title: "Fahrenheit 451",
@@ -254,6 +276,7 @@ export const books: Book[] = [
     genre: "Science Fiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Miss Marple au club du mardi",
@@ -265,6 +288,7 @@ export const books: Book[] = [
     genre: "Mystery",
     saga: "Agatha Christie",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "L'Affaire Protheroe",
@@ -276,6 +300,7 @@ export const books: Book[] = [
     genre: "Mystery",
     saga: "Agatha Christie",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Le crime de l'Orient Express",
@@ -287,6 +312,7 @@ export const books: Book[] = [
     genre: "Mystery",
     saga: "Agatha Christie",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Mort sur le Nil",
@@ -298,6 +324,7 @@ export const books: Book[] = [
     genre: "Mystery",
     saga: "Hercule Poirot",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Ils étaient dix",
@@ -309,6 +336,7 @@ export const books: Book[] = [
     genre: "Mystery",
     saga: "Agatha Christie",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Le Meurtre de Roger Ackroyd",
@@ -320,6 +348,7 @@ export const books: Book[] = [
     genre: "Mystery",
     saga: "Agatha Christie",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Meurtre en Mésopotamie",
@@ -331,6 +360,7 @@ export const books: Book[] = [
     genre: "Mystery",
     saga: "Agatha Christie",
     sagaOrder: 0,
+    readTimes: 1
   },
 
   {
@@ -343,6 +373,7 @@ export const books: Book[] = [
     genre: "Mystery",
     saga: "Agatha Christie",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Dracula",
@@ -354,6 +385,7 @@ export const books: Book[] = [
     genre: "Horror",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Jane Eyre",
@@ -365,8 +397,8 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
-
   {
     title: "Une vie",
     author: "Guy de Maupassant",
@@ -377,6 +409,7 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "La tête sur les épaules",
@@ -388,6 +421,7 @@ export const books: Book[] = [
     genre: "Fiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "La Nuit des temps",
@@ -399,6 +433,7 @@ export const books: Book[] = [
     genre: "Science Fiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "La Horde du Contrevent",
@@ -410,6 +445,7 @@ export const books: Book[] = [
     genre: "Science Fiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Madame Bovary",
@@ -421,6 +457,7 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Bel-Ami",
@@ -432,6 +469,7 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Résister",
@@ -443,6 +481,7 @@ export const books: Book[] = [
     genre: "Nonfiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Le coût de la virilité",
@@ -454,6 +493,7 @@ export const books: Book[] = [
     genre: "Nonfiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Sois jeune et tais-toi",
@@ -465,6 +505,7 @@ export const books: Book[] = [
     genre: "Nonfiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "L'Île au trésor",
@@ -476,6 +517,7 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Faites-les lire !",
@@ -487,6 +529,7 @@ export const books: Book[] = [
     genre: "Nonfiction",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
   {
     title: "Candide",
@@ -498,5 +541,6 @@ export const books: Book[] = [
     genre: "Classics",
     saga: "",
     sagaOrder: 0,
+    readTimes: 1
   },
 ];

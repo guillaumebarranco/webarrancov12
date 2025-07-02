@@ -3,7 +3,9 @@ import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../components/movie/movie.component';
 import { MenuComponent } from '../../components/menu/menu.component';
 import { SortDropdownComponent, SortOption } from '../../components/sort-dropdown/sort-dropdown.component';
+import { StatsDisplayComponent, StatItem } from '../../components/stats-display/stats-display.component';
 import { Movie } from '../../utils/movies/movies_1';
+import { getTotalWatchingTime, getTotalDuration } from '../../utils/stats.utils';
 
 // Import de tous les fichiers de films
 import { moviesPage1 } from '../../utils/movies/movies_1';
@@ -23,30 +25,10 @@ import { moviesMcu } from '../../utils/movies/movies_mcu';
 import { moviesOtherSuperheroes } from '../../utils/movies/movies_other_superheroes';
 import { moviesAnimated } from '../../utils/movies/movies_animated';
 
-function getTotalWatchingTime(movies: Movie[]): { days: number, hours: number, minutes: number, formatted: string } {
-  let totalMinutes = 0;
-  for (const movie of movies) {
-    if (movie.length && movie.timesWatched) {
-      totalMinutes += movie.length * movie.timesWatched;
-    } else {
-      console.log(movie.title);
-    }
-  }
-  const days = Math.floor(totalMinutes / (24 * 60));
-  const hours = Math.floor((totalMinutes % (24 * 60)) / 60);
-  const minutes = totalMinutes % 60;
-  let formatted = '';
-  if (days > 0) formatted += `${days} jours`;
-  if (hours > 0) formatted += (formatted ? ', ' : '') + `${hours} heures`;
-  if (minutes > 0) formatted += (formatted ? ' et ' : '') + `${minutes} minutes`;
-  if (!formatted) formatted = '0 minutes';
-  return { days, hours, minutes, formatted };
-}
-
 @Component({
   selector: 'app-movies',
   standalone: true,
-  imports: [CommonModule, MovieComponent, MenuComponent, SortDropdownComponent],
+  imports: [CommonModule, MovieComponent, MenuComponent, SortDropdownComponent, StatsDisplayComponent],
   templateUrl: './movies.html',
   styleUrls: ['./movies.scss']
 })
@@ -54,7 +36,7 @@ export class MoviesComponent implements OnInit {
   allMovies: Movie[] = [];
   sortedMovies: Movie[] = [];
   selectedSort: string = 'timesWatched';
-  totalWatchingTime: string = '';
+  stats: StatItem[] = [];
 
   sortOptions: SortOption[] = [
     { value: 'title', label: 'Titre (A-Z)' },
@@ -91,13 +73,33 @@ export class MoviesComponent implements OnInit {
     ];
 
     this.sortMovies();
-    this.totalWatchingTime = getTotalWatchingTime(this.allMovies).formatted;
+    this.updateStats();
     console.log(`Collection de ${this.allMovies.length} films chargée`);
   }
 
   onSortChange(sortValue: string) {
     this.selectedSort = sortValue;
     this.sortMovies();
+  }
+
+  private updateStats() {
+    const totalDuration = getTotalDuration(this.allMovies);
+    const totalWatchingTime = getTotalWatchingTime(this.allMovies);
+
+    this.stats = [
+      {
+        label: 'Durée totale de tous les films',
+        value: totalDuration.formatted,
+        icon: '🎬',
+        color: 'success'
+      },
+      {
+        label: 'Temps total passé devant des films',
+        value: totalWatchingTime.formatted,
+        icon: '⏱️',
+        color: 'primary'
+      }
+    ];
   }
 
   private sortMovies() {

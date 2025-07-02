@@ -3,7 +3,9 @@ import { CommonModule } from '@angular/common';
 import { BookComponent } from '../../components/book/book.component';
 import { MenuComponent } from '../../components/menu/menu.component';
 import { SortDropdownComponent, SortOption } from '../../components/sort-dropdown/sort-dropdown.component';
+import { StatsDisplayComponent, StatItem } from '../../components/stats-display/stats-display.component';
 import { Book } from '../../utils/books/books';
+import { getTotalPages, getTotalPagesRead, getEstimatedReadingTime } from '../../utils/stats.utils';
 
 // Import de tous les fichiers de livres
 import { books } from '../../utils/books/books';
@@ -18,14 +20,15 @@ interface SagaGroup {
 @Component({
   selector: 'app-books',
   standalone: true,
-  imports: [CommonModule, BookComponent, MenuComponent, SortDropdownComponent],
+  imports: [CommonModule, BookComponent, MenuComponent, SortDropdownComponent, StatsDisplayComponent],
   templateUrl: './books.html',
   styleUrls: ['./books.scss']
 })
 export class BooksComponent implements OnInit {
   allBooks: Book[] = [];
   sortedBooks: Book[] = [];
-  selectedSort: string = 'readDate';
+  selectedSort: string = 'readTimes';
+  stats: StatItem[] = [];
 
   sortOptions: SortOption[] = [
     { value: 'title', label: 'Titre (A-Z)' },
@@ -36,6 +39,8 @@ export class BooksComponent implements OnInit {
     { value: 'readDate-asc', label: 'Date de lecture (ancien)' },
     { value: 'rating', label: 'Note (élevée)' },
     { value: 'rating-asc', label: 'Note (faible)' },
+    { value: 'readTimes', label: 'Relectures (élevé)' },
+    { value: 'readTimes-asc', label: 'Relectures (faible)' },
     { value: 'pages', label: 'Pages (élevé)' },
     { value: 'pages-asc', label: 'Pages (faible)' },
     { value: 'genre', label: 'Genre (A-Z)' },
@@ -51,12 +56,40 @@ export class BooksComponent implements OnInit {
     ];
 
     this.sortBooks();
+    this.updateStats();
     console.log(`Collection de ${this.allBooks.length} livres chargée`);
   }
 
   onSortChange(sortValue: string) {
     this.selectedSort = sortValue;
     this.sortBooks();
+  }
+
+  private updateStats() {
+    const totalPages = getTotalPages(this.allBooks);
+    const totalPagesRead = getTotalPagesRead(this.allBooks);
+    const estimatedReadingTime = getEstimatedReadingTime(this.allBooks);
+
+    this.stats = [
+      {
+        label: 'Pages totales de tous les livres',
+        value: `${totalPages.toLocaleString()} pages`,
+        icon: '📚',
+        color: 'success'
+      },
+      {
+        label: 'Pages totales lues (avec relectures)',
+        value: `${totalPagesRead.toLocaleString()} pages`,
+        icon: '📖',
+        color: 'info'
+      },
+      {
+        label: 'Temps estimé de lecture',
+        value: estimatedReadingTime.formatted,
+        icon: '⏱️',
+        color: 'primary'
+      },
+    ];
   }
 
   private sortBooks() {
@@ -86,6 +119,12 @@ export class BooksComponent implements OnInit {
         break;
       case 'rating-asc':
         this.sortedBooks.sort((a, b) => (a.rating || 0) - (b.rating || 0));
+        break;
+      case 'readTimes':
+        this.sortedBooks.sort((a, b) => (b.readTimes || 0) - (a.readTimes || 0));
+        break;
+      case 'readTimes-asc':
+        this.sortedBooks.sort((a, b) => (a.readTimes || 0) - (b.readTimes || 0));
         break;
       case 'pages':
         this.sortedBooks.sort((a, b) => (b.pages || 0) - (a.pages || 0));

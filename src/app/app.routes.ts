@@ -4,6 +4,8 @@ import { BooksComponent } from './containers/books/books';
 import { MangasComponent } from './containers/mangas/mangas';
 import { ManwhasComponent } from './containers/manwhas/manwhas';
 import { MoviesComponent } from './containers/movies/movies';
+import { SeriesComponent } from './containers/series/series';
+import { DashboardComponent } from './containers/dashboard/dashboard';
 
 export const routes: Routes = [
   {
@@ -13,6 +15,10 @@ export const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent,
+  },
+  {
+    path: 'dashboard',
+    component: DashboardComponent,
   },
   {
     path: 'books',
@@ -29,5 +35,9 @@ export const routes: Routes = [
   {
     path: 'movies',
     component: MoviesComponent,
+  },
+  {
+    path: 'series',
+    component: SeriesComponent,
   },
 ];

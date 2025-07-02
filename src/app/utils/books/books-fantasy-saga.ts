@@ -10,7 +10,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Les enfants d'Aliel",
-    sagaOrder: 1
+    sagaOrder: 1,
+    readTimes: 1
   },
   {
     title: "Le cheval de feu",
@@ -21,7 +22,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Les enfants d'Aliel",
-    sagaOrder: 2
+    sagaOrder: 2,
+    readTimes: 1
   },
   {
     title: "Mâchoires d'écume",
@@ -32,7 +34,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Les enfants d'Aliel",
-    sagaOrder: 3
+    sagaOrder: 3,
+    readTimes: 1
   },
   {
     title: "Le porteur d'espoir",
@@ -43,7 +46,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Les enfants d'Aliel",
-    sagaOrder: 4
+    sagaOrder: 4,
+    readTimes: 1
   },
   {
     title: "Ciel de cendres",
@@ -54,7 +58,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Les enfants d'Aliel",
-    sagaOrder: 5
+    sagaOrder: 5,
+    readTimes: 1
   },
   {
     title: "D'un monde à l'autre",
@@ -65,7 +70,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Ewilan",
-    sagaOrder: 1
+    sagaOrder: 1,
+    readTimes: 1
   },
   {
     title: "Les frontières de glace",
@@ -76,7 +82,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Ewilan",
-    sagaOrder: 2
+    sagaOrder: 2,
+    readTimes: 1
   },
   {
     title: "L'île du destin",
@@ -87,7 +94,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Ewilan",
-    sagaOrder: 3
+    sagaOrder: 3,
+    readTimes: 1
   },
   {
     title: "La Forêt des captifs",
@@ -98,7 +106,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Ewilan",
-    sagaOrder: 4
+    sagaOrder: 4,
+    readTimes: 1
   },
   {
     title: "L'Œil d'Otolep",
@@ -109,7 +118,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Ewilan",
-    sagaOrder: 5
+    sagaOrder: 5,
+    readTimes: 1
   },
   {
     title: "Les Tentacules du mal",
@@ -120,7 +130,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Ewilan",
-    sagaOrder: 6
+    sagaOrder: 6,
+    readTimes: 1
   },
   {
     title: "Ellana",
@@ -131,7 +142,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Ewilan",
-    sagaOrder: 7
+    sagaOrder: 7,
+    readTimes: 1
   },
   {
     title: "Ellana, l'Envol",
@@ -142,7 +154,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Ewilan",
-    sagaOrder: 8
+    sagaOrder: 8,
+    readTimes: 1
   },
   {
     title: "Ellana, la Prophétie",
@@ -153,7 +166,8 @@ export const booksFantasySaga: Book[] = [
     pages: 411,
     genre: "Fantasy",
     saga: "Ewilan",
-    sagaOrder: 9
+    sagaOrder: 9,
+    readTimes: 1
   },
   {
     title: "Les sortceliers",
@@ -164,7 +178,8 @@ export const booksFantasySaga: Book[] = [
     pages: 501,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 1
+    sagaOrder: 1,
+    readTimes: 5
   },
   {
     title: "Le livre interdit",
@@ -175,7 +190,8 @@ export const booksFantasySaga: Book[] = [
     pages: 502,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 2
+    sagaOrder: 2,
+    readTimes: 5
   },
   {
     title: "Le sceptre maudit",
@@ -186,7 +202,8 @@ export const booksFantasySaga: Book[] = [
     pages: 503,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 3
+    sagaOrder: 3,
+    readTimes: 5
   },
   {
     title: "Le dragon renégat",
@@ -197,7 +214,8 @@ export const booksFantasySaga: Book[] = [
     pages: 507,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 4
+    sagaOrder: 4,
+    readTimes: 5
   },
   {
     title: "Le continent interdit",
@@ -208,7 +226,8 @@ export const booksFantasySaga: Book[] = [
     pages: 506,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 5
+    sagaOrder: 5,
+    readTimes: 10
   },
   {
     title: "Dans le piège de Magister",
@@ -219,7 +238,8 @@ export const booksFantasySaga: Book[] = [
     pages: 508,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 6
+    sagaOrder: 6,
+    readTimes: 5
   },
   {
     title: "Tara Duncan et l'invasion fantôme",
@@ -230,7 +250,8 @@ export const booksFantasySaga: Book[] = [
     pages: 504,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 7
+    sagaOrder: 7,
+    readTimes: 5
   },
   {
     title: "L'impératrice maléfique",
@@ -241,7 +262,8 @@ export const booksFantasySaga: Book[] = [
     pages: 505,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 8
+    sagaOrder: 8,
+    readTimes: 5
   },
   {
     title: "Tara Duncan contre la reine noire",
@@ -252,7 +274,8 @@ export const booksFantasySaga: Book[] = [
     pages: 503,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 9
+    sagaOrder: 9,
+    readTimes: 5
   },
   {
     title: "Dragons contre Démons",
@@ -263,7 +286,8 @@ export const booksFantasySaga: Book[] = [
     pages: 527,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 10
+    sagaOrder: 10,
+    readTimes: 5
   },
   {
     title: "La Guerre des planètes",
@@ -274,7 +298,8 @@ export const booksFantasySaga: Book[] = [
     pages: 519,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 11
+    sagaOrder: 11,
+    readTimes: 5
   },
   {
     title: "L'Ultime Combat",
@@ -285,7 +310,8 @@ export const booksFantasySaga: Book[] = [
     pages: 518,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 12
+    sagaOrder: 12,
+    readTimes: 5
   },
   {
     title: "Tara et Cal",
@@ -296,7 +322,8 @@ export const booksFantasySaga: Book[] = [
     pages: 520,
     genre: "Fantasy",
     saga: "Tara Duncan",
-    sagaOrder: 13
+    sagaOrder: 13,
+    readTimes: 1
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 2",
@@ -307,7 +334,8 @@ export const booksFantasySaga: Book[] = [
     pages: 960,
     genre: "Fantasy",
     saga: "Le Trône de fer",
-    sagaOrder: 2
+    sagaOrder: 2,
+    readTimes: 1
   },
   {
     title: "Le Trône de fer, L'Intégrale Tome 3",
@@ -318,6 +346,7 @@ export const booksFantasySaga: Book[] = [
     pages: 1149,
     genre: "Fantasy",
     saga: "Le Trône de fer",
-    sagaOrder: 3
+    sagaOrder: 3,
+    readTimes: 1
   },
 ];

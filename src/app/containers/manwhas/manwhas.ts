@@ -32,6 +32,8 @@ export class ManwhasComponent implements OnInit {
     { value: 'readDate-asc', label: 'Date de lecture (ancien)' },
     { value: 'rating', label: 'Note (élevée)' },
     { value: 'rating-asc', label: 'Note (faible)' },
+    { value: 'readTimes', label: 'Relectures (élevé)' },
+    { value: 'readTimes-asc', label: 'Relectures (faible)' },
     { value: 'nbTomes', label: 'Nombre de tomes (élevé)' },
     { value: 'nbTomes-asc', label: 'Nombre de tomes (faible)' },
     { value: 'genre', label: 'Genre (A-Z)' },
@@ -51,6 +53,7 @@ export class ManwhasComponent implements OnInit {
         sagaOrder: 0,
         nbTomes: manwha._source.manga.france.nbBooks || 0,
         isFinished: manwha._source.manga.isFinished || false,
+        readTimes: manwha._readTimes || 1,
       }
     });
 
@@ -90,6 +93,12 @@ export class ManwhasComponent implements OnInit {
         break;
       case 'rating-asc':
         this.sortedManwhas.sort((a, b) => (a.rating || 0) - (b.rating || 0));
+        break;
+      case 'readTimes':
+        this.sortedManwhas.sort((a, b) => (b.readTimes || 0) - (a.readTimes || 0));
+        break;
+      case 'readTimes-asc':
+        this.sortedManwhas.sort((a, b) => (a.readTimes || 0) - (b.readTimes || 0));
         break;
       case 'nbTomes':
         this.sortedManwhas.sort((a, b) => (b.nbTomes || 0) - (a.nbTomes || 0));

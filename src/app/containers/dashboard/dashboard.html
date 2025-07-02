@@ -1,0 +1,14 @@
+<app-menu></app-menu>
+
+<div class="dashboard-container">
+  <h1>Tableau de bord</h1>
+
+  <div class="dashboard-sections">
+    <!-- Statistiques générales -->
+    <div class="dashboard-section">
+      <h2>📊 Vue d'ensemble</h2>
+      <app-stats-display [stats]="stats" [count]="0" countLabel="">
+      </app-stats-display>
+    </div>
+  </div>
+</div>

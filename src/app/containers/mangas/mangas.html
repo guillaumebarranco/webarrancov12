@@ -1,10 +1,11 @@
 <app-menu></app-menu>
 
 <div class="mangas-container">
-  <h1>Mangas lus</h1>
+  <h1>Mangas lus ({{ allMangas.length }})</h1>
 
   <div class="mangas-header">
-    <div class="mangas-count">{{ allMangas.length }} mangas</div>
+    <app-stats-display [stats]="stats" [count]="allMangas.length" countLabel="mangas">
+    </app-stats-display>
 
     <app-sort-dropdown [sortOptions]="sortOptions" [selectedSort]="selectedSort" (sortChange)="onSortChange($event)">
     </app-sort-dropdown>

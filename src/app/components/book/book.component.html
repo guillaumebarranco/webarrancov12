@@ -18,7 +18,9 @@
       <span class="book-pages"> (En cours)</span>
       }
     </p>
-
+    }
+    @if (book.readTimes && book.readTimes > 1) {
+    <p class="book-read-times">📖 Lu {{ book.readTimes }} fois</p>
     }
     <div class="book-rating">
       <span class="stars">
