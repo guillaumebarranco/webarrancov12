@@ -29,7 +29,7 @@
 
 // Styles de base pour les informations
 @mixin component-info-base {
-  padding: 16px;
+  padding: 16px 16px 0 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
