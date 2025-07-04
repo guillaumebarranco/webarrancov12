@@ -5,7 +5,9 @@ import { MangasComponent } from './containers/mangas/mangas';
 import { ManwhasComponent } from './containers/manwhas/manwhas';
 import { MoviesComponent } from './containers/movies/movies';
 import { SeriesComponent } from './containers/series/series';
+import { GamesComponent } from './containers/games/games';
 import { DashboardComponent } from './containers/dashboard/dashboard';
+import { NewsComponent } from './containers/news/news';
 
 export const routes: Routes = [
   {
@@ -39,5 +41,13 @@ export const routes: Routes = [
   {
     path: 'series',
     component: SeriesComponent,
+  },
+  {
+    path: 'games',
+    component: GamesComponent,
+  },
+  {
+    path: 'news',
+    component: NewsComponent,
   },
 ];

@@ -24,6 +24,13 @@ export interface ItemWithTomes {
   title: string;
 }
 
+export interface ItemWithGameLength {
+  title: string;
+  averageTimeToFinish: number;
+  timesFinished: number;
+  additionnalEstimatedTime: number;
+}
+
 // Estimation : 2 minutes par page en moyenne
 export const MINUTES_PER_PAGE = 2;
 // Estimation : 200 pages par tome de manga en moyenne

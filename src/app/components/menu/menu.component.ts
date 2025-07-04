@@ -16,7 +16,8 @@ export class MenuComponent {
     { label: 'Mangas', route: '/mangas', icon: '📖' },
     { label: 'Manwhas', route: '/manwhas', icon: '🎨' },
     { label: 'Films', route: '/movies', icon: '🎬' },
-    { label: 'Séries', route: '/series', icon: '📺' }
+    { label: 'Séries', route: '/series', icon: '📺' },
+    { label: 'Jeux', route: '/games', icon: '🎮' }
   ];
 
   constructor(private router: Router) { }
