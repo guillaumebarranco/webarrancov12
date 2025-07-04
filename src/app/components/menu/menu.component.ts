@@ -13,7 +13,7 @@ export class MenuComponent implements OnInit {
   isMobile = false;
 
   menuItems = [
-    { label: 'Dashboard', route: '/dashboard', icon: '📊', hideOnMobile: false },
+    { label: 'Home', route: '/dashboard', icon: '📊', hideOnMobile: false },
     { label: 'Livres', route: '/books', icon: '📚', hideOnMobile: false },
     { label: 'Mangas', route: '/mangas', icon: '📖', hideOnMobile: false },
     { label: 'Manwhas', route: '/manwhas', icon: '🎨', hideOnMobile: true },

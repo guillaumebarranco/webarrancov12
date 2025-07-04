@@ -86,7 +86,7 @@
 // Styles de base pour les notes
 @mixin component-rating-base {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 8px;
   margin-bottom: 8px;
 }
