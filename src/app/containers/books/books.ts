@@ -27,7 +27,7 @@ interface SagaGroup {
 export class BooksComponent implements OnInit {
   allBooks: Book[] = [];
   sortedBooks: Book[] = [];
-  selectedSort: string = 'readTimes';
+  selectedSort: string = 'rating';
   stats: StatItem[] = [];
 
   sortOptions: SortOption[] = [
@@ -115,10 +115,28 @@ export class BooksComponent implements OnInit {
         this.sortedBooks.sort((a, b) => new Date(a.readDate).getTime() - new Date(b.readDate).getTime());
         break;
       case 'rating':
-        this.sortedBooks.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        this.sortedBooks.sort((a, b) => {
+          const ratingA = a.rating || 0;
+          const ratingB = b.rating || 0;
+          if (ratingB !== ratingA) {
+            return ratingB - ratingA;
+          }
+          const readTimesA = a.readTimes || 0;
+          const readTimesB = b.readTimes || 0;
+          return readTimesB - readTimesA;
+        });
         break;
       case 'rating-asc':
-        this.sortedBooks.sort((a, b) => (a.rating || 0) - (b.rating || 0));
+        this.sortedBooks.sort((a, b) => {
+          const ratingA = a.rating || 0;
+          const ratingB = b.rating || 0;
+          if (ratingA !== ratingB) {
+            return ratingA - ratingB;
+          }
+          const readTimesA = a.readTimes || 0;
+          const readTimesB = b.readTimes || 0;
+          return readTimesB - readTimesA;
+        });
         break;
       case 'readTimes':
         this.sortedBooks.sort((a, b) => (b.readTimes || 0) - (a.readTimes || 0));

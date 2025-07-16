@@ -23,7 +23,7 @@ interface SagaGroup {
 export class MangasComponent implements OnInit {
   allMangas: Book[] = [];
   sortedMangas: Book[] = [];
-  selectedSort: string = 'readTimes';
+  selectedSort: string = 'rating';
   stats: StatItem[] = [];
 
   sortOptions: SortOption[] = [
@@ -50,7 +50,7 @@ export class MangasComponent implements OnInit {
         author: manga._source.manga.authors[0].name,
         coverUrl: manga._source.manga.france.logo || '',
         readDate: manga._source.manga.lastUpdate || '',
-        rating: manga._score / 2 || 0,
+        rating: manga._score || 0,
         genre: manga._source.manga.type || '',
         saga: manga._source.manga.name,
         sagaOrder: 0,
@@ -155,10 +155,28 @@ export class MangasComponent implements OnInit {
         this.sortedMangas.sort((a, b) => new Date(a.readDate).getTime() - new Date(b.readDate).getTime());
         break;
       case 'rating':
-        this.sortedMangas.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        this.sortedMangas.sort((a, b) => {
+          const ratingA = a.rating || 0;
+          const ratingB = b.rating || 0;
+          if (ratingB !== ratingA) {
+            return ratingB - ratingA;
+          }
+          const readTimesA = a.readTimes || 0;
+          const readTimesB = b.readTimes || 0;
+          return readTimesB - readTimesA;
+        });
         break;
       case 'rating-asc':
-        this.sortedMangas.sort((a, b) => (a.rating || 0) - (b.rating || 0));
+        this.sortedMangas.sort((a, b) => {
+          const ratingA = a.rating || 0;
+          const ratingB = b.rating || 0;
+          if (ratingA !== ratingB) {
+            return ratingA - ratingB;
+          }
+          const readTimesA = a.readTimes || 0;
+          const readTimesB = b.readTimes || 0;
+          return readTimesB - readTimesA;
+        });
         break;
       case 'readTimes':
         this.sortedMangas.sort((a, b) => (b.readTimes || 0) - (a.readTimes || 0));

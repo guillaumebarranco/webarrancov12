@@ -21,7 +21,7 @@ import { series2 } from '../../utils/series/series_2';
 export class SeriesComponent implements OnInit {
   allSeries: Serie[] = [];
   sortedSeries: Serie[] = [];
-  selectedSort: string = 'timesWatched';
+  selectedSort: string = 'rating';
   stats: StatItem[] = [];
 
   sortOptions: SortOption[] = [
@@ -95,10 +95,20 @@ export class SeriesComponent implements OnInit {
         this.sortedSeries.sort((a, b) => new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime());
         break;
       case 'rating':
-        this.sortedSeries.sort((a, b) => b.rating - a.rating);
+        this.sortedSeries.sort((a, b) => {
+          if (b.rating !== a.rating) {
+            return b.rating - a.rating;
+          }
+          return b.timesWatched - a.timesWatched;
+        });
         break;
       case 'rating-asc':
-        this.sortedSeries.sort((a, b) => a.rating - b.rating);
+        this.sortedSeries.sort((a, b) => {
+          if (a.rating !== b.rating) {
+            return a.rating - b.rating;
+          }
+          return b.timesWatched - a.timesWatched;
+        });
         break;
       case 'timesWatched':
         this.sortedSeries.sort((a, b) => b.timesWatched - a.timesWatched);

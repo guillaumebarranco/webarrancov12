@@ -559,10 +559,10 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Albert Dupontel" }],
     coverUrl: "/movies_pictures/la_tour_montparnasse_infernale.jpg",
     releaseDate: "2001-10-31",
-    rating: 0,
+    rating: 3.5,
     length: 90,
     genre: "Comedy",
-    timesWatched: 1,
+    timesWatched: 20,
     lastViewedDate: ""
   },
 ];

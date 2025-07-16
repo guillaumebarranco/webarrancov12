@@ -2,7 +2,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pKOzTdbq0wiqMfJ',
-    _score: 6.5,
+    _score: 3.5,
     _readTimes: 1,
     _source: {
       manga: {
@@ -45,7 +45,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pQ6zTdbq0wiqMfx',
-    _score: 3.5,
+    _score: 2.75,
     _readTimes: 1,
     _source: {
       manga: {
@@ -87,7 +87,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pGjzTdbq0wiqMe6',
-    _score: 4.5,
+    _score: 3,
     _readTimes: 1,
     _source: {
       manga: {
@@ -138,7 +138,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pKwzTdbq0wiqMfM',
-    _score: 8,
+    _score: 4.25,
     _readTimes: 1,
     _source: {
       manga: {
@@ -184,7 +184,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pM7zTdbq0wiqMfY',
-    _score: 8.5,
+    _score: 4.5,
     _readTimes: 1,
     _source: {
       manga: {
@@ -227,7 +227,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pSczTdbq0wiqMf3',
-    _score: 6.5,
+    _score: 3.5,
     _readTimes: 1,
     _source: {
       manga: {
@@ -271,7 +271,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pHQzTdbq0wiqMe8',
-    _score: 7,
+    _score: 3.75,
     _readTimes: 1,
     _source: {
       manga: {
@@ -315,7 +315,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
-    _score: 5.5,
+    _score: 3.25,
     _readTimes: 1,
     _source: {
       manga: {
@@ -354,7 +354,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
-    _score: 8.5,
+    _score: 4.25,
     _readTimes: 1,
     _source: {
       manga: {
@@ -393,7 +393,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
-    _score: 5.5,
+    _score: 3.25,
     _readTimes: 1,
     _source: {
       manga: {
@@ -432,7 +432,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
-    _score: 6,
+    _score: 3,
     _readTimes: 1,
     _source: {
       manga: {
@@ -471,7 +471,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
-    _score: 6,
+    _score: 2.75,
     _readTimes: 1,
     _source: {
       manga: {
@@ -510,7 +510,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
-    _score: 7.5,
+    _score: 4,
     _readTimes: 1,
     _source: {
       manga: {
@@ -552,7 +552,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
-    _score: 7.5,
+    _score: 4,
     _readTimes: 1,
     _source: {
       manga: {
@@ -591,7 +591,7 @@ export const manwhas = [
   {
     _type: 'manga',
     _id: 'AVQP8pILzTdbq0wiqMfA',
-    _score: 8.5,
+    _score: 4.25,
     _readTimes: 1,
     _source: {
       manga: {
