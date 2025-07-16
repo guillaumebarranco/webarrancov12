@@ -25,7 +25,7 @@ export const moviesPage3: Movie[] = [
     length: 101,
     genre: "Thriller",
     timesWatched: 1,
-    lastViewedDate: "2017-08-25"
+    lastViewedDate: ""
   },
   {
     title: "The Hitman's Bodyguard",

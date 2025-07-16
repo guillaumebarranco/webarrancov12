@@ -75,7 +75,6 @@ p {
 
 .game-rating {
   @include components.component-rating-base;
-  margin-top: auto;
 }
 
 .stars {

@@ -553,4 +553,16 @@ export const moviesPage11: Movie[] = [
     timesWatched: 5,
     lastViewedDate: ""
   },
+  {
+    title: "La tour Montparnasse infernale",
+    director: "Charles Nemes",
+    actors: [{ name: "Albert Dupontel" }],
+    coverUrl: "/movies_pictures/la_tour_montparnasse_infernale.jpg",
+    releaseDate: "2001-10-31",
+    rating: 0,
+    length: 90,
+    genre: "Comedy",
+    timesWatched: 1,
+    lastViewedDate: ""
+  },
 ];
