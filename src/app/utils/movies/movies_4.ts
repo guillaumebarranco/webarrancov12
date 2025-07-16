@@ -7,10 +7,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Angelina Jolie" }],
     coverUrl: "/movies_pictures/malefique.jpg",
     releaseDate: "2014-05-30",
-    rating: 0,
+    rating: 2.75,
     length: 97,
     genre: "Fantasy",
     timesWatched: 1,
+    lastViewedDate: "2014-05-30"
   },
   {
     title: "Edge of Tomorrow",
@@ -18,30 +19,35 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Tom Cruise" }],
     coverUrl: "/movies_pictures/105183-edge-of-tomorrow-0-150-0-225-crop.jpg",
     releaseDate: "2014-06-06",
-    rating: 0,
+    rating: 4.5,
     length: 113,
     genre: "Science Fiction",
     timesWatched: 10,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Divergente",
     director: "Neil Burger",
     actors: [{ name: "Shailene Woodley" }],
     coverUrl: "/movies_pictures/117583-divergent-0-150-0-225-crop.jpg",
     releaseDate: "2014-03-21",
-    rating: 0,
+    rating: 3.75,
     length: 139,
     genre: "Action",
     timesWatched: 3,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Robocop",
     director: "José Padilha",
     actors: [{ name: "Joel Kinnaman" }],
     coverUrl: "/movies_pictures/79982-robocop-0-150-0-225-crop.jpg",
     releaseDate: "2014-02-12",
-    rating: 0,
+    rating: 3,
     length: 117,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Le Loup de Wall Street",
@@ -49,10 +55,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Leonardo DiCaprio" }],
     coverUrl: "/movies_pictures/86114-the-wolf-of-wall-street-0-150-0-225-crop.jpg",
     releaseDate: "2013-12-25",
-    rating: 0,
+    rating: 4.25,
     length: 180,
     genre: "Crime",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "La Vie Rêvée de Walter Mitty",
@@ -60,20 +67,23 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Ben Stiller" }],
     coverUrl: "/movies_pictures/92619-the-secret-life-of-walter-mitty-0-150-0-225-crop.jpg",
     releaseDate: "2013-12-25",
-    rating: 0,
+    rating: 3.5,
     length: 114,
     genre: "Adventure",
     timesWatched: 1,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Prisoners",
     director: "Denis Villeneuve",
     actors: [{ name: "Hugh Jackman" }],
     coverUrl: "/movies_pictures/prisoners.jpg",
     releaseDate: "2013-09-20",
-    rating: 0,
+    rating: 4,
     length: 153,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Gravity",
@@ -81,10 +91,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Sandra Bullock" }],
     coverUrl: "/movies_pictures/21023233_20130729173134181.webp",
     releaseDate: "2013-10-04",
-    rating: 0,
+    rating: 3.25,
     length: 91,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Elysium",
@@ -92,10 +103,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Matt Damon" }],
     coverUrl: "/movies_pictures/elysium.jpg",
     releaseDate: "2013-08-09",
-    rating: 0,
+    rating: 3,
     length: 109,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Le Majordome",
@@ -103,20 +115,23 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Forest Whitaker" }],
     coverUrl: "/movies_pictures/le_majordome.jpg",
     releaseDate: "2013-08-16",
-    rating: 3.5,
+    rating: 3.75,
     length: 132,
     genre: "Drama",
     timesWatched: 1,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "RED 2",
     director: "Dean Parisot",
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/110736-red-2-0-150-0-225-crop.jpg",
     releaseDate: "2013-07-19",
-    rating: 0,
+    rating: 3,
     length: 116,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Evasion",
@@ -128,16 +143,19 @@ export const moviesPage4: Movie[] = [
     length: 115,
     genre: "Action",
     timesWatched: 2,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Pacific Rim",
     director: "Guillermo del Toro",
     actors: [{ name: "Charlie Hunnam" }],
     coverUrl: "/movies_pictures/52508-pacific-rim-0-150-0-225-crop.jpg",
     releaseDate: "2013-07-12",
-    rating: 0,
+    rating: 2.75,
     length: 131,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "World War Z",
@@ -145,20 +163,23 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Brad Pitt" }],
     coverUrl: "/movies_pictures/57292-world-war-z-0-150-0-225-crop.jpg",
     releaseDate: "2013-06-21",
-    rating: 0,
+    rating: 3,
     length: 116,
     genre: "Action",
     timesWatched: 1,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "The Conjuring : Les Dossiers Warren",
     director: "James Wan",
     actors: [{ name: "Vera Farmiga" }],
     coverUrl: "/movies_pictures/106262-the-conjuring-0-150-0-225-crop.jpg",
     releaseDate: "2013-07-19",
-    rating: 0,
+    rating: 2.5,
     length: 112,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "After Earth",
@@ -166,10 +187,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/after_earth.jpg",
     releaseDate: "2013-05-31",
-    rating: 0,
+    rating: 2.5,
     length: 100,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: "2013-05-31"
   },
   {
     title: "Insaisissables",
@@ -177,10 +199,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Jesse Eisenberg" }],
     coverUrl: "/movies_pictures/insaisissables.jpg",
     releaseDate: "2013-05-31",
-    rating: 0,
+    rating: 4.5,
     length: 115,
     genre: "Thriller",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Very Bad Trip 3",
@@ -188,20 +211,23 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Bradley Cooper" }],
     coverUrl: "/movies_pictures/87953-the-hangover-part-iii-0-150-0-225-crop.jpg",
     releaseDate: "2013-05-23",
-    rating: 0,
+    rating: 3.5,
     length: 100,
     genre: "Comedy",
     timesWatched: 2,
-  }, {
+    lastViewedDate: "2013-05-23"
+  },
+  {
     title: "No pain no gain",
     director: "Michael Bay",
     actors: [{ name: "Mark Wahlberg" }],
     coverUrl: "/movies_pictures/103559-pain-gain-0-150-0-225-crop.jpg",
     releaseDate: "2013-04-26",
-    rating: 0,
+    rating: 3,
     length: 129,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Oblivion",
@@ -209,10 +235,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Tom Cruise" }],
     coverUrl: "/movies_pictures/62108-oblivion-0-150-0-225-crop.jpg",
     releaseDate: "2013-04-19",
-    rating: 0,
+    rating: 3,
     length: 124,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Die Hard : Belle Journée pour Mourir",
@@ -220,10 +247,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/die_hard_5.jpg",
     releaseDate: "2013-02-14",
-    rating: 0,
+    rating: 2.75,
     length: 98,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: "2013-02-14"
   },
   {
     title: "Django Unchained",
@@ -231,10 +259,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Jamie Foxx" }],
     coverUrl: "/movies_pictures/52516-django-unchained-0-150-0-225-crop.jpg",
     releaseDate: "2012-12-25",
-    rating: 0,
+    rating: 3.75,
     length: 165,
     genre: "Western",
     timesWatched: 2,
+    lastViewedDate: "2012-12-25"
   },
   {
     title: "Jack Reacher",
@@ -242,10 +271,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Tom Cruise" }],
     coverUrl: "/movies_pictures/jack_reacher.jpg",
     releaseDate: "2012-12-21",
-    rating: 0,
+    rating: 4,
     length: 130,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Twilight : Chapitre 5 - Révélation - Partie 2",
@@ -253,20 +283,23 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Kristen Stewart" }],
     coverUrl: "/movies_pictures/15076-the-twilight-saga-breaking-dawn-part-2-0-150-0-225-crop.jpg",
     releaseDate: "2012-11-16",
-    rating: 0,
+    rating: 3.5,
     length: 115,
     genre: "Fantasy",
     timesWatched: 2,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Skyfall",
     director: "Sam Mendes",
     actors: [{ name: "Daniel Craig" }],
     coverUrl: "/movies_pictures/dune_1.jpg",
     releaseDate: "2012-11-09",
-    rating: 0,
+    rating: 4,
     length: 143,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Taken 2",
@@ -274,10 +307,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Liam Neeson" }],
     coverUrl: "/movies_pictures/69169-taken-2-0-150-0-225-crop.jpg",
     releaseDate: "2012-10-05",
-    rating: 0,
+    rating: 3,
     length: 92,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "The Dream Team",
@@ -285,10 +319,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Gérard Lanvin" }],
     coverUrl: "/movies_pictures/103066-the-dream-team-0-150-0-225-crop.jpg",
     releaseDate: "2012-10-03",
-    rating: 0,
+    rating: 2.5,
     length: 105,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Dredd",
@@ -296,10 +331,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Karl Urban" }],
     coverUrl: "/movies_pictures/16527-dredd-0-150-0-225-crop.jpg",
     releaseDate: "2012-09-21",
-    rating: 0,
+    rating: 2.75,
     length: 95,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Expendables 2",
@@ -307,20 +343,23 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/62593-the-expendables-2-0-150-0-225-crop.jpg",
     releaseDate: "2012-08-17",
-    rating: 0,
+    rating: 2.5,
     length: 103,
     genre: "Action",
     timesWatched: 1,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "The Dictator",
     director: "Larry Charles",
     actors: [{ name: "Sacha Baron Cohen" }],
     coverUrl: "/movies_pictures/62911-the-dictator-0-150-0-225-crop.jpg",
     releaseDate: "2012-05-16",
-    rating: 0,
+    rating: 3.25,
     length: 83,
     genre: "Comedy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Men in Black 3",
@@ -328,20 +367,23 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/men_in_black_3.jpg",
     releaseDate: "2012-05-25",
-    rating: 0,
+    rating: 3.25,
     length: 106,
     genre: "Science Fiction",
     timesWatched: 2,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "The Lucky One",
     director: "Scott Hicks",
     actors: [{ name: "Zac Efron" }],
     coverUrl: "/movies_pictures/64331-the-lucky-one-0-150-0-225-crop.jpg",
     releaseDate: "2012-04-20",
-    rating: 0,
+    rating: 3.25,
     length: 101,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Prometheus",
@@ -349,10 +391,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Noomi Rapace" }],
     coverUrl: "/movies_pictures/prometheus.jpg",
     releaseDate: "2012-06-08",
-    rating: 0,
+    rating: 3,
     length: 124,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "American Pie 4",
@@ -360,10 +403,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Jason Biggs" }],
     coverUrl: "/movies_pictures/57927-american-reunion-0-150-0-225-crop.jpg",
     releaseDate: "2012-04-06",
-    rating: 0,
+    rating: 2.5,
     length: 113,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "21 Jump Street",
@@ -371,10 +415,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Jonah Hill" }],
     coverUrl: "/movies_pictures/279-21-jump-street-0-150-0-225-crop.jpg",
     releaseDate: "2012-03-16",
-    rating: 0,
+    rating: 3.5,
     length: 109,
     genre: "Comedy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Hunger Games",
@@ -382,10 +427,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Jennifer Lawrence" }],
     coverUrl: "/movies_pictures/hunger_games_1.jpg",
     releaseDate: "2012-03-23",
-    rating: 0,
+    rating: 3.25,
     length: 142,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: "2025-03-23"
   },
   {
     title: "Target",
@@ -393,10 +439,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Chris Pine" }],
     coverUrl: "/movies_pictures/this-means-war-0-150-0-225-crop.jpg",
     releaseDate: "2012-02-17",
-    rating: 0,
+    rating: 2.5,
     length: 98,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Chronicle",
@@ -404,10 +451,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Dane DeHaan" }],
     coverUrl: "/movies_pictures/chronicles.jpg",
     releaseDate: "2012-02-03",
-    rating: 0,
+    rating: 3.75,
     length: 84,
     genre: "Science Fiction",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Underworld : Éveil",
@@ -415,10 +463,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Kate Beckinsale" }],
     coverUrl: "/movies_pictures/13370-underworld-awakening-0-150-0-225-crop.jpg",
     releaseDate: "2012-01-20",
-    rating: 0,
+    rating: 4,
     length: 88,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Twilight : Chapitre 5 - Révélation - Partie 1",
@@ -426,10 +475,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Kristen Stewart" }],
     coverUrl: "/movies_pictures/15077-the-twilight-saga-breaking-dawn-part-1-0-1000-0-1500-crop.jpg",
     releaseDate: "2011-11-18",
-    rating: 0,
+    rating: 3.25,
     length: 117,
     genre: "Fantasy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Time Out",
@@ -437,10 +487,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Justin Timberlake" }],
     coverUrl: "/movies_pictures/16082-in-time-0-150-0-225-crop.jpg",
     releaseDate: "2011-10-28",
-    rating: 0,
+    rating: 5,
     length: 109,
     genre: "Science Fiction",
-    timesWatched: 10,
+    timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Footloose",
@@ -448,10 +499,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Kenny Wormald" }],
     coverUrl: "/movies_pictures/footloose.jpg",
     releaseDate: "2011-10-14",
-    rating: 0,
+    rating: 3,
     length: 113,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Real Steel",
@@ -459,10 +511,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Hugh Jackman" }],
     coverUrl: "/movies_pictures/real_steel.jpg",
     releaseDate: "2011-10-07",
-    rating: 0,
+    rating: 3.5,
     length: 127,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: "2025-02-07"
   },
   {
     title: "Intouchables",
@@ -470,10 +523,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "François Cluzet" }],
     coverUrl: "/movies_pictures/intouchables-0-150-0-225-crop.jpg",
     releaseDate: "2011-11-02",
-    rating: 4.5,
+    rating: 5,
     length: 112,
     genre: "Comedy",
-    timesWatched: 10,
+    timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Warrior",
@@ -481,10 +535,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Tom Hardy" }],
     coverUrl: "/movies_pictures/6942-warrior-0-150-0-225-crop.jpg",
     releaseDate: "2011-09-09",
-    rating: 0,
+    rating: 3.5,
     length: 140,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Never Back Down 2: The Beatdown",
@@ -492,10 +547,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Michael Jai White" }],
     coverUrl: "/movies_pictures/59415-never-back-down-2-the-beatdown-0-150-0-225-crop.jpg",
     releaseDate: "2011-09-13",
-    rating: 0,
+    rating: 2.5,
     length: 90,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "The Raid",
@@ -503,10 +559,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Iko Uwais" }],
     coverUrl: "/movies_pictures/78266-the-raid-0-150-0-225-crop.jpg",
     releaseDate: "2012-03-23",
-    rating: 0,
+    rating: 3,
     length: 101,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Destination Finale 5",
@@ -514,10 +571,11 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Nicholas D'Agosto" }],
     coverUrl: "/movies_pictures/destination_finale_5.jpg",
     releaseDate: "2011-08-12",
-    rating: 0,
+    rating: 2.75,
     length: 92,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Cowboys & Aliens",
@@ -525,9 +583,10 @@ export const moviesPage4: Movie[] = [
     actors: [{ name: "Daniel Craig" }],
     coverUrl: "/movies_pictures/cowboy_and_aliens.jpg",
     releaseDate: "2011-07-29",
-    rating: 0,
+    rating: 2,
     length: 118,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
 ];

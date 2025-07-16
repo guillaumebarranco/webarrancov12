@@ -7,10 +7,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Ryan Reynolds" }],
     coverUrl: "/movies_pictures/220575-deadpool-0-150-0-225-crop.jpg",
     releaseDate: "2016-02-12",
-    rating: 0,
+    rating: 3.75,
     length: 108,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Deadpool 2",
@@ -22,10 +23,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     ],
     coverUrl: "/movies_pictures/318195-deadpool-2-0-150-0-225-crop.jpg",
     releaseDate: "2018-05-18",
-    rating: 0,
+    rating: 3.25,
     length: 119,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Daredevil",
@@ -33,10 +35,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Ben Affleck" }],
     coverUrl: "/movies_pictures/daredevil.jpg",
     releaseDate: "2003-02-14",
-    rating: 0,
+    rating: 3.5,
     length: 103,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Green Lantern",
@@ -44,10 +47,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Ryan Reynolds" }],
     coverUrl: "/movies_pictures/20293-green-lantern-0-150-0-225-crop.jpg",
     releaseDate: "2011-06-17",
-    rating: 0,
+    rating: 3.25,
     length: 114,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "X-Men",
@@ -55,10 +59,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Patrick Stewart" }],
     coverUrl: "/movies_pictures/27723-x-men-0-150-0-225-crop.jpg",
     releaseDate: "2000-07-14",
-    rating: 0,
+    rating: 3.5,
     length: 104,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "X-men 2",
@@ -66,10 +71,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Patrick Stewart" }],
     coverUrl: "/movies_pictures/xmen2-poster-0-150-0-225-crop.jpg",
     releaseDate: "2003-05-02",
-    rating: 0,
+    rating: 3.25,
     length: 134,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "X-Men : L'Affrontement Final",
@@ -77,10 +83,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Hugh Jackman" }],
     coverUrl: "/movies_pictures/27713-x-men-the-last-stand-0-150-0-225-crop.jpg",
     releaseDate: "2006-05-26",
-    rating: 0,
+    rating: 3.75,
     length: 104,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "X-Men Origins : Wolverine",
@@ -88,10 +95,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Hugh Jackman" }],
     coverUrl: "/movies_pictures/50544-x-men-origins-wolverine-0-150-0-225-crop.jpg",
     releaseDate: "2009-05-01",
-    rating: 0,
+    rating: 3,
     length: 107,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "The Wolverine",
@@ -99,10 +107,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Hugh Jackman" }],
     coverUrl: "/movies_pictures/62638-the-wolverine-0-150-0-225-crop.jpg",
     releaseDate: "2013-07-26",
-    rating: 0,
+    rating: 3.25,
     length: 126,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Logan",
@@ -110,10 +119,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Hugh Jackman" }],
     coverUrl: "/movies_pictures/logan.jpg",
     releaseDate: "2017-03-03",
-    rating: 0,
+    rating: 3.75,
     length: 137,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "X-Men : Le Commencement",
@@ -121,10 +131,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "James McAvoy" }],
     coverUrl: "/movies_pictures/16074-x-men-first-class-0-150-0-225-crop.jpg",
     releaseDate: "2011-06-03",
-    rating: 0,
+    rating: 4,
     length: 132,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "X-Men : Days of Future Past",
@@ -132,10 +143,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Hugh Jackman" }],
     coverUrl: "/movies_pictures/99507-x-men-days-of-future-past-0-150-0-225-crop.jpg",
     releaseDate: "2014-05-23",
-    rating: 0,
+    rating: 3.75,
     length: 132,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "X-Men : Apocalypse",
@@ -143,10 +155,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "James McAvoy" }],
     coverUrl: "/movies_pictures/172492-x-men-apocalypse-0-150-0-225-crop.jpg",
     releaseDate: "2016-05-27",
-    rating: 0,
+    rating: 3.5,
     length: 144,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "X-Men :Dark Phoenix",
@@ -158,10 +171,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     ],
     coverUrl: "/movies_pictures/247385-dark-phoenix-0-150-0-225-crop.jpg",
     releaseDate: "2019-06-07",
-    rating: 0,
+    rating: 3.25,
     length: 114,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Batman",
@@ -169,10 +183,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Michael Keaton" }],
     coverUrl: "/movies_pictures/51788-batman-0-150-0-225-crop.jpg",
     releaseDate: "1989-06-23",
-    rating: 0,
+    rating: 3.5,
     length: 126,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Batman Returns",
@@ -180,10 +195,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Michael Keaton" }],
     coverUrl: "/movies_pictures/51709-batman-returns-0-150-0-225-crop.jpg",
     releaseDate: "1992-06-19",
-    rating: 0,
+    rating: 3.5,
     length: 126,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Batman Forever",
@@ -191,10 +207,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Val Kilmer" }],
     coverUrl: "/movies_pictures/51678-batman-forever-0-150-0-225-crop.jpg",
     releaseDate: "1995-06-16",
-    rating: 0,
+    rating: 3.75,
     length: 121,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Batman & Robin",
@@ -202,10 +219,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "George Clooney" }],
     coverUrl: "/movies_pictures/batman_and_robin.jpg",
     releaseDate: "1997-06-20",
-    rating: 0,
+    rating: 3.25,
     length: 125,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Batman Begins",
@@ -213,10 +231,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Christian Bale" }],
     coverUrl: "/movies_pictures/51784-batman-begins-0-150-0-225-crop.jpg",
     releaseDate: "2005-06-15",
-    rating: 0,
+    rating: 4.25,
     length: 140,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "The Dark Knight : Le Chevalier Noir",
@@ -224,10 +243,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Christian Bale" }],
     coverUrl: "/movies_pictures/the_dark_knight.jpg",
     releaseDate: "2008-07-18",
-    rating: 0,
+    rating: 5,
     length: 152,
     genre: "Action",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "The Dark Knight Rises",
@@ -235,10 +255,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Christian Bale" }],
     coverUrl: "/movies_pictures/16550-the-dark-knight-rises-0-150-0-225-crop.jpg",
     releaseDate: "2012-07-20",
-    rating: 0,
+    rating: 4.5,
     length: 164,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "The Batman",
@@ -250,10 +271,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     ],
     coverUrl: "/movies_pictures/348914-the-batman-0-150-0-225-crop.jpg",
     releaseDate: "2022-03-04",
-    rating: 0,
+    rating: 4,
     length: 176,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: "2025-05-04"
   },
   {
     title: "Batman v Superman : L'Aube de la Justice",
@@ -261,10 +283,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Ben Affleck" }],
     coverUrl: "/movies_pictures/batman_v_superman.jpg",
     releaseDate: "2016-03-25",
-    rating: 0,
+    rating: 3.75,
     length: 151,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Shazam!",
@@ -276,10 +299,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     ],
     coverUrl: "/movies_pictures/213190-shazam--0-150-0-225-crop.jpg",
     releaseDate: "2019-04-05",
-    rating: 0,
+    rating: 3,
     length: 132,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Aquaman",
@@ -291,10 +315,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     ],
     coverUrl: "/movies_pictures/225060-aquaman-0-150-0-225-crop.jpg",
     releaseDate: "2018-12-21",
-    rating: 0,
+    rating: 3.75,
     length: 143,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Venom",
@@ -306,10 +331,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     ],
     coverUrl: "/movies_pictures/265438-venom-0-150-0-225-crop.jpg",
     releaseDate: "2018-10-05",
-    rating: 0,
+    rating: 3.5,
     length: 112,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Venom : Let There Be Carnage",
@@ -321,10 +347,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     ],
     coverUrl: "/movies_pictures/508638-venom-let-there-be-carnage-0-150-0-225-crop.jpg",
     releaseDate: "2021-10-01",
-    rating: 0,
+    rating: 3.25,
     length: 97,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Black Adam",
@@ -336,21 +363,27 @@ export const moviesOtherSuperheroes: Movie[] = [
     ],
     coverUrl: "/movies_pictures/369179-black-adam-0-150-0-225-crop.jpg",
     releaseDate: "2022-10-21",
-    rating: 0,
+    rating: 3.75,
     length: 125,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
-    title: "Justice League",
+    title: "Zack Snyder's Justice League",
     director: "Zack Snyder",
-    actors: [{ name: "Ben Affleck" }],
-    coverUrl: "/movies_pictures/107670-justice-league-0-150-0-225-crop.jpg",
-    releaseDate: "2017-11-17",
-    rating: 0,
-    length: 120,
+    actors: [
+      {
+        name: "Ben Affleck",
+      },
+    ],
+    coverUrl: "/movies_pictures/709530-zack-snyder-s-justice-league-0-150-0-225-crop.jpg",
+    releaseDate: "2021-03-18",
+    rating: 3.75,
+    length: 242,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: "2021-03-18"
   },
   {
     title: "Suicide Squad",
@@ -358,10 +391,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/suicide_squad.jpg",
     releaseDate: "2016-08-05",
-    rating: 0,
+    rating: 3.25,
     length: 123,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Spider-Man",
@@ -369,10 +403,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Tobey Maguire" }],
     coverUrl: "/movies_pictures/51561-spider-man-0-150-0-225-crop.jpg",
     releaseDate: "2002-05-03",
-    rating: 0,
+    rating: 4.5,
     length: 121,
     genre: "Action",
     timesWatched: 40,
+    lastViewedDate: ""
   },
   {
     title: "Spider-Man 2",
@@ -380,10 +415,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Tobey Maguire" }],
     coverUrl: "/movies_pictures/amazin_spiderman_2.jpg",
     releaseDate: "2004-06-30",
-    rating: 0,
+    rating: 4.25,
     length: 127,
     genre: "Action",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Spider-Man 3",
@@ -391,10 +427,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Tobey Maguire" }],
     coverUrl: "/movies_pictures/spiderman_3.jpg",
     releaseDate: "2007-05-04",
-    rating: 0,
+    rating: 3.75,
     length: 139,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "The Amazing Spider-Man",
@@ -402,10 +439,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Andrew Garfield" }],
     coverUrl: "/movies_pictures/50677-the-amazing-spider-man-0-150-0-225-crop.jpg",
     releaseDate: "2012-07-03",
-    rating: 0,
+    rating: 4,
     length: 136,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
@@ -413,10 +451,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Andrew Garfield" }],
     coverUrl: "/movies_pictures/47306-final-destination-3-0-150-0-225-crop.jpg",
     releaseDate: "2014-05-02",
-    rating: 0,
+    rating: 3.5,
     length: 142,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Kick-Ass",
@@ -424,10 +463,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Aaron Taylor-Johnson" }],
     coverUrl: "/movies_pictures/kick_ass.jpg",
     releaseDate: "2010-04-16",
-    rating: 0,
+    rating: 3.75,
     length: 117,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Kick-Ass 2",
@@ -435,10 +475,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Aaron Taylor-Johnson" }],
     coverUrl: "/movies_pictures/kick_ass_2.jpg",
     releaseDate: "2013-08-16",
-    rating: 0,
+    rating: 3.25,
     length: 103,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Man of Steel",
@@ -446,10 +487,23 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Henry Cavill" }],
     coverUrl: "/movies_pictures/man_of_steel.jpg",
     releaseDate: "2013-06-14",
-    rating: 0,
+    rating: 4.5,
     length: 143,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
+  },
+  {
+    title: "Superman",
+    director: "James Gunn",
+    actors: [{ name: "David Corenswet" }],
+    coverUrl: "/movies_pictures/superman_2025.jpg",
+    releaseDate: "2025-07-11",
+    rating: 3.75,
+    length: 150,
+    genre: "Action",
+    timesWatched: 1,
+    lastViewedDate: "2025-07-13"
   },
   {
     title: "Watchmen : Les Gardiens",
@@ -457,10 +511,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Jackie Earle Haley" }],
     coverUrl: "/movies_pictures/44070-watchmen-0-150-0-225-crop.jpg",
     releaseDate: "2009-03-06",
-    rating: 0,
+    rating: 3.75,
     length: 162,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Hancock",
@@ -468,10 +523,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/hancock.jpg",
     releaseDate: "2008-07-02",
-    rating: 0,
+    rating: 3.75,
     length: 92,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Les 4 Fantastiques",
@@ -479,10 +535,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Ioan Gruffudd" }],
     coverUrl: "/movies_pictures/46869-fantastic-four-0-150-0-225-crop.jpg",
     releaseDate: "2005-07-08",
-    rating: 0,
+    rating: 3.75,
     length: 106,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Les 4 Fantastiques et le Surfeur d'Argent",
@@ -490,10 +547,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Ioan Gruffudd" }],
     coverUrl: "/movies_pictures/50631-fantastic-four-rise-of-the-silver-surfer-0-150-0-225-crop.jpg",
     releaseDate: "2007-06-15",
-    rating: 0,
+    rating: 3.75,
     length: 92,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Ghost Rider",
@@ -501,10 +559,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Nicolas Cage" }],
     coverUrl: "/movies_pictures/51130-ghost-rider-0-150-0-225-crop.jpg",
     releaseDate: "2007-02-16",
-    rating: 0,
+    rating: 3.25,
     length: 114,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Sky High",
@@ -512,10 +571,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Michael Angarano" }],
     coverUrl: "/movies_pictures/45283-sky-high-0-150-0-225-crop.jpg",
     releaseDate: "2005-07-29",
-    rating: 0,
+    rating: 3.25,
     length: 100,
     genre: "Comedy",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Catwoman",
@@ -523,10 +583,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Halle Berry" }],
     coverUrl: "/movies_pictures/51745-catwoman-0-150-0-225-crop.jpg",
     releaseDate: "2004-07-23",
-    rating: 0,
+    rating: 3.5,
     length: 104,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Hulk",
@@ -534,10 +595,11 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "Eric Bana" }],
     coverUrl: "/movies_pictures/50678-hulk-0-150-0-225-crop.jpg",
     releaseDate: "2003-06-20",
-    rating: 0,
+    rating: 3,
     length: 138,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "The Punisher",
@@ -545,9 +607,50 @@ export const moviesOtherSuperheroes: Movie[] = [
     actors: [{ name: "John Travolta" }],
     coverUrl: "/movies_pictures/18379323.jpg",
     releaseDate: "2004-04-16",
-    rating: 0,
+    rating: 4,
     length: 124,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
+  },
+  {
+    title: "Wonder Woman",
+    director: "Patty Jenkins",
+    actors: [{ name: "Gal Gadot" }],
+    coverUrl: "/movies_pictures/225027-wonder-woman-0-150-0-225-crop.jpg",
+    releaseDate: "2017-06-02",
+    rating: 3.75,
+    length: 141,
+    genre: "Action",
+    timesWatched: 3,
+    lastViewedDate: ""
+  },
+  {
+    title: "Wonder Woman 1984",
+    director: "Patty Jenkins",
+    actors: [
+      {
+        name: "Gal Gadot",
+      },
+    ],
+    coverUrl: "/movies_pictures/395731-wonder-woman-1984-0-150-0-225-crop.jpg",
+    releaseDate: "2020-12-25",
+    rating: 2.75,
+    length: 151,
+    genre: "Action",
+    timesWatched: 1,
+    lastViewedDate: ""
+  },
+  {
+    title: "Les 4 Fantastiques",
+    director: "Josh Trank",
+    actors: [{ name: "Miles Teller" }],
+    coverUrl: "/movies_pictures/123065-fantastic-four-0-150-0-225-crop.jpg",
+    releaseDate: "2015-08-07",
+    rating: 2.75,
+    length: 100,
+    genre: "Action",
+    timesWatched: 1,
+    lastViewedDate: ""
   },
 ];

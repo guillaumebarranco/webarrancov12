@@ -7,10 +7,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Jay Baruchel" }],
     coverUrl: "/movies_pictures/dragon.jpg",
     releaseDate: "2010-03-26",
-    rating: 0,
+    rating: 4,
     length: 98,
     genre: "Animation",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Dragons 2",
@@ -18,13 +19,14 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Jay Baruchel" }],
     coverUrl: "/movies_pictures/69142-how-to-train-your-dragon-2-0-150-0-225-crop.jpg",
     releaseDate: "2014-06-13",
-    rating: 0,
+    rating: 3.5,
     length: 102,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
-    title: "Dragons 3: The Hidden World",
+    title: "Dragons 3: Le monde perdu",
     director: "Dean DeBlois",
     actors: [
       {
@@ -33,10 +35,11 @@ export const moviesAnimated: Movie[] = [
     ],
     coverUrl: "/movies_pictures/123067-how-to-train-your-dragon-the-hidden-world-0-150-0-225-crop.jpg",
     releaseDate: "2019-02-22",
-    rating: 0,
+    rating: 3.5,
     length: 104,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Spider-Man: Into the Spider-Verse",
@@ -48,10 +51,11 @@ export const moviesAnimated: Movie[] = [
     ],
     coverUrl: "/movies_pictures/251943-spider-man-into-the-spider-verse-0-150-0-225-crop.jpg",
     releaseDate: "2018-12-14",
-    rating: 0,
+    rating: 4,
     length: 117,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Spider-Man : À Travers le Spider-Verse",
@@ -63,10 +67,11 @@ export const moviesAnimated: Movie[] = [
     ],
     coverUrl: "/movies_pictures/497631-spider-man-across-the-spider-verse-0-150-0-225-crop.jpg",
     releaseDate: "2023-06-02",
-    rating: 0,
+    rating: 4,
     length: 140,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Les Mondes de Ralph",
@@ -74,10 +79,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "John C. Reilly" }],
     coverUrl: "/movies_pictures/69154-wreck-it-ralph-0-150-0-225-crop.jpg",
     releaseDate: "2012-11-02",
-    rating: 0,
+    rating: 3.5,
     length: 101,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Ralph Breaks the Internet",
@@ -89,10 +95,11 @@ export const moviesAnimated: Movie[] = [
     ],
     coverUrl: "/movies_pictures/338883-ralph-breaks-the-internet-0-150-0-225-crop.jpg",
     releaseDate: "2018-11-21",
-    rating: 0,
+    rating: 3.25,
     length: 112,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Super Mario Bros. le Film",
@@ -104,10 +111,11 @@ export const moviesAnimated: Movie[] = [
     ],
     coverUrl: "/movies_pictures/432302-the-super-mario-bros-movie-0-150-0-225-crop.jpg",
     releaseDate: "2023-04-05",
-    rating: 3.75,
+    rating: 4,
     length: 92,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Encanto",
@@ -119,10 +127,11 @@ export const moviesAnimated: Movie[] = [
     ],
     coverUrl: "/movies_pictures/496592-encanto-0-150-0-225-crop.jpg",
     releaseDate: "2021-11-24",
-    rating: 0,
+    rating: 3.25,
     length: 102,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Cars",
@@ -130,10 +139,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Owen Wilson" }],
     coverUrl: "/movies_pictures/dWg33ektXuHmxjSjEulwDPTWbC2-0-150-0-225-crop.jpg",
     releaseDate: "2006-06-09",
-    rating: 0,
+    rating: 3.75,
     length: 117,
     genre: "Animation",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Cars 3",
@@ -141,10 +151,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Owen Wilson" }],
     coverUrl: "/movies_pictures/184062-cars-3-0-150-0-225-crop.jpg",
     releaseDate: "2016-06-16",
-    rating: 0,
+    rating: 3.5,
     length: 102,
     genre: "Animation",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Baby boss",
@@ -152,10 +163,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Alec Baldwin" }],
     coverUrl: "/movies_pictures/223050-the-boss-baby-0-150-0-225-crop.jpg",
     releaseDate: "2017-03-31",
-    rating: 0,
+    rating: 3,
     length: 97,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Vaiana",
@@ -163,10 +175,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Auli'i Cravalho" }],
     coverUrl: "/movies_pictures/201909-moana-0-150-0-225-crop.jpg",
     releaseDate: "2016-11-23",
-    rating: 0,
+    rating: 3.25,
     length: 107,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Vice-Versa",
@@ -174,10 +187,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Amy Poehler" }],
     coverUrl: "/movies_pictures/113284-inside-out-0-150-0-225-crop.jpg",
     releaseDate: "2015-06-19",
-    rating: 0,
+    rating: 3.75,
     length: 95,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Les Nouveaux Héros",
@@ -185,10 +199,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Ryan Potter" }],
     coverUrl: "/movies_pictures/les_nouveaux_heros.jpg",
     releaseDate: "2014-11-07",
-    rating: 0,
+    rating: 3.75,
     length: 102,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "La Reine des Neiges",
@@ -196,10 +211,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Kristen Bell" }],
     coverUrl: "/movies_pictures/reine_des_neiges.jpg",
     releaseDate: "2013-11-27",
-    rating: 0,
+    rating: 3.25,
     length: 102,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Moi, Moche et Méchant",
@@ -207,10 +223,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Steve Carell" }],
     coverUrl: "/movies_pictures/39067-despicable-me-0-150-0-225-crop.jpg",
     releaseDate: "2010-07-09",
-    rating: 0,
+    rating: 3.25,
     length: 95,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Moi, Moche et Méchant 2",
@@ -218,10 +235,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Steve Carell" }],
     coverUrl: "/movies_pictures/moi_moi_mechant_2.jpg",
     releaseDate: "2013-07-03",
-    rating: 0,
+    rating: 3,
     length: 98,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Les Cinq Légendes",
@@ -229,10 +247,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Chris Pine" }],
     coverUrl: "/movies_pictures/les_cinq_legendes.jpg",
     releaseDate: "2012-11-21",
-    rating: 0,
+    rating: 3.5,
     length: 97,
     genre: "Animation",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "L'Âge de Glace",
@@ -240,10 +259,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Ray Romano" }],
     coverUrl: "/movies_pictures/51670-ice-age-0-150-0-225-crop.jpg",
     releaseDate: "2002-03-15",
-    rating: 0,
+    rating: 4.25,
     length: 81,
     genre: "Animation",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "L'Âge de Glace 2",
@@ -251,10 +271,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Ray Romano" }],
     coverUrl: "/movies_pictures/age_de_glace_2.jpg",
     releaseDate: "2006-03-31",
-    rating: 0,
+    rating: 4,
     length: 91,
     genre: "Animation",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "L'Âge de Glace 3 : Le Temps des Dinosaures",
@@ -262,10 +283,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Ray Romano" }],
     coverUrl: "/movies_pictures/47781-ice-age-dawn-of-the-dinosaurs-0-150-0-225-crop.jpg",
     releaseDate: "2009-07-01",
-    rating: 0,
+    rating: 4,
     length: 94,
     genre: "Animation",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "L'Âge de Glace 4 : La Dérive des Continents",
@@ -273,10 +295,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Ray Romano" }],
     coverUrl: "/movies_pictures/age_de_glace_4.jpg",
     releaseDate: "2012-07-13",
-    rating: 0,
+    rating: 3.75,
     length: 88,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Rebelle",
@@ -284,10 +307,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Kelly Macdonald" }],
     coverUrl: "/movies_pictures/rebelle.jpg",
     releaseDate: "2012-06-22",
-    rating: 0,
+    rating: 3,
     length: 93,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Arthur et les Minimoys",
@@ -295,10 +319,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Freddie Highmore" }],
     coverUrl: "/movies_pictures/46649-arthur-and-the-invisibles-0-150-0-225-crop.jpg",
     releaseDate: "2006-12-13",
-    rating: 0,
+    rating: 4.25,
     length: 94,
     genre: "Fantasy",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Arthur et la Vengeance de Maltazard",
@@ -306,10 +331,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Freddie Highmore" }],
     coverUrl: "/movies_pictures/35270-arthur-and-the-revenge-of-maltazard-0-150-0-225-crop.jpg",
     releaseDate: "2009-12-02",
-    rating: 0,
+    rating: 3.25,
     length: 94,
     genre: "Adventure",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Arthur 3 : La Guerre des Deux Mondes",
@@ -317,10 +343,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Freddie Highmore" }],
     coverUrl: "/movies_pictures/22170-arthur-3-the-war-of-the-two-worlds-0-150-0-225-crop.jpg",
     releaseDate: "2010-10-13",
-    rating: 0,
+    rating: 3.25,
     length: 101,
     genre: "Adventure",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "La Princesse et la Grenouille",
@@ -328,10 +355,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Anika Noni Rose" }],
     coverUrl: "/movies_pictures/bVRHirC6uIZL9VtRqYRxdedYnOG-0-150-0-225-crop.jpg",
     releaseDate: "2009-12-11",
-    rating: 0,
+    rating: 3,
     length: 97,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Tempête de Boulettes Géantes",
@@ -339,10 +367,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Bill Hader" }],
     coverUrl: "/movies_pictures/37696-cloudy-with-a-chance-of-meatballs-0-150-0-225-crop.jpg",
     releaseDate: "2009-09-18",
-    rating: 0,
+    rating: 3.25,
     length: 90,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Monstres contre Aliens",
@@ -354,6 +383,7 @@ export const moviesAnimated: Movie[] = [
     length: 94,
     genre: "Animation",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "WALL-E",
@@ -361,10 +391,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Ben Burtt" }],
     coverUrl: "/movies_pictures/45994-walle-0-150-0-225-crop.jpg",
     releaseDate: "2008-06-27",
-    rating: 0,
+    rating: 3.75,
     length: 98,
     genre: "Animation",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Kung Fu Panda",
@@ -372,10 +403,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Jack Black" }],
     coverUrl: "/movies_pictures/mk3UyyaLyXhgIhmLji25OUPXvGR-0-150-0-225-crop.jpg",
     releaseDate: "2008-06-06",
-    rating: 0,
+    rating: 3.5,
     length: 92,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Bee Movie : Drôle d'Abeille",
@@ -383,10 +415,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Jerry Seinfeld" }],
     coverUrl: "/movies_pictures/48791-bee-movie-0-150-0-225-crop.jpg",
     releaseDate: "2007-11-02",
-    rating: 0,
+    rating: 2.5,
     length: 91,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Les Simpson, le Film",
@@ -398,6 +431,7 @@ export const moviesAnimated: Movie[] = [
     length: 87,
     genre: "Animation",
     timesWatched: 40,
+    lastViewedDate: ""
   },
   {
     title: "Ratatouille",
@@ -405,10 +439,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Patton Oswalt" }],
     coverUrl: "/movies_pictures/ratatouille.jpg",
     releaseDate: "2007-06-29",
-    rating: 0,
+    rating: 3.75,
     length: 111,
     genre: "Animation",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Shrek",
@@ -416,10 +451,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Mike Myers" }],
     coverUrl: "/movies_pictures/51344-shrek-0-150-0-225-crop.jpg",
     releaseDate: "2001-05-18",
-    rating: 0,
+    rating: 4,
     length: 90,
     genre: "Animation",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Shrek 2",
@@ -427,10 +463,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Mike Myers" }],
     coverUrl: "/movies_pictures/shrek_2.jpg",
     releaseDate: "2004-05-19",
-    rating: 0,
+    rating: 3.5,
     length: 93,
     genre: "Animation",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Shrek le Troisième",
@@ -438,10 +475,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Mike Myers" }],
     coverUrl: "/movies_pictures/shrek_3.jpg",
     releaseDate: "2007-05-18",
-    rating: 0,
+    rating: 3.25,
     length: 93,
     genre: "Animation",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Les Indestructibles",
@@ -453,6 +491,7 @@ export const moviesAnimated: Movie[] = [
     length: 115,
     genre: "Animation",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Les Indestructibles 2",
@@ -464,10 +503,11 @@ export const moviesAnimated: Movie[] = [
     ],
     coverUrl: "/movies_pictures/184061-incredibles-2-0-150-0-225-crop.jpg",
     releaseDate: "2018-06-15",
-    rating: 0,
+    rating: 3.5,
     length: 118,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Nemo",
@@ -475,10 +515,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Albert Brooks" }],
     coverUrl: "/movies_pictures/2705-finding-nemo-0-150-0-225-crop.jpg",
     releaseDate: "2003-05-30",
-    rating: 0,
+    rating: 3.5,
     length: 100,
     genre: "Animation",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Monstres et Cie",
@@ -486,10 +527,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "John Goodman" }],
     coverUrl: "/movies_pictures/monstres_et_compagnie.jpg",
     releaseDate: "2001-11-02",
-    rating: 0,
+    rating: 3.5,
     length: 92,
     genre: "Animation",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Toy Story",
@@ -497,10 +539,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Tom Hanks" }],
     coverUrl: "/movies_pictures/51290-toy-story-0-150-0-225-crop.jpg",
     releaseDate: "1995-11-22",
-    rating: 0,
+    rating: 3.5,
     length: 81,
     genre: "Animation",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Toy Story 2",
@@ -508,10 +551,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Tom Hanks" }],
     coverUrl: "/movies_pictures/51289-toy-story-2-0-150-0-225-crop.jpg",
     releaseDate: "1999-11-24",
-    rating: 0,
+    rating: 3.5,
     length: 92,
     genre: "Animation",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "South Park, le Film",
@@ -519,10 +563,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Trey Parker" }],
     coverUrl: "/movies_pictures/47125-south-park-bigger-longer-uncut-0-150-0-225-crop.jpg",
     releaseDate: "1999-06-30",
-    rating: 0,
+    rating: 3,
     length: 81,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Tarzan",
@@ -530,10 +575,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Tony Goldwyn" }],
     coverUrl: "/movies_pictures/tarzan.jpg",
     releaseDate: "1999-06-18",
-    rating: 0,
+    rating: 4.25,
     length: 88,
     genre: "Animation",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Fourmiz",
@@ -541,10 +587,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Woody Allen" }],
     coverUrl: "/movies_pictures/47511-antz-0-150-0-225-crop.jpg",
     releaseDate: "1998-10-02",
-    rating: 0,
+    rating: 3,
     length: 83,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Mulan",
@@ -552,10 +599,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Ming-Na Wen" }],
     coverUrl: "/movies_pictures/266675-mulan-0-150-0-225-crop.jpg",
     releaseDate: "1998-06-19",
-    rating: 0,
+    rating: 3,
     length: 88,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Princesse Mononoké",
@@ -563,10 +611,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Yôji Matsuda" }],
     coverUrl: "/movies_pictures/mNqZOtJIQfFQPjo3hmYLIn8Qqhf-0-150-0-225-crop.jpg",
     releaseDate: "1997-07-12",
-    rating: 0,
+    rating: 3.25,
     length: 134,
     genre: "Animation",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Hercule",
@@ -574,10 +623,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Tate Donovan" }],
     coverUrl: "/movies_pictures/44838-hercules-0-150-0-225-crop.jpg",
     releaseDate: "1997-06-27",
-    rating: 0,
+    rating: 3,
     length: 93,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Pocahontas",
@@ -585,10 +635,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Irene Bedard" }],
     coverUrl: "/movies_pictures/pocahontas.jpg",
     releaseDate: "1995-06-23",
-    rating: 0,
+    rating: 3,
     length: 81,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Space Jam",
@@ -596,10 +647,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Michael Jordan" }],
     coverUrl: "/movies_pictures/space_jam.jpg",
     releaseDate: "1996-11-15",
-    rating: 0,
+    rating: 3,
     length: 88,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Le Roi Lion",
@@ -607,10 +659,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Matthew Broderick" }],
     coverUrl: "/movies_pictures/le roi lion.jpg",
     releaseDate: "1994-06-24",
-    rating: 0,
+    rating: 3.25,
     length: 88,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Aladdin",
@@ -618,10 +671,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Scott Weinger" }],
     coverUrl: "/movies_pictures/aladdin_film.jpg",
     releaseDate: "1992-11-25",
-    rating: 0,
+    rating: 4.5,
     length: 90,
     genre: "Animation",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "La petite sirène",
@@ -629,10 +683,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Jodi Benson" }],
     coverUrl: "/movies_pictures/la_petite_sirene.jpg",
     releaseDate: "1989-11-17",
-    rating: 0,
+    rating: 3,
     length: 83,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Peter Pan",
@@ -640,10 +695,11 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Bobby Driscoll" }],
     coverUrl: "/movies_pictures/45983-peter-pan-0-150-0-225-crop.jpg",
     releaseDate: "1953-02-05",
-    rating: 0,
+    rating: 3.25,
     length: 77,
     genre: "Animation",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Pinocchio",
@@ -651,9 +707,50 @@ export const moviesAnimated: Movie[] = [
     actors: [{ name: "Dickie Jones" }],
     coverUrl: "/movies_pictures/45797-pinocchio-0-150-0-225-crop.jpg",
     releaseDate: "1940-02-07",
-    rating: 0,
+    rating: 2.75,
     length: 88,
     genre: "Animation",
     timesWatched: 3,
+    lastViewedDate: ""
+  },
+  {
+    title: "Megamind",
+    director: "Tom McGrath",
+    actors: [{ name: "Will Ferrell" }],
+    coverUrl: "/movies_pictures/26476-megamind-0-150-0-225-crop.jpg",
+    releaseDate: "2010-11-05",
+    rating: 4.25,
+    length: 95,
+    genre: "Animation",
+    timesWatched: 10,
+    lastViewedDate: ""
+  },
+  {
+    title: "Horton",
+    director: "Jimmy Hayward, Steve Martino",
+    actors: [{ name: "Jim Carrey" }],
+    coverUrl: "/movies_pictures/horton.jpg",
+    releaseDate: "2008-03-14",
+    rating: 2.75,
+    length: 86,
+    genre: "Animation",
+    timesWatched: 1,
+    lastViewedDate: ""
+  },
+  {
+    title: "Raya et le Dernier Dragon",
+    director: "Don Hall, Carlos López Estrada",
+    actors: [
+      {
+        name: "Kelly Marie Tran",
+      },
+    ],
+    coverUrl: "/movies_pictures/457180-raya-and-the-last-dragon-0-150-0-225-crop.jpg",
+    releaseDate: "2021-03-05",
+    rating: 4,
+    length: 107,
+    genre: "Animation",
+    timesWatched: 3,
+    lastViewedDate: ""
   },
 ];

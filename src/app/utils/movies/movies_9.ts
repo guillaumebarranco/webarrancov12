@@ -7,10 +7,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "George Clooney" }],
     coverUrl: "/movies_pictures/oceans_eleven.jpg",
     releaseDate: "2001-12-07",
-    rating: 0,
+    rating: 4.75,
     length: 116,
     genre: "Crime",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Tanguy",
@@ -18,10 +19,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Éric Berger" }],
     coverUrl: "/movies_pictures/50585-tanguy-0-150-0-225-crop.jpg",
     releaseDate: "2001-12-19",
-    rating: 0,
+    rating: 3.25,
     length: 95,
     genre: "Comedy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "The One",
@@ -29,10 +31,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Jet Li" }],
     coverUrl: "/movies_pictures/45888-the-one-0-150-0-225-crop.jpg",
     releaseDate: "2001-11-02",
-    rating: 0,
+    rating: 3.5,
     length: 87,
     genre: "Science Fiction",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Wasabi",
@@ -40,10 +43,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Jean Reno" }],
     coverUrl: "/movies_pictures/50516-wasabi-0-150-0-225-crop.jpg",
     releaseDate: "2001-10-31",
-    rating: 0,
+    rating: 3,
     length: 94,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Training Day",
@@ -51,10 +55,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Denzel Washington" }],
     coverUrl: "/movies_pictures/50580-training-day-0-150-0-225-crop.jpg",
     releaseDate: "2001-10-05",
-    rating: 0,
+    rating: 3.25,
     length: 122,
     genre: "Crime",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "American Pie 2",
@@ -62,10 +67,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Jason Biggs" }],
     coverUrl: "/movies_pictures/50101-american-pie-2-0-150-0-225-crop.jpg",
     releaseDate: "2001-08-10",
-    rating: 0,
+    rating: 3.25,
     length: 108,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Rush Hour 2",
@@ -73,10 +79,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Jackie Chan" }],
     coverUrl: "/movies_pictures/48919-rush-hour-2-0-150-0-225-crop.jpg",
     releaseDate: "2001-08-03",
-    rating: 0,
+    rating: 3.5,
     length: 90,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Shaolin Soccer",
@@ -84,10 +91,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Stephen Chow" }],
     coverUrl: "/movies_pictures/45025-shaolin-soccer-0-150-0-225-crop.jpg",
     releaseDate: "2001-07-12",
-    rating: 0,
+    rating: 3,
     length: 87,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Scary Movie 2",
@@ -95,22 +103,23 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Anna Faris" }],
     coverUrl: "/movies_pictures/49442-scary-movie-2-0-150-0-225-crop.jpg",
     releaseDate: "2001-07-04",
-    rating: 0,
+    rating: 3.5,
     length: 83,
     genre: "Comedy",
     timesWatched: 15,
+    lastViewedDate: ""
   },
-
   {
     title: "Lara Croft : Tomb Raider",
     director: "Simon West",
     actors: [{ name: "Angelina Jolie" }],
     coverUrl: "/movies_pictures/50617-lara-croft-tomb-raider-0-150-0-225-crop.jpg",
     releaseDate: "2001-06-15",
-    rating: 0,
+    rating: 3.25,
     length: 100,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Mulholland Drive",
@@ -118,10 +127,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Naomi Watts" }],
     coverUrl: "/movies_pictures/mulholland_drive.jpg",
     releaseDate: "2001-10-12",
-    rating: 0,
+    rating: 2.5,
     length: 147,
     genre: "Mystery",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Replicant",
@@ -129,10 +139,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Jean-Claude Van Damme" }],
     coverUrl: "/movies_pictures/46077-replicant-0-150-0-225-crop.jpg",
     releaseDate: "2001-05-04",
-    rating: 0,
+    rating: 3,
     length: 100,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Le Retour de la Momie",
@@ -140,10 +151,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Brendan Fraser" }],
     coverUrl: "/movies_pictures/50818-the-mummy-returns-0-150-0-225-crop.jpg",
     releaseDate: "2001-05-04",
-    rating: 0,
+    rating: 3.5,
     length: 130,
     genre: "Adventure",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Spy Kids",
@@ -151,10 +163,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Alexa Vega" }],
     coverUrl: "/movies_pictures/spy_kids.jpg",
     releaseDate: "2001-03-30",
-    rating: 0,
+    rating: 3.25,
     length: 88,
     genre: "Adventure",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Battle Royale",
@@ -162,10 +175,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Tatsuya Fujiwara" }],
     coverUrl: "/movies_pictures/49810-battle-royale-0-150-0-225-crop.jpg",
     releaseDate: "2000-12-16",
-    rating: 0,
+    rating: 2.75,
     length: 114,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Miss Détective",
@@ -173,22 +187,23 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Sandra Bullock" }],
     coverUrl: "/movies_pictures/51006-miss-congeniality-0-150-0-225-crop.jpg",
     releaseDate: "2000-12-22",
-    rating: 0,
+    rating: 3,
     length: 111,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
-
   {
     title: "Incassable",
     director: "M. Night Shyamalan",
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/46866-unbreakable-0-150-0-225-crop.jpg",
     releaseDate: "2000-11-22",
-    rating: 0,
+    rating: 4.75,
     length: 106,
     genre: "Thriller",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "A l'aube du 6ème jour",
@@ -196,10 +211,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/a_l_aube_du_sixieme_jour.jpg",
     releaseDate: "2000-11-17",
-    rating: 0,
+    rating: 3.75,
     length: 123,
     genre: "Science Fiction",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Memento",
@@ -207,10 +223,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Guy Pearce" }],
     coverUrl: "/movies_pictures/memento-0-150-0-225-crop.jpg",
     releaseDate: "2000-09-05",
-    rating: 0,
+    rating: 3.25,
     length: 113,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Snatch",
@@ -218,10 +235,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Jason Statham" }],
     coverUrl: "/movies_pictures/snatch.jpg",
     releaseDate: "2000-09-01",
-    rating: 0,
+    rating: 3,
     length: 104,
     genre: "Crime",
     timesWatched: 0,
+    lastViewedDate: ""
   },
   {
     title: "Scary Movie",
@@ -229,10 +247,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Anna Faris" }],
     coverUrl: "/movies_pictures/49443-scary-movie-0-150-0-225-crop.jpg",
     releaseDate: "2000-07-07",
-    rating: 0,
+    rating: 4.25,
     length: 88,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Requiem for a Dream",
@@ -240,10 +259,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Ellen Burstyn" }],
     coverUrl: "/movies_pictures/requiem_for_a_dream.jpg",
     releaseDate: "2000-10-06",
-    rating: 0,
+    rating: 2.5,
     length: 102,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Gladiator",
@@ -251,10 +271,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Russell Crowe" }],
     coverUrl: "/movies_pictures/51952-gladiator-2000-0-150-0-225-crop.jpg",
     releaseDate: "2000-05-05",
-    rating: 0,
+    rating: 3.25,
     length: 155,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Taxi 2",
@@ -262,10 +283,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Samy Naceri" }],
     coverUrl: "/movies_pictures/50322-taxi-2-0-150-0-225-crop.jpg",
     releaseDate: "2000-03-31",
-    rating: 0,
+    rating: 3.5,
     length: 88,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Destination Finale",
@@ -273,10 +295,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Devon Sawa" }],
     coverUrl: "/movies_pictures/47068-final-destination-0-150-0-225-crop.jpg",
     releaseDate: "2000-03-17",
-    rating: 0,
+    rating: 3.5,
     length: 98,
     genre: "Horror",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Mon voisin le tueur",
@@ -284,10 +307,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/50554-the-whole-nine-yards-0-150-0-225-crop.jpg",
     releaseDate: "2000-02-18",
-    rating: 0,
+    rating: 3,
     length: 98,
     genre: "Comedy",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Scream 3",
@@ -295,10 +319,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Neve Campbell" }],
     coverUrl: "/movies_pictures/49453-scream-3-0-150-0-225-crop.jpg",
     releaseDate: "2000-02-04",
-    rating: 0,
+    rating: 3,
     length: 116,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "La Ligne Verte",
@@ -306,10 +331,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Tom Hanks" }],
     coverUrl: "/movies_pictures/51613-the-green-mile-0-150-0-225-crop.jpg",
     releaseDate: "1999-12-10",
-    rating: 0,
+    rating: 4.25,
     length: 189,
     genre: "Drama",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "American Beauty",
@@ -317,10 +343,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Kevin Spacey" }],
     coverUrl: "/movies_pictures/2703-american-beauty-0-150-0-225-crop.jpg",
     releaseDate: "1999-09-15",
-    rating: 0,
+    rating: 3,
     length: 122,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Sixième Sens",
@@ -328,10 +355,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/51407-the-sixth-sense-0-150-0-225-crop.jpg",
     releaseDate: "1999-08-06",
-    rating: 0,
+    rating: 3.25,
     length: 107,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "American Pie",
@@ -339,10 +367,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Jason Biggs" }],
     coverUrl: "/movies_pictures/50521-american-pie-0-150-0-225-crop.jpg",
     releaseDate: "1999-07-09",
-    rating: 0,
+    rating: 3.75,
     length: 95,
     genre: "Comedy",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Wild Wild West",
@@ -350,10 +379,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/wild_wild_west.jpg",
     releaseDate: "1999-06-30",
-    rating: 0,
+    rating: 3.5,
     length: 106,
     genre: "Comedy",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "La Momie",
@@ -361,10 +391,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Brendan Fraser" }],
     coverUrl: "/movies_pictures/la_momie.jpg",
     releaseDate: "1999-05-07",
-    rating: 0,
+    rating: 4.5,
     length: 125,
     genre: "Adventure",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Matrix",
@@ -372,10 +403,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Keanu Reeves" }],
     coverUrl: "/movies_pictures/51518-the-matrix-0-150-0-225-crop.jpg",
     releaseDate: "1999-03-31",
-    rating: 0,
+    rating: 4.5,
     length: 136,
     genre: "Science Fiction",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Sex intentions",
@@ -383,10 +415,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Sarah Michelle Gellar" }],
     coverUrl: "/movies_pictures/51356-cruel-intentions-0-150-0-225-crop.jpg",
     releaseDate: "1999-03-05",
-    rating: 0,
+    rating: 3,
     length: 97,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Rush Hour",
@@ -394,10 +427,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Jackie Chan" }],
     coverUrl: "/movies_pictures/50517-rush-hour-0-150-0-225-crop.jpg",
     releaseDate: "1998-09-18",
-    rating: 0,
+    rating: 4,
     length: 98,
     genre: "Action",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Blade",
@@ -405,10 +439,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Wesley Snipes" }],
     coverUrl: "/movies_pictures/27730-blade-0-150-0-225-crop.jpg",
     releaseDate: "1998-08-21",
-    rating: 0,
+    rating: 3.25,
     length: 120,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "L'arme fatale 4",
@@ -416,10 +451,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Mel Gibson" }],
     coverUrl: "/movies_pictures/51209-lethal-weapon-4-0-150-0-225-crop.jpg",
     releaseDate: "1998-07-10",
-    rating: 0,
+    rating: 4,
     length: 127,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Armageddon",
@@ -427,10 +463,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/51955-armageddon-0-150-0-225-crop.jpg",
     releaseDate: "1998-07-01",
-    rating: 0,
+    rating: 4.25,
     length: 151,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "The Truman Show",
@@ -438,10 +475,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Jim Carrey" }],
     coverUrl: "/movies_pictures/the-truman-show-0-150-0-225-crop.jpg",
     releaseDate: "1998-06-05",
-    rating: 0,
+    rating: 3.75,
     length: 103,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Godzilla",
@@ -449,10 +487,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Matthew Broderick" }],
     coverUrl: "/movies_pictures/51224-godzilla-0-150-0-225-crop.jpg",
     releaseDate: "1998-05-20",
-    rating: 0,
+    rating: 3.5,
     length: 139,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Le Dîner de Cons",
@@ -460,10 +499,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Thierry Lhermitte" }],
     coverUrl: "/movies_pictures/47176-the-dinner-game-0-150-0-225-crop.jpg",
     releaseDate: "1998-04-15",
-    rating: 0,
+    rating: 4.25,
     length: 80,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Taxi",
@@ -471,10 +511,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Samy Naceri" }],
     coverUrl: "/movies_pictures/50324-taxi-0-150-0-225-crop.jpg",
     releaseDate: "1998-04-08",
-    rating: 0,
+    rating: 4.5,
     length: 86,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: "2025-04-08"
   },
   {
     title: "Code mercury",
@@ -482,10 +523,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/47583-mercury-rising-0-150-0-225-crop.jpg",
     releaseDate: "1998-04-03",
-    rating: 0,
+    rating: 3.25,
     length: 111,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "The Big Lebowski",
@@ -493,10 +535,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Jeff Bridges" }],
     coverUrl: "/movies_pictures/51935-the-big-lebowski-0-150-0-225-crop.jpg",
     releaseDate: "1998-03-06",
-    rating: 0,
+    rating: 3,
     length: 117,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Scream 2",
@@ -504,10 +547,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Neve Campbell" }],
     coverUrl: "/movies_pictures/scream_2.jpg",
     releaseDate: "1997-12-12",
-    rating: 0,
+    rating: 3,
     length: 120,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Will Hunting",
@@ -515,10 +559,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Matt Damon" }],
     coverUrl: "/movies_pictures/51621-good-will-hunting-0-150-0-225-crop.jpg",
     releaseDate: "1997-12-05",
-    rating: 0,
+    rating: 4.5,
     length: 126,
     genre: "Drama",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Alien : La Résurrection",
@@ -526,10 +571,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Sigourney Weaver" }],
     coverUrl: "/movies_pictures/47887-alien-resurrection-0-150-0-225-crop.jpg",
     releaseDate: "1997-11-26",
-    rating: 0,
+    rating: 3.5,
     length: 109,
     genre: "Science Fiction",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Je Sais ce que Vous Avez Fait l'Été Dernier",
@@ -537,10 +583,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Jennifer Love Hewitt" }],
     coverUrl: "/movies_pictures/49638-i-know-what-you-did-last-summer-0-150-0-225-crop.jpg",
     releaseDate: "1997-10-17",
-    rating: 0,
+    rating: 3,
     length: 101,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "L'Avocat du Diable",
@@ -548,10 +595,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Keanu Reeves" }],
     coverUrl: "/movies_pictures/50780-the-devil-s-advocate-0-150-0-225-crop.jpg",
     releaseDate: "1997-10-17",
-    rating: 0,
+    rating: 3.25,
     length: 144,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Men in Black",
@@ -559,10 +607,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/51514-men-in-black-0-150-0-225-crop.jpg",
     releaseDate: "1997-07-02",
-    rating: 0,
+    rating: 4,
     length: 98,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Le Cinquième Élément",
@@ -570,10 +619,11 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/le_cinquieme_element.jpg",
     releaseDate: "1997-05-09",
-    rating: 0,
+    rating: 3.5,
     length: 126,
     genre: "Science Fiction",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Scream",
@@ -581,9 +631,10 @@ export const moviesPage9: Movie[] = [
     actors: [{ name: "Neve Campbell" }],
     coverUrl: "/movies_pictures/49455-scream-0-150-0-225-crop.jpg",
     releaseDate: "1996-12-20",
-    rating: 0,
+    rating: 3.5,
     length: 111,
     genre: "Horror",
     timesWatched: 2,
+    lastViewedDate: ""
   },
 ];

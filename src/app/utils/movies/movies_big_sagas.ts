@@ -7,10 +7,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Daniel Radcliffe" }],
     coverUrl: "/movies_pictures/harry_potter_ecole_des_sorciers.jpg",
     releaseDate: "2001-11-16",
-    rating: 0,
+    rating: 5,
     length: 152,
     genre: "Fantasy",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Harry Potter et la chambre des secrets",
@@ -18,10 +19,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Daniel Radcliffe" }],
     coverUrl: "/movies_pictures/harry_potter_chambre_des_secrets.jpg",
     releaseDate: "2002-11-15",
-    rating: 0,
+    rating: 4.5,
     length: 161,
     genre: "Fantasy",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Harry Potter et le prisonnier d'Azkaban",
@@ -29,10 +31,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Daniel Radcliffe" }],
     coverUrl: "/movies_pictures/harry_potter_prisonnier_askaban.jpg",
     releaseDate: "2004-06-04",
-    rating: 0,
+    rating: 4.5,
     length: 142,
     genre: "Fantasy",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Harry Potter et la coupe de feu",
@@ -40,10 +43,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Daniel Radcliffe" }],
     coverUrl: "/movies_pictures/51450-harry-potter-and-the-goblet-of-fire-0-150-0-225-crop.jpg",
     releaseDate: "2005-11-18",
-    rating: 0,
+    rating: 4.25,
     length: 157,
     genre: "Fantasy",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Harry Potter et l'ordre du phénix",
@@ -51,10 +55,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Daniel Radcliffe" }],
     coverUrl: "/movies_pictures/harry_potter_ordre_du_phenix.jpg",
     releaseDate: "2007-07-11",
-    rating: 0,
+    rating: 4.25,
     length: 138,
     genre: "Fantasy",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Harry Potter et le prince de sang-mêlé",
@@ -62,10 +67,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Daniel Radcliffe" }],
     coverUrl: "/movies_pictures/51385-harry-potter-and-the-half-blood-prince-0-150-0-225-crop.jpg",
     releaseDate: "2009-07-15",
-    rating: 0,
+    rating: 3.5,
     length: 153,
     genre: "Fantasy",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Harry Potter et les reliques de la mort - partie 1",
@@ -73,10 +79,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Daniel Radcliffe" }],
     coverUrl: "/movies_pictures/harry-potter-and-the-deathly-hallows-part-i-original-0-150-0-225-crop.jpg",
     releaseDate: "2010-11-19",
-    rating: 0,
+    rating: 3.75,
     length: 146,
     genre: "Fantasy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Harry Potter et les reliques de la mort - partie 2",
@@ -84,10 +91,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Daniel Radcliffe" }],
     coverUrl: "/movies_pictures/44580-harry-potter-and-the-deathly-hallows-part-2-0-150-0-225-crop.jpg",
     releaseDate: "2011-07-15",
-    rating: 0,
+    rating: 3.75,
     length: 130,
     genre: "Fantasy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Star Wars : Épisode 1 - La menace fantôme",
@@ -95,10 +103,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Liam Neeson" }],
     coverUrl: "/movies_pictures/50711-star-wars-episode-i-the-phantom-menace-0-150-0-225-crop.jpg",
     releaseDate: "1999-05-19",
-    rating: 0,
+    rating: 4,
     length: 136,
     genre: "Science Fiction",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Star Wars: Episode 2 - L'attaque des clones",
@@ -106,10 +115,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Hayden Christensen" }],
     coverUrl: "/movies_pictures/50710-star-wars-episode-ii-attack-of-the-clones-0-150-0-225-crop.jpg",
     releaseDate: "2002-05-16",
-    rating: 0,
+    rating: 4.25,
     length: 142,
     genre: "Science Fiction",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Star Wars : Épisode 3 - La revanche des Sith",
@@ -117,10 +127,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Hayden Christensen" }],
     coverUrl: "/movies_pictures/50709-star-wars-episode-iii-revenge-of-the-sith-0-150-0-225-crop.jpg",
     releaseDate: "2005-05-19",
-    rating: 0,
+    rating: 4.75,
     length: 140,
     genre: "Science Fiction",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Star Wars : Episode 4 - Un nouvel espoir",
@@ -128,10 +139,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Mark Hamill" }],
     coverUrl: "/movies_pictures/star_wars_nouvel_espoir.jpg",
     releaseDate: "1977-05-25",
-    rating: 0,
+    rating: 4,
     length: 121,
     genre: "Science Fiction",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Star Wars : Episode 5 - L'empire contre-attaque",
@@ -139,10 +151,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Mark Hamill" }],
     coverUrl: "/movies_pictures/star_wars_empire_contre_attaque.jpg",
     releaseDate: "1980-05-21",
-    rating: 0,
+    rating: 4,
     length: 124,
     genre: "Science Fiction",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Star Wars : Episode 6 - Le retour du Jedi",
@@ -150,10 +163,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Mark Hamill" }],
     coverUrl: "/movies_pictures/star_wars_retour_du_jedi.jpg",
     releaseDate: "1983-05-25",
-    rating: 0,
+    rating: 4.25,
     length: 131,
     genre: "Science Fiction",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Star Wars : Episode 7 - Le réveil de la Force",
@@ -161,10 +175,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Daisy Ridley" }],
     coverUrl: "/movies_pictures/star_wars_le_reveil_de_la_force.jpg",
     releaseDate: "2015-12-18",
-    rating: 0,
+    rating: 3.75,
     length: 138,
     genre: "Science Fiction",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Star Wars : Episode 8 - Le dernier Jedi",
@@ -176,10 +191,11 @@ export const moviesBigSagas: Movie[] = [
     ],
     coverUrl: "/movies_pictures/star_wars_le_dernier_jedi.jpg",
     releaseDate: "2017-12-15",
-    rating: 0,
+    rating: 3.5,
     length: 152,
     genre: "Science Fiction",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Star Wars : Episode 9 - L'ascension de Skywalker",
@@ -191,10 +207,11 @@ export const moviesBigSagas: Movie[] = [
     ],
     coverUrl: "/movies_pictures/131984-star-wars-the-rise-of-skywalker-0-150-0-225-crop.jpg",
     releaseDate: "2019-12-20",
-    rating: 0,
+    rating: 2.5,
     length: 142,
     genre: "Science Fiction",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Solo: A Star Wars Story",
@@ -206,10 +223,11 @@ export const moviesBigSagas: Movie[] = [
     ],
     coverUrl: "/movies_pictures/278668-solo-a-star-wars-story-0-150-0-225-crop.jpg",
     releaseDate: "2018-05-25",
-    rating: 0,
+    rating: 3.25,
     length: 0,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Rogue One : A Star Wars Story",
@@ -217,10 +235,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Felicity Jones" }],
     coverUrl: "/movies_pictures/258128-rogue-one-a-star-wars-story-0-150-0-225-crop.jpg",
     releaseDate: "2016-12-16",
-    rating: 0,
+    rating: 3.25,
     length: 133,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Fast and Furious",
@@ -228,10 +247,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Vin Diesel" }],
     coverUrl: "/movies_pictures/46813-the-fast-and-the-furious-0-150-0-225-crop.jpg",
     releaseDate: "2001-06-22",
-    rating: 0,
+    rating: 3.75,
     length: 106,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "2 Fast 2 Furious",
@@ -239,10 +259,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Paul Walker" }],
     coverUrl: "/movies_pictures/51536-2-fast-2-furious-0-150-0-225-crop.jpg",
     releaseDate: "2003-06-06",
-    rating: 0,
+    rating: 4,
     length: 107,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Fast and Furious : Tokyo Drift",
@@ -250,10 +271,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Lucas Black" }],
     coverUrl: "/movies_pictures/46986-the-fast-and-the-furious-tokyo-drift-0-150-0-225-crop.jpg",
     releaseDate: "2006-06-16",
-    rating: 0,
+    rating: 4,
     length: 104,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Fast & Furious 4",
@@ -261,10 +283,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Vin Diesel" }],
     coverUrl: "/movies_pictures/43582-fast-furious-0-150-0-225-crop.jpg",
     releaseDate: "2009-04-03",
-    rating: 0,
+    rating: 3.75,
     length: 107,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Fast & Furious 5",
@@ -272,10 +295,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Vin Diesel" }],
     coverUrl: "/movies_pictures/fast_furious_cinq.jpg",
     releaseDate: "2011-04-29",
-    rating: 0,
+    rating: 4,
     length: 130,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Fast & Furious 6",
@@ -283,10 +307,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Vin Diesel" }],
     coverUrl: "/movies_pictures/69453-fast-furious-6-0-150-0-225-crop.jpg",
     releaseDate: "2013-05-24",
-    rating: 0,
+    rating: 3.5,
     length: 130,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Fast & Furious 7",
@@ -294,10 +319,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Vin Diesel" }],
     coverUrl: "/movies_pictures/124133-furious-7-0-150-0-225-crop.jpg",
     releaseDate: "2015-04-03",
-    rating: 0,
+    rating: 3.5,
     length: 137,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Fast & Furious Presents: Hobbs & Shaw",
@@ -309,10 +335,11 @@ export const moviesBigSagas: Movie[] = [
     ],
     coverUrl: "/movies_pictures/318913-fast-furious-presents-hobbs-shaw-0-150-0-225-crop.jpg",
     releaseDate: "2019-08-02",
-    rating: 0,
+    rating: 3.25,
     length: 137,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Fast & Furious 9",
@@ -324,10 +351,11 @@ export const moviesBigSagas: Movie[] = [
     ],
     coverUrl: "/movies_pictures/fast_and_furious_9.jpg",
     releaseDate: "2021-06-25",
-    rating: 0,
+    rating: 3,
     length: 145,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Fast & Furious X",
@@ -339,10 +367,11 @@ export const moviesBigSagas: Movie[] = [
     ],
     coverUrl: "/movies_pictures/320481-fast-x-0-150-0-225-crop.jpg",
     releaseDate: "2023-05-19",
-    rating: 0,
+    rating: 3,
     length: 141,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Rocky",
@@ -350,10 +379,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/rocky.jpg",
     releaseDate: "1976-11-21",
-    rating: 0,
+    rating: 3.5,
     length: 120,
     genre: "Drama",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Rocky II",
@@ -361,10 +391,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/51089-rocky-ii-0-150-0-225-crop.jpg",
     releaseDate: "1979-06-15",
-    rating: 0,
+    rating: 3.25,
     length: 119,
     genre: "Drama",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Rocky III",
@@ -372,10 +403,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/eX2RbfTV5figCysWEmC6ubmXIgm-0-150-0-225-crop.jpg",
     releaseDate: "1982-05-28",
-    rating: 0,
+    rating: 3.75,
     length: 99,
     genre: "Drama",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Rocky IV",
@@ -383,10 +415,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/51082-rocky-iv-0-150-0-225-crop.jpg",
     releaseDate: "1985-11-27",
-    rating: 0,
+    rating: 4.5,
     length: 91,
     genre: "Drama",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Rocky V",
@@ -394,10 +427,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/51081-rocky-v-0-150-0-225-crop.jpg",
     releaseDate: "1990-11-16",
-    rating: 0,
+    rating: 3.5,
     length: 104,
     genre: "Drama",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Rocky Balboa",
@@ -405,10 +439,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/51134-rocky-balboa-0-150-0-225-crop.jpg",
     releaseDate: "2006-12-20",
-    rating: 0,
+    rating: 4.25,
     length: 102,
     genre: "Drama",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "The Terminator",
@@ -416,10 +451,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/the-terminator-original-0-150-0-225-crop.jpg",
     releaseDate: "1984-10-26",
-    rating: 0,
+    rating: 3.75,
     length: 107,
     genre: "Science Fiction",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Terminator 2: Judgment Day",
@@ -427,10 +463,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/terminator-2-judgment-day-original-0-150-0-225-crop.jpg",
     releaseDate: "1991-07-03",
-    rating: 0,
+    rating: 4,
     length: 137,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Terminator 3: Rise of the Machines",
@@ -438,10 +475,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/51763-terminator-3-rise-of-the-machines-0-150-0-225-crop.jpg",
     releaseDate: "2003-07-02",
-    rating: 0,
+    rating: 3.75,
     length: 109,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Terminator Renaissance",
@@ -449,10 +487,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Christian Bale" }],
     coverUrl: "/movies_pictures/51583-terminator-salvation-0-150-0-225-crop.jpg",
     releaseDate: "2009-05-21",
-    rating: 0,
+    rating: 3.25,
     length: 115,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Terminator Genisys",
@@ -460,10 +499,11 @@ export const moviesBigSagas: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/73594-terminator-genisys-0-150-0-225-crop.jpg",
     releaseDate: "2015-07-01",
-    rating: 0,
+    rating: 3.75,
     length: 126,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Terminator: Dark Fate",
@@ -475,9 +515,10 @@ export const moviesBigSagas: Movie[] = [
     ],
     coverUrl: "/movies_pictures/217178-terminator-dark-fate-0-150-0-225-crop.jpg",
     releaseDate: "2019-11-01",
-    rating: 0,
+    rating: 3.5,
     length: 128,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
 ]

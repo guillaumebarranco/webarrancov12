@@ -1,17 +1,17 @@
 import { Movie } from "./movies_1";
 
 export const moviesPage7: Movie[] = [
-
   {
-    title: "Nuit au Musée",
+    title: "La nuit au musée",
     director: "Shawn Levy",
     actors: [{ name: "Ben Stiller" }],
     coverUrl: "/movies_pictures/50941-night-at-the-museum-0-150-0-225-crop.jpg",
     releaseDate: "2006-12-22",
-    rating: 0,
+    rating: 3.5,
     length: 108,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "À la Recherche du Bonheur",
@@ -19,10 +19,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/51061-the-pursuit-of-happyness-0-150-0-225-crop.jpg",
     releaseDate: "2006-12-15",
-    rating: 0,
+    rating: 4,
     length: 117,
     genre: "Drama",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Hors de Prix",
@@ -30,10 +31,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Audrey Tautou" }],
     coverUrl: "/movies_pictures/48206-priceless-0-150-0-225-crop.jpg",
     releaseDate: "2006-12-27",
-    rating: 0,
+    rating: 3,
     length: 104,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "300",
@@ -41,10 +43,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Gerard Butler" }],
     coverUrl: "/movies_pictures/51111-300-0-150-0-225-crop.jpg",
     releaseDate: "2007-03-09",
-    rating: 0,
+    rating: 2.75,
     length: 117,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Blood Diamond",
@@ -52,10 +55,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Leonardo DiCaprio" }],
     coverUrl: "/movies_pictures/51084-blood-diamond-0-150-0-225-crop.jpg",
     releaseDate: "2006-12-08",
-    rating: 0,
+    rating: 3.25,
     length: 143,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: "2025-05-08"
   },
   {
     title: "American Pie Presents: The Naked Mile",
@@ -63,10 +67,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "John White" }],
     coverUrl: "/movies_pictures/47831-american-pie-presents-the-naked-mile-0-150-0-225-crop.jpg",
     releaseDate: "2006-12-19",
-    rating: 0,
+    rating: 3,
     length: 97,
     genre: "Comedy",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Casino Royale",
@@ -74,10 +79,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Daniel Craig" }],
     coverUrl: "/movies_pictures/casino_royal.jpg",
     releaseDate: "2006-11-17",
-    rating: 0,
+    rating: 5,
     length: 144,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Le Prestige",
@@ -85,10 +91,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Christian Bale" }],
     coverUrl: "/movies_pictures/51147-the-prestige-0-150-0-225-crop.jpg",
     releaseDate: "2006-10-20",
-    rating: 0,
+    rating: 4,
     length: 130,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Les Infiltrés",
@@ -96,10 +103,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Leonardo DiCaprio" }],
     coverUrl: "/movies_pictures/les_infiltres.jpg",
     releaseDate: "2006-10-06",
-    rating: 0,
+    rating: 3.75,
     length: 151,
     genre: "Crime",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Admis à tout prix",
@@ -107,10 +115,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Justin Long" }],
     coverUrl: "/movies_pictures/46823-accepted-0-150-0-225-crop.jpg",
     releaseDate: "2006-08-18",
-    rating: 0,
+    rating: 3.5,
     length: 93,
     genre: "Comedy",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Nos Jours heureux",
@@ -118,10 +127,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Vincent Claude" }],
     coverUrl: "/movies_pictures/39863-those-happy-days-0-150-0-225-crop.jpg",
     releaseDate: "2006-07-19",
-    rating: 0,
+    rating: 4.75,
     length: 95,
     genre: "Comedy",
-    timesWatched: 30,
+    timesWatched: 31,
+    lastViewedDate: "2025-07-10"
   },
   {
     title: "Pirates des Caraïbes : Le Secret du Coffre Maudit",
@@ -129,10 +139,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Johnny Depp" }],
     coverUrl: "/movies_pictures/51989-pirates-of-the-caribbean-dead-man-s-chest-0-150-0-225-crop.jpg",
     releaseDate: "2006-07-07",
-    rating: 0,
+    rating: 4.25,
     length: 151,
     genre: "Adventure",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Le Diable s'Habille en Prada",
@@ -140,10 +151,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Anne Hathaway" }],
     coverUrl: "/movies_pictures/51712-the-devil-wears-prada-0-150-0-225-crop.jpg",
     releaseDate: "2006-06-30",
-    rating: 0,
+    rating: 4,
     length: 109,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Babel",
@@ -151,10 +163,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Brad Pitt" }],
     coverUrl: "/movies_pictures/51140-babel-0-150-0-225-crop.jpg",
     releaseDate: "2006-11-10",
-    rating: 0,
+    rating: 2.75,
     length: 143,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "De l'autre côté du lit",
@@ -162,10 +175,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Vince Vaughn" }],
     coverUrl: "/movies_pictures/46843-the-break-up-0-150-0-225-crop.jpg",
     releaseDate: "2006-06-02",
-    rating: 0,
+    rating: 2.5,
     length: 106,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Da Vinci Code",
@@ -173,10 +187,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Tom Hanks" }],
     coverUrl: "/movies_pictures/da_vinci_code.jpg",
     releaseDate: "2006-05-19",
-    rating: 0,
+    rating: 3,
     length: 149,
     genre: "Mystery",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Camping",
@@ -184,10 +199,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Gérard Lanvin" }],
     coverUrl: "/movies_pictures/44197-camping-0-150-0-225-crop.jpg",
     releaseDate: "2006-04-26",
-    rating: 0,
+    rating: 2.75,
     length: 111,
     genre: "Comedy",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "OSS 117 : Le Caire, Nid d'Espions",
@@ -195,10 +211,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Jean Dujardin" }],
     coverUrl: "/movies_pictures/42559-oss-117-cairo-nest-of-spies-0-150-0-225-crop.jpg",
     releaseDate: "2006-04-19",
-    rating: 0,
+    rating: 4.5,
     length: 99,
     genre: "Comedy",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Scary Movie 4",
@@ -206,10 +223,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Anna Faris" }],
     coverUrl: "/movies_pictures/49433-scary-movie-4-0-150-0-225-crop.jpg",
     releaseDate: "2006-04-14",
-    rating: 0,
+    rating: 3.25,
     length: 83,
     genre: "Comedy",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Volver",
@@ -217,10 +235,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Penélope Cruz" }],
     coverUrl: "/movies_pictures/51837-volver-0-150-0-225-crop.jpg",
     releaseDate: "2006-03-17",
-    rating: 0,
+    rating: 2.5,
     length: 121,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Destination Finale 3",
@@ -228,10 +247,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Mary Elizabeth Winstead" }],
     coverUrl: "/movies_pictures/47306-final-destination-3-0-150-0-225-crop.jpg",
     releaseDate: "2006-02-10",
-    rating: 0,
+    rating: 3.75,
     length: 93,
     genre: "Horror",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Incontrôlable",
@@ -239,10 +259,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Kad Merad" }],
     coverUrl: "/movies_pictures/43655-incontrolable-0-150-0-225-crop.jpg",
     releaseDate: "2006-02-01",
-    rating: 0,
+    rating: 2.5,
     length: 90,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Les Bronzés 3 : Amis pour la Vie",
@@ -250,10 +271,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Josiane Balasko" }],
     coverUrl: "/movies_pictures/38412-french-fried-vacation-3-0-150-0-225-crop.jpg",
     releaseDate: "2006-01-25",
-    rating: 0,
+    rating: 2.5,
     length: 95,
     genre: "Comedy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Underworld : Évolution",
@@ -261,10 +283,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Kate Beckinsale" }],
     coverUrl: "/movies_pictures/51318-underworld-evolution-0-150-0-225-crop.jpg",
     releaseDate: "2006-01-20",
-    rating: 0,
+    rating: 3.75,
     length: 106,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "V pour Vendetta",
@@ -272,10 +295,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Hugo Weaving" }],
     coverUrl: "/movies_pictures/51400-v-for-vendetta-0-150-0-225-crop.jpg",
     releaseDate: "2006-03-17",
-    rating: 0,
+    rating: 5,
     length: 132,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: "2025-04-17"
   },
   {
     title: "Le Monde de Narnia : Le Lion, la Sorcière Blanche et l'Armoire Magique",
@@ -283,21 +307,23 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Georgie Henley" }],
     coverUrl: "/movies_pictures/narnia.jpg",
     releaseDate: "2005-12-09",
-    rating: 0,
+    rating: 3.25,
     length: 143,
     genre: "Fantasy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "King Kong",
     director: "Peter Jackson",
     actors: [{ name: "Naomi Watts" }],
     coverUrl: "/movies_pictures/king_kong.jpg",
-    releaseDate: "2005-12-14",
-    rating: 0,
+    releaseDate: "2025-02-17",
+    rating: 4,
     length: 187,
     genre: "Adventure",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "American Pie Presents: Band Camp",
@@ -305,10 +331,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Tad Hilgenbrink" }],
     coverUrl: "/movies_pictures/american_pie_band_camp.jpg",
     releaseDate: "2005-12-26",
-    rating: 0,
+    rating: 3,
     length: 97,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Nanny McPhee",
@@ -316,10 +343,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Emma Thompson" }],
     coverUrl: "/movies_pictures/45448-nanny-mcphee-0-150-0-225-crop.jpg",
     releaseDate: "2005-10-21",
-    rating: 0,
+    rating: 2.5,
     length: 97,
     genre: "Fantasy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Lord of War",
@@ -327,10 +355,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Nicolas Cage" }],
     coverUrl: "/movies_pictures/50769-lord-of-war-0-150-0-225-crop.jpg",
     releaseDate: "2005-09-16",
-    rating: 0,
+    rating: 3.5,
     length: 122,
     genre: "Crime",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Serenity",
@@ -338,10 +367,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Nathan Fillion" }],
     coverUrl: "/movies_pictures/serenity-0-150-0-225-crop.jpg",
     releaseDate: "2005-09-30",
-    rating: 0,
+    rating: 3.25,
     length: 119,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "L'honneur du dragon",
@@ -349,10 +379,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Tony Jaa" }],
     coverUrl: "/movies_pictures/47454-the-protector-0-150-0-225-crop.jpg",
     releaseDate: "2005-08-11",
-    rating: 0,
+    rating: 2.75,
     length: 110,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "40 Ans, Toujours Puceau",
@@ -360,10 +391,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Steve Carell" }],
     coverUrl: "/movies_pictures/48160-the-40-year-old-virgin-0-150-0-225-crop.jpg",
     releaseDate: "2005-08-19",
-    rating: 0,
+    rating: 2.75,
     length: 116,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Sous haute pression",
@@ -371,10 +403,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Rachel McAdams" }],
     coverUrl: "/movies_pictures/45282-red-eye-0-150-0-225-crop.jpg",
     releaseDate: "2005-08-19",
-    rating: 0,
+    rating: 3.25,
     length: 85,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: "2025-05-19"
   },
   {
     title: "Le Transporteur 2",
@@ -382,10 +415,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Jason Statham" }],
     coverUrl: "/movies_pictures/47259-transporter-2-0-150-0-225-crop.jpg",
     releaseDate: "2005-09-02",
-    rating: 0,
+    rating: 3.75,
     length: 87,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Serial Nocers",
@@ -393,10 +427,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Owen Wilson" }],
     coverUrl: "/movies_pictures/47078-wedding-crashers-0-150-0-225-crop.jpg",
     releaseDate: "2005-07-15",
-    rating: 0,
+    rating: 3,
     length: 119,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Charlie et la Chocolaterie",
@@ -404,10 +439,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Johnny Depp" }],
     coverUrl: "/movies_pictures/51932-charlie-and-the-chocolate-factory-0-150-0-225-crop.jpg",
     releaseDate: "2005-07-15",
-    rating: 0,
+    rating: 4,
     length: 115,
     genre: "Fantasy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Mr. & Mrs. Smith",
@@ -415,10 +451,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Brad Pitt" }],
     coverUrl: "/movies_pictures/51365-mr-mrs-smith-0-150-0-225-crop.jpg",
     releaseDate: "2005-06-10",
-    rating: 0,
+    rating: 3.75,
     length: 120,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "xXx² : The Next Level",
@@ -426,10 +463,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Ice Cube" }],
     coverUrl: "/movies_pictures/45074-xxx-state-of-the-union-0-150-0-225-crop.jpg",
     releaseDate: "2005-04-29",
-    rating: 0,
+    rating: 3.25,
     length: 101,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Sin City",
@@ -437,10 +475,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/51865-sin-city-0-150-0-225-crop.jpg",
     releaseDate: "2005-04-01",
-    rating: 0,
+    rating: 3.5,
     length: 124,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "The Descent",
@@ -448,10 +487,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Shauna Macdonald" }],
     coverUrl: "/movies_pictures/47204-the-descent-0-150-0-225-crop.jpg",
     releaseDate: "2005-07-08",
-    rating: 0,
+    rating: 3,
     length: 99,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Baby Sittor",
@@ -459,10 +499,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Vin Diesel" }],
     coverUrl: "/movies_pictures/46620-the-pacifier-0-150-0-225-crop.jpg",
     releaseDate: "2005-03-04",
-    rating: 0,
+    rating: 3.25,
     length: 95,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Ocean's Twelve",
@@ -470,10 +511,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "George Clooney" }],
     coverUrl: "/movies_pictures/51888-ocean-s-twelve-0-150-0-225-crop.jpg",
     releaseDate: "2004-12-10",
-    rating: 0,
+    rating: 3.25,
     length: 125,
     genre: "Crime",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Blade : Trinity",
@@ -481,10 +523,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Wesley Snipes" }],
     coverUrl: "/movies_pictures/blade_trinity.jpg",
     releaseDate: "2004-12-08",
-    rating: 0,
+    rating: 3.25,
     length: 113,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Million Dollar Baby",
@@ -492,10 +535,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Hilary Swank" }],
     coverUrl: "/movies_pictures/51979-million-dollar-baby-0-150-0-225-crop.jpg",
     releaseDate: "2004-12-15",
-    rating: 0,
+    rating: 3.5,
     length: 132,
     genre: "Drama",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Banlieue 13",
@@ -503,10 +547,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "David Belle" }],
     coverUrl: "/movies_pictures/46599-district-13-0-150-0-225-crop.jpg",
     releaseDate: "2004-11-10",
-    rating: 0,
+    rating: 3.75,
     length: 84,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Resident Evil : Apocalypse",
@@ -514,10 +559,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Milla Jovovich" }],
     coverUrl: "/movies_pictures/50957-resident-evil-apocalypse-0-150-0-225-crop.jpg",
     releaseDate: "2004-09-10",
-    rating: 0,
+    rating: 3.75,
     length: 94,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Alien vs. Predator",
@@ -525,10 +571,11 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Sanaa Lathan" }],
     coverUrl: "/movies_pictures/51695-avp-alien-vs-predator-0-150-0-225-crop.jpg",
     releaseDate: "2004-08-13",
-    rating: 0,
+    rating: 3.5,
     length: 101,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "La Mort dans la Peau",
@@ -536,9 +583,10 @@ export const moviesPage7: Movie[] = [
     actors: [{ name: "Matt Damon" }],
     coverUrl: "/movies_pictures/50224-the-bourne-supremacy-0-150-0-225-crop.jpg",
     releaseDate: "2004-07-23",
-    rating: 0,
+    rating: 4,
     length: 108,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
 ];

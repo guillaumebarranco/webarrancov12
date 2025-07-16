@@ -35,7 +35,7 @@ import { moviesAnimated } from '../../utils/movies/movies_animated';
 export class MoviesComponent implements OnInit {
   allMovies: Movie[] = [];
   sortedMovies: Movie[] = [];
-  selectedSort: string = 'timesWatched';
+  selectedSort: string = 'rating';
   stats: StatItem[] = [];
 
   sortOptions: SortOption[] = [
@@ -48,7 +48,9 @@ export class MoviesComponent implements OnInit {
     { value: 'timesWatched', label: 'Visionnages (élevé)' },
     { value: 'timesWatched-asc', label: 'Visionnages (faible)' },
     { value: 'length', label: 'Durée (long)' },
-    { value: 'length-asc', label: 'Durée (court)' }
+    { value: 'length-asc', label: 'Durée (court)' },
+    { value: 'lastViewedDate', label: 'Dernier visionnage (récent)' },
+    { value: 'lastViewedDate-asc', label: 'Dernier visionnage (ancien)' }
   ];
 
   ngOnInit() {
@@ -119,10 +121,20 @@ export class MoviesComponent implements OnInit {
         this.sortedMovies.sort((a, b) => new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime());
         break;
       case 'rating':
-        this.sortedMovies.sort((a, b) => b.rating - a.rating);
+        this.sortedMovies.sort((a, b) => {
+          if (b.rating !== a.rating) {
+            return b.rating - a.rating;
+          }
+          return b.timesWatched - a.timesWatched;
+        });
         break;
       case 'rating-asc':
-        this.sortedMovies.sort((a, b) => a.rating - b.rating);
+        this.sortedMovies.sort((a, b) => {
+          if (a.rating !== b.rating) {
+            return a.rating - b.rating;
+          }
+          return b.timesWatched - a.timesWatched;
+        });
         break;
       case 'timesWatched':
         this.sortedMovies.sort((a, b) => b.timesWatched - a.timesWatched);
@@ -135,6 +147,20 @@ export class MoviesComponent implements OnInit {
         break;
       case 'length-asc':
         this.sortedMovies.sort((a, b) => a.length - b.length);
+        break;
+      case 'lastViewedDate':
+        this.sortedMovies.sort((a, b) => {
+          const dateA = a.lastViewedDate ? new Date(a.lastViewedDate).getTime() : 0;
+          const dateB = b.lastViewedDate ? new Date(b.lastViewedDate).getTime() : 0;
+          return dateB - dateA;
+        });
+        break;
+      case 'lastViewedDate-asc':
+        this.sortedMovies.sort((a, b) => {
+          const dateA = a.lastViewedDate ? new Date(a.lastViewedDate).getTime() : 0;
+          const dateB = b.lastViewedDate ? new Date(b.lastViewedDate).getTime() : 0;
+          return dateA - dateB;
+        });
         break;
       default:
         this.sortedMovies.sort((a, b) => a.title.localeCompare(b.title));

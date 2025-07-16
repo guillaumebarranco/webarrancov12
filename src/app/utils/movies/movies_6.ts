@@ -7,21 +7,23 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Jean Dujardin" }],
     coverUrl: "/movies_pictures/42256-oss-117-lost-in-rio-0-150-0-225-crop.jpg",
     releaseDate: "2009-04-15",
-    rating: 0,
+    rating: 3,
     length: 101,
     genre: "Comedy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
-    title: "Knowing",
+    title: "Prédictions",
     director: "Alex Proyas",
     actors: [{ name: "Nicolas Cage" }],
     coverUrl: "/movies_pictures/43577-knowing-0-150-0-225-crop.jpg",
     releaseDate: "2009-03-20",
-    rating: 0,
+    rating: 3.25,
     length: 121,
     genre: "Science Fiction",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Banlieue 13 : Ultimatum",
@@ -29,10 +31,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "David Belle" }],
     coverUrl: "/movies_pictures/42437-district-13-ultimatum-0-150-0-225-crop.jpg",
     releaseDate: "2009-02-18",
-    rating: 0,
+    rating: 3,
     length: 101,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Underworld : Rise of the Lycans",
@@ -40,10 +43,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Michael Sheen" }],
     coverUrl: "/movies_pictures/44587-underworld-rise-of-the-lycans-0-150-0-225-crop.jpg",
     releaseDate: "2009-01-23",
-    rating: 0,
+    rating: 3.25,
     length: 92,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "I Love You Phillip Morris",
@@ -51,10 +55,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Jim Carrey" }],
     coverUrl: "/movies_pictures/i_love_you_philipp_morris.jpg",
     releaseDate: "2009-01-30",
-    rating: 0,
+    rating: 3.5,
     length: 98,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Sept Vies",
@@ -62,10 +67,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/45412-seven-pounds-0-150-0-225-crop.jpg",
     releaseDate: "2008-12-19",
-    rating: 0,
+    rating: 3.75,
     length: 123,
     genre: "Drama",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Yes Man",
@@ -73,10 +79,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Jim Carrey" }],
     coverUrl: "/movies_pictures/yes-man-0-150-0-225-crop.jpg",
     releaseDate: "2008-12-19",
-    rating: 0,
+    rating: 3.25,
     length: 104,
     genre: "Comedy",
-    timesWatched: 2,
+    timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Gran Torino",
@@ -84,10 +91,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Clint Eastwood" }],
     coverUrl: "/movies_pictures/gran_torino.jpg",
     releaseDate: "2008-12-12",
-    rating: 0,
+    rating: 3,
     length: 116,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Ong Bak 2",
@@ -95,10 +103,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Tony Jaa" }],
     coverUrl: "/movies_pictures/41625-ong-bak-2-0-150-0-225-crop.jpg",
     releaseDate: "2008-12-05",
-    rating: 0,
+    rating: 2.5,
     length: 98,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Le Transporteur 3",
@@ -106,10 +115,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Jason Statham" }],
     coverUrl: "/movies_pictures/43931-transporter-3-0-150-0-225-crop.jpg",
     releaseDate: "2008-11-26",
-    rating: 0,
+    rating: 3.25,
     length: 104,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Twilight : Chapitre 1 - Fascination",
@@ -117,10 +127,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Kristen Stewart" }],
     coverUrl: "/movies_pictures/47469-twilight-0-150-0-225-crop.jpg",
     releaseDate: "2008-11-21",
-    rating: 0,
+    rating: 3.25,
     length: 122,
     genre: "Fantasy",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Quantum of Solace",
@@ -128,10 +139,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Daniel Craig" }],
     coverUrl: "/movies_pictures/45918-quantum-of-solace-0-150-0-225-crop.jpg",
     releaseDate: "2008-11-14",
-    rating: 0,
+    rating: 3.25,
     length: 106,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Eagle Eye",
@@ -139,10 +151,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Shia LaBeouf" }],
     coverUrl: "/movies_pictures/44201-eagle-eye-0-150-0-225-crop.jpg",
     releaseDate: "2008-09-26",
-    rating: 0,
+    rating: 4.5,
     length: 118,
     genre: "Thriller",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Slumdog Millionaire",
@@ -150,21 +163,23 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Dev Patel" }],
     coverUrl: "/movies_pictures/44613-slumdog-millionaire-0-150-0-225-crop.jpg",
     releaseDate: "2008-12-25",
-    rating: 0,
+    rating: 4,
     length: 120,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
-    title: "Death Race",
+    title: "Course à la mort",
     director: "Paul W.S. Anderson",
     actors: [{ name: "Jason Statham" }],
     coverUrl: "/movies_pictures/46186-death-race-0-150-0-225-crop.jpg",
     releaseDate: "2008-08-22",
-    rating: 0,
+    rating: 3.5,
     length: 105,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Hellboy 2 : Les Légions d'Or Maudites",
@@ -172,10 +187,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Ron Perlman" }],
     coverUrl: "/movies_pictures/45459-hellboy-ii-the-golden-army-0-150-0-225-crop.jpg",
     releaseDate: "2008-07-11",
-    rating: 0,
+    rating: 3.25,
     length: 120,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Voyage au Centre de la Terre",
@@ -183,10 +199,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Brendan Fraser" }],
     coverUrl: "/movies_pictures/74826-journey-to-the-center-of-the-earth-0-150-0-225-crop.jpg",
     releaseDate: "2008-07-11",
-    rating: 0,
+    rating: 3.5,
     length: 93,
     genre: "Adventure",
     timesWatched: 5,
+    lastViewedDate: "2025-01-11"
   },
   {
     title: "Wanted : Choisis ton Destin",
@@ -194,10 +211,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "James McAvoy" }],
     coverUrl: "/movies_pictures/wanted.jpg",
     releaseDate: "2008-06-27",
-    rating: 0,
+    rating: 3,
     length: 110,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Rien que pour vos cheveux",
@@ -205,10 +223,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Adam Sandler" }],
     coverUrl: "/movies_pictures/dont-mess-with-the-zohan-0-150-0-225-crop.jpg",
     releaseDate: "2008-06-06",
-    rating: 0,
+    rating: 3.25,
     length: 113,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Speed Racer",
@@ -216,10 +235,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Emile Hirsch" }],
     coverUrl: "/movies_pictures/48018-speed-racer-0-150-0-225-crop.jpg",
     releaseDate: "2008-05-09",
-    rating: 0,
+    rating: 3,
     length: 135,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "La vague",
@@ -227,10 +247,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Jürgen Vogel" }],
     coverUrl: "/movies_pictures/47981-the-wave-0-150-0-225-crop.jpg",
     releaseDate: "2008-03-13",
-    rating: 0,
+    rating: 3.25,
     length: 107,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Never Back Down",
@@ -238,10 +259,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Sean Faris" }],
     coverUrl: "/movies_pictures/47713-never-back-down-0-150-0-225-crop.jpg",
     releaseDate: "2008-03-14",
-    rating: 0,
+    rating: 4,
     length: 110,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Taken",
@@ -249,10 +271,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Liam Neeson" }],
     coverUrl: "/movies_pictures/47648-taken-0-230-0-345-crop.jpg",
     releaseDate: "2008-02-27",
-    rating: 0,
+    rating: 4.5,
     length: 93,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Jumper",
@@ -260,10 +283,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Hayden Christensen" }],
     coverUrl: "/movies_pictures/47842-jumper-0-150-0-225-crop.jpg",
     releaseDate: "2008-02-14",
-    rating: 0,
+    rating: 3.5,
     length: 88,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "John Rambo",
@@ -271,10 +295,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/47983-rambo-0-150-0-225-crop.jpg",
     releaseDate: "2008-01-25",
-    rating: 0,
+    rating: 3.25,
     length: 92,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "American Pie Presents: Beta House",
@@ -282,10 +307,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "John White" }],
     coverUrl: "/movies_pictures/american_pie_beta_house.jpg",
     releaseDate: "2007-12-26",
-    rating: 0,
+    rating: 3.25,
     length: 88,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Alien vs. Predator : Requiem",
@@ -293,10 +319,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Steven Pasquale" }],
     coverUrl: "/movies_pictures/51655-avpr-aliens-vs-predator-requiem-0-150-0-225-crop.jpg",
     releaseDate: "2007-12-25",
-    rating: 0,
+    rating: 3,
     length: 94,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Je Suis une Légende",
@@ -304,10 +331,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/48296-i-am-legend-0-150-0-225-crop.jpg",
     releaseDate: "2007-12-14",
-    rating: 0,
+    rating: 3.75,
     length: 101,
     genre: "Science Fiction",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Resident Evil : Extinction",
@@ -315,10 +343,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Milla Jovovich" }],
     coverUrl: "/movies_pictures/47979-resident-evil-extinction-0-150-0-225-crop.jpg",
     releaseDate: "2007-09-21",
-    rating: 0,
+    rating: 3.5,
     length: 94,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Paranormal Activity",
@@ -326,10 +355,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Katie Featherston" }],
     coverUrl: "/movies_pictures/paranormal_activity.jpg",
     releaseDate: "2007-10-14",
-    rating: 0,
+    rating: 2.5,
     length: 86,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Gone Baby Gone",
@@ -337,10 +367,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Casey Affleck" }],
     coverUrl: "/movies_pictures/gone_baby_gone.jpg",
     releaseDate: "2007-10-19",
-    rating: 0,
+    rating: 3.5,
     length: 114,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Into the Wild",
@@ -348,10 +379,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Emile Hirsch" }],
     coverUrl: "/movies_pictures/48571-into-the-wild-0-150-0-225-crop.jpg",
     releaseDate: "2007-09-21",
-    rating: 0,
+    rating: 3.5,
     length: 148,
     genre: "Drama",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Rush Hour 3",
@@ -359,21 +391,23 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Jackie Chan" }],
     coverUrl: "/movies_pictures/48920-rush-hour-3-0-150-0-225-crop.jpg",
     releaseDate: "2007-08-10",
-    rating: 0,
+    rating: 3.5,
     length: 91,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
-    title: "La Vengeance dans la Peau : L'Héritage Bourne",
+    title: "La Vengeance dans la Peau",
     director: "Paul Greengrass",
     actors: [{ name: "Matt Damon" }],
     coverUrl: "/movies_pictures/50223-the-bourne-ultimatum-0-150-0-225-crop.jpg",
     releaseDate: "2007-08-03",
-    rating: 0,
+    rating: 4,
     length: 115,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Transformers",
@@ -381,10 +415,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Shia LaBeouf" }],
     coverUrl: "/movies_pictures/transformers-0-150-0-225-crop.jpg",
     releaseDate: "2007-07-03",
-    rating: 0,
+    rating: 4.25,
     length: 144,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Die Hard 4 : Retour en Enfer",
@@ -392,10 +427,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/50963-live-free-or-die-hard-0-150-0-225-crop.jpg",
     releaseDate: "2007-06-27",
-    rating: 0,
+    rating: 4.5,
     length: 128,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "La chambre 1408",
@@ -403,10 +439,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "John Cusack" }],
     coverUrl: "/movies_pictures/49944-1408-0-150-0-225-crop.jpg",
     releaseDate: "2007-06-22",
-    rating: 0,
+    rating: 3.25,
     length: 104,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Evan tout-puissant",
@@ -414,10 +451,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Steve Carell" }],
     coverUrl: "/movies_pictures/50146-evan-almighty-0-150-0-225-crop.jpg",
     releaseDate: "2007-06-22",
-    rating: 0,
+    rating: 2,
     length: 95,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Ocean's Thirteen",
@@ -425,10 +463,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "George Clooney" }],
     coverUrl: "/movies_pictures/51761-ocean-s-thirteen-0-150-0-225-crop.jpg",
     releaseDate: "2007-06-08",
-    rating: 0,
+    rating: 3.25,
     length: 122,
     genre: "Crime",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "No Country for Old Men",
@@ -436,10 +475,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Tommy Lee Jones" }],
     coverUrl: "/movies_pictures/no_country_for_old_men.jpg",
     releaseDate: "2007-11-09",
-    rating: 3,
+    rating: 2.75,
     length: 122,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: "2025-04-09"
   },
   {
     title: "Pirates des Caraïbes : Jusqu'au Bout du Monde",
@@ -447,10 +487,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Johnny Depp" }],
     coverUrl: "/movies_pictures/51773-pirates-of-the-caribbean-at-worlds-end-0-150-0-225-crop.jpg",
     releaseDate: "2007-05-25",
-    rating: 0,
+    rating: 3.25,
     length: 169,
     genre: "Adventure",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "28 Semaines Plus Tard",
@@ -458,10 +499,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Robert Carlyle" }],
     coverUrl: "/movies_pictures/28_jours_plus_tard.jpg",
     releaseDate: "2007-05-11",
-    rating: 0,
+    rating: 3,
     length: 100,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Dangereuse séduction",
@@ -469,32 +511,35 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Halle Berry" }],
     coverUrl: "/movies_pictures/48107-perfect-stranger-0-150-0-225-crop.jpg",
     releaseDate: "2007-04-13",
-    rating: 0,
+    rating: 3,
     length: 109,
     genre: "Thriller",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
-    title: "Paranoïaque",
+    title: "Paranoïak",
     director: "D.J. Caruso",
     actors: [{ name: "Shia LaBeouf" }],
     coverUrl: "/movies_pictures/47835-disturbia-0-150-0-225-crop.jpg",
     releaseDate: "2007-04-13",
-    rating: 0,
+    rating: 3.25,
     length: 105,
     genre: "Thriller",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
-    title: "Superbad",
+    title: "Supergrave",
     director: "Greg Mottola",
     actors: [{ name: "Jonah Hill" }],
     coverUrl: "/movies_pictures/47776-superbad-0-150-0-225-crop.jpg",
     releaseDate: "2007-08-17",
-    rating: 0,
+    rating: 2.5,
     length: 113,
     genre: "Comedy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Zodiac",
@@ -502,10 +547,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Jake Gyllenhaal" }],
     coverUrl: "/movies_pictures/zodiac.jpg",
     releaseDate: "2007-03-02",
-    rating: 0,
+    rating: 3,
     length: 157,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Taxi 4",
@@ -513,10 +559,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Samy Naceri" }],
     coverUrl: "/movies_pictures/50319-taxi-4-0-150-0-225-crop.jpg",
     releaseDate: "2007-02-14",
-    rating: 0,
+    rating: 4,
     length: 91,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Premonition",
@@ -524,10 +571,11 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Sandra Bullock" }],
     coverUrl: "/movies_pictures/46675-premonition-0-150-0-225-crop.jpg",
     releaseDate: "2007-03-16",
-    rating: 0,
+    rating: 3.25,
     length: 96,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Ecrire pour exister",
@@ -535,9 +583,10 @@ export const moviesPage6: Movie[] = [
     actors: [{ name: "Hilary Swank" }],
     coverUrl: "/movies_pictures/50896-freedom-writers-0-150-0-225-crop.jpg",
     releaseDate: "2007-01-05",
-    rating: 0,
+    rating: 3.25,
     length: 123,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
 ];

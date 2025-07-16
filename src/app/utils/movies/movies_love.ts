@@ -15,6 +15,7 @@ export const moviesLove: Movie[] = [
     length: 118,
     genre: "Romance",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "The Princess Switch",
@@ -26,10 +27,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/485841-the-princess-switch-0-150-0-225-crop.jpg",
     releaseDate: "2018-11-16",
-    rating: 0,
+    rating: 3.25,
     length: 101,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Petits coups montés",
@@ -41,10 +43,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/319550-set-it-up-0-150-0-225-crop.jpg",
     releaseDate: "2018-06-15",
-    rating: 0,
+    rating: 3,
     length: 105,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "The life list",
@@ -56,10 +59,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/1138997-the-life-list-0-150-0-225-crop.jpg",
     releaseDate: "2024-07-18",
-    rating: 0,
+    rating: 3.5,
     length: 104,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: "2025-03-08"
   },
   {
     title: "Tout le Bleu du Ciel",
@@ -75,6 +79,7 @@ export const moviesLove: Movie[] = [
     length: 127,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: "2025-02-08"
   },
   {
     title: "Nos coeurs meurtris",
@@ -90,6 +95,7 @@ export const moviesLove: Movie[] = [
     length: 122,
     genre: "Romance",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Au plaisir de se faire trahir",
@@ -101,10 +107,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/1060546-burning-betrayal-0-150-0-225-crop.jpg",
     releaseDate: "2023-10-25",
-    rating: 0,
+    rating: 3,
     length: 104,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "La Probabilité statistique de l'amour au premier regard",
@@ -116,10 +123,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/1146306_300x450.webp",
     releaseDate: "2023-09-15",
-    rating: 0,
+    rating: 3,
     length: 91,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Ce sera toi",
@@ -131,10 +139,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/735234-love-at-first-kiss-0-150-0-225-crop.jpg",
     releaseDate: "2023-02-10",
-    rating: 0,
+    rating: 3,
     length: 103,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Hello, goodbye and everything in between",
@@ -146,10 +155,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/666928-hello-goodbye-and-everything-in-between-0-150-0-225-crop.jpg",
     releaseDate: "2022-07-06",
-    rating: 0,
+    rating: 3,
     length: 91,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Un Accord Parfait",
@@ -161,10 +171,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/839735-a-perfect-pairing-0-150-0-225-crop.jpg",
     releaseDate: "2022-05-19",
-    rating: 0,
+    rating: 3.5,
     length: 101,
     genre: "Romance",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "The In-between",
@@ -176,10 +187,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/735089-the-in-between-0-150-0-225-crop.jpg",
     releaseDate: "2022-02-11",
-    rating: 0,
+    rating: 3,
     length: 116,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "À Travers Ma Fenêtre",
@@ -191,10 +203,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/735239-through-my-window-0-150-0-225-crop.jpg",
     releaseDate: "2022-02-04",
-    rating: 0,
+    rating: 2.75,
     length: 113,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Love Hard",
@@ -206,10 +219,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/656542-love-hard-0-150-0-225-crop.jpg",
     releaseDate: "2021-11-05",
-    rating: 0,
+    rating: 3,
     length: 104,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "L'Amour complexe",
@@ -221,10 +235,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/704151-resort-to-love-0-150-0-225-crop.jpg",
     releaseDate: "2021-07-29",
-    rating: 0,
+    rating: 2.75,
     length: 101,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "La Belle et la Bête",
@@ -232,10 +247,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Emma Watson" }],
     coverUrl: "/movies_pictures/248708-beauty-and-the-beast-0-150-0-225-crop.jpg",
     releaseDate: "2017-03-17",
-    rating: 0,
+    rating: 3.5,
     length: 129,
     genre: "Fantasy",
     timesWatched: 0,
+    lastViewedDate: ""
   },
   {
     title: "Un choix",
@@ -243,10 +259,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Benjamin Walker" }],
     coverUrl: "/movies_pictures/258147-the-choice-0-150-0-225-crop.jpg",
     releaseDate: "2016-02-05",
-    rating: 0,
+    rating: 4,
     length: 111,
     genre: "Romance",
     timesWatched: 3,
+    lastViewedDate: "2025-02-05"
   },
   {
     title: "L'agence",
@@ -254,10 +271,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Matt Damon" }],
     coverUrl: "/movies_pictures/the-adjustment-bureau-original-1-0-150-0-225-crop.jpg",
     releaseDate: "2011-03-04",
-    rating: 0,
+    rating: 3.75,
     length: 106,
     genre: "Science Fiction",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Un jour",
@@ -265,10 +283,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Anne Hathaway" }],
     coverUrl: "/movies_pictures/un_jour.jpg",
     releaseDate: "2011-08-19",
-    rating: 0,
+    rating: 3.5,
     length: 107,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Sex Friends",
@@ -276,21 +295,23 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Natalie Portman" }],
     coverUrl: "/movies_pictures/no-strings-attached-original-0-150-0-225-crop.jpg",
     releaseDate: "2011-01-21",
-    rating: 0,
+    rating: 3.75,
     length: 108,
     genre: "Romance",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
-    title: "Love and Other Drugs",
+    title: "Love & autres drogues",
     director: "Edward Zwick",
     actors: [{ name: "Jake Gyllenhaal" }],
     coverUrl: "/movies_pictures/21801-love-other-drugs-0-150-0-225-crop.jpg",
     releaseDate: "2010-11-24",
-    rating: 0,
+    rating: 4,
     length: 112,
     genre: "Romance",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Sexy Dance",
@@ -298,10 +319,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Channing Tatum" }],
     coverUrl: "/movies_pictures/46848-step-up-0-150-0-225-crop.jpg",
     releaseDate: "2006-08-11",
-    rating: 0,
+    rating: 3,
     length: 104,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Sexy Dance 2",
@@ -309,10 +331,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Briana Evigan" }],
     coverUrl: "/movies_pictures/47804-step-up-2-0-150-0-225-crop.jpg",
     releaseDate: "2008-02-14",
-    rating: 0,
+    rating: 3,
     length: 98,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Sexy Dance 3D",
@@ -320,10 +343,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Rick Malambri" }],
     coverUrl: "/movies_pictures/23784-step-up-3-0-150-0-225-crop.jpg",
     releaseDate: "2010-08-06",
-    rating: 0,
+    rating: 3.75,
     length: 107,
     genre: "Drama",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "L'Arnacœur",
@@ -331,10 +355,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Romain Duris" }],
     coverUrl: "/movies_pictures/23804-heartbreaker-0-150-0-225-crop.jpg",
     releaseDate: "2010-03-17",
-    rating: 0,
+    rating: 4,
     length: 105,
     genre: "Romance",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Remember Me",
@@ -342,10 +367,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Robert Pattinson" }],
     coverUrl: "/movies_pictures/37502-remember-me-0-150-0-225-crop.jpg",
     releaseDate: "2010-03-12",
-    rating: 0,
+    rating: 3.75,
     length: 113,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: "2025-04-12"
   },
   {
     title: "Valentine's Day",
@@ -353,10 +379,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Julia Roberts" }],
     coverUrl: "/movies_pictures/valentine_day.jpg",
     releaseDate: "2010-02-12",
-    rating: 0,
+    rating: 3.25,
     length: 125,
     genre: "Romance",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "La proposition",
@@ -364,21 +391,23 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Sandra Bullock" }],
     coverUrl: "/movies_pictures/40479-the-proposal-0-150-0-225-crop.jpg",
     releaseDate: "2009-06-19",
-    rating: 0,
+    rating: 3.25,
     length: 108,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
-    title: "17 Again",
+    title: "17 ans encore",
     director: "Burr Steers",
     actors: [{ name: "Zac Efron" }],
     coverUrl: "/movies_pictures/41276-17-again-0-150-0-225-crop.jpg",
     releaseDate: "2009-04-17",
-    rating: 0,
+    rating: 3,
     length: 102,
     genre: "Comedy",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "(500) Jours Ensemble",
@@ -386,10 +415,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Joseph Gordon-Levitt" }],
     coverUrl: "/movies_pictures/39350--500-days-of-summer-0-150-0-225-crop.jpg",
     releaseDate: "2009-07-17",
-    rating: 0,
+    rating: 3,
     length: 95,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Jackpot",
@@ -397,21 +427,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Ashton Kutcher" }],
     coverUrl: "/movies_pictures/47414-what-happens-in-vegas--0-150-0-225-crop.jpg",
     releaseDate: "2008-05-09",
-    rating: 0,
+    rating: 3,
     length: 99,
     genre: "Comedy",
     timesWatched: 3,
-  },
-  {
-    title: "Horton",
-    director: "Jimmy Hayward, Steve Martino",
-    actors: [{ name: "Jim Carrey" }],
-    coverUrl: "/movies_pictures/horton.jpg",
-    releaseDate: "2008-03-14",
-    rating: 0,
-    length: 86,
-    genre: "Animation",
-    timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Juno",
@@ -419,10 +439,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Ellen Page" }],
     coverUrl: "/movies_pictures/48051-juno-0-150-0-225-crop.jpg",
     releaseDate: "2007-12-25",
-    rating: 0,
+    rating: 3,
     length: 96,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Orgueil et Préjugés",
@@ -430,10 +451,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Keira Knightley" }],
     coverUrl: "/movies_pictures/orgueil_et_prejuges.jpg",
     releaseDate: "2005-09-16",
-    rating: 0,
+    rating: 3.25,
     length: 129,
     genre: "Romance",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Match Point",
@@ -441,10 +463,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Jonathan Rhys Meyers" }],
     coverUrl: "/movies_pictures/match_point.jpg",
     releaseDate: "2005-05-12",
-    rating: 0,
+    rating: 3.75,
     length: 124,
     genre: "Thriller",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Hitch : Expert en Séduction",
@@ -452,10 +475,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/47699-hitch-0-150-0-225-crop.jpg",
     releaseDate: "2005-02-11",
-    rating: 0,
+    rating: 4.25,
     length: 118,
     genre: "Comedy",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "First Daughter",
@@ -463,10 +487,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Katie Holmes" }],
     coverUrl: "/movies_pictures/43443-first-daughter-0-150-0-225-crop.jpg",
     releaseDate: "2004-09-24",
-    rating: 0,
+    rating: 3.25,
     length: 106,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "The Terminal",
@@ -474,10 +499,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Tom Hanks" }],
     coverUrl: "/movies_pictures/51527-the-terminal-0-150-0-225-crop.jpg",
     releaseDate: "2004-06-18",
-    rating: 0,
+    rating: 3.75,
     length: 128,
     genre: "Drama",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Eternal Sunshine of the Spotless Mind",
@@ -485,10 +511,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Jim Carrey" }],
     coverUrl: "/movies_pictures/eternal_sunchine_of_the_spotless_mind.jpg",
     releaseDate: "2004-03-19",
-    rating: 0,
+    rating: 3.5,
     length: 108,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "The Girl Next Door",
@@ -496,21 +523,23 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Emile Hirsch" }],
     coverUrl: "/movies_pictures/46081-the-girl-next-door-2004-0-150-0-225-crop.jpg",
     releaseDate: "2004-04-09",
-    rating: 0,
+    rating: 3.5,
     length: 109,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
-    title: "50 First Dates",
+    title: "Amour & Amnésie",
     director: "Peter Segal",
     actors: [{ name: "Adam Sandler" }],
     coverUrl: "/movies_pictures/50773-50-first-dates-0-150-0-225-crop.jpg",
     releaseDate: "2004-02-13",
-    rating: 0,
+    rating: 4.25,
     length: 99,
     genre: "Comedy",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Love Actually",
@@ -518,10 +547,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Hugh Grant" }],
     coverUrl: "/movies_pictures/51602-love-actually-0-150-0-225-crop.jpg",
     releaseDate: "2003-11-07",
-    rating: 0,
+    rating: 3.5,
     length: 135,
     genre: "Romance",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Le temps d'un automne",
@@ -533,6 +563,7 @@ export const moviesLove: Movie[] = [
     length: 101,
     genre: "Romance",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Pearl Harbor",
@@ -540,10 +571,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Ben Affleck" }],
     coverUrl: "/movies_pictures/51448-pearl-harbor-0-150-0-225-crop.jpg",
     releaseDate: "2001-05-25",
-    rating: 0,
+    rating: 4,
     length: 183,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Ce que Veulent les Femmes",
@@ -551,10 +583,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Mel Gibson" }],
     coverUrl: "/movies_pictures/49539-what-women-want-0-150-0-225-crop.jpg",
     releaseDate: "2000-12-15",
-    rating: 0,
+    rating: 3.75,
     length: 127,
     genre: "Comedy",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Coup de foudre à Notting Hill",
@@ -562,10 +595,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Julia Roberts" }],
     coverUrl: "/movies_pictures/notting-hill-0-150-0-225-crop.jpg",
     releaseDate: "1999-05-28",
-    rating: 0,
+    rating: 3,
     length: 124,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Rencontre avec Joe Black",
@@ -577,6 +611,7 @@ export const moviesLove: Movie[] = [
     length: 178,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: "2025-04-13"
   },
   {
     title: "Pretty Woman",
@@ -584,10 +619,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Julia Roberts" }],
     coverUrl: "/movies_pictures/51936-pretty-woman-0-150-0-225-crop.jpg",
     releaseDate: "1990-03-23",
-    rating: 0,
+    rating: 4,
     length: 119,
     genre: "Romance",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Amour au Carré",
@@ -599,10 +635,11 @@ export const moviesLove: Movie[] = [
     ],
     coverUrl: "/movies_pictures/705695-squared-love-0-150-0-225-crop.jpg",
     releaseDate: "2021-02-11",
-    rating: 0,
+    rating: 3,
     length: 105,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "La La Land",
@@ -610,10 +647,11 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "Ryan Gosling" }],
     coverUrl: "/movies_pictures/240344-la-la-land-0-150-0-225-crop.jpg",
     releaseDate: "2016-12-09",
-    rating: 0,
+    rating: 3.5,
     length: 128,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "L'amour ouf",
@@ -621,9 +659,42 @@ export const moviesLove: Movie[] = [
     actors: [{ name: "François Civil" }],
     coverUrl: "/movies_pictures/863617-beating-hearts-2024-0-150-0-225-crop.jpg",
     releaseDate: "2024-01-31",
-    rating: 0,
+    rating: 3.5,
     length: 95,
     genre: "Romance",
     timesWatched: 1,
+    lastViewedDate: "2025-04-31"
+  },
+  {
+    title: "The Princess Switch : Switched Again",
+    director: "Mike Rohl",
+    actors: [
+      {
+        name: "Vanessa Hudgens",
+      },
+    ],
+    coverUrl: "/movies_pictures/569812-the-princess-switch-switched-again-0-150-0-225-crop.jpg",
+    releaseDate: "2020-11-19",
+    rating: 2.75,
+    length: 97,
+    genre: "Romance",
+    timesWatched: 1,
+    lastViewedDate: ""
+  },
+  {
+    title: "Holidate",
+    director: "John Whitesell",
+    actors: [
+      {
+        name: "Emma Roberts",
+      },
+    ],
+    coverUrl: "/movies_pictures/542464-holidate-0-150-0-225-crop.jpg",
+    releaseDate: "2020-10-28",
+    rating: 2.75,
+    length: 104,
+    genre: "Romance",
+    timesWatched: 1,
+    lastViewedDate: ""
   },
 ];

@@ -9,10 +9,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Taron Egerton" }],
     coverUrl: "/movies_pictures/kingsman_the_golden_circle.jpg",
     releaseDate: "2017-09-22",
-    rating: 0,
+    rating: 3,
     length: 141,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Death Note",
@@ -20,10 +21,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Nat Wolff" }],
     coverUrl: "/movies_pictures/281716-death-note-0-150-0-225-crop.jpg",
     releaseDate: "2017-08-25",
-    rating: 0,
+    rating: 2.5,
     length: 101,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: "2017-08-25"
   },
   {
     title: "The Hitman's Bodyguard",
@@ -31,10 +33,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Ryan Reynolds" }],
     coverUrl: "/movies_pictures/hitman_bodyguard.jpg",
     releaseDate: "2017-08-18",
-    rating: 0,
+    rating: 3,
     length: 118,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: "The Hitman's Bodyguard"
   },
   {
     title: "Valerian and the City of a Thousand Planets",
@@ -42,31 +45,23 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Dane DeHaan" }],
     coverUrl: "/movies_pictures/269458-valerian-and-the-city-of-a-thousand-planets-0-150-0-225-crop.jpg",
     releaseDate: "2017-07-21",
-    rating: 0,
+    rating: 3.25,
     length: 137,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
-    title: "Wonder Woman",
-    director: "Patty Jenkins",
-    actors: [{ name: "Gal Gadot" }],
-    coverUrl: "/movies_pictures/225027-wonder-woman-0-150-0-225-crop.jpg",
-    releaseDate: "2017-06-02",
-    rating: 0,
-    length: 141,
-    genre: "Action",
-    timesWatched: 3,
-  }, {
     title: "Atomic Blonde",
     director: "David Leitch",
     actors: [{ name: "Charlize Theron" }],
     coverUrl: "/movies_pictures/270477-atomic-blonde-0-150-0-225-crop.jpg",
     releaseDate: "2017-07-28",
-    rating: 0,
+    rating: 3,
     length: 115,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Baby Driver",
@@ -74,10 +69,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Ansel Elgort" }],
     coverUrl: "/movies_pictures/268950-baby-driver-0-150-0-225-crop.jpg",
     releaseDate: "2017-06-28",
-    rating: 0,
+    rating: 4,
     length: 113,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Aftermath",
@@ -85,10 +81,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/aftermath.jpg",
     releaseDate: "2017-04-07",
-    rating: 0,
+    rating: 3.5,
     length: 94,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "John Wick : Chapitre 2",
@@ -96,10 +93,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Keanu Reeves" }],
     coverUrl: "/movies_pictures/jonh_wick.jpg",
     releaseDate: "2017-02-10",
-    rating: 0,
+    rating: 3.25,
     length: 122,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Les Animaux Fantastiques",
@@ -107,10 +105,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Eddie Redmayne" }],
     coverUrl: "/movies_pictures/182910-fantastic-beasts-and-where-to-find-them-0-150-0-225-crop.jpg",
     releaseDate: "2016-11-18",
-    rating: 0,
+    rating: 3.75,
     length: 133,
     genre: "Fantasy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Jack Reacher : Never Go Back",
@@ -118,10 +117,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Tom Cruise" }],
     coverUrl: "/movies_pictures/jack_reacher_never_go_back.jpg",
     releaseDate: "2016-10-21",
-    rating: 0,
+    rating: 3.5,
     length: 118,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Split",
@@ -129,10 +129,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "James McAvoy" }],
     coverUrl: "/movies_pictures/split.jpg",
     releaseDate: "2017-01-20",
-    rating: 0,
+    rating: 4.5,
     length: 117,
     genre: "Thriller",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Il a Déjà Tes Yeux",
@@ -140,10 +141,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Lucien Jean-Baptiste" }],
     coverUrl: "/movies_pictures/333161-he-even-has-your-eyes-0-150-0-225-crop.jpg",
     releaseDate: "2016-12-07",
-    rating: 0,
+    rating: 3,
     length: 98,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Jason Bourne",
@@ -151,10 +153,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Matt Damon" }],
     coverUrl: "/movies_pictures/251773-jason-bourne-0-150-0-225-crop.jpg",
     releaseDate: "2016-07-29",
-    rating: 0,
+    rating: 3.75,
     length: 123,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Now You See Me 2",
@@ -162,20 +165,23 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Jesse Eisenberg" }],
     coverUrl: "/movies_pictures/218051-now-you-see-me-2-0-150-0-225-crop.jpg",
     releaseDate: "2016-06-10",
-    rating: 0,
+    rating: 3.25,
     length: 129,
     genre: "Thriller",
     timesWatched: 1,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Divergente 3 : Au-delà du Mur",
     director: "Robert Schwentke",
     actors: [{ name: "Shailene Woodley" }],
     coverUrl: "/movies_pictures/divergente.jpg",
     releaseDate: "2016-03-18",
-    rating: 0,
+    rating: 3,
     length: 121,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Un choix",
@@ -183,10 +189,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Benjamin Walker" }],
     coverUrl: "/movies_pictures/258147-the-choice-0-150-0-225-crop.jpg",
     releaseDate: "2016-02-05",
-    rating: 0,
+    rating: 3.75,
     length: 111,
     genre: "Romance",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Swiss Army Man",
@@ -194,22 +201,23 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Paul Dano" }],
     coverUrl: "/movies_pictures/swiss_army_man.jpg",
     releaseDate: "2016-07-01",
-    rating: 0,
+    rating: 3.25,
     length: 97,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
-
   {
     title: "Comment c'est loin",
     director: "Orelsan",
     actors: [{ name: "Orelsan" }],
     coverUrl: "/movies_pictures/302633-comment-c-est-loin-0-150-0-225-crop.jpg",
     releaseDate: "2015-12-09",
-    rating: 0,
+    rating: 3.25,
     length: 95,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Creed",
@@ -217,10 +225,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Michael B. Jordan" }],
     coverUrl: "/movies_pictures/239260-creed-0-150-0-225-crop.jpg",
     releaseDate: "2015-11-25",
-    rating: 0,
+    rating: 4,
     length: 133,
     genre: "Drama",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Spectre",
@@ -228,10 +237,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Daniel Craig" }],
     coverUrl: "/movies_pictures/spectre.jpg",
     releaseDate: "2015-11-06",
-    rating: 0,
+    rating: 4,
     length: 148,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Demolition",
@@ -239,10 +249,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Jake Gyllenhaal" }],
     coverUrl: "/movies_pictures/demolition.jpg",
     releaseDate: "2016-04-08",
-    rating: 0,
+    rating: 3.5,
     length: 101,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "The Visit",
@@ -250,10 +261,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Olivia DeJonge" }],
     coverUrl: "/movies_pictures/225437-the-visit-0-150-0-225-crop.jpg",
     releaseDate: "2015-09-11",
-    rating: 0,
+    rating: 2.5,
     length: 94,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: "2015-09-11"
   },
   {
     title: "Le Labyrinthe : La Terre Brûlée",
@@ -261,10 +273,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Dylan O'Brien" }],
     coverUrl: "/movies_pictures/221232-maze-runner-the-scorch-trials-0-150-0-225-crop.jpg",
     releaseDate: "2015-09-18",
-    rating: 0,
+    rating: 2.5,
     length: 132,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Room",
@@ -272,21 +285,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Brie Larson" }],
     coverUrl: "/movies_pictures/room.jpg",
     releaseDate: "2016-01-22",
-    rating: 0,
+    rating: 3.5,
     length: 118,
     genre: "Drama",
     timesWatched: 1,
-  },
-  {
-    title: "Les 4 Fantastiques",
-    director: "Josh Trank",
-    actors: [{ name: "Miles Teller" }],
-    coverUrl: "/movies_pictures/123065-fantastic-four-0-150-0-225-crop.jpg",
-    releaseDate: "2015-08-07",
-    rating: 0,
-    length: 100,
-    genre: "Action",
-    timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Pixels",
@@ -294,10 +297,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Adam Sandler" }],
     coverUrl: "/movies_pictures/181118-pixels-0-150-0-225-crop.jpg",
     releaseDate: "2015-07-24",
-    rating: 0,
+    rating: 3.25,
     length: 105,
     genre: "Comedy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "La rage au ventre",
@@ -305,10 +309,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Jake Gyllenhaal" }],
     coverUrl: "/movies_pictures/234208-southpaw-0-150-0-225-crop.jpg",
     releaseDate: "2015-07-24",
-    rating: 0,
+    rating: 3.5,
     length: 124,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Divergente 2 : L'Insurrection",
@@ -316,10 +321,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Shailene Woodley" }],
     coverUrl: "/movies_pictures/185970-insurgent-0-150-0-225-crop.jpg",
     releaseDate: "2015-03-20",
-    rating: 0,
+    rating: 3.25,
     length: 119,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Diversion",
@@ -327,10 +333,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/180414-focus-0-150-0-225-crop.jpg",
     releaseDate: "2015-02-27",
-    rating: 0,
+    rating: 3.75,
     length: 105,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Cinquante Nuances de Grey",
@@ -338,10 +345,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Dakota Johnson" }],
     coverUrl: "/movies_pictures/cinquante_nuances_de_grey.jpg",
     releaseDate: "2015-02-13",
-    rating: 0,
+    rating: 2,
     length: 125,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Knock Knock",
@@ -349,10 +357,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Keanu Reeves" }],
     coverUrl: "/movies_pictures/186877-knock-knock-0-150-0-225-crop.jpg",
     releaseDate: "2015-10-09",
-    rating: 0,
+    rating: 2.5,
     length: 99,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: "2025-04-09"
   },
   {
     title: "Taken 3",
@@ -360,20 +369,23 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Liam Neeson" }],
     coverUrl: "/movies_pictures/183907-taken-3-0-150-0-225-crop.jpg",
     releaseDate: "2015-01-09",
-    rating: 0,
+    rating: 2.5,
     length: 109,
     genre: "Action",
     timesWatched: 1,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Kingsman : Services Secrets",
     director: "Matthew Vaughn",
     actors: [{ name: "Taron Egerton" }],
     coverUrl: "/movies_pictures/148200-kingsman-the-secret-service-0-150-0-225-crop.jpg",
     releaseDate: "2015-02-13",
-    rating: 0,
+    rating: 4.5,
     length: 129,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Hunger Games : La Révolte - Partie 1",
@@ -381,10 +393,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Jennifer Lawrence" }],
     coverUrl: "/movies_pictures/101991-the-hunger-games-mockingjay-part-1-0-150-0-225-crop.jpg",
     releaseDate: "2014-11-21",
-    rating: 0,
+    rating: 3,
     length: 123,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Interstellar",
@@ -392,10 +405,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Matthew McConaughey" }],
     coverUrl: "/movies_pictures/117621-interstellar-0-150-0-225-crop.jpg",
     releaseDate: "2014-11-07",
-    rating: 0,
+    rating: 3.5,
     length: 169,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Gone Girl",
@@ -403,10 +417,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Ben Affleck" }],
     coverUrl: "/movies_pictures/149857-gone-girl-0-150-0-225-crop.jpg",
     releaseDate: "2014-10-03",
-    rating: 0,
+    rating: 3,
     length: 149,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "John Wick",
@@ -414,10 +429,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Keanu Reeves" }],
     coverUrl: "/movies_pictures/172076-john-wick-0-150-0-225-crop.jpg",
     releaseDate: "2014-10-24",
-    rating: 0,
+    rating: 4,
     length: 101,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Le Labyrinthe",
@@ -425,10 +441,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Dylan O'Brien" }],
     coverUrl: "/movies_pictures/142549-the-maze-runner-0-150-0-225-crop.jpg",
     releaseDate: "2014-09-19",
-    rating: 0,
+    rating: 4,
     length: 113,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Birdman",
@@ -436,10 +453,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Michael Keaton" }],
     coverUrl: "/movies_pictures/139795-birdman-0-150-0-225-crop.jpg",
     releaseDate: "2014-10-17",
-    rating: 0,
+    rating: 3,
     length: 119,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Sin City : J'ai Tué pour Elle",
@@ -447,10 +465,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Mickey Rourke" }],
     coverUrl: "/movies_pictures/51863-sin-city-a-dame-to-kill-for-0-150-0-225-crop.jpg",
     releaseDate: "2014-08-22",
-    rating: 0,
+    rating: 3.25,
     length: 102,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Lucy",
@@ -458,10 +477,11 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Scarlett Johansson" }],
     coverUrl: "/movies_pictures/168860-lucy-0-150-0-225-crop.jpg",
     releaseDate: "2014-07-25",
-    rating: 0,
+    rating: 4.5,
     length: 89,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Transformers : L'Âge de l'Extinction",
@@ -469,9 +489,10 @@ export const moviesPage3: Movie[] = [
     actors: [{ name: "Mark Wahlberg" }],
     coverUrl: "/movies_pictures/76504-transformers-age-of-extinction-0-150-0-225-crop.jpg",
     releaseDate: "2014-06-27",
-    rating: 0,
+    rating: 3,
     length: 165,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
 ];

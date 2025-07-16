@@ -2,15 +2,16 @@ import { Movie } from "./movies_1";
 
 export const moviesPage8: Movie[] = [
   {
-    title: "DodgeBall: A True Underdog Story",
+    title: "DodgeBall: Même pas mal",
     director: "Rawson Marshall Thurber",
     actors: [{ name: "Vince Vaughn" }],
     coverUrl: "/movies_pictures/dodgeball.jpg",
     releaseDate: "2004-06-18",
-    rating: 0,
+    rating: 3.75,
     length: 92,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Garfield",
@@ -18,10 +19,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Bill Murray" }],
     coverUrl: "/movies_pictures/47508-garfield-0-150-0-225-crop.jpg",
     releaseDate: "2004-06-11",
-    rating: 0,
+    rating: 3,
     length: 80,
     genre: "Comedy",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Harold & Kumar Go to White Castle",
@@ -29,10 +31,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "John Cho" }],
     coverUrl: "/movies_pictures/harold_et_kumar_white_castle.jpg",
     releaseDate: "2004-07-30",
-    rating: 0,
+    rating: 3,
     length: 88,
     genre: "Comedy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "The Day After Tomorrow",
@@ -40,10 +43,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Dennis Quaid" }],
     coverUrl: "/movies_pictures/le_jour_d_apres.jpg",
     releaseDate: "2004-05-28",
-    rating: 0,
+    rating: 4.75,
     length: 124,
     genre: "Science Fiction",
     timesWatched: 30,
+    lastViewedDate: "2025-02-28"
   },
   {
     title: "Van Helsing",
@@ -51,10 +55,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Hugh Jackman" }],
     coverUrl: "/movies_pictures/48113-van-helsing-0-150-0-225-crop.jpg",
     releaseDate: "2004-05-07",
-    rating: 0,
+    rating: 3.25,
     length: 131,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Man on Fire",
@@ -62,10 +67,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Denzel Washington" }],
     coverUrl: "/movies_pictures/man_on_fire.jpg",
     releaseDate: "2004-04-23",
-    rating: 0,
+    rating: 3.25,
     length: 146,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Kill Bill: Vol. 2",
@@ -73,10 +79,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Uma Thurman" }],
     coverUrl: "/movies_pictures/kill_bill_2.jpg",
     releaseDate: "2004-04-16",
-    rating: 0,
+    rating: 4,
     length: 137,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Hellboy",
@@ -84,10 +91,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Ron Perlman" }],
     coverUrl: "/movies_pictures/51012-hellboy-0-150-0-225-crop.jpg",
     releaseDate: "2004-04-02",
-    rating: 0,
+    rating: 4,
     length: 122,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Shaun of the Dead",
@@ -95,10 +103,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Simon Pegg" }],
     coverUrl: "/movies_pictures/shaun_of_the_dead.jpg",
     releaseDate: "2004-04-09",
-    rating: 0,
+    rating: 3,
     length: 99,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Scooby-Doo 2: Monsters Unleashed",
@@ -106,10 +115,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Freddie Prinze Jr." }],
     coverUrl: "/movies_pictures/45679-scooby-doo-2-monsters-unleashed-0-150-0-225-crop.jpg",
     releaseDate: "2004-03-26",
-    rating: 0,
+    rating: 3,
     length: 93,
     genre: "Comedy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Les choristes",
@@ -117,10 +127,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Gérard Jugnot" }],
     coverUrl: "/movies_pictures/les_choristes.jpg",
     releaseDate: "2004-03-17",
-    rating: 0,
+    rating: 3.75,
     length: 97,
     genre: "Drama",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "EuroTrip",
@@ -128,21 +139,23 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Scott Mechlowicz" }],
     coverUrl: "/movies_pictures/47243-eurotrip-0-150-0-225-crop.jpg",
     releaseDate: "2004-02-20",
-    rating: 0,
+    rating: 3.5,
     length: 93,
     genre: "Comedy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
-    title: "The 11 Commandments",
+    title: "Les 11 commandements",
     director: "François Desagnat, Thomas Sorriaux",
     actors: [{ name: "François Desagnat" }],
     coverUrl: "/movies_pictures/40754-the-11-commandments-0-150-0-225-crop.jpg",
     releaseDate: "2004-02-11",
-    rating: 0,
+    rating: 3,
     length: 90,
     genre: "Comedy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "RRRrrrr!!!",
@@ -150,10 +163,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Marion Cotillard" }],
     coverUrl: "/movies_pictures/38203-rrrrrrr--0-150-0-225-crop.jpg",
     releaseDate: "2004-01-28",
-    rating: 0,
+    rating: 3.75,
     length: 94,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Saw",
@@ -161,10 +175,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Cary Elwes" }],
     coverUrl: "/movies_pictures/saw.jpg",
     releaseDate: "2004-10-29",
-    rating: 0,
+    rating: 3.25,
     length: 103,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "L'effet papillon",
@@ -172,10 +187,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Ashton Kutcher" }],
     coverUrl: "/movies_pictures/50654-the-butterfly-effect-0-150-0-225-crop.jpg",
     releaseDate: "2004-01-23",
-    rating: 0,
+    rating: 3.5,
     length: 113,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Oldboy",
@@ -183,10 +199,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Choi Min-sik" }],
     coverUrl: "/movies_pictures/51454-oldboy-0-150-0-225-crop.jpg",
     releaseDate: "2003-11-21",
-    rating: 0,
+    rating: 3.5,
     length: 120,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "The Matrix Revolutions",
@@ -194,10 +211,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Keanu Reeves" }],
     coverUrl: "/movies_pictures/51516-the-matrix-revolutions-0-150-0-225-crop.jpg",
     releaseDate: "2003-11-05",
-    rating: 0,
+    rating: 3.25,
     length: 129,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Scary Movie 3",
@@ -205,10 +223,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Anna Faris" }],
     coverUrl: "/movies_pictures/49434-scary-movie-3-0-150-0-225-crop.jpg",
     releaseDate: "2003-10-24",
-    rating: 0,
+    rating: 3.25,
     length: 84,
     genre: "Comedy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Kill Bill: Vol. 1",
@@ -216,10 +235,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Uma Thurman" }],
     coverUrl: "/movies_pictures/kill_bill.jpg",
     releaseDate: "2003-10-10",
-    rating: 0,
+    rating: 4.5,
     length: 111,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Underworld",
@@ -227,10 +247,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Kate Beckinsale" }],
     coverUrl: "/movies_pictures/underworld_1.jpg",
     releaseDate: "2003-09-19",
-    rating: 0,
+    rating: 4.25,
     length: 121,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Spy Kids 3-D: Game Over",
@@ -238,10 +259,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Alexa Vega" }],
     coverUrl: "/movies_pictures/44637-spy-kids-3-d-game-over-0-150-0-225-crop.jpg",
     releaseDate: "2003-07-25",
-    rating: 0,
+    rating: 3.5,
     length: 84,
     genre: "Adventure",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "American Pie 3 : Marions-les",
@@ -249,10 +271,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Jason Biggs" }],
     coverUrl: "/movies_pictures/47833-american-wedding-0-150-0-225-crop.jpg",
     releaseDate: "2003-08-01",
-    rating: 0,
+    rating: 3,
     length: 96,
     genre: "Comedy",
     timesWatched: 0,
+    lastViewedDate: ""
   },
   {
     title: "Bad Boys II",
@@ -260,32 +283,35 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/47473-bad-boys-ii-0-150-0-225-crop.jpg",
     releaseDate: "2003-07-18",
-    rating: 0,
+    rating: 3.25,
     length: 147,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
-    title: "Pirates of the Caribbean: The Curse of the Black Pearl",
+    title: "Pirates des Caraïbes : La malédiction du Black Pearl",
     director: "Gore Verbinski",
     actors: [{ name: "Johnny Depp" }],
     coverUrl: "/movies_pictures/2695-pirates-of-the-caribbean-the-curse-of-the-black-pearl-0-150-0-225-crop.jpg",
     releaseDate: "2003-07-09",
-    rating: 0,
+    rating: 3.75,
     length: 143,
     genre: "Adventure",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
-    title: "Bruce Almighty",
+    title: "Bruce tout-puissant",
     director: "Tom Shadyac",
     actors: [{ name: "Jim Carrey" }],
     coverUrl: "/movies_pictures/51749-bruce-almighty-0-150-0-225-crop.jpg",
     releaseDate: "2003-05-23",
-    rating: 0,
+    rating: 4.25,
     length: 101,
     genre: "Comedy",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "The Matrix Reloaded",
@@ -293,10 +319,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Keanu Reeves" }],
     coverUrl: "/movies_pictures/51517-the-matrix-reloaded-0-150-0-225-crop.jpg",
     releaseDate: "2003-05-15",
-    rating: 0,
+    rating: 3.25,
     length: 138,
     genre: "Science Fiction",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Moi, Cesar, 10 ans et demi, 1m39",
@@ -304,10 +331,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Richard Berry" }],
     coverUrl: "/movies_pictures/6543-i-cesar-0-150-0-225-crop.jpg",
     releaseDate: "2003-04-30",
-    rating: 0,
+    rating: 3,
     length: 95,
     genre: "Comedy",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "En sursis",
@@ -315,10 +343,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Jet Li" }],
     coverUrl: "/movies_pictures/46051-cradle-2-the-grave-0-150-0-225-crop.jpg",
     releaseDate: "2003-02-28",
-    rating: 0,
+    rating: 3.75,
     length: 101,
     genre: "Action",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "La Beuze",
@@ -326,10 +355,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Vincent Lindon" }],
     coverUrl: "/movies_pictures/la_beuze.jpg",
     releaseDate: "2003-02-05",
-    rating: 0,
+    rating: 2.5,
     length: 95,
     genre: "Drama",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Destination Finale 2",
@@ -337,10 +367,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "A.J. Cook" }],
     coverUrl: "/movies_pictures/destination_finale_2.jpg",
     releaseDate: "2003-01-31",
-    rating: 0,
+    rating: 3,
     length: 90,
     genre: "Horror",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Taxi 3",
@@ -348,10 +379,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Samy Naceri" }],
     coverUrl: "/movies_pictures/50320-taxi-3-0-150-0-225-crop.jpg",
     releaseDate: "2003-01-29",
-    rating: 0,
+    rating: 4,
     length: 84,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Ong Bak",
@@ -359,10 +391,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Tony Jaa" }],
     coverUrl: "/movies_pictures/47277-ong-bak-0-150-0-225-crop.jpg",
     releaseDate: "2003-01-21",
-    rating: 0,
+    rating: 3.75,
     length: 108,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Attrape-moi si tu peux",
@@ -370,10 +403,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Leonardo DiCaprio" }],
     coverUrl: "/movies_pictures/51484-catch-me-if-you-can-0-150-0-225-crop.jpg",
     releaseDate: "2002-12-25",
-    rating: 0,
+    rating: 4.25,
     length: 141,
     genre: "Crime",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Equilibrium",
@@ -381,10 +415,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Christian Bale" }],
     coverUrl: "/movies_pictures/equilibrium-0-150-0-225-crop.jpg",
     releaseDate: "2002-12-06",
-    rating: 0,
+    rating: 3.25,
     length: 107,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "James Bond: Meurs un autre jour",
@@ -392,10 +427,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Pierce Brosnan" }],
     coverUrl: "/movies_pictures/james_bond_demain_ne_meurs_jamaiis.jpg",
     releaseDate: "2002-11-22",
-    rating: 0,
+    rating: 3,
     length: 133,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Opération antisèche",
@@ -403,10 +439,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Trevor Fehrman" }],
     coverUrl: "/movies_pictures/41348-cheats-0-150-0-225-crop.jpg",
     releaseDate: "2002-09-13",
-    rating: 0,
+    rating: 3.25,
     length: 85,
     genre: "Comedy",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "28 jours plus tard",
@@ -414,10 +451,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Cillian Murphy" }],
     coverUrl: "/movies_pictures/28_jours_plus_tard.jpg",
     releaseDate: "2002-11-01",
-    rating: 0,
+    rating: 3,
     length: 113,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Le Transporteur",
@@ -425,10 +463,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Jason Statham" }],
     coverUrl: "/movies_pictures/49510-the-transporter-0-150-0-225-crop.jpg",
     releaseDate: "2002-10-11",
-    rating: 0,
+    rating: 3.75,
     length: 92,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Le cercle : The ring",
@@ -436,10 +475,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Naomi Watts" }],
     coverUrl: "/movies_pictures/the-ring-0-150-0-225-crop.jpg",
     releaseDate: "2002-10-18",
-    rating: 0,
+    rating: 2.75,
     length: 115,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Phone Game",
@@ -447,10 +487,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Colin Farrell" }],
     coverUrl: "/movies_pictures/phone_game.jpg",
     releaseDate: "2002-09-10",
-    rating: 0,
+    rating: 3.25,
     length: 81,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "xXx",
@@ -458,10 +499,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Vin Diesel" }],
     coverUrl: "/movies_pictures/48025-xxx-0-150-0-225-crop.jpg",
     releaseDate: "2002-08-09",
-    rating: 0,
+    rating: 3.5,
     length: 124,
     genre: "Action",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Spy Kids 2: L'île des rêves perdus",
@@ -469,10 +511,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Alexa Vega" }],
     coverUrl: "/movies_pictures/47110-spy-kids-2-island-of-lost-dreams-0-150-0-225-crop.jpg",
     releaseDate: "2002-08-07",
-    rating: 0,
+    rating: 3,
     length: 100,
     genre: "Adventure",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Men in Black II",
@@ -480,10 +523,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/51513-men-in-black-ii-0-150-0-225-crop.jpg",
     releaseDate: "2002-07-03",
-    rating: 0,
+    rating: 4.25,
     length: 88,
     genre: "Action",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Minority Report",
@@ -491,10 +535,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Tom Cruise" }],
     coverUrl: "/movies_pictures/minority_report.jpg",
     releaseDate: "2002-06-21",
-    rating: 0,
+    rating: 3.5,
     length: 145,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Scooby-Doo",
@@ -502,10 +547,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Freddie Prinze Jr." }],
     coverUrl: "/movies_pictures/scooby-doo.jpg",
     releaseDate: "2002-06-14",
-    rating: 0,
+    rating: 3,
     length: 86,
     genre: "Comedy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "La mémoire dans la peau",
@@ -513,10 +559,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Matt Damon" }],
     coverUrl: "/movies_pictures/50225-the-bourne-identity-0-150-0-225-crop.jpg",
     releaseDate: "2002-06-14",
-    rating: 0,
+    rating: 4,
     length: 119,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Calculs Meurtriers",
@@ -524,10 +571,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Sandra Bullock" }],
     coverUrl: "/movies_pictures/44914-murder-by-numbers-0-150-0-225-crop.jpg",
     releaseDate: "2002-04-19",
-    rating: 0,
+    rating: 3.75,
     length: 120,
     genre: "Thriller",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Blade II",
@@ -535,10 +583,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Wesley Snipes" }],
     coverUrl: "/movies_pictures/27781-blade-ii-0-150-0-225-crop.jpg",
     releaseDate: "2002-03-22",
-    rating: 0,
+    rating: 3,
     length: 117,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Panic Room",
@@ -546,10 +595,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Jodie Foster" }],
     coverUrl: "/movies_pictures/panic_room.jpg",
     releaseDate: "2002-03-29",
-    rating: 0,
+    rating: 3.5,
     length: 112,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Resident Evil",
@@ -557,10 +607,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Milla Jovovich" }],
     coverUrl: "/movies_pictures/resident_evil.jpg",
     releaseDate: "2002-03-15",
-    rating: 0,
+    rating: 3.75,
     length: 100,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Rollerball",
@@ -568,10 +619,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Chris Klein" }],
     coverUrl: "/movies_pictures/45213-rollerball-0-150-0-225-crop.jpg",
     releaseDate: "2002-02-08",
-    rating: 0,
+    rating: 3.25,
     length: 98,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Dommage Collateral",
@@ -579,10 +631,11 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/46749-collateral-damage-0-150-0-225-crop.jpg",
     releaseDate: "2002-02-08",
-    rating: 0,
+    rating: 3.25,
     length: 108,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Astérix & Obélix : Mission Cléopâtre",
@@ -590,9 +643,10 @@ export const moviesPage8: Movie[] = [
     actors: [{ name: "Gérard Depardieu" }],
     coverUrl: "/movies_pictures/50024-asterix-obelix-mission-cleopatra-0-150-0-225-crop.jpg",
     releaseDate: "2002-01-30",
-    rating: 0,
+    rating: 5,
     length: 107,
     genre: "Comedy",
     timesWatched: 50,
+    lastViewedDate: ""
   },
 ];

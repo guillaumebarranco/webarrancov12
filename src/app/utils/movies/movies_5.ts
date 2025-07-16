@@ -7,21 +7,23 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Jean-Paul Rouve" }],
     coverUrl: "/movies_pictures/les_tuche.jpg",
     releaseDate: "2011-06-29",
-    rating: 0,
+    rating: 3.75,
     length: 95,
     genre: "Comedy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
-    title: "Horrible Bosses",
+    title: "Comment tuer son boss",
     director: "Seth Gordon",
     actors: [{ name: "Jason Bateman" }],
     coverUrl: "/movies_pictures/horrible_bosses.jpg",
     releaseDate: "2011-07-08",
-    rating: 0,
+    rating: 2.75,
     length: 98,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Transformers 3 : La Face Cachée de la Lune",
@@ -29,30 +31,35 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Shia LaBeouf" }],
     coverUrl: "/movies_pictures/transforms_face_cachee_de_la_lune.jpg",
     releaseDate: "2011-06-29",
-    rating: 0,
+    rating: 2.75,
     length: 154,
     genre: "Action",
     timesWatched: 1,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Super 8",
     director: "J.J. Abrams",
     actors: [{ name: "Joel Courtney" }],
     coverUrl: "/movies_pictures/super_8.jpg",
     releaseDate: "2011-06-10",
-    rating: 0,
+    rating: 3.75,
     length: 112,
     genre: "Science Fiction",
     timesWatched: 3,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Drive",
     director: "Nicolas Winding Refn",
     actors: [{ name: "Ryan Gosling" }],
     coverUrl: "/movies_pictures/drive.jpg",
     releaseDate: "2011-09-16",
-    rating: 1.5,
+    rating: 1,
     length: 100,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Very Bad Trip 2",
@@ -60,10 +67,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Bradley Cooper" }],
     coverUrl: "/movies_pictures/very_bad_trip_2.jpg",
     releaseDate: "2011-05-26",
-    rating: 0,
+    rating: 3.25,
     length: 102,
     genre: "Comedy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "The Artist",
@@ -71,10 +79,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Jean Dujardin" }],
     coverUrl: "/movies_pictures/the_artist.jpg",
     releaseDate: "2011-11-23",
-    rating: 0,
+    rating: 3,
     length: 100,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: "2011-11-23"
   },
   {
     title: "Scream 4",
@@ -82,10 +91,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Neve Campbell" }],
     coverUrl: "/movies_pictures/scream_4.jpg",
     releaseDate: "2011-04-15",
-    rating: 0,
+    rating: 3,
     length: 111,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Sucker Punch",
@@ -93,10 +103,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Emily Browning" }],
     coverUrl: "/movies_pictures/sucker-punch-original-0-150-0-225-crop.jpg",
     releaseDate: "2011-03-25",
-    rating: 0,
+    rating: 2.5,
     length: 110,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Paul",
@@ -104,21 +115,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Simon Pegg" }],
     coverUrl: "/movies_pictures/paul.jpg",
     releaseDate: "2011-03-18",
-    rating: 0,
+    rating: 3.25,
     length: 104,
     genre: "Comedy",
     timesWatched: 5,
-  },
-  {
-    title: "Megamind",
-    director: "Tom McGrath",
-    actors: [{ name: "Will Ferrell" }],
-    coverUrl: "/movies_pictures/26476-megamind-0-150-0-225-crop.jpg",
-    releaseDate: "2010-11-05",
-    rating: 0,
-    length: 95,
-    genre: "Animation",
-    timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "RED",
@@ -126,10 +127,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/25175-red-0-150-0-225-crop.jpg",
     releaseDate: "2010-10-15",
-    rating: 0,
+    rating: 3.75,
     length: 111,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "The Social Network",
@@ -137,10 +139,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Jesse Eisenberg" }],
     coverUrl: "/movies_pictures/the_social_network.jpg",
     releaseDate: "2010-10-01",
-    rating: 0,
+    rating: 4.25,
     length: 120,
     genre: "Drama",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "127 Heures",
@@ -148,10 +151,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "James Franco" }],
     coverUrl: "/movies_pictures/21050-127-hours-0-150-0-225-crop.jpg",
     releaseDate: "2010-11-05",
-    rating: 0,
+    rating: 3.25,
     length: 94,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Black Swan",
@@ -159,10 +163,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Natalie Portman" }],
     coverUrl: "/movies_pictures/black_swan.jpg",
     releaseDate: "2010-12-03",
-    rating: 0,
+    rating: 3.25,
     length: 108,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Expendables : Unité Spéciale",
@@ -170,10 +175,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/34395-the-expendables-0-150-0-225-crop.jpg",
     releaseDate: "2010-08-13",
-    rating: 0,
+    rating: 2.75,
     length: 103,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Inception",
@@ -181,10 +187,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Leonardo DiCaprio" }],
     coverUrl: "/movies_pictures/inception-0-150-0-225-crop.jpg",
     releaseDate: "2010-07-16",
-    rating: 0,
+    rating: 3.75,
     length: 148,
     genre: "Science Fiction",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Predators",
@@ -192,10 +199,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Adrien Brody" }],
     coverUrl: "/movies_pictures/predators.jpg",
     releaseDate: "2010-07-09",
-    rating: 0,
+    rating: 3.5,
     length: 107,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Twilight : Chapitre 3 - Hésitation",
@@ -203,10 +211,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Kristen Stewart" }],
     coverUrl: "/movies_pictures/hesitation.jpg",
     releaseDate: "2010-06-30",
-    rating: 0,
+    rating: 2.5,
     length: 124,
     genre: "Fantasy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Fatal",
@@ -214,10 +223,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Michaël Youn" }],
     coverUrl: "/movies_pictures/19718-fatal-0-150-0-225-crop.jpg",
     releaseDate: "2010-06-30",
-    rating: 0,
+    rating: 4.25,
     length: 85,
     genre: "Comedy",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Toy Story 3",
@@ -225,10 +235,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Tom Hanks" }],
     coverUrl: "/movies_pictures/46458-toy-story-3-0-150-0-225-crop.jpg",
     releaseDate: "2010-06-18",
-    rating: 0,
+    rating: 3,
     length: 103,
     genre: "Animation",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "The Karate Kid",
@@ -236,10 +247,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Jaden Smith" }],
     coverUrl: "/movies_pictures/26025-the-karate-kid-0-150-0-225-crop.jpg",
     releaseDate: "2010-06-11",
-    rating: 0,
+    rating: 3.5,
     length: 140,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Shrek 4 : Il Était une Fois",
@@ -247,20 +259,23 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Mike Myers" }],
     coverUrl: "/movies_pictures/shrek_4.jpg",
     releaseDate: "2010-05-21",
-    rating: 0,
+    rating: 3,
     length: 93,
     genre: "Animation",
     timesWatched: 1,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Le Choc des Titans",
     director: "Louis Leterrier",
     actors: [{ name: "Sam Worthington" }],
     coverUrl: "/movies_pictures/40075-clash-of-the-titans-0-150-0-225-crop.jpg",
     releaseDate: "2010-04-02",
-    rating: 0,
+    rating: 3,
     length: 106,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Alice au Pays des Merveilles",
@@ -268,10 +283,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Johnny Depp" }],
     coverUrl: "/movies_pictures/alice-in-wonderland-original-0-150-0-225-crop.jpg",
     releaseDate: "2010-03-05",
-    rating: 0,
+    rating: 3.25,
     length: 108,
     genre: "Fantasy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Shutter Island",
@@ -279,10 +295,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Leonardo DiCaprio" }],
     coverUrl: "/movies_pictures/45409-shutter-island-0-150-0-225-crop.jpg",
     releaseDate: "2010-02-19",
-    rating: 0,
+    rating: 2.75,
     length: 138,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Percy Jackson : Le Voleur de Foudre",
@@ -290,10 +307,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Logan Lerman" }],
     coverUrl: "/movies_pictures/30264-percy-jackson-the-olympians-the-lightning-thief-0-150-0-225-crop.jpg",
     releaseDate: "2010-02-12",
-    rating: 0,
+    rating: 2.75,
     length: 118,
     genre: "Fantasy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Avatar",
@@ -301,10 +319,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Sam Worthington" }],
     coverUrl: "/movies_pictures/avatar.jpg",
     releaseDate: "2009-12-18",
-    rating: 0,
+    rating: 5,
     length: 162,
     genre: "Science Fiction",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "American Pie Presents: The Book of Love",
@@ -312,10 +331,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Bug Hall" }],
     coverUrl: "/movies_pictures/35567-american-pie-presents-the-book-of-love-0-150-0-225-crop.jpg",
     releaseDate: "2009-12-22",
-    rating: 0,
+    rating: 2.5,
     length: 93,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Brothers",
@@ -323,10 +343,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Tobey Maguire" }],
     coverUrl: "/movies_pictures/48031-brothers-0-150-0-225-crop.jpg",
     releaseDate: "2009-12-04",
-    rating: 0,
+    rating: 3.5,
     length: 105,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Twilight : Chapitre 2 - Tentation",
@@ -334,10 +355,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Kristen Stewart" }],
     coverUrl: "/movies_pictures/40480-the-twilight-saga-new-moon-0-150-0-225-crop.jpg",
     releaseDate: "2009-11-20",
-    rating: 0,
+    rating: 2.75,
     length: 130,
     genre: "Fantasy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Lucky Luke",
@@ -345,10 +367,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Jean Dujardin" }],
     coverUrl: "/movies_pictures/28805-lucky-luke-0-150-0-225-crop.jpg",
     releaseDate: "2009-10-21",
-    rating: 0,
+    rating: 2.75,
     length: 103,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Le beau-père",
@@ -356,10 +379,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Dylan Walsh" }],
     coverUrl: "/movies_pictures/39354-the-stepfather-0-150-0-225-crop.jpg",
     releaseDate: "2009-10-16",
-    rating: 0,
+    rating: 3.25,
     length: 101,
     genre: "Thriller",
-    timesWatched: 3,
+    timesWatched: 5,
+    lastViewedDate: "2025-04-16"
   },
   {
     title: "2012",
@@ -367,10 +391,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "John Cusack" }],
     coverUrl: "/movies_pictures/43301-2012-0-150-0-225-crop.jpg",
     releaseDate: "2009-11-13",
-    rating: 0,
+    rating: 3.5,
     length: 158,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Zombieland",
@@ -378,10 +403,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Jesse Eisenberg" }],
     coverUrl: "/movies_pictures/39352-zombieland-0-150-0-225-crop.jpg",
     releaseDate: "2009-10-02",
-    rating: 0,
+    rating: 3.75,
     length: 88,
     genre: "Comedy",
-    timesWatched: 3,
+    timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "The Blind Side",
@@ -389,10 +415,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Sandra Bullock" }],
     coverUrl: "/movies_pictures/the-blind-side-0-150-0-225-crop.jpg",
     releaseDate: "2009-11-20",
-    rating: 4.25,
+    rating: 5,
     length: 129,
     genre: "Drama",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Mr. Nobody",
@@ -404,6 +431,7 @@ export const moviesPage5: Movie[] = [
     length: 141,
     genre: "Science Fiction",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Coco",
@@ -411,10 +439,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Anthony Gonzalez" }],
     coverUrl: "/movies_pictures/39968-coco-0-150-0-225-crop.jpg",
     releaseDate: "2017-11-22",
-    rating: 0,
+    rating: 3,
     length: 105,
     genre: "Animation",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Transformers 2 : La Revanche",
@@ -422,10 +451,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Shia LaBeouf" }],
     coverUrl: "/movies_pictures/47769-transformers-revenge-of-the-fallen-0-150-0-225-crop.jpg",
     releaseDate: "2009-06-24",
-    rating: 0,
+    rating: 3.5,
     length: 150,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Very Bad Trip",
@@ -433,10 +463,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Bradley Cooper" }],
     coverUrl: "/movies_pictures/40100-the-hangover-0-150-0-225-crop.jpg",
     releaseDate: "2009-06-05",
-    rating: 0,
+    rating: 4,
     length: 100,
     genre: "Comedy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Destination Finale 4",
@@ -444,10 +475,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Bobby Campo" }],
     coverUrl: "/movies_pictures/destination_finale_4.jpg",
     releaseDate: "2009-08-28",
-    rating: 0,
+    rating: 3.5,
     length: 82,
     genre: "Horror",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "La Nuit au Musée 2",
@@ -455,10 +487,11 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Ben Stiller" }],
     coverUrl: "/movies_pictures/la_nuit_au_musee.jpg",
     releaseDate: "2009-05-22",
-    rating: 0,
+    rating: 3,
     length: 105,
     genre: "Adventure",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Inglourious Basterds",
@@ -466,19 +499,22 @@ export const moviesPage5: Movie[] = [
     actors: [{ name: "Brad Pitt" }],
     coverUrl: "/movies_pictures/41352-inglourious-basterds-0-150-0-225-crop.jpg",
     releaseDate: "2009-08-21",
-    rating: 0,
+    rating: 3.5,
     length: 153,
     genre: "War",
     timesWatched: 1,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Hypertension",
     director: "Neveldine/Taylor",
     actors: [{ name: "Jason Statham" }],
     coverUrl: "/movies_pictures/42603-crank-high-voltage-0-150-0-225-crop.jpg",
     releaseDate: "2009-04-17",
-    rating: 0,
+    rating: 3,
     length: 96,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
 ];

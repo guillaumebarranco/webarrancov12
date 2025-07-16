@@ -7,10 +7,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/507660-independence-day-the-id4-invasion-0-150-0-225-crop.jpg",
     releaseDate: "1996-07-03",
-    rating: 0,
+    rating: 3.25,
     length: 145,
     genre: "Science Fiction",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Independence Day",
@@ -18,32 +19,35 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/bqLlWZJdhrS0knfEJRkquW7L8z2-0-150-0-225-crop.jpg",
     releaseDate: "1996-07-03",
-    rating: 0,
+    rating: 4,
     length: 145,
     genre: "Science Fiction",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
-    title: "Eraser",
+    title: "L'effaceur",
     director: "Chuck Russell",
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/47324-eraser-0-150-0-225-crop.jpg",
     releaseDate: "1996-06-21",
-    rating: 0,
+    rating: 3.75,
     length: 115,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
-    title: "The Quest",
+    title: "La quête",
     director: "Jean-Claude Van Damme",
     actors: [{ name: "Jean-Claude Van Damme" }],
     coverUrl: "/movies_pictures/47342-the-quest-0-150-0-225-crop.jpg",
     releaseDate: "1996-04-26",
-    rating: 0,
+    rating: 3,
     length: 95,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Trainspotting",
@@ -51,10 +55,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Ewan McGregor" }],
     coverUrl: "/movies_pictures/51497-trainspotting-0-150-0-225-crop.jpg",
     releaseDate: "1996-02-23",
-    rating: 0,
+    rating: 2.5,
     length: 93,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Jumanji",
@@ -62,10 +67,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Robin Williams" }],
     coverUrl: "/movies_pictures/jumanji.jpg",
     releaseDate: "1995-12-15",
-    rating: 0,
+    rating: 3,
     length: 104,
     genre: "Adventure",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Seven",
@@ -73,10 +79,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Brad Pitt" }],
     coverUrl: "/movies_pictures/51345-se7en-0-150-0-225-crop.jpg",
     releaseDate: "1995-09-22",
-    rating: 0,
+    rating: 4,
     length: 127,
     genre: "Crime",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "The Net",
@@ -84,10 +91,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Sandra Bullock" }],
     coverUrl: "/movies_pictures/50900-the-net-0-150-0-225-crop.jpg",
     releaseDate: "1995-07-28",
-    rating: 0,
+    rating: 3.25,
     length: 114,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Waterworld",
@@ -95,10 +103,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Kevin Costner" }],
     coverUrl: "/movies_pictures/waterworld.jpg",
     releaseDate: "1995-07-28",
-    rating: 0,
+    rating: 3,
     length: 135,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Piège à grande vitesse",
@@ -106,10 +115,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Steven Seagal" }],
     coverUrl: "/movies_pictures/49707-under-siege-2-dark-territory-0-150-0-225-crop.jpg",
     releaseDate: "1995-07-14",
-    rating: 0,
+    rating: 3.25,
     length: 100,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Judge Dredd",
@@ -117,10 +127,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/judge_dredd.jpg",
     releaseDate: "1995-06-30",
-    rating: 0,
+    rating: 3.5,
     length: 96,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Die Hard 3 : une journée en enfer",
@@ -128,10 +139,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/50962-die-hard-with-a-vengeance-0-150-0-225-crop.jpg",
     releaseDate: "1995-05-19",
-    rating: 0,
+    rating: 5,
     length: 128,
     genre: "Action",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Bad Boys",
@@ -139,10 +151,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Will Smith" }],
     coverUrl: "/movies_pictures/46870-bad-boys-0-150-0-225-crop.jpg",
     releaseDate: "1995-04-07",
-    rating: 0,
+    rating: 3.5,
     length: 119,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "The Usual Suspects",
@@ -150,10 +163,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Kevin Spacey" }],
     coverUrl: "/movies_pictures/51495-the-usual-suspects-0-150-0-225-crop.jpg",
     releaseDate: "1995-08-16",
-    rating: 0,
+    rating: 3.25,
     length: 106,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Street Fighter",
@@ -161,10 +175,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Jean-Claude Van Damme" }],
     coverUrl: "/movies_pictures/45086-street-fighter-0-150-0-225-crop.jpg",
     releaseDate: "1994-12-23",
-    rating: 0,
+    rating: 2.75,
     length: 102,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Un indien dans la ville",
@@ -172,10 +187,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Thierry Lhermitte" }],
     coverUrl: "/movies_pictures/45265-little-indian-big-city-0-150-0-225-crop.jpg",
     releaseDate: "1994-12-14",
-    rating: 0,
+    rating: 3.5,
     length: 85,
     genre: "Comedy",
-    timesWatched: 15,
+    timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Dumb & Dumber",
@@ -183,10 +199,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Jim Carrey" }],
     coverUrl: "/movies_pictures/st4P2TtPrAfNwu8HLXoPsPPii42-0-150-0-225-crop.jpg",
     releaseDate: "1994-12-16",
-    rating: 0,
+    rating: 3,
     length: 107,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Leon",
@@ -194,10 +211,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Jean Reno" }],
     coverUrl: "/movies_pictures/leon.jpg",
     releaseDate: "1994-11-18",
-    rating: 0,
+    rating: 4,
     length: 110,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "The Mask",
@@ -205,10 +223,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Jim Carrey" }],
     coverUrl: "/movies_pictures/51298-the-mask-0-150-0-225-crop.jpg",
     releaseDate: "1994-07-29",
-    rating: 0,
+    rating: 4.5,
     length: 101,
     genre: "Comedy",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "True Lies",
@@ -216,10 +235,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/true_lies.jpg",
     releaseDate: "1994-07-15",
-    rating: 0,
+    rating: 3.5,
     length: 141,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Forrest Gump",
@@ -227,10 +247,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Tom Hanks" }],
     coverUrl: "/movies_pictures/2704-forrest-gump-0-150-0-225-crop.jpg",
     releaseDate: "1994-07-06",
-    rating: 0,
+    rating: 4.75,
     length: 142,
     genre: "Drama",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Speed",
@@ -238,10 +259,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Keanu Reeves" }],
     coverUrl: "/movies_pictures/50904-speed-0-150-0-225-crop.jpg",
     releaseDate: "1994-06-10",
-    rating: 0,
+    rating: 4,
     length: 116,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Pulp Fiction",
@@ -249,10 +271,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "John Travolta" }],
     coverUrl: "/movies_pictures/51444-pulp-fiction-0-150-0-225-crop.jpg",
     releaseDate: "1994-10-14",
-    rating: 0,
+    rating: 3.5,
     length: 154,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "La cité de la peur",
@@ -260,10 +283,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Patrick Timsit" }],
     coverUrl: "/movies_pictures/42599-fear-city-a-family-style-comedy-0-150-0-225-crop.jpg",
     releaseDate: "1994-03-16",
-    rating: 0,
+    rating: 3.25,
     length: 85,
     genre: "Comedy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Mrs. Doubtfire",
@@ -271,10 +295,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Robin Williams" }],
     coverUrl: "/movies_pictures/51364-mrs-doubtfire-0-150-0-225-crop.jpg",
     releaseDate: "1993-11-24",
-    rating: 0,
+    rating: 3.25,
     length: 125,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Demolition Man",
@@ -282,10 +307,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/46868-demolition-man-0-150-0-225-crop.jpg",
     releaseDate: "1993-10-08",
-    rating: 0,
+    rating: 4.5,
     length: 115,
     genre: "Action",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Le fugitif",
@@ -293,10 +319,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Harrison Ford" }],
     coverUrl: "/movies_pictures/48823-the-fugitive-0-150-0-225-crop.jpg",
     releaseDate: "1993-08-06",
-    rating: 0,
+    rating: 3.25,
     length: 130,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Last Action Hero",
@@ -304,10 +331,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/47008-last-action-hero-0-150-0-225-crop.jpg",
     releaseDate: "1993-06-18",
-    rating: 0,
+    rating: 3.75,
     length: 130,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Jurassic Park",
@@ -315,10 +343,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Sam Neill" }],
     coverUrl: "/movies_pictures/jurassic_park.jpg",
     releaseDate: "1993-06-11",
-    rating: 0,
+    rating: 3.25,
     length: 127,
     genre: "Adventure",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Cliffhanger",
@@ -326,10 +355,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/47244-cliffhanger-0-150-0-225-crop.jpg",
     releaseDate: "1993-05-28",
-    rating: 0,
+    rating: 3.25,
     length: 113,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Les visiteurs",
@@ -337,10 +367,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Jean Reno" }],
     coverUrl: "/movies_pictures/45066-the-visitors-0-150-0-225-crop.jpg",
     releaseDate: "1993-01-27",
-    rating: 0,
+    rating: 3.5,
     length: 107,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Maman j'ai raté l'avion 2",
@@ -348,10 +379,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Macaulay Culkin" }],
     coverUrl: "/movies_pictures/home%20alone%202-0-150-0-225-crop.jpg",
     releaseDate: "1992-11-20",
-    rating: 0,
+    rating: 3.25,
     length: 120,
     genre: "Comedy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Piège en haute mer",
@@ -359,10 +391,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Steven Seagal" }],
     coverUrl: "/movies_pictures/47576-under-siege-0-150-0-225-crop.jpg",
     releaseDate: "1992-10-09",
-    rating: 0,
+    rating: 3,
     length: 103,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Alien 3",
@@ -370,10 +403,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Sigourney Weaver" }],
     coverUrl: "/movies_pictures/47888-alien-0-150-0-225-crop.jpg",
     releaseDate: "1992-05-22",
-    rating: 0,
+    rating: 3.25,
     length: 114,
     genre: "Science Fiction",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "L'arme fatale 3",
@@ -381,10 +415,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Mel Gibson" }],
     coverUrl: "/movies_pictures/arme_fatale_3.jpg",
     releaseDate: "1992-05-15",
-    rating: 0,
+    rating: 4,
     length: 118,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Basic Instinct",
@@ -392,10 +427,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Michael Douglas" }],
     coverUrl: "/movies_pictures/basic_instinct.jpg",
     releaseDate: "1992-03-20",
-    rating: 0,
+    rating: 3.25,
     length: 128,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Reservoir Dogs",
@@ -403,10 +439,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Harvey Keitel" }],
     coverUrl: "/movies_pictures/reservoir_dogs.jpg",
     releaseDate: "1992-10-23",
-    rating: 0,
+    rating: 3.25,
     length: 99,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Le dernier samaritain",
@@ -414,10 +451,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/le_dernier_samaritain.jpg",
     releaseDate: "1991-12-13",
-    rating: 0,
+    rating: 3.75,
     length: 105,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Double Impact",
@@ -425,10 +463,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Jean-Claude Van Damme" }],
     coverUrl: "/movies_pictures/47007-double-impact-0-150-0-225-crop.jpg",
     releaseDate: "1991-08-09",
-    rating: 0,
+    rating: 3,
     length: 110,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Point Break",
@@ -436,10 +475,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Patrick Swayze" }],
     coverUrl: "/movies_pictures/51157-point-break-0-150-0-225-crop.jpg",
     releaseDate: "1991-07-12",
-    rating: 0,
+    rating: 3.5,
     length: 122,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Predator 2",
@@ -447,10 +487,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Danny Glover" }],
     coverUrl: "/movies_pictures/predator_2.jpg",
     releaseDate: "1990-11-21",
-    rating: 0,
+    rating: 3,
     length: 108,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Maman j'ai raté l'avion",
@@ -458,10 +499,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Macaulay Culkin" }],
     coverUrl: "/movies_pictures/home_alone.jpg",
     releaseDate: "1990-11-16",
-    rating: 0,
+    rating: 4,
     length: 103,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Les Affranchis",
@@ -469,10 +511,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Robert De Niro" }],
     coverUrl: "/movies_pictures/51383-goodfellas-0-150-0-225-crop.jpg",
     releaseDate: "1990-09-19",
-    rating: 0,
+    rating: 3.5,
     length: 146,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Die Hard 2 : 58 minutes pour vivre",
@@ -480,10 +523,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/die_hard_2.jpg",
     releaseDate: "1990-07-04",
-    rating: 0,
+    rating: 4,
     length: 124,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
     title: "Total Recall",
@@ -491,10 +535,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/51291-total-recall-0-150-0-225-crop.jpg",
     releaseDate: "1990-06-01",
-    rating: 0,
+    rating: 3,
     length: 113,
     genre: "Science Fiction",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Retour vers le futur 3",
@@ -502,10 +547,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Michael J. Fox" }],
     coverUrl: "/movies_pictures/51856-back-to-the-future-part-iii-0-150-0-225-crop.jpg",
     releaseDate: "1990-05-25",
-    rating: 0,
+    rating: 4.25,
     length: 118,
     genre: "Science Fiction",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Nikita",
@@ -513,10 +559,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Anne Parillaud" }],
     coverUrl: "/movies_pictures/47271-la-femme-nikita-0-150-0-225-crop.jpg",
     releaseDate: "1990-02-21",
-    rating: 0,
+    rating: 3.5,
     length: 117,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Tango & Cash",
@@ -524,10 +571,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/tango_et_cash.jpg",
     releaseDate: "1989-12-22",
-    rating: 0,
+    rating: 3.25,
     length: 104,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Retour vers le futur 2",
@@ -535,10 +583,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Michael J. Fox" }],
     coverUrl: "/movies_pictures/51886-back-to-the-future-part-ii-0-150-0-225-crop.jpg",
     releaseDate: "1989-11-22",
-    rating: 0,
+    rating: 4,
     length: 108,
     genre: "Science Fiction",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "L'arme fatale 2",
@@ -546,20 +595,23 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Mel Gibson" }],
     coverUrl: "/movies_pictures/51211-lethal-weapon-2-0-150-0-225-crop.jpg",
     releaseDate: "1989-07-07",
-    rating: 0,
+    rating: 4,
     length: 114,
     genre: "Action",
     timesWatched: 5,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Le cercle des poètes disparus",
     director: "Peter Weir",
     actors: [{ name: "Robin Williams" }],
     coverUrl: "/movies_pictures/51846-dead-poets-society-0-150-0-225-crop.jpg",
     releaseDate: "1989-06-09",
-    rating: 0,
+    rating: 3.75,
     length: 128,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Kickboxer",
@@ -567,10 +619,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Jean-Claude Van Damme" }],
     coverUrl: "/movies_pictures/46429-kickboxer-0-150-0-225-crop.jpg",
     releaseDate: "1989-04-20",
-    rating: 0,
+    rating: 3,
     length: 97,
     genre: "Action",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Die Hard : Piège de cristal",
@@ -578,10 +631,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Bruce Willis" }],
     coverUrl: "/movies_pictures/51556-die-hard-0-150-0-225-crop.jpg",
     releaseDate: "1988-07-15",
-    rating: 0,
+    rating: 4.5,
     length: 132,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Qui veut la peau de Roger Rabbit",
@@ -589,10 +643,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Bob Hoskins" }],
     coverUrl: "/movies_pictures/51296-who-framed-roger-rabbit-0-150-0-225-crop.jpg",
     releaseDate: "1988-06-22",
-    rating: 0,
+    rating: 3.75,
     length: 104,
     genre: "Animation",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Rambo 3",
@@ -600,10 +655,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/51086-rambo-iii-0-150-0-225-crop.jpg",
     releaseDate: "1988-05-25",
-    rating: 0,
+    rating: 4,
     length: 102,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Bloodsport",
@@ -611,10 +667,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Jean-Claude Van Damme" }],
     coverUrl: "/movies_pictures/bloodsport.jpg",
     releaseDate: "1988-02-26",
-    rating: 0,
+    rating: 3.25,
     length: 92,
     genre: "Action",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Good Morning, Vietnam",
@@ -622,10 +679,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Robin Williams" }],
     coverUrl: "/movies_pictures/good_morning_vietnam.jpg",
     releaseDate: "1987-12-23",
-    rating: 0,
+    rating: 3.5,
     length: 121,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "The Running Man",
@@ -633,10 +691,11 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/51287-the-running-man-0-150-0-225-crop.jpg",
     releaseDate: "1987-11-13",
-    rating: 0,
+    rating: 3,
     length: 101,
     genre: "Science Fiction",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "RoboCop",
@@ -644,9 +703,10 @@ export const moviesPage10: Movie[] = [
     actors: [{ name: "Peter Weller" }],
     coverUrl: "/movies_pictures/robocop-0-150-0-225-crop.jpg",
     releaseDate: "1987-07-17",
-    rating: 0,
+    rating: 3.5,
     length: 102,
     genre: "Action",
     timesWatched: 3,
+    lastViewedDate: ""
   },
 ];

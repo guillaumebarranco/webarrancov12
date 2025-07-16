@@ -7,10 +7,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Mel Brooks" }],
     coverUrl: "/movies_pictures/51203-spaceballs-0-150-0-225-crop.jpg",
     releaseDate: "1987-06-24",
-    rating: 0,
+    rating: 3.5,
     length: 96,
     genre: "Comedy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Predator",
@@ -18,10 +19,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/51944-predator-0-150-0-225-crop.jpg",
     releaseDate: "1987-06-12",
-    rating: 0,
+    rating: 4,
     length: 107,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Les Incorruptibles",
@@ -29,10 +31,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Kevin Costner" }],
     coverUrl: "/movies_pictures/bDcqwNTwhEDfQHFj7jpt18N6Giz-0-150-0-225-crop.jpg",
     releaseDate: "1987-06-03",
-    rating: 0,
+    rating: 3,
     length: 119,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Dirty Dancing",
@@ -40,10 +43,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Patrick Swayze" }],
     coverUrl: "/movies_pictures/51962-dirty-dancing-0-150-0-225-crop.jpg",
     releaseDate: "1987-08-21",
-    rating: 0,
+    rating: 3.5,
     length: 100,
     genre: "Romance",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "L'arme fatale",
@@ -51,21 +55,23 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Mel Gibson" }],
     coverUrl: "/movies_pictures/mF2bTqJuxbZPeEJRIMrA2WeQVxu-0-150-0-225-crop.jpg",
     releaseDate: "1987-03-06",
-    rating: 0,
+    rating: 4.25,
     length: 110,
     genre: "Action",
     timesWatched: 15,
+    lastViewedDate: ""
   },
   {
-    title: "Over the Top",
+    title: "Over the Top : Le bras de fer",
     director: "Menahem Golan",
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/50772-over-the-top-0-150-0-225-crop.jpg",
     releaseDate: "1987-02-13",
-    rating: 0,
+    rating: 3.5,
     length: 93,
     genre: "Drama",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Aliens",
@@ -73,10 +79,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Sigourney Weaver" }],
     coverUrl: "/movies_pictures/51445-aliens-0-150-0-225-crop.jpg",
     releaseDate: "1986-07-18",
-    rating: 0,
+    rating: 3.5,
     length: 137,
     genre: "Science Fiction",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Commando",
@@ -84,10 +91,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Arnold Schwarzenegger" }],
     coverUrl: "/movies_pictures/45703-commando-0-150-0-225-crop.jpg",
     releaseDate: "1985-10-04",
-    rating: 0,
+    rating: 3.25,
     length: 90,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Retour vers le futur",
@@ -95,10 +103,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Michael J. Fox" }],
     coverUrl: "/movies_pictures/51945-back-to-the-future-0-150-0-225-crop.jpg",
     releaseDate: "1985-07-03",
-    rating: 0,
+    rating: 5,
     length: 116,
     genre: "Science Fiction",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Rambo 2 : la mission",
@@ -106,10 +115,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/51087-rambo-first-blood-part-ii-0-150-0-225-crop.jpg",
     releaseDate: "1985-05-22",
-    rating: 0,
+    rating: 3.5,
     length: 96,
     genre: "Action",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Le flic de Beverly Hills",
@@ -117,20 +127,23 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Eddie Murphy" }],
     coverUrl: "/movies_pictures/le_flic_de_beverly_hills.jpg",
     releaseDate: "1984-12-05",
-    rating: 0,
+    rating: 3,
     length: 105,
     genre: "Action",
     timesWatched: 1,
-  }, {
+    lastViewedDate: ""
+  },
+  {
     title: "Karate Kid",
     director: "John G. Avildsen",
     actors: [{ name: "Ralph Macchio" }],
     coverUrl: "/movies_pictures/50718-the-karate-kid-0-150-0-225-crop.jpg",
     releaseDate: "1984-06-22",
-    rating: 0,
+    rating: 3.25,
     length: 126,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Scarface",
@@ -138,10 +151,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Al Pacino" }],
     coverUrl: "/movies_pictures/71wr6ah15sL._UF1000,1000_QL80_.jpg",
     releaseDate: "1983-12-09",
-    rating: 0,
+    rating: 3.25,
     length: 170,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "The Dead Zone",
@@ -149,10 +163,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Christopher Walken" }],
     coverUrl: "/movies_pictures/45398-the-dead-zone-0-150-0-225-crop.jpg",
     releaseDate: "1983-10-21",
-    rating: 0,
+    rating: 3.5,
     length: 103,
     genre: "Thriller",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Rambo : First Blood",
@@ -160,10 +175,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Sylvester Stallone" }],
     coverUrl: "/movies_pictures/51088-first-blood-0-150-0-225-crop.jpg",
     releaseDate: "1982-10-22",
-    rating: 0,
+    rating: 4.5,
     length: 93,
     genre: "Action",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "E.T. the Extra-Terrestrial",
@@ -171,10 +187,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Henry Thomas" }],
     coverUrl: "/movies_pictures/51520-e-t-the-extra-terrestrial-0-150-0-225-crop.jpg",
     releaseDate: "1982-06-11",
-    rating: 0,
+    rating: 3.75,
     length: 115,
     genre: "Science Fiction",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "La soupe aux choux",
@@ -182,10 +199,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Philippe Noiret" }],
     coverUrl: "/movies_pictures/47276-the-cabbage-soup-0-150-0-225-crop.jpg",
     releaseDate: "1981-12-16",
-    rating: 0,
+    rating: 3.25,
     length: 100,
     genre: "Comedy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "The Shining",
@@ -193,10 +211,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Jack Nicholson" }],
     coverUrl: "/movies_pictures/the_shining.jpg",
     releaseDate: "1980-05-23",
-    rating: 0,
+    rating: 3.25,
     length: 146,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Les bronzés font du ski",
@@ -204,10 +223,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Josiane Balasko" }],
     coverUrl: "/movies_pictures/29599-french-fried-vacation-2-the-bronzes-go-skiing-0-150-0-225-crop.jpg",
     releaseDate: "1979-12-19",
-    rating: 0,
+    rating: 3.25,
     length: 95,
     genre: "Comedy",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Alien",
@@ -215,10 +235,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Sigourney Weaver" }],
     coverUrl: "/movies_pictures/alien.jpg",
     releaseDate: "1979-05-25",
-    rating: 0,
+    rating: 3.5,
     length: 117,
     genre: "Science Fiction",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Les bronzés",
@@ -226,10 +247,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Josiane Balasko" }],
     coverUrl: "/movies_pictures/45526-french-fried-vacation-0-150-0-225-crop.jpg",
     releaseDate: "1978-12-20",
-    rating: 0,
+    rating: 2.5,
     length: 95,
     genre: "Comedy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "L'aile ou la cuisse",
@@ -237,10 +259,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Louis de Funès" }],
     coverUrl: "/movies_pictures/51391-the-wing-or-the-thigh--0-150-0-225-crop.jpg",
     releaseDate: "1976-10-27",
-    rating: 0,
+    rating: 3,
     length: 104,
     genre: "Comedy",
     timesWatched: 5,
+    lastViewedDate: ""
   },
   {
     title: "Taxi Driver",
@@ -248,10 +271,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Robert De Niro" }],
     coverUrl: "/movies_pictures/51947-taxi-driver-0-150-0-225-crop.jpg",
     releaseDate: "1976-02-08",
-    rating: 0,
+    rating: 2,
     length: 114,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Le Parrain 2",
@@ -259,10 +283,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Al Pacino" }],
     coverUrl: "/movies_pictures/51816-the-godfather-part-ii-0-150-0-225-crop.jpg",
     releaseDate: "1974-12-20",
-    rating: 0,
+    rating: 3,
     length: 202,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "L'exorciste",
@@ -270,10 +295,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Ellen Burstyn" }],
     coverUrl: "/movies_pictures/47048-the-exorcist-0-150-0-225-crop.jpg",
     releaseDate: "1973-12-26",
-    rating: 0,
+    rating: 2.5,
     length: 122,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Les aventures de Rabbi Jacob",
@@ -281,10 +307,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Louis de Funès" }],
     coverUrl: "/movies_pictures/51392-the-mad-adventures-of-rabbi-jacob-0-150-0-225-crop.jpg",
     releaseDate: "1973-10-17",
-    rating: 0,
+    rating: 2.75,
     length: 95,
     genre: "Comedy",
     timesWatched: 3,
+    lastViewedDate: ""
   },
   {
     title: "Le Parrain",
@@ -292,10 +319,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Marlon Brando" }],
     coverUrl: "/movies_pictures/51818-the-godfather-0-150-0-225-crop.jpg",
     releaseDate: "1972-03-24",
-    rating: 0,
+    rating: 4,
     length: 175,
     genre: "Crime",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "La Folie des grandeurs",
@@ -303,10 +331,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Louis de Funès" }],
     coverUrl: "/movies_pictures/43223-delusions-of-grandeur-0-150-0-225-crop.jpg",
     releaseDate: "1971-12-08",
-    rating: 0,
+    rating: 3,
     length: 95,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Oscar",
@@ -314,10 +343,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Louis de Funès" }],
     coverUrl: "/movies_pictures/50079-oscar-0-150-0-225-crop.jpg",
     releaseDate: "1967-10-11",
-    rating: 0,
+    rating: 4,
     length: 85,
     genre: "Comedy",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Fantomas",
@@ -325,10 +355,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Jean Marais" }],
     coverUrl: "/movies_pictures/50732-fantomas-0-150-0-225-crop.jpg",
     releaseDate: "1964-11-04",
-    rating: 0,
+    rating: 3,
     length: 105,
     genre: "Adventure",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Le Gendarme de Saint-Tropez",
@@ -336,10 +367,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Louis de Funès" }],
     coverUrl: "/movies_pictures/49168-le-gendarme-de-saint-tropez-0-150-0-225-crop.jpg",
     releaseDate: "1964-09-09",
-    rating: 0,
+    rating: 3,
     length: 95,
     genre: "Comedy",
     timesWatched: 2,
+    lastViewedDate: ""
   },
   {
     title: "Les oiseaux",
@@ -347,10 +379,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Tippi Hedren" }],
     coverUrl: "/movies_pictures/51549-the-birds-0-150-0-225-crop.jpg",
     releaseDate: "1963-03-28",
-    rating: 0,
+    rating: 3.25,
     length: 119,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Psychose",
@@ -358,10 +391,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Anthony Perkins" }],
     coverUrl: "/movies_pictures/51578-psycho-0-150-0-225-crop.jpg",
     releaseDate: "1960-06-16",
-    rating: 0,
+    rating: 3.5,
     length: 109,
     genre: "Horror",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "12 hommes en colère",
@@ -373,6 +407,7 @@ export const moviesPage11: Movie[] = [
     length: 96,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: "2025-04-10"
   },
   {
     title: "Citizen Kane",
@@ -380,10 +415,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Orson Welles" }],
     coverUrl: "/movies_pictures/2702-citizen-kane-0-150-0-225-crop.jpg",
     releaseDate: "1941-05-01",
-    rating: 0,
+    rating: 3,
     length: 119,
     genre: "Drama",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Les temps modernes",
@@ -391,23 +427,23 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Charles Chaplin" }],
     coverUrl: "/movies_pictures/49889-modern-times-0-150-0-225-crop.jpg",
     releaseDate: "1936-02-05",
-    rating: 0,
+    rating: 3,
     length: 87,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
-
-
   {
     title: "Babylon A.D",
     director: "Mathieu Kassovitz",
     actors: [{ name: "Vin Diesel" }],
     coverUrl: "/movies_pictures/3YXtGZ0jKHhh2bhqr0lu8qefKLr-0-1000-0-1500-crop.jpg",
     releaseDate: "2008-02-05",
-    rating: 0,
+    rating: 3.25,
     length: 101,
     genre: "Action",
     timesWatched: 10,
+    lastViewedDate: ""
   },
   {
     title: "Maman je m'occupe des méchants",
@@ -415,10 +451,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "" }],
     coverUrl: "/movies_pictures/46891-home-alone-3-0-1000-0-1500-crop.jpg",
     releaseDate: "1997-02-05",
-    rating: 0,
+    rating: 4,
     length: 102,
     genre: "Comedy",
     timesWatched: 20,
+    lastViewedDate: ""
   },
   {
     title: "Yamakasi",
@@ -426,10 +463,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "" }],
     coverUrl: "/movies_pictures/48171-yamakasi-0-1000-0-1500-crop.jpg",
     releaseDate: "2001-02-05",
-    rating: 0,
+    rating: 4.75,
     length: 90,
     genre: "Comedy",
     timesWatched: 40,
+    lastViewedDate: "2025-02-05"
   },
   {
     title: "Jackie chan dans le bronx",
@@ -437,10 +475,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Jackie Chan" }],
     coverUrl: "/movies_pictures/y7AxKPPCtZyrGQKvxzn5zTQ8wFm-0-1000-0-1500-crop.jpg",
     releaseDate: "1995-02-05",
-    rating: 0,
+    rating: 3.25,
     length: 106,
     genre: "Comedy",
     timesWatched: 30,
+    lastViewedDate: ""
   },
   {
     title: "Le médaillon",
@@ -448,10 +487,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Jackie Chan" }],
     coverUrl: "/movies_pictures/46064-the-medallion-0-1000-0-1500-crop.jpg",
     releaseDate: "2003-02-05",
-    rating: 0,
+    rating: 3,
     length: 88,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Smoking",
@@ -459,10 +499,11 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Jackie Chan" }],
     coverUrl: "/movies_pictures/45912-the-tuxedo-0-1000-0-1500-crop.jpg",
     releaseDate: "2002-02-05",
-    rating: 0,
+    rating: 3,
     length: 98,
     genre: "Comedy",
     timesWatched: 1,
+    lastViewedDate: ""
   },
   {
     title: "Brice de Nice",
@@ -470,9 +511,46 @@ export const moviesPage11: Movie[] = [
     actors: [{ name: "Jean Dujardin" }],
     coverUrl: "/movies_pictures/41053-the-brice-man-0-150-0-225-crop.jpg",
     releaseDate: "2005-02-02",
-    rating: 0,
+    rating: 3,
     length: 94,
     genre: "Comedy",
     timesWatched: 3,
+    lastViewedDate: ""
+  },
+  {
+    title: "Brick",
+    director: "Rian Johnson",
+    actors: [{ name: "Joseph Gordon-Levitt" }],
+    coverUrl: "/movies_pictures/brick.jpg",
+    releaseDate: "2005-01-20",
+    rating: 3.25,
+    length: 110,
+    genre: "Crime",
+    timesWatched: 1,
+    lastViewedDate: "2025-07-15"
+  },
+  {
+    title: "La guerre des mondes",
+    director: "Steven Spielberg",
+    actors: [{ name: "Tom Cruise" }],
+    coverUrl: "/movies_pictures/war_of_the_worlds.jpg",
+    releaseDate: "2005-06-29",
+    rating: 3.5,
+    length: 116,
+    genre: "Science Fiction",
+    timesWatched: 2,
+    lastViewedDate: ""
+  },
+  {
+    title: "La ligue des gentlemen extraordinaires",
+    director: "Stephen Norrington",
+    actors: [{ name: "Sean Connery" }],
+    coverUrl: "/movies_pictures/league_of_extraordinary_gentlemen.jpg",
+    releaseDate: "2003-07-11",
+    rating: 3.75,
+    length: 110,
+    genre: "Action",
+    timesWatched: 5,
+    lastViewedDate: ""
   },
 ];
