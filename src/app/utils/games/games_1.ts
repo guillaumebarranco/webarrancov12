@@ -21,7 +21,7 @@ export const games1: Game[] = [
     hero: "Link",
     coverUrl: "/games_pictures/oot.jpg",
     releaseDate: "1998-11-21",
-    rating: 0,
+    rating: 5,
     averageTimeToFinish: 101,
     timesFinished: 5,
     additionnalEstimatedTime: 0,

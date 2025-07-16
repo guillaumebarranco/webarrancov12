@@ -46,7 +46,7 @@ export function getTotalPlayedTime(items: ItemWithGameLength[]): TimeStats {
 export class GamesComponent implements OnInit {
   allGames: Game[] = [];
   sortedGames: Game[] = [];
-  selectedSort: string = 'totalPlayedTime';
+  selectedSort: string = 'rating';
   stats: StatItem[] = [];
 
   sortOptions: SortOption[] = [
@@ -115,10 +115,24 @@ export class GamesComponent implements OnInit {
         this.sortedGames.sort((a, b) => new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime());
         break;
       case 'rating':
-        this.sortedGames.sort((a, b) => b.rating - a.rating);
+        this.sortedGames.sort((a, b) => {
+          if (b.rating !== a.rating) {
+            return b.rating - a.rating;
+          }
+          const totalTimeA = a.averageTimeToFinish * a.timesFinished + a.additionnalEstimatedTime;
+          const totalTimeB = b.averageTimeToFinish * b.timesFinished + b.additionnalEstimatedTime;
+          return totalTimeB - totalTimeA;
+        });
         break;
       case 'rating-asc':
-        this.sortedGames.sort((a, b) => a.rating - b.rating);
+        this.sortedGames.sort((a, b) => {
+          if (a.rating !== b.rating) {
+            return a.rating - b.rating;
+          }
+          const totalTimeA = a.averageTimeToFinish * a.timesFinished + a.additionnalEstimatedTime;
+          const totalTimeB = b.averageTimeToFinish * b.timesFinished + b.additionnalEstimatedTime;
+          return totalTimeB - totalTimeA;
+        });
         break;
       case 'timesFinished':
         this.sortedGames.sort((a, b) => b.timesFinished - a.timesFinished);
