@@ -3103,12 +3103,12 @@ export const mangas = [
         france: {
           editor: '',
           nbBooks: 27,
-          logo: '/mangas_pictures/ken_le_survivant.jpg',
+          logo: '/mangas_pictures/ken_le_survivant.webp',
         },
         japan: {
           editor: 'Shueisha',
           nbBooks: 27,
-          logo: '/mangas_pictures/ken_le_survivant.jpg',
+          logo: '/mangas_pictures/ken_le_survivant.webp',
           nbChapters: 0,
           publicationEnd: null,
           publicationStart: '',

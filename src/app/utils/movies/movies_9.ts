@@ -143,7 +143,7 @@ export const moviesPage9: Movie[] = [
     rating: 3,
     length: 104,
     genre: 'Crime',
-    timesWatched: 0,
+    timesWatched: 1,
     lastViewedDate: '',
   },
   {
@@ -168,6 +168,18 @@ export const moviesPage9: Movie[] = [
     length: 155,
     genre: 'Action',
     timesWatched: 2,
+    lastViewedDate: '',
+  },
+  {
+    title: 'Rebel Ridge',
+    director: 'Jeremy Saulnier',
+    actors: [{ name: 'John Boyega' }],
+    coverUrl: '/movies_pictures/rebel_ridge.jpg',
+    releaseDate: '2024-05-31',
+    rating: 3.25,
+    length: 120,
+    genre: 'Thriller',
+    timesWatched: 1,
     lastViewedDate: '',
   },
 ];

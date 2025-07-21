@@ -12,7 +12,7 @@
   </div>
 
   <div class="movies">
-    @for (movie of sortedMovies; track movie.title) {
+    @for (movie of sortedMovies; track `${movie.title}-${movie.releaseDate}`) {
     <div class="movie-card">
       <app-movie [movie]="movie"></app-movie>
     </div>

@@ -255,7 +255,7 @@ export const moviesLove1: Movie[] = [
     rating: 3.5,
     length: 129,
     genre: 'Fantasy',
-    timesWatched: 0,
+    timesWatched: 3,
     lastViewedDate: '',
   },
   {

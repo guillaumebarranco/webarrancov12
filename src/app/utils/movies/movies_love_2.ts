@@ -244,4 +244,16 @@ export const moviesLove2: Movie[] = [
     timesWatched: 1,
     lastViewedDate: '',
   },
+  {
+    title: '40 jours et 40 nuits',
+    director: 'Michael Lehmann',
+    actors: [{ name: 'Josh Hartnett' }],
+    coverUrl: '/movies_pictures/40_jours_et_40_nuits.webp',
+    releaseDate: '2002-03-01',
+    rating: 3.5,
+    length: 96,
+    genre: 'Comedy',
+    timesWatched: 15,
+    lastViewedDate: '',
+  },
 ];

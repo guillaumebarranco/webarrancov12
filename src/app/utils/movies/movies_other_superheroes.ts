@@ -254,7 +254,7 @@ export const moviesOtherSuperheroes: Movie[] = [
     title: "The Amazing Spider-Man : Le Destin d'un Héros",
     director: 'Marc Webb',
     actors: [{ name: 'Andrew Garfield' }],
-    coverUrl: '/movies_pictures/47306-final-destination-3-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/amazin_spiderman_2.jpg',
     releaseDate: '2014-05-02',
     rating: 3.5,
     length: 142,

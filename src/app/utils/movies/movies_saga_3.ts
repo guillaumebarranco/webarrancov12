@@ -512,7 +512,7 @@ export const moviesSagaPage3: Movie[] = [
     rating: 3,
     length: 96,
     genre: 'Comedy',
-    timesWatched: 0,
+    timesWatched: 2,
     lastViewedDate: '',
   },
   {

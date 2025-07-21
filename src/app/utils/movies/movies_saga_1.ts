@@ -233,7 +233,7 @@ export const moviesSagaPage1: Movie[] = [
       '/movies_pictures/278668-solo-a-star-wars-story-0-150-0-225-crop.jpg',
     releaseDate: '2018-05-25',
     rating: 3.25,
-    length: 0,
+    length: 135,
     genre: 'Science Fiction',
     timesWatched: 1,
     lastViewedDate: '',

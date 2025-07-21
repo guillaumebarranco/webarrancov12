@@ -101,12 +101,12 @@ export const moviesMcu: Movie[] = [
         name: "Anthony Mackie",
       },
     ],
-    coverUrl: "/movies_pictures/captain_america_brave_new_world.jpg",
+    coverUrl: "/movies_pictures/captain_america_brave_new_world.webp",
     releaseDate: "2025-02-14",
     rating: 3.25,
-    length: 0,
+    length: 118,
     genre: "Action",
-    timesWatched: 0,
+    timesWatched: 1,
     lastViewedDate: "2025-06-14"
   },
   {

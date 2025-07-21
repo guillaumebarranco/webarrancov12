@@ -99,19 +99,6 @@ export const moviesPage3: Movie[] = [
     timesWatched: 1,
     lastViewedDate: '',
   },
-
-  {
-    title: 'Un choix',
-    director: 'Ross Katz',
-    actors: [{ name: 'Benjamin Walker' }],
-    coverUrl: '/movies_pictures/258147-the-choice-0-150-0-225-crop.jpg',
-    releaseDate: '2016-02-05',
-    rating: 3.75,
-    length: 111,
-    genre: 'Romance',
-    timesWatched: 3,
-    lastViewedDate: '',
-  },
   {
     title: 'Swiss Army Man',
     director: 'Dan Kwan, Daniel Scheinert',
@@ -359,7 +346,7 @@ export const moviesPage3: Movie[] = [
     title: 'Brick',
     director: 'Rian Johnson',
     actors: [{ name: 'Joseph Gordon-Levitt' }],
-    coverUrl: '/movies_pictures/brick.jpg',
+    coverUrl: '/movies_pictures/brick.webp',
     releaseDate: '2005-01-20',
     rating: 3.25,
     length: 110,
