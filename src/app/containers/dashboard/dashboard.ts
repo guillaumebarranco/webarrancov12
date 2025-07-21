@@ -33,19 +33,24 @@ import { moviesPage6 } from '../../utils/movies/movies_6';
 import { moviesPage7 } from '../../utils/movies/movies_7';
 import { moviesPage8 } from '../../utils/movies/movies_8';
 import { moviesPage9 } from '../../utils/movies/movies_9';
-import { moviesPage10 } from '../../utils/movies/movies_10';
-import { moviesPage11 } from '../../utils/movies/movies_11';
-import { moviesBigSagas } from '../../utils/movies/movies_big_sagas';
-import { moviesLove } from '../../utils/movies/movies_love';
 import { moviesMcu } from '../../utils/movies/movies_mcu';
 import { moviesOtherSuperheroes } from '../../utils/movies/movies_other_superheroes';
-import { moviesAnimated } from '../../utils/movies/movies_animated';
 import { series1 } from '../../utils/series/series_1';
 import { series2 } from '../../utils/series/series_2';
 import { games1 } from '../../utils/games/games_1';
 import { games2 } from '../../utils/games/games_2';
 import { games3 } from '../../utils/games/games_3';
 import { games4 } from '../../utils/games/games_4';
+import { moviesAnimated2 } from '../../utils/movies/movies_animated_2';
+import { moviesSagaPage1 } from '../../utils/movies/movies_saga_1';
+import { moviesSagaPage2 } from '../../utils/movies/movies_saga_2';
+import { moviesSagaPage3 } from '../../utils/movies/movies_saga_3';
+import { moviesSagaPage4 } from '../../utils/movies/movies_saga_4';
+import { moviesSagaPage5 } from '../../utils/movies/movies_saga_5';
+import { moviesLove1 } from '../../utils/movies/movies_love_1';
+import { moviesLove2 } from '../../utils/movies/movies_love_2';
+import { moviesDc } from '../../utils/movies/movies_dc';
+import { moviesAnimated1 } from '../../utils/movies/movies_animated_1';
 
 @Component({
   selector: 'app-dashboard',
@@ -98,10 +103,28 @@ export class DashboardComponent implements OnInit {
 
     // Calcul des statistiques des films
     const allMovies = [
-      ...moviesPage1, ...moviesPage2, ...moviesBigSagas, ...moviesLove,
-      ...moviesMcu, ...moviesOtherSuperheroes, ...moviesAnimated,
-      ...moviesPage3, ...moviesPage4, ...moviesPage5, ...moviesPage6,
-      ...moviesPage7, ...moviesPage8, ...moviesPage9, ...moviesPage10, ...moviesPage11
+      ...moviesPage1,
+      ...moviesPage2,
+      ...moviesPage3,
+      ...moviesPage4,
+      ...moviesPage5,
+      ...moviesPage6,
+      ...moviesPage7,
+      ...moviesPage8,
+      ...moviesPage9,
+      ...moviesSagaPage1,
+      ...moviesSagaPage2,
+      ...moviesSagaPage3,
+      ...moviesSagaPage4,
+      ...moviesSagaPage5,
+      ...moviesLove1,
+      ...moviesLove2,
+      ...moviesMcu,
+      ...moviesDc,
+      ...moviesOtherSuperheroes,
+      ...moviesAnimated1,
+      ...moviesAnimated2,
+
     ];
     const moviesCount = allMovies.length;
     const moviesWatchTimes = allMovies.reduce((sum, movie) => sum + movie.timesWatched, 0);
@@ -285,10 +308,28 @@ export class DashboardComponent implements OnInit {
 
     // Top 5 des films les plus vus
     const allMovies = [
-      ...moviesPage1, ...moviesPage2, ...moviesBigSagas, ...moviesLove,
-      ...moviesMcu, ...moviesOtherSuperheroes, ...moviesAnimated,
-      ...moviesPage3, ...moviesPage4, ...moviesPage5, ...moviesPage6,
-      ...moviesPage7, ...moviesPage8, ...moviesPage9, ...moviesPage10, ...moviesPage11
+      ...moviesPage1,
+      ...moviesPage2,
+      ...moviesPage3,
+      ...moviesPage4,
+      ...moviesPage5,
+      ...moviesPage6,
+      ...moviesPage7,
+      ...moviesPage8,
+      ...moviesPage9,
+      ...moviesSagaPage1,
+      ...moviesSagaPage2,
+      ...moviesSagaPage3,
+      ...moviesSagaPage4,
+      ...moviesSagaPage5,
+      ...moviesLove1,
+      ...moviesLove2,
+      ...moviesMcu,
+      ...moviesDc,
+      ...moviesOtherSuperheroes,
+      ...moviesAnimated1,
+      ...moviesAnimated2,
+
     ];
     this.topMovies = allMovies
       .filter(movie => movie.timesWatched > 1)

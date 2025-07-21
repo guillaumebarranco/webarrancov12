@@ -1,4 +1,10 @@
 export const resultData = {
+  'seen-and-read': {
+    description: 'Voyez tout que j\'ai vu et lu',
+    data: {
+      dashboard: '<a href="https://webarranco.fr/dashboard" target="_blank">https://webarranco.fr/dashboard</a>',
+    }
+  },
   'presentation/home': {
     description: 'Une présentation courte pour me connaître',
     data: {

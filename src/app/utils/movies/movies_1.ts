@@ -2,7 +2,7 @@ export interface Movie {
   title: string;
   director: string;
   actors: {
-    name: string
+    name: string;
   }[];
   coverUrl: string;
   releaseDate: string;
@@ -15,648 +15,486 @@ export interface Movie {
 
 export const moviesPage1: Movie[] = [
   {
-    title: "I, Robot",
-    director: "Alex Proyas",
+    title: 'I, Robot',
+    director: 'Alex Proyas',
     actors: [
       {
-        name: "Will Smith",
+        name: 'Will Smith',
       },
     ],
-    coverUrl: "/movies_pictures/i_robot.jpg",
-    releaseDate: "2004-12-10",
+    coverUrl: '/movies_pictures/i_robot.jpg',
+    releaseDate: '2004-12-10',
     rating: 5,
     length: 101,
-    genre: "Science Fiction",
+    genre: 'Science Fiction',
     timesWatched: 30,
-    lastViewedDate: "2025-05-10"
+    lastViewedDate: '2025-05-10',
   },
 
   {
-    title: "Mickey 17",
-    director: "Bong Joon-ho",
+    title: 'Mickey 17',
+    director: 'Bong Joon-ho',
     actors: [
       {
-        name: "Robert Pattinson",
+        name: 'Robert Pattinson',
       },
     ],
-    coverUrl: "/movies_pictures/620281-mickey-17-0-150-0-225-crop.jpg",
-    releaseDate: "2025-01-31",
+    coverUrl: '/movies_pictures/620281-mickey-17-0-150-0-225-crop.jpg',
+    releaseDate: '2025-01-31',
     rating: 3.25,
     length: 115,
-    genre: "Science Fiction",
+    genre: 'Science Fiction',
     timesWatched: 1,
-    lastViewedDate: "2025-01-31"
+    lastViewedDate: '2025-01-31',
   },
 
   {
-    title: "Carry-On",
-    director: "Jaume Collet-Serra",
+    title: 'Carry-On',
+    director: 'Jaume Collet-Serra',
     actors: [
       {
-        name: "Taron Egerton",
+        name: 'Taron Egerton',
       },
     ],
-    coverUrl: "/movies_pictures/905876-carry-on-2024-0-150-0-225-crop.jpg",
-    releaseDate: "2024-11-15",
+    coverUrl: '/movies_pictures/905876-carry-on-2024-0-150-0-225-crop.jpg',
+    releaseDate: '2024-11-15',
     rating: 3.25,
     length: 105,
-    genre: "Action",
+    genre: 'Action',
     timesWatched: 1,
-    lastViewedDate: "2024-11-15"
+    lastViewedDate: '2024-11-15',
   },
   {
-    title: "Le Comte de Monte-Cristo",
-    director: "Alexandre de La Patellière, Matthieu Delaporte",
+    title: 'Le Comte de Monte-Cristo',
+    director: 'Alexandre de La Patellière, Matthieu Delaporte',
     actors: [
       {
-        name: "Pierre Niney",
+        name: 'Pierre Niney',
       },
     ],
-    coverUrl: "/movies_pictures/977835-the-count-of-monte-cristo-2024-0-150-0-225-crop.jpg",
-    releaseDate: "2024-06-28",
+    coverUrl:
+      '/movies_pictures/977835-the-count-of-monte-cristo-2024-0-150-0-225-crop.jpg',
+    releaseDate: '2024-06-28',
     rating: 3.75,
     length: 120,
-    genre: "Adventure",
+    genre: 'Adventure',
     timesWatched: 1,
-    lastViewedDate: "2024-06-28"
+    lastViewedDate: '2024-06-28',
   },
   {
-    title: "Challengers",
-    director: "Luca Guadagnino",
+    title: 'Challengers',
+    director: 'Luca Guadagnino',
     actors: [
       {
-        name: "Zendaya",
+        name: 'Zendaya',
       },
     ],
-    coverUrl: "/movies_pictures/842301-challengers-0-150-0-225-crop.jpg",
-    releaseDate: "2024-04-26",
+    coverUrl: '/movies_pictures/842301-challengers-0-150-0-225-crop.jpg',
+    releaseDate: '2024-04-26',
     rating: 2,
     length: 131,
-    genre: "Drama",
+    genre: 'Drama',
     timesWatched: 1,
-    lastViewedDate: "2025-04-26"
+    lastViewedDate: '2025-04-26',
   },
   {
-    title: "Road House",
-    director: "Doug Liman",
+    title: 'Road House',
+    director: 'Doug Liman',
     actors: [
       {
-        name: "Jake Gyllenhaal",
+        name: 'Jake Gyllenhaal',
       },
     ],
-    coverUrl: "/movies_pictures/291213-road-house-0-150-0-225-crop.jpg",
-    releaseDate: "2024-03-21",
+    coverUrl: '/movies_pictures/291213-road-house-0-150-0-225-crop.jpg',
+    releaseDate: '2024-03-21',
     rating: 3.75,
     length: 114,
-    genre: "Action",
+    genre: 'Action',
     timesWatched: 5,
-    lastViewedDate: "2024-03-21"
+    lastViewedDate: '2024-03-21',
   },
   {
-    title: "Damsel",
-    director: "Juan Carlos Fresnadillo",
+    title: 'Damsel',
+    director: 'Juan Carlos Fresnadillo',
     actors: [
       {
-        name: "Millie Bobby Brown",
+        name: 'Millie Bobby Brown',
       },
     ],
-    coverUrl: "/movies_pictures/683451-damsel-0-150-0-225-crop.jpg",
-    releaseDate: "2024-03-08",
+    coverUrl: '/movies_pictures/683451-damsel-0-150-0-225-crop.jpg',
+    releaseDate: '2024-03-08',
     rating: 3.5,
     length: 110,
-    genre: "Fantasy",
+    genre: 'Fantasy',
     timesWatched: 2,
-    lastViewedDate: "2024-03-08"
+    lastViewedDate: '2024-03-08',
   },
+
   {
-    title: "Dune : Partie 2",
-    director: "Denis Villeneuve",
+    title: 'Sly',
+    director: 'Thom Zimny',
     actors: [
       {
-        name: "Timothée Chalamet",
+        name: 'Sylvester Stallone',
       },
     ],
-    coverUrl: "/movies_pictures/617443-dune-part-two-0-150-0-225-crop.jpg",
-    releaseDate: "2024-03-01",
-    rating: 3.75,
-    length: 166,
-    genre: "Science Fiction",
-    timesWatched: 1,
-    lastViewedDate: "2024-03-01"
-  },
-  {
-    title: "Sly",
-    director: "Thom Zimny",
-    actors: [
-      {
-        name: "Sylvester Stallone",
-      },
-    ],
-    coverUrl: "/movies_pictures/073f18caf5a23116b09d9b12d9828837.jpg",
-    releaseDate: "2023-11-03",
+    coverUrl: '/movies_pictures/073f18caf5a23116b09d9b12d9828837.jpg',
+    releaseDate: '2023-11-03',
     rating: 3,
     length: 95,
-    genre: "Documentary",
+    genre: 'Documentary',
     timesWatched: 1,
-    lastViewedDate: ""
+    lastViewedDate: '',
   },
   {
-    title: "Gran Turismo",
-    director: "Neill Blomkamp",
+    title: 'Gran Turismo',
+    director: 'Neill Blomkamp',
     actors: [
       {
-        name: "Archie Madekwe",
+        name: 'Archie Madekwe',
       },
     ],
-    coverUrl: "/movies_pictures/882718-gran-turismo-0-150-0-225-crop.jpg",
-    releaseDate: "2023-08-25",
+    coverUrl: '/movies_pictures/882718-gran-turismo-0-150-0-225-crop.jpg',
+    releaseDate: '2023-08-25',
     rating: 3.75,
     length: 135,
-    genre: "Action",
+    genre: 'Action',
     timesWatched: 1,
-    lastViewedDate: ""
+    lastViewedDate: '',
   },
   {
-    title: "Oppenheimer",
-    director: "Christopher Nolan",
+    title: 'Oppenheimer',
+    director: 'Christopher Nolan',
     actors: [
       {
-        name: "Cillian Murphy",
+        name: 'Cillian Murphy',
       },
     ],
-    coverUrl: "/movies_pictures/784328-oppenheimer-0-150-0-225-crop.jpg",
-    releaseDate: "2023-07-21",
+    coverUrl: '/movies_pictures/784328-oppenheimer-0-150-0-225-crop.jpg',
+    releaseDate: '2023-07-21',
     rating: 3.75,
     length: 180,
-    genre: "Drama",
+    genre: 'Drama',
     timesWatched: 1,
-    lastViewedDate: "2023-07-21"
+    lastViewedDate: '2023-07-21',
   },
   {
-    title: "Barbie",
-    director: "Greta Gerwig",
+    title: 'Barbie',
+    director: 'Greta Gerwig',
     actors: [
       {
-        name: "Margot Robbie",
+        name: 'Margot Robbie',
       },
     ],
-    coverUrl: "/movies_pictures/277064-barbie-0-150-0-225-crop.jpg",
-    releaseDate: "2023-07-21",
+    coverUrl: '/movies_pictures/277064-barbie-0-150-0-225-crop.jpg',
+    releaseDate: '2023-07-21',
     rating: 3.25,
     length: 114,
-    genre: "Comedy",
+    genre: 'Comedy',
     timesWatched: 1,
-    lastViewedDate: ""
+    lastViewedDate: '',
   },
   {
-    title: "The Flash",
-    director: "Andy Muschietti",
+    title: 'Arnold',
+    director: 'Lesley Chilcott',
     actors: [
       {
-        name: "Ezra Miller",
+        name: 'Arnold Schwarzenegger',
       },
     ],
-    coverUrl: "/movies_pictures/225845-the-flash-0-150-0-225-crop.jpg",
-    releaseDate: "2023-06-16",
-    rating: 3,
-    length: 144,
-    genre: "Action",
-    timesWatched: 1,
-    lastViewedDate: ""
-  },
-  {
-    title: "Arnold",
-    director: "Lesley Chilcott",
-    actors: [
-      {
-        name: "Arnold Schwarzenegger",
-      },
-    ],
-    coverUrl: "/movies_pictures/1014180-arnold-0-150-0-225-crop.jpg",
-    releaseDate: "2023-06-07",
+    coverUrl: '/movies_pictures/1014180-arnold-0-150-0-225-crop.jpg',
+    releaseDate: '2023-06-07',
     rating: 3,
     length: 180,
-    genre: "Documentary",
+    genre: 'Documentary',
     timesWatched: 1,
-    lastViewedDate: ""
+    lastViewedDate: '',
   },
   {
-    title: "Murder Mystery 2",
-    director: "Jeremy Garelick",
+    title: 'Creed III',
+    director: 'Michael B. Jordan',
     actors: [
       {
-        name: "Adam Sandler",
-      },
-      {
-        name: "Jennifer Aniston",
+        name: 'Michael B. Jordan',
       },
     ],
-    coverUrl: "/movies_pictures/564996-murder-mystery-2-0-150-0-225-crop.jpg",
-    releaseDate: "2023-03-31",
-    rating: 3,
-    length: 89,
-    genre: "Comedy",
-    timesWatched: 1,
-    lastViewedDate: ""
-  },
-  {
-    title: "John Wick : Chapitre 4",
-    director: "Chad Stahelski",
-    actors: [
-      {
-        name: "Keanu Reeves",
-      },
-    ],
-    coverUrl: "/movies_pictures/530882-john-wick-chapter-4-0-150-0-225-crop.jpg",
-    releaseDate: "2023-03-24",
-    rating: 2.75,
-    length: 169,
-    genre: "Action",
-    timesWatched: 2,
-    lastViewedDate: ""
-  },
-  {
-    title: "Creed III",
-    director: "Michael B. Jordan",
-    actors: [
-      {
-        name: "Michael B. Jordan",
-      },
-    ],
-    coverUrl: "/movies_pictures/601624-creed-iii-0-150-0-225-crop.jpg",
-    releaseDate: "2023-03-03",
+    coverUrl: '/movies_pictures/601624-creed-iii-0-150-0-225-crop.jpg',
+    releaseDate: '2023-03-03',
     rating: 3,
     length: 116,
-    genre: "Drama",
+    genre: 'Drama',
     timesWatched: 1,
-    lastViewedDate: ""
+    lastViewedDate: '',
   },
   {
-    title: "Babylon",
-    director: "Damien Chazelle",
+    title: 'Babylon',
+    director: 'Damien Chazelle',
     actors: [
       {
-        name: "Brad Pitt",
+        name: 'Brad Pitt',
       },
     ],
-    coverUrl: "/movies_pictures/542773-babylon-0-150-0-225-crop.jpg",
-    releaseDate: "2022-12-23",
+    coverUrl: '/movies_pictures/542773-babylon-0-150-0-225-crop.jpg',
+    releaseDate: '2022-12-23',
     rating: 3.75,
     length: 189,
-    genre: "Drama",
+    genre: 'Drama',
     timesWatched: 1,
-    lastViewedDate: ""
+    lastViewedDate: '',
   },
   {
-    title: "Avatar : La Voie de l'Eau",
-    director: "James Cameron",
+    title: 'Le Chat Potté 2 : La Dernière Quête',
+    director: 'Joel Crawford',
     actors: [
       {
-        name: "Sam Worthington",
+        name: 'Antonio Banderas',
       },
     ],
-    coverUrl: "/movies_pictures/63058-avatar-the-way-of-water-0-150-0-225-crop.jpg",
-    releaseDate: "2022-12-16",
-    rating: 3.5,
-    length: 192,
-    genre: "Science Fiction",
-    timesWatched: 1,
-    lastViewedDate: "2022-12-16"
-  },
-  {
-    title: "Le Chat Potté 2 : La Dernière Quête",
-    director: "Joel Crawford",
-    actors: [
-      {
-        name: "Antonio Banderas",
-      },
-    ],
-    coverUrl: "/movies_pictures/242285-puss-in-boots-the-last-wish-0-150-0-225-crop.jpg",
-    releaseDate: "2022-12-21",
+    coverUrl:
+      '/movies_pictures/242285-puss-in-boots-the-last-wish-0-150-0-225-crop.jpg',
+    releaseDate: '2022-12-21',
     rating: 3.75,
     length: 102,
-    genre: "Animation",
+    genre: 'Animation',
     timesWatched: 1,
-    lastViewedDate: ""
-  },
-  {
-    title: "Enola Holmes 2",
-    director: "Harry Bradbeer",
-    actors: [
-      {
-        name: "Millie Bobby Brown",
-      },
-    ],
-    coverUrl: "/movies_pictures/744826-enola-holmes-2-0-150-0-225-crop.jpg",
-    releaseDate: "2022-11-04",
-    rating: 3.25,
-    length: 129,
-    genre: "Mystery",
-    timesWatched: 2,
-    lastViewedDate: "2022-11-04"
+    lastViewedDate: '',
   },
   {
     title: "L'École du Bien et du Mal",
-    director: "Paul Feig",
+    director: 'Paul Feig',
     actors: [
       {
-        name: "Sofia Wylie",
+        name: 'Sofia Wylie',
       },
     ],
-    coverUrl: "/movies_pictures/698765-the-school-for-good-and-evil-0-150-0-225-crop.jpg",
-    releaseDate: "2022-10-19",
+    coverUrl:
+      '/movies_pictures/698765-the-school-for-good-and-evil-0-150-0-225-crop.jpg',
+    releaseDate: '2022-10-19',
     rating: 2.75,
     length: 147,
-    genre: "Fantasy",
+    genre: 'Fantasy',
     timesWatched: 1,
-    lastViewedDate: ""
+    lastViewedDate: '',
   },
   {
-    title: "Glass Onion",
-    director: "Rian Johnson",
+    title: 'Samaritan',
+    director: 'Julius Avery',
     actors: [
       {
-        name: "Daniel Craig",
+        name: 'Sylvester Stallone',
       },
     ],
-    coverUrl: "/movies_pictures/586723-glass-onion-a-knives-out-mystery-0-150-0-225-crop.jpg",
-    releaseDate: "2022-12-23",
-    rating: 3.25,
-    length: 139,
-    genre: "Mystery",
-    timesWatched: 1,
-    lastViewedDate: "2022-12-23"
-  },
-  {
-    title: "Samaritan",
-    director: "Julius Avery",
-    actors: [
-      {
-        name: "Sylvester Stallone",
-      },
-    ],
-    coverUrl: "/movies_pictures/555588-samaritan-0-150-0-225-crop.jpg",
-    releaseDate: "2022-08-26",
+    coverUrl: '/movies_pictures/555588-samaritan-0-150-0-225-crop.jpg',
+    releaseDate: '2022-08-26',
     rating: 3.5,
     length: 102,
-    genre: "Action",
+    genre: 'Action',
     timesWatched: 1,
-    lastViewedDate: "2022-08-26"
+    lastViewedDate: '2022-08-26',
   },
   {
-    title: "Prey",
-    director: "Dan Trachtenberg",
+    title: 'Prey',
+    director: 'Dan Trachtenberg',
     actors: [
       {
-        name: "Amber Midthunder",
+        name: 'Amber Midthunder',
       },
     ],
-    coverUrl: "/movies_pictures/686389-prey-0-150-0-225-crop.jpg",
-    releaseDate: "2022-08-05",
+    coverUrl: '/movies_pictures/686389-prey-0-150-0-225-crop.jpg',
+    releaseDate: '2022-08-05',
     rating: 3.25,
     length: 100,
-    genre: "Action",
+    genre: 'Action',
     timesWatched: 1,
-    lastViewedDate: "2022-08-05"
+    lastViewedDate: '2022-08-05',
   },
   {
-    title: "Bullet Train",
-    director: "David Leitch",
+    title: 'Bullet Train',
+    director: 'David Leitch',
     actors: [
       {
-        name: "Brad Pitt",
+        name: 'Brad Pitt',
       },
     ],
-    coverUrl: "/movies_pictures/641961-bullet-train-0-150-0-225-crop.jpg",
-    releaseDate: "2022-08-05",
+    coverUrl: '/movies_pictures/641961-bullet-train-0-150-0-225-crop.jpg',
+    releaseDate: '2022-08-05',
     rating: 3.75,
     length: 126,
-    genre: "Action",
+    genre: 'Action',
     timesWatched: 1,
-    lastViewedDate: ""
+    lastViewedDate: '',
   },
   {
-    title: "Le haut du panier",
-    director: "Jeremiah Zagar",
+    title: 'Le haut du panier',
+    director: 'Jeremiah Zagar',
     actors: [
       {
-        name: "Adam Sandler",
+        name: 'Adam Sandler',
       },
     ],
-    coverUrl: "/movies_pictures/629376-hustle-0-150-0-225-crop.jpg",
-    releaseDate: "2022-06-08",
+    coverUrl: '/movies_pictures/629376-hustle-0-150-0-225-crop.jpg',
+    releaseDate: '2022-06-08',
     rating: 3.5,
     length: 117,
-    genre: "Drama",
+    genre: 'Drama',
     timesWatched: 1,
-    lastViewedDate: ""
+    lastViewedDate: '',
   },
   {
-    title: "Top Gun : Maverick",
-    director: "Joseph Kosinski",
+    title: 'Top Gun : Maverick',
+    director: 'Joseph Kosinski',
     actors: [
       {
-        name: "Tom Cruise",
+        name: 'Tom Cruise',
       },
     ],
-    coverUrl: "/movies_pictures/293465-top-gun-maverick-0-150-0-225-crop.jpg",
-    releaseDate: "2022-05-27",
+    coverUrl: '/movies_pictures/293465-top-gun-maverick-0-150-0-225-crop.jpg',
+    releaseDate: '2022-05-27',
     rating: 4,
     length: 130,
-    genre: "Action",
+    genre: 'Action',
     timesWatched: 1,
-    lastViewedDate: ""
+    lastViewedDate: '',
   },
   {
-    title: "Les Animaux Fantastiques : Les Secrets de Dumbledore",
-    director: "David Yates",
+    title: 'Everything Everywhere All at Once',
+    director: 'Daniel Kwan, Daniel Scheinert',
     actors: [
       {
-        name: "Eddie Redmayne",
+        name: 'Michelle Yeoh',
       },
     ],
-    coverUrl: "/movies_pictures/268366-fantastic-beasts-the-secrets-of-dumbledore-0-150-0-225-crop.jpg",
-    releaseDate: "2022-04-15",
-    rating: 3.25,
-    length: 142,
-    genre: "Fantasy",
-    timesWatched: 1,
-    lastViewedDate: "2025-04-15"
-  },
-  {
-    title: "Everything Everywhere All at Once",
-    director: "Daniel Kwan, Daniel Scheinert",
-    actors: [
-      {
-        name: "Michelle Yeoh",
-      },
-    ],
-    coverUrl: "/movies_pictures/474474-everything-everywhere-all-at-once-0-150-0-225-crop.jpg",
-    releaseDate: "2022-03-25",
+    coverUrl:
+      '/movies_pictures/474474-everything-everywhere-all-at-once-0-150-0-225-crop.jpg',
+    releaseDate: '2022-03-25',
     rating: 3.5,
     length: 139,
-    genre: "Science Fiction",
+    genre: 'Science Fiction',
     timesWatched: 1,
-    lastViewedDate: ""
+    lastViewedDate: '',
   },
   {
-    title: "The Adam Project",
-    director: "Shawn Levy",
+    title: 'The Adam Project',
+    director: 'Shawn Levy',
     actors: [
       {
-        name: "Ryan Reynolds",
+        name: 'Ryan Reynolds',
       },
     ],
-    coverUrl: "/movies_pictures/620665-the-adam-project-0-150-0-225-crop.jpg",
-    releaseDate: "2022-03-11",
+    coverUrl: '/movies_pictures/620665-the-adam-project-0-150-0-225-crop.jpg',
+    releaseDate: '2022-03-11',
     rating: 3.25,
     length: 106,
-    genre: "Science Fiction",
+    genre: 'Science Fiction',
     timesWatched: 1,
-    lastViewedDate: "2022-03-11"
+    lastViewedDate: '2022-03-11',
   },
   {
     title: "Don't look up, déni cosmique",
-    director: "Adam McKay",
+    director: 'Adam McKay',
     actors: [
       {
-        name: "Leonardo DiCaprio",
+        name: 'Leonardo DiCaprio',
       },
     ],
-    coverUrl: "/movies_pictures/572255-don-t-look-up-0-150-0-225-crop.jpg",
-    releaseDate: "2021-12-24",
+    coverUrl: '/movies_pictures/572255-don-t-look-up-0-150-0-225-crop.jpg',
+    releaseDate: '2021-12-24',
     rating: 3.75,
     length: 138,
-    genre: "Comedy",
+    genre: 'Comedy',
     timesWatched: 1,
-    lastViewedDate: "2025-05-24"
+    lastViewedDate: '2025-05-24',
   },
   {
-    title: "Red Notice",
-    director: "Rawson Marshall Thurber",
+    title: 'Red Notice',
+    director: 'Rawson Marshall Thurber',
     actors: [
       {
-        name: "Dwayne Johnson",
+        name: 'Dwayne Johnson',
       },
     ],
-    coverUrl: "/movies_pictures/441858-red-notice-0-150-0-225-crop.jpg",
-    releaseDate: "2021-11-12",
+    coverUrl: '/movies_pictures/441858-red-notice-0-150-0-225-crop.jpg',
+    releaseDate: '2021-11-12',
     rating: 3.25,
     length: 118,
-    genre: "Action",
+    genre: 'Action',
     timesWatched: 3,
-    lastViewedDate: "2021-11-12"
+    lastViewedDate: '2021-11-12',
   },
   {
-    title: "Mourir Peut Attendre",
-    director: "Cary Joji Fukunaga",
+    title: 'The Guilty',
+    director: 'Antoine Fuqua',
     actors: [
       {
-        name: "Daniel Craig",
+        name: 'Jake Gyllenhaal',
       },
     ],
-    coverUrl: "/movies_pictures/305964-no-time-to-die-0-150-0-225-crop.jpg",
-    releaseDate: "2021-10-08",
-    rating: 4.25,
-    length: 163,
-    genre: "Action",
-    timesWatched: 2,
-    lastViewedDate: ""
-  },
-  {
-    title: "The Guilty",
-    director: "Antoine Fuqua",
-    actors: [
-      {
-        name: "Jake Gyllenhaal",
-      },
-    ],
-    coverUrl: "/movies_pictures/496198-the-guilty-0-150-0-225-crop.jpg",
-    releaseDate: "2021-10-01",
+    coverUrl: '/movies_pictures/496198-the-guilty-0-150-0-225-crop.jpg',
+    releaseDate: '2021-10-01',
     rating: 3,
     length: 90,
-    genre: "Thriller",
+    genre: 'Thriller',
     timesWatched: 1,
-    lastViewedDate: ""
+    lastViewedDate: '',
   },
   {
-    title: "Dune",
-    director: "Denis Villeneuve",
+    title: 'La méthode Williams',
+    director: 'Reinaldo Marcus Green',
     actors: [
       {
-        name: "Timothée Chalamet",
+        name: 'Will Smith',
       },
     ],
-    coverUrl: "/movies_pictures/617443-dune-part-two-0-150-0-225-crop.jpg",
-    releaseDate: "2021-10-22",
-    rating: 3,
-    length: 155,
-    genre: "Science Fiction",
-    timesWatched: 1,
-    lastViewedDate: ""
-  },
-  {
-    title: "La méthode Williams",
-    director: "Reinaldo Marcus Green",
-    actors: [
-      {
-        name: "Will Smith",
-      },
-    ],
-    coverUrl: "/movies_pictures/541998-king-richard-0-150-0-225-crop.jpg",
-    releaseDate: "2021-11-19",
+    coverUrl: '/movies_pictures/541998-king-richard-0-150-0-225-crop.jpg',
+    releaseDate: '2021-11-19',
     rating: 4,
     length: 144,
-    genre: "Drama",
+    genre: 'Drama',
     timesWatched: 1,
-    lastViewedDate: "2025-02-19"
+    lastViewedDate: '2025-02-19',
   },
   {
-    title: "Free Guy",
-    director: "Shawn Levy",
+    title: 'Free Guy',
+    director: 'Shawn Levy',
     actors: [
       {
-        name: "Ryan Reynolds",
+        name: 'Ryan Reynolds',
       },
     ],
-    coverUrl: "/movies_pictures/479814-free-guy-0-150-0-225-crop.jpg",
-    releaseDate: "2021-08-13",
+    coverUrl: '/movies_pictures/479814-free-guy-0-150-0-225-crop.jpg',
+    releaseDate: '2021-08-13',
     rating: 3.75,
     length: 115,
-    genre: "Comedy",
+    genre: 'Comedy',
     timesWatched: 1,
-    lastViewedDate: "2021-08-13"
+    lastViewedDate: '2021-08-13',
   },
   {
-    title: "OSS 117 : Alerte Rouge en Afrique Noire",
-    director: "Nicolas Bedos",
+    title: 'Jolt',
+    director: 'Tanya Wexler',
     actors: [
       {
-        name: "Jean Dujardin",
+        name: 'Kate Beckinsale',
       },
     ],
-    coverUrl: "/movies_pictures/531701-oss-117-red-alert-in-black-africa-0-150-0-225-crop.jpg",
-    releaseDate: "2021-07-14",
-    rating: 2.75,
-    length: 116,
-    genre: "Comedy",
-    timesWatched: 1,
-    lastViewedDate: ""
-  },
-  {
-    title: "Jolt",
-    director: "Tanya Wexler",
-    actors: [
-      {
-        name: "Kate Beckinsale",
-      },
-    ],
-    coverUrl: "/movies_pictures/544435-jolt-0-150-0-225-crop.jpg",
-    releaseDate: "2021-07-23",
+    coverUrl: '/movies_pictures/544435-jolt-0-150-0-225-crop.jpg',
+    releaseDate: '2021-07-23',
     rating: 3.75,
     length: 91,
-    genre: "Action",
+    genre: 'Action',
     timesWatched: 3,
-    lastViewedDate: ""
+    lastViewedDate: '',
+  },
+  {
+    title: 'The Terminal',
+    director: 'Steven Spielberg',
+    actors: [{ name: 'Tom Hanks' }],
+    coverUrl: '/movies_pictures/51527-the-terminal-0-150-0-225-crop.jpg',
+    releaseDate: '2004-06-18',
+    rating: 3.75,
+    length: 128,
+    genre: 'Drama',
+    timesWatched: 3,
+    lastViewedDate: '',
   },
 ];

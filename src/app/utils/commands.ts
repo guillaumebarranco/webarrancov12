@@ -1,5 +1,10 @@
 export const commands: { command: string; responseType: string; value: string[] }[] = [
   {
+    command: 'seen-and-read',
+    responseType: 'list',
+    value: ['Have fun !'],
+  },
+  {
     command: 'presentation',
     responseType: 'list',
     value: ['La commande a bien été effectuée !'],
@@ -21,6 +26,11 @@ export const commands: { command: string; responseType: string; value: string[] 
   },
   {
     command: 'projects',
+    responseType: 'list',
+    value: ['La commande a bien été effectuée !'],
+  },
+  {
+    command: 'other-projects',
     responseType: 'list',
     value: ['La commande a bien été effectuée !'],
   },
