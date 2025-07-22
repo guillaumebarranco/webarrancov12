@@ -8,7 +8,7 @@ export const booksSaga: Book[] = [
     readDate: "2025-02-12",
     rating: 4,
     pages: 374,
-    genre: "Young Adult",
+    genre: "Dystopie",
     saga: "Hunger Games",
     sagaOrder: 1,
     readTimes: 1
@@ -20,7 +20,7 @@ export const booksSaga: Book[] = [
     readDate: "2025-02-14",
     rating: 4,
     pages: 391,
-    genre: "Young Adult",
+    genre: "Dystopie",
     saga: "Hunger Games",
     sagaOrder: 2,
     readTimes: 1
@@ -32,7 +32,7 @@ export const booksSaga: Book[] = [
     readDate: "2025-02-15",
     rating: 4,
     pages: 390,
-    genre: "Young Adult",
+    genre: "Dystopie",
     saga: "Hunger Games",
     sagaOrder: 3,
     readTimes: 1
@@ -44,7 +44,7 @@ export const booksSaga: Book[] = [
     readDate: "2025-02-19",
     rating: 3.5,
     pages: 517,
-    genre: "Young Adult",
+    genre: "Dystopie",
     saga: "Hunger Games",
     sagaOrder: 4,
     readTimes: 1
@@ -152,7 +152,7 @@ export const booksSaga: Book[] = [
     readDate: "2010-07-16",
     rating: 4.5,
     pages: 498,
-    genre: "Young Adult",
+    genre: "Romance",
     saga: "Twilight",
     sagaOrder: 1,
     readTimes: 30
@@ -164,7 +164,7 @@ export const booksSaga: Book[] = [
     readDate: "2010-07-17",
     rating: 3.5,
     pages: 563,
-    genre: "Young Adult",
+    genre: "Romance",
     saga: "Twilight",
     sagaOrder: 2,
     readTimes: 10
@@ -176,7 +176,7 @@ export const booksSaga: Book[] = [
     readDate: "2010-07-19",
     rating: 3.5,
     pages: 629,
-    genre: "Young Adult",
+    genre: "Romance",
     saga: "Twilight",
     sagaOrder: 3,
     readTimes: 10
@@ -188,7 +188,7 @@ export const booksSaga: Book[] = [
     readDate: "2010-07-18",
     rating: 4.5,
     pages: 756,
-    genre: "Young Adult",
+    genre: "Romance",
     saga: "Twilight",
     sagaOrder: 4,
     readTimes: 20
@@ -200,7 +200,7 @@ export const booksSaga: Book[] = [
     readDate: "2020-08-04",
     rating: 5,
     pages: 662,
-    genre: "Young Adult",
+    genre: "Romance",
     saga: "Twilight",
     sagaOrder: 5,
     readTimes: 5
@@ -212,7 +212,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-01-23",
     rating: 3.5,
     pages: 377,
-    genre: "Young Adult",
+    genre: "Fantasy",
     saga: "Percy Jackson",
     sagaOrder: 1,
     readTimes: 1
@@ -224,7 +224,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-01-26",
     rating: 3,
     pages: 279,
-    genre: "Young Adult",
+    genre: "Fantasy",
     saga: "Percy Jackson",
     sagaOrder: 2,
     readTimes: 1
@@ -236,7 +236,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-01-28",
     rating: 3.5,
     pages: 312,
-    genre: "Young Adult",
+    genre: "Fantasy",
     saga: "Percy Jackson",
     sagaOrder: 3,
     readTimes: 1
@@ -248,7 +248,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-02-02",
     rating: 4,
     pages: 361,
-    genre: "Young Adult",
+    genre: "Fantasy",
     saga: "Percy Jackson",
     sagaOrder: 4,
     readTimes: 1
@@ -260,7 +260,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-02-03",
     rating: 4,
     pages: 381,
-    genre: "Young Adult",
+    genre: "Fantasy",
     saga: "Percy Jackson",
     sagaOrder: 5,
     readTimes: 1
@@ -272,7 +272,7 @@ export const booksSaga: Book[] = [
     readDate: "2025-01-02",
     rating: 2,
     pages: 288,
-    genre: "Young Adult",
+    genre: "Fantasy",
     saga: "Percy Jackson",
     sagaOrder: 6,
     readTimes: 1
@@ -284,7 +284,7 @@ export const booksSaga: Book[] = [
     readDate: "2025-06-25",
     rating: 3.5,
     pages: 487,
-    genre: "Young Adult",
+    genre: "Dystopie",
     saga: "Divergente",
     sagaOrder: 1,
     readTimes: 1
@@ -296,7 +296,7 @@ export const booksSaga: Book[] = [
     readDate: "2025-02-11",
     rating: 3.5,
     pages: 384,
-    genre: "Young Adult",
+    genre: "Dystopie",
     saga: "Le Labyrinthe",
     sagaOrder: 1,
     readTimes: 1
@@ -308,7 +308,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-01-09",
     rating: 4,
     pages: 192,
-    genre: "Mystery",
+    genre: "Enquête",
     saga: "Sherlock Holmes",
     sagaOrder: 1,
     readTimes: 1
@@ -320,7 +320,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-02-28",
     rating: 4,
     pages: 240,
-    genre: "Mystery",
+    genre: "Enquête",
     saga: "Sherlock Holmes",
     sagaOrder: 2,
     readTimes: 1
@@ -330,9 +330,9 @@ export const booksSaga: Book[] = [
     author: "Arthur Conan Doyle",
     coverUrl: "/books_pictures/le_chien_des_baskerville-1048754-264-432.jpg",
     readDate: "2024-03-07",
-    rating: 4,
+    rating: 3.5,
     pages: 256,
-    genre: "Mystery",
+    genre: "Enquête",
     saga: "Sherlock Holmes",
     sagaOrder: 3,
     readTimes: 1
@@ -344,7 +344,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-07-29",
     rating: 4,
     pages: 256,
-    genre: "Mystery",
+    genre: "Enquête",
     saga: "Sherlock Holmes",
     sagaOrder: 4,
     readTimes: 1
@@ -356,7 +356,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-02-26",
     rating: 4,
     pages: 540,
-    genre: "Fiction",
+    genre: "Dystopie",
     saga: "Absolu",
     sagaOrder: 1,
     readTimes: 1
@@ -368,7 +368,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-02-27",
     rating: 3.5,
     pages: 608,
-    genre: "Fiction",
+    genre: "Dystopie",
     saga: "Absolu",
     sagaOrder: 2,
     readTimes: 1
@@ -380,7 +380,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-12-21",
     rating: 4,
     pages: 600,
-    genre: "Fiction",
+    genre: "Dystopie",
     saga: "Absolu",
     sagaOrder: 3,
     readTimes: 1
@@ -392,7 +392,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-05-20",
     rating: 5,
     pages: 380,
-    genre: "Fiction",
+    genre: "Dark Romance",
     saga: "Inside Mac",
     sagaOrder: 1,
     readTimes: 3
@@ -404,7 +404,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-06-19",
     rating: 4.5,
     pages: 404,
-    genre: "Fiction",
+    genre: "Dark Romance",
     saga: "Inside Mac",
     sagaOrder: 2,
     readTimes: 2
@@ -488,7 +488,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-07-01",
     rating: 4.5,
     pages: 704,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "Les trois mousquetaires",
     sagaOrder: 1,
     readTimes: 1
@@ -500,7 +500,7 @@ export const booksSaga: Book[] = [
     readDate: "2004-02-28",
     rating: 4,
     pages: 217,
-    genre: "Mystery",
+    genre: "Enfant",
     saga: "Les frères Diamant",
     sagaOrder: 1,
     readTimes: 5
@@ -512,7 +512,7 @@ export const booksSaga: Book[] = [
     readDate: "2004-02-29",
     rating: 3.5,
     pages: 217,
-    genre: "Mystery",
+    genre: "Enfant",
     saga: "Les frères Diamant",
     sagaOrder: 2,
     readTimes: 3
@@ -524,7 +524,7 @@ export const booksSaga: Book[] = [
     readDate: "2004-02-30",
     rating: 3.5,
     pages: 248,
-    genre: "Mystery",
+    genre: "Enfant",
     saga: "Les frères Diamant",
     sagaOrder: 3,
     readTimes: 3

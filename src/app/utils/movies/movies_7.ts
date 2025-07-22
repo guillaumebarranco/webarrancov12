@@ -143,7 +143,7 @@ export const moviesPage7: Movie[] = [
     releaseDate: '2006-05-19',
     rating: 3,
     length: 149,
-    genre: 'Mystery',
+    genre: "Enquête",
     timesWatched: 1,
     lastViewedDate: '',
   },

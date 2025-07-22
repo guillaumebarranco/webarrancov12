@@ -45,7 +45,7 @@
   @if (groupedBooks) {
   <div class="books-groups">
     @for (group of groupedBooks; track group.key) {
-    <h2>{{ group.key }}</h2>
+    <h2>{{ group.key }} ({{ group.books.length }})</h2>
     <div class="books">
       @for (book of group.books; track book.title) {
       <div class="book-card">

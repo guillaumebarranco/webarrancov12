@@ -33,7 +33,7 @@ export const books: Book[] = [
     readDate: "2025-06-19",
     rating: 4,
     pages: 400,
-    genre: "Classics",
+    genre: "Dark Romance",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -93,7 +93,7 @@ export const books: Book[] = [
     readDate: "2025-01-14",
     rating: 4,
     pages: 312,
-    genre: "Fiction",
+    genre: "Enquête",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -105,7 +105,7 @@ export const books: Book[] = [
     readDate: "2024-03-11",
     rating: 3,
     pages: 323,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -117,7 +117,7 @@ export const books: Book[] = [
     readDate: "2024-02-24",
     rating: 2.5,
     pages: 464,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -189,7 +189,7 @@ export const books: Book[] = [
     readDate: "2024-04-30",
     rating: 5,
     pages: 1056,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 2
@@ -201,7 +201,7 @@ export const books: Book[] = [
     readDate: "2024-05-16",
     rating: 2,
     pages: 260,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -213,7 +213,7 @@ export const books: Book[] = [
     readDate: "2024-01-07",
     rating: 3.5,
     pages: 272,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -225,7 +225,7 @@ export const books: Book[] = [
     readDate: "2024-06-12",
     rating: 4,
     pages: 141,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -237,7 +237,7 @@ export const books: Book[] = [
     readDate: "2024-01-03",
     rating: 3.5,
     pages: 279,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -249,7 +249,7 @@ export const books: Book[] = [
     readDate: "2024-01-17",
     rating: 4,
     pages: 376,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -285,7 +285,7 @@ export const books: Book[] = [
     readDate: "2025-03-10",
     rating: 3,
     pages: 256,
-    genre: "Mystery",
+    genre: "Enquête",
     saga: "Agatha Christie",
     sagaOrder: 0,
     readTimes: 1
@@ -297,7 +297,7 @@ export const books: Book[] = [
     readDate: "2025-05-10",
     rating: 3,
     pages: 288,
-    genre: "Mystery",
+    genre: "Enquête",
     saga: "Agatha Christie",
     sagaOrder: 0,
     readTimes: 1
@@ -309,7 +309,7 @@ export const books: Book[] = [
     readDate: "2024-09-30",
     rating: 3.5,
     pages: 274,
-    genre: "Mystery",
+    genre: "Enquête",
     saga: "Agatha Christie",
     sagaOrder: 0,
     readTimes: 1
@@ -321,7 +321,7 @@ export const books: Book[] = [
     readDate: "2024-02-10",
     rating: 3,
     pages: 352,
-    genre: "Mystery",
+    genre: "Enquête",
     saga: "Hercule Poirot",
     sagaOrder: 0,
     readTimes: 1
@@ -333,7 +333,7 @@ export const books: Book[] = [
     readDate: "2024-02-19",
     rating: 5,
     pages: 264,
-    genre: "Mystery",
+    genre: "Enquête",
     saga: "Agatha Christie",
     sagaOrder: 0,
     readTimes: 1
@@ -345,7 +345,7 @@ export const books: Book[] = [
     readDate: "2025-03-06",
     rating: 3.5,
     pages: 288,
-    genre: "Mystery",
+    genre: "Enquête",
     saga: "Agatha Christie",
     sagaOrder: 0,
     readTimes: 1
@@ -357,7 +357,7 @@ export const books: Book[] = [
     readDate: "2025-04-25",
     rating: 2.5,
     pages: 288,
-    genre: "Mystery",
+    genre: "Enquête",
     saga: "Agatha Christie",
     sagaOrder: 0,
     readTimes: 1
@@ -369,7 +369,7 @@ export const books: Book[] = [
     readDate: "2025-03-04",
     rating: 3.5,
     pages: 288,
-    genre: "Mystery",
+    genre: "Enquête",
     saga: "Agatha Christie",
     sagaOrder: 0,
     readTimes: 1
@@ -381,7 +381,7 @@ export const books: Book[] = [
     readDate: "2024-03-15",
     rating: 3,
     pages: 488,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -393,7 +393,7 @@ export const books: Book[] = [
     readDate: "2024-02-07",
     rating: 4.5,
     pages: 532,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -405,7 +405,7 @@ export const books: Book[] = [
     readDate: "2024-10-02",
     rating: 1,
     pages: 272,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -417,7 +417,7 @@ export const books: Book[] = [
     readDate: "2024-02-25",
     rating: 3,
     pages: 224,
-    genre: "Fiction",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -453,7 +453,7 @@ export const books: Book[] = [
     readDate: "2024-04-10",
     rating: 1,
     pages: 528,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -465,7 +465,7 @@ export const books: Book[] = [
     readDate: "2024-03-05",
     rating: 3,
     pages: 432,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -513,7 +513,7 @@ export const books: Book[] = [
     readDate: "2025-03-13",
     rating: 2.5,
     pages: 272,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -537,7 +537,7 @@ export const books: Book[] = [
     readDate: "2011-03-10",
     rating: 3.5,
     pages: 129,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -573,7 +573,7 @@ export const books: Book[] = [
     readDate: "2025-07-11",
     rating: 4,
     pages: 144,
-    genre: "Classics",
+    genre: "Classiques",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -585,7 +585,7 @@ export const books: Book[] = [
     readDate: "2004-01-28",
     rating: 3.5,
     pages: 144,
-    genre: "Thriller",
+    genre: "Enfant",
     saga: "",
     sagaOrder: 0,
     readTimes: 3
@@ -597,7 +597,7 @@ export const books: Book[] = [
     readDate: "2003-01-28",
     rating: 3.5,
     pages: 144,
-    genre: "Nonfiction",
+    genre: "Enfant",
     saga: "",
     sagaOrder: 0,
     readTimes: 3

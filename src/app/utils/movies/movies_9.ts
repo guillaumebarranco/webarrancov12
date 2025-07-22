@@ -69,7 +69,7 @@ export const moviesPage9: Movie[] = [
     releaseDate: '2001-10-12',
     rating: 2.5,
     length: 147,
-    genre: 'Mystery',
+    genre: "Enquête",
     timesWatched: 1,
     lastViewedDate: '',
   },
