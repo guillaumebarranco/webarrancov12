@@ -167,3 +167,32 @@
     margin: 0 !important;
   }
 }
+
+.app-dropdown {
+  padding: 8px 12px;
+  border: 2px solid #ecf0f1;
+  border-radius: 8px;
+  background-color: white;
+  color: #2c3e50;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 180px;
+}
+
+.app-dropdown:hover {
+  border-color: #bdc3c7;
+}
+
+.app-dropdown:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+.app-dropdown option {
+  padding: 8px;
+  background-color: white;
+  color: #2c3e50;
+}

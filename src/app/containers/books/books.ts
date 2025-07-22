@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../components/book/book.component';
 import { MenuComponent } from '../../components/menu/menu.component';
 import { SortDropdownComponent, SortOption } from '../../components/sort-dropdown/sort-dropdown.component';
@@ -20,14 +21,15 @@ interface SagaGroup {
 @Component({
   selector: 'app-books',
   standalone: true,
-  imports: [CommonModule, BookComponent, MenuComponent, SortDropdownComponent, StatsDisplayComponent],
+  imports: [CommonModule, FormsModule, BookComponent, MenuComponent, SortDropdownComponent, StatsDisplayComponent],
   templateUrl: './books.html',
   styleUrls: ['./books.scss']
 })
 export class BooksComponent implements OnInit {
   allBooks: Book[] = [];
   sortedBooks: Book[] = [];
-  selectedSort: string = 'rating';
+  selectedSort: string = 'readDate';
+  selectedYearFilter: string = 'all';
   stats: StatItem[] = [];
 
   sortOptions: SortOption[] = [
@@ -47,6 +49,13 @@ export class BooksComponent implements OnInit {
     { value: 'genre-desc', label: 'Genre (Z-A)' }
   ];
 
+  yearFilterOptions = [
+    { value: 'all', label: 'Toutes' },
+    { value: '2025', label: '2025' },
+    { value: '2024', label: '2024' },
+    { value: 'before2024', label: 'Avant 2024' },
+  ];
+
   ngOnInit() {
     // Agréger tous les livres de tous les fichiers
     this.allBooks = [
@@ -62,6 +71,11 @@ export class BooksComponent implements OnInit {
 
   onSortChange(sortValue: string) {
     this.selectedSort = sortValue;
+    this.sortBooks();
+  }
+
+  onYearFilterChange(year: string) {
+    this.selectedYearFilter = year;
     this.sortBooks();
   }
 
@@ -93,7 +107,19 @@ export class BooksComponent implements OnInit {
   }
 
   private sortBooks() {
-    this.sortedBooks = [...this.allBooks];
+    // Filtrage par année
+    let filteredBooks = [...this.allBooks];
+    if (this.selectedYearFilter === '2025') {
+      filteredBooks = filteredBooks.filter(b => b.readDate.startsWith('2025'));
+    } else if (this.selectedYearFilter === '2024') {
+      filteredBooks = filteredBooks.filter(b => b.readDate.startsWith('2024'));
+    } else if (this.selectedYearFilter === 'before2024') {
+      filteredBooks = filteredBooks.filter(b => {
+        const year = parseInt(b.readDate.substring(0, 4));
+        return year < 2024;
+      });
+    }
+    this.sortedBooks = [...filteredBooks];
 
     switch (this.selectedSort) {
       case 'title':

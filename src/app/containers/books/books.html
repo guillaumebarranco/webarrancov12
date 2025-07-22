@@ -7,9 +7,24 @@
     <app-stats-display [stats]="stats" [count]="allBooks.length" countLabel="livres">
     </app-stats-display>
 
-    <app-sort-dropdown [sortOptions]="sortOptions" [selectedSort]="selectedSort" (sortChange)="onSortChange($event)">
-    </app-sort-dropdown>
+    <div class="books-filters">
+      <!-- Dropdown de filtre d'années -->
+      <div class="books-filters-item">
+        <p>Filtrer par année :</p>
+        <select class="app-dropdown" [(ngModel)]="selectedYearFilter"
+          (change)="onYearFilterChange($any($event.target).value)" style="margin-bottom: 8px;">
+          <option *ngFor="let option of yearFilterOptions" [value]="option.value">{{ option.label }}</option>
+        </select>
+      </div>
+
+      <app-sort-dropdown [sortOptions]="sortOptions" [selectedSort]="selectedSort" (sortChange)="onSortChange($event)">
+      </app-sort-dropdown>
+    </div>
   </div>
+
+  @if(selectedYearFilter !== 'all') {
+  <p>Résultats affichés: {{ sortedBooks.length }}</p>
+  }
 
   <div class="books">
     @for (book of sortedBooks; track book.title) {

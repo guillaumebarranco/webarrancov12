@@ -12,6 +12,21 @@
   @include containers.count;
 }
 
+.books-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.books-filters-item {
+  display: flex;
+  gap: 10px;
+  color: #34495e;
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
 .books-pages {
   color: #fffbe6;
   background: #4caf50;

@@ -19,6 +19,9 @@
       }
     </p>
     }
+    @if (book.readDate) {
+    <p class="book-read-times">Lu le {{ book.readDate | date:'dd/MM/yyyy' }}</p>
+    }
     @if (book.readTimes && book.readTimes > 1) {
     <p class="book-read-times">📖 Lu {{ book.readTimes }} fois</p>
     }
