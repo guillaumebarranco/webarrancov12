@@ -19,7 +19,7 @@
       }
     </p>
     }
-    @if (book.readDate) {
+    @if (book.readDate.includes('-')) {
     <p class="book-read-times">Lu le {{ book.readDate | date:'dd/MM/yyyy' }}</p>
     }
     @if (book.readTimes && book.readTimes > 1) {
