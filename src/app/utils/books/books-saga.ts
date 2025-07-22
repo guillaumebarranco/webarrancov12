@@ -488,7 +488,7 @@ export const booksSaga: Book[] = [
     readDate: "2024-07-01",
     rating: 4.5,
     pages: 704,
-    genre: "Classic",
+    genre: "Classics",
     saga: "Les trois mousquetaires",
     sagaOrder: 1,
     readTimes: 1

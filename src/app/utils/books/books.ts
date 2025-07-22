@@ -33,7 +33,7 @@ export const books: Book[] = [
     readDate: "2025-06-19",
     rating: 4,
     pages: 400,
-    genre: "Classic",
+    genre: "Classics",
     saga: "",
     sagaOrder: 0,
     readTimes: 1
@@ -189,7 +189,7 @@ export const books: Book[] = [
     readDate: "2024-04-30",
     rating: 5,
     pages: 1056,
-    genre: "Classic",
+    genre: "Classics",
     saga: "",
     sagaOrder: 0,
     readTimes: 2
@@ -381,7 +381,7 @@ export const books: Book[] = [
     readDate: "2024-03-15",
     rating: 3,
     pages: 488,
-    genre: "Horror",
+    genre: "Classics",
     saga: "",
     sagaOrder: 0,
     readTimes: 1

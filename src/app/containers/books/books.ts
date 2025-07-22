@@ -30,6 +30,7 @@ export class BooksComponent implements OnInit {
   sortedBooks: Book[] = [];
   selectedSort: string = 'readDate';
   selectedYearFilter: string = 'all';
+  selectedGroupBy: string = 'none';
   stats: StatItem[] = [];
 
   sortOptions: SortOption[] = [
@@ -56,6 +57,12 @@ export class BooksComponent implements OnInit {
     { value: 'before2024', label: 'Avant 2024' },
   ];
 
+  groupByOptions = [
+    { value: 'none', label: 'Aucun' },
+    { value: 'author', label: 'Auteur' },
+    { value: 'genre', label: 'Genre' },
+  ];
+
   ngOnInit() {
     // Agréger tous les livres de tous les fichiers
     this.allBooks = [
@@ -76,6 +83,11 @@ export class BooksComponent implements OnInit {
 
   onYearFilterChange(year: string) {
     this.selectedYearFilter = year;
+    this.sortBooks();
+  }
+
+  onGroupByChange(groupBy: string) {
+    this.selectedGroupBy = groupBy;
     this.sortBooks();
   }
 
@@ -215,5 +227,27 @@ export class BooksComponent implements OnInit {
         return 0;
       }
     });
+  }
+
+  // Nouvelle méthode pour obtenir les groupes selon le groupBy sélectionné
+  get groupedBooks() {
+    if (this.selectedGroupBy === 'none') {
+      return null;
+    }
+    const groups: { key: string, books: Book[] }[] = [];
+    const map = new Map<string, Book[]>();
+    for (const book of this.sortedBooks) {
+      let key = '';
+      if (this.selectedGroupBy === 'author') key = book.author;
+      else if (this.selectedGroupBy === 'genre') key = book.genre;
+      if (!map.has(key)) map.set(key, []);
+      map.get(key)!.push(book);
+    }
+    for (const [key, books] of map.entries()) {
+      groups.push({ key, books });
+    }
+    // Tri des groupes par nombre de livres
+    groups.sort((a, b) => b.books.length - a.books.length);
+    return groups;
   }
 }
