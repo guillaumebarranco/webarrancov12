@@ -14,11 +14,7 @@ export function getTotalDuration(items: ItemWithGameLength[]): TimeStats {
   let totalHours = 0;
   for (const item of items) {
     const length = item.averageTimeToFinish;
-    if (length) {
-      totalHours += length;
-    } else {
-      console.log(`Missing data for: ${item.title}`);
-    }
+    totalHours += length;
   }
   return formatTimeStats(totalHours * 60);
 }

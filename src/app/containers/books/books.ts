@@ -21,7 +21,7 @@ import { booksSaga } from '../../utils/books/books-saga';
   styleUrls: ['./books.scss']
 })
 export class BooksComponent implements OnInit {
-  selectedSort = signal<string>('readDate');
+  selectedSort = signal<string>('rating');
   selectedYearFilter = signal<string>('all');
   selectedGroupBy = signal<string>('none');
   stats: StatItem[] = [];

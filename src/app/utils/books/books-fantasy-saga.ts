@@ -234,7 +234,7 @@ export const booksFantasySaga: Book[] = [
     author: "Sophie Audouin-Mamikonian",
     coverUrl: "/books_pictures/tara_duncan_tome_6_dans_le_piege_de_magister-100912-264-432.jpg",
     readDate: "2012-08-06",
-    rating: 4,
+    rating: 4.5,
     pages: 508,
     genre: "Fantasy",
     saga: "Tara Duncan",
@@ -359,6 +359,18 @@ export const booksFantasySaga: Book[] = [
     genre: "Fantasy",
     saga: "Le Trône de fer",
     sagaOrder: 3,
+    readTimes: 1
+  },
+  {
+    title: "Le Seigneur des Anneaux Tome 1 : La Communauté de l'Anneau",
+    author: "J.R.R. Tolkien",
+    coverUrl: "/books_pictures/61_9782266346764_1_75.jpg",
+    readDate: "2025-08-02",
+    rating: 3,
+    pages: 576,
+    genre: "Fantasy",
+    saga: "Le Seigneur des Anneaux",
+    sagaOrder: 1,
     readTimes: 1
   },
 ];
