@@ -37,6 +37,12 @@ export const routes: Routes = [
   {
     path: 'movies',
     component: MoviesComponent,
+    children: [
+      {
+        path: 'w',
+        component: MoviesComponent,
+      },
+    ],
   },
   {
     path: 'series',

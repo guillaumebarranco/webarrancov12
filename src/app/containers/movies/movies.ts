@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../components/movie/movie.component';
 import { MenuComponent } from '../../components/menu/menu.component';
@@ -29,6 +29,9 @@ import { moviesSagaPage2 } from '../../utils/movies/movies_saga_2';
 import { moviesSagaPage3 } from '../../utils/movies/movies_saga_3';
 import { moviesSagaPage4 } from '../../utils/movies/movies_saga_4';
 import { moviesSagaPage5 } from '../../utils/movies/movies_saga_5';
+import { wMovies } from '../../utils/w/movies/wmovies';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-movies',
@@ -42,6 +45,7 @@ export class MoviesComponent implements OnInit {
   sortedMovies: Movie[] = [];
   selectedSort: string = 'rating';
   stats: StatItem[] = [];
+  router = inject(Router);
 
   sortOptions: SortOption[] = [
     { value: 'title', label: 'Titre (A-Z)' },
@@ -60,7 +64,7 @@ export class MoviesComponent implements OnInit {
 
   ngOnInit() {
     // Agréger tous les films de tous les fichiers
-    this.allMovies = [
+    const allMovies = [
       ...moviesPage1,
       ...moviesPage2,
       ...moviesPage3,
@@ -83,6 +87,14 @@ export class MoviesComponent implements OnInit {
       ...moviesAnimated1,
       ...moviesAnimated2,
     ];
+
+    const allWMovies = [...wMovies];
+
+    if (this.router.url.includes('/w')) {
+      this.allMovies = allWMovies;
+    } else {
+      this.allMovies = allMovies;
+    }
 
     this.sortMovies();
     this.updateStats();

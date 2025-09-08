@@ -30,10 +30,10 @@ export const moviesAnimated2: Movie[] = [
     lastViewedDate: '',
   },
   {
-    title: 'Nemo',
+    title: 'Le monde de Nemo',
     director: 'Andrew Stanton',
     actors: [{ name: 'Albert Brooks' }],
-    coverUrl: '/movies_pictures/2705-finding-nemo-0-150-0-225-crop.jpg',
+    coverUrl: '/movies_pictures/monde_de_nemo.webp',
     releaseDate: '2003-05-30',
     rating: 3.5,
     length: 100,

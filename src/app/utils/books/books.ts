@@ -626,4 +626,76 @@ export const books: Book[] = [
     sagaOrder: 0,
     readTimes: 1
   },
+  {
+    title: "La guerre des mondes",
+    author: "H.G. Wells",
+    coverUrl: "/books_pictures/65_9782016265604_1_75.jpg",
+    readDate: "2025-08-21",
+    rating: 4,
+    pages: 192,
+    genre: "Science-fiction",
+    saga: "",
+    sagaOrder: 0,
+    readTimes: 1
+  },
+  {
+    title: "La machine à explorer le temps",
+    author: "H.G. Wells",
+    coverUrl: "/books_pictures/RBA-MaitresFantastique1-2021.jpg",
+    readDate: "2025-08-31",
+    rating: 3.5,
+    pages: 160,
+    genre: "Science-fiction",
+    saga: "",
+    sagaOrder: 0,
+    readTimes: 1
+  },
+  {
+    title: "La photo qui tue",
+    author: "Anthony Horowitz",
+    coverUrl: "/books_pictures/51NZsJjf3PL._UF1000,1000_QL80_.jpg",
+    readDate: "2004-04-31",
+    rating: 0,
+    pages: 224,
+    genre: "Thriller",
+    saga: "",
+    sagaOrder: 0,
+    readTimes: 1
+  },
+  {
+    title: "L'homme invisible",
+    author: "H.G. Wells",
+    coverUrl: "/books_pictures/invisible_man.png",
+    readDate: "2025-09-04",
+    rating: 3.5,
+    pages: 224,
+    genre: "Science-fiction",
+    saga: "",
+    sagaOrder: 0,
+    readTimes: 1
+  },
+  {
+    title: "Les pages de notre amour",
+    author: "Nicholas Sparks",
+    coverUrl: "/books_pictures/Les-pages-de-notre-amour.jpg",
+    readDate: "2025-09-06",
+    rating: 5,
+    pages: 224,
+    genre: "Romance",
+    saga: "",
+    sagaOrder: 0,
+    readTimes: 1
+  },
+  {
+    title: "À tout jamais",
+    author: "Nicholas Sparks",
+    coverUrl: "/books_pictures/71uDPcPonsL._UF1000,1000_QL80_.jpg",
+    readDate: "2025-09-07",
+    rating: 3.5,
+    pages: 240,
+    genre: "Romance",
+    saga: "",
+    sagaOrder: 0,
+    readTimes: 1
+  },
 ];
