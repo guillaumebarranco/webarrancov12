@@ -86,10 +86,10 @@ export const series2: Serie[] = [
     releaseDate: "2023-01-15",
     endDate: "",
     rating: 4.25,
-    totalLength: 540,
+    totalLength: 1080,
     genre: "Action, Adventure, Drama",
-    nbSeasons: 1,
-    nbEpisodesTotal: 9,
+    nbSeasons: 2,
+    nbEpisodesTotal: 18,
     timesWatched: 1,
   },
   {
@@ -165,6 +165,42 @@ export const series2: Serie[] = [
     timesWatched: 15,
   },
   {
+    title: "Astérix & Obélix : Le Combat des Chefs",
+    director: "Alain Chabat",
+    actors: [
+      { name: "Alain Chabat" },
+      { name: "Gilles Lellouche" },
+      { name: "Laurent Lafitte" }
+    ],
+    coverUrl: "/series_pictures/33e1cd818fa66a13f979511d517eea48.webp",
+    releaseDate: "2025-04-30",
+    endDate: "2025-04-30",
+    rating: 4,
+    totalLength: 150,
+    genre: "Animation, Comedy, Adventure",
+    nbSeasons: 1,
+    nbEpisodesTotal: 5,
+    timesWatched: 1,
+  },
+  {
+    title: "Bet",
+    director: "Simon Barry",
+    actors: [
+      { name: "Miku Martineau" },
+      { name: "Ayo Solanke" },
+      { name: "Eve Edwards" }
+    ],
+    coverUrl: "/series_pictures/5816a1d84280e5701c399f81c968ca3e.webp",
+    releaseDate: "2025-05-15",
+    endDate: "2025-05-15",
+    rating: 3.5,
+    totalLength: 350,
+    genre: "Thriller, Drama, Mystery",
+    nbSeasons: 1,
+    nbEpisodesTotal: 10,
+    timesWatched: 1,
+  },
+  {
     title: "Brooklyn Nine-Nine",
     director: "Dan Goor, Michael Schur",
     actors: [
@@ -198,6 +234,24 @@ export const series2: Serie[] = [
     genre: "Action, Comedy, Drama",
     nbSeasons: 6,
     nbEpisodesTotal: 60,
+    timesWatched: 1,
+  },
+  {
+    title: "Mercredi",
+    director: "Tim Burton",
+    actors: [
+      { name: "Jenna Ortega" },
+      { name: "Catherine Zeta-Jones" },
+      { name: "Luis Guzmán" }
+    ],
+    coverUrl: "/series_pictures/2942764.webp",
+    releaseDate: "2022-11-23",
+    endDate: "",
+    rating: 4,
+    totalLength: 960,
+    genre: "Comedy, Crime, Fantasy",
+    nbSeasons: 2,
+    nbEpisodesTotal: 16,
     timesWatched: 1,
   },
   {
@@ -432,6 +486,24 @@ export const series2: Serie[] = [
     genre: "Drama, Mystery, Sci-Fi",
     nbSeasons: 3,
     nbEpisodesTotal: 39,
+    timesWatched: 1,
+  },
+  {
+    title: "Superman & Lois",
+    director: "Greg Berlanti, Todd Helbing",
+    actors: [
+      { name: "Tyler Hoechlin" },
+      { name: "Bitsie Tulloch" },
+      { name: "Jordan Elsass" }
+    ],
+    coverUrl: "/series_pictures/3782519.webp",
+    releaseDate: "2021-02-23",
+    endDate: "2023-06-27",
+    rating: 4,
+    totalLength: 2400,
+    genre: "Action, Adventure, Drama",
+    nbSeasons: 3,
+    nbEpisodesTotal: 40,
     timesWatched: 1,
   }
 ];

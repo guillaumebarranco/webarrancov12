@@ -698,4 +698,40 @@ export const books: Book[] = [
     sagaOrder: 0,
     readTimes: 1
   },
+  {
+    title: "Le porte bonheur",
+    author: "Nicholas Sparks",
+    coverUrl: "/books_pictures/41TwzJl0j3L._SX195_.jpg",
+    readDate: "2025-09-09",
+    rating: 4.5,
+    pages: 320,
+    genre: "Romance",
+    saga: "",
+    sagaOrder: 0,
+    readTimes: 1
+  },
+  {
+    title: "Memento mori",
+    author: "Eny Heli",
+    coverUrl: "/books_pictures/71E6TZcFrdL.jpg",
+    readDate: "2025-09-11",
+    rating: 4.5,
+    pages: 300,
+    genre: "Dark Romance",
+    saga: "",
+    sagaOrder: 0,
+    readTimes: 1
+  },
+  {
+    title: "Un choix",
+    author: "Nicholas Sparks",
+    coverUrl: "/books_pictures/Un-choix.jpg",
+    readDate: "2025-09-23",
+    rating: 4,
+    pages: 280,
+    genre: "Romance",
+    saga: "",
+    sagaOrder: 0,
+    readTimes: 1
+  },
 ];
