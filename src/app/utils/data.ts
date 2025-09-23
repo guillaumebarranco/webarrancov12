@@ -12,7 +12,7 @@ export const resultData = {
       job: 'Développeur Javascript Full Stack',
       email: 'guillaume.barranco8@hotmail.fr',
       location: 'Île-de-France',
-      age: 27,
+      age: 32,
       mangasCount: 563,
       isDad: true,
       isGeek: true,
