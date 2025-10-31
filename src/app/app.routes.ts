@@ -39,7 +39,7 @@ export const routes: Routes = [
     component: MoviesComponent,
     children: [
       {
-        path: 'w',
+        path: ':id',
         component: MoviesComponent,
       },
     ],
@@ -55,5 +55,44 @@ export const routes: Routes = [
   {
     path: 'news',
     component: NewsComponent,
+  },
+  {
+    path: ':id',
+    children: [
+      {
+        path: 'dashboard',
+        component: DashboardComponent,
+      },
+      {
+        path: 'books',
+        component: BooksComponent,
+      },
+      {
+        path: 'mangas',
+        component: MangasComponent,
+      },
+      {
+        path: 'manwhas',
+        component: ManwhasComponent,
+      },
+      {
+        path: 'movies',
+        component: MoviesComponent,
+        children: [
+          {
+            path: ':id',
+            component: MoviesComponent,
+          },
+        ],
+      },
+      {
+        path: 'series',
+        component: SeriesComponent,
+      },
+      {
+        path: 'games',
+        component: GamesComponent,
+      },
+    ],
   },
 ];

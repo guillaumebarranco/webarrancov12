@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Game } from '../../utils/games/games_1';
+import { Game } from '../../models/game-model';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -12,7 +12,7 @@ interface StarInfo {
   standalone: true,
   imports: [CommonModule],
   templateUrl: './game.component.html',
-  styleUrls: ['./game.component.scss']
+  styleUrls: ['./game.component.scss'],
 })
 export class GameComponent {
   @Input() game!: Game;

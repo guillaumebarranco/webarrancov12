@@ -2,43 +2,57 @@ import { Component, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../components/movie/movie.component';
 import { MenuComponent } from '../../components/menu/menu.component';
-import { SortDropdownComponent, SortOption } from '../../components/sort-dropdown/sort-dropdown.component';
-import { StatsDisplayComponent, StatItem } from '../../components/stats-display/stats-display.component';
-import { Movie } from '../../utils/movies/movies_1';
-import { getTotalWatchingTime, getTotalDuration } from '../../utils/stats.utils';
-
-// Import de tous les fichiers de films
-import { moviesPage1 } from '../../utils/movies/movies_1';
-import { moviesPage2 } from '../../utils/movies/movies_2';
-import { moviesPage3 } from '../../utils/movies/movies_3';
-import { moviesPage4 } from '../../utils/movies/movies_4';
-import { moviesPage5 } from '../../utils/movies/movies_5';
-import { moviesPage6 } from '../../utils/movies/movies_6';
-import { moviesPage7 } from '../../utils/movies/movies_7';
-import { moviesPage8 } from '../../utils/movies/movies_8';
-import { moviesPage9 } from '../../utils/movies/movies_9';
-import { moviesMcu } from '../../utils/movies/movies_mcu';
-import { moviesDc } from '../../utils/movies/movies_dc';
-import { moviesOtherSuperheroes } from '../../utils/movies/movies_other_superheroes';
-import { moviesLove1 } from '../../utils/movies/movies_love_1';
-import { moviesLove2 } from '../../utils/movies/movies_love_2';
-import { moviesAnimated1 } from '../../utils/movies/movies_animated_1';
-import { moviesAnimated2 } from '../../utils/movies/movies_animated_2';
-import { moviesSagaPage1 } from '../../utils/movies/movies_saga_1';
-import { moviesSagaPage2 } from '../../utils/movies/movies_saga_2';
-import { moviesSagaPage3 } from '../../utils/movies/movies_saga_3';
-import { moviesSagaPage4 } from '../../utils/movies/movies_saga_4';
-import { moviesSagaPage5 } from '../../utils/movies/movies_saga_5';
-import { wMovies } from '../../utils/w/movies/wmovies';
-import { Router } from '@angular/router';
-
+import {
+  SortDropdownComponent,
+  SortOption,
+} from '../../components/sort-dropdown/sort-dropdown.component';
+import {
+  StatsDisplayComponent,
+  StatItem,
+} from '../../components/stats-display/stats-display.component';
+import {
+  getTotalWatchingTime,
+  getTotalDuration,
+} from '../../utils/stats.utils';
+import { Movie } from '../../models/movie-model';
+import {
+  moviesPage1,
+  moviesPage2,
+  moviesPage3,
+  moviesPage4,
+  moviesPage5,
+  moviesPage6,
+  moviesPage7,
+  moviesPage8,
+  moviesPage9,
+  moviesMcu,
+  moviesDc,
+  moviesOtherSuperheroes,
+  moviesLove1,
+  moviesLove2,
+  moviesAnimated1,
+  moviesAnimated2,
+  moviesSagaPage1,
+  moviesSagaPage2,
+  moviesSagaPage3,
+  moviesSagaPage4,
+  moviesSagaPage5,
+} from '../../utils/guillaume/movies';
+import { williamMovies } from '../../utils/william/movies/william_movies';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 
 @Component({
   selector: 'app-movies',
   standalone: true,
-  imports: [CommonModule, MovieComponent, MenuComponent, SortDropdownComponent, StatsDisplayComponent],
+  imports: [
+    CommonModule,
+    MovieComponent,
+    MenuComponent,
+    SortDropdownComponent,
+    StatsDisplayComponent,
+  ],
   templateUrl: './movies.html',
-  styleUrls: ['./movies.scss']
+  styleUrls: ['./movies.scss'],
 })
 export class MoviesComponent implements OnInit {
   allMovies: Movie[] = [];
@@ -46,6 +60,7 @@ export class MoviesComponent implements OnInit {
   selectedSort: string = 'rating';
   stats: StatItem[] = [];
   router = inject(Router);
+  activatedRoute = inject(ActivatedRoute);
 
   sortOptions: SortOption[] = [
     { value: 'title', label: 'Titre (A-Z)' },
@@ -59,41 +74,44 @@ export class MoviesComponent implements OnInit {
     { value: 'length', label: 'Durée (long)' },
     { value: 'length-asc', label: 'Durée (court)' },
     { value: 'lastViewedDate', label: 'Dernier visionnage (récent)' },
-    { value: 'lastViewedDate-asc', label: 'Dernier visionnage (ancien)' }
+    { value: 'lastViewedDate-asc', label: 'Dernier visionnage (ancien)' },
   ];
 
   ngOnInit() {
-    // Agréger tous les films de tous les fichiers
-    const allMovies = [
-      ...moviesPage1,
-      ...moviesPage2,
-      ...moviesPage3,
-      ...moviesPage4,
-      ...moviesPage5,
-      ...moviesPage6,
-      ...moviesPage7,
-      ...moviesPage8,
-      ...moviesPage9,
-      ...moviesSagaPage1,
-      ...moviesSagaPage2,
-      ...moviesSagaPage3,
-      ...moviesSagaPage4,
-      ...moviesSagaPage5,
-      ...moviesLove1,
-      ...moviesLove2,
-      ...moviesMcu,
-      ...moviesDc,
-      ...moviesOtherSuperheroes,
-      ...moviesAnimated1,
-      ...moviesAnimated2,
-    ];
+    const movies = {
+      guillaume: [
+        ...moviesPage1,
+        ...moviesPage2,
+        ...moviesPage3,
+        ...moviesPage4,
+        ...moviesPage5,
+        ...moviesPage6,
+        ...moviesPage7,
+        ...moviesPage8,
+        ...moviesPage9,
+        ...moviesSagaPage1,
+        ...moviesSagaPage2,
+        ...moviesSagaPage3,
+        ...moviesSagaPage4,
+        ...moviesSagaPage5,
+        ...moviesLove1,
+        ...moviesLove2,
+        ...moviesMcu,
+        ...moviesDc,
+        ...moviesOtherSuperheroes,
+        ...moviesAnimated1,
+        ...moviesAnimated2,
+      ],
+      william: [...williamMovies],
+    };
+    const params: Params = this.activatedRoute.snapshot.params;
 
-    const allWMovies = [...wMovies];
+    const hasNameParam = params['id'] !== undefined;
 
-    if (this.router.url.includes('/w')) {
-      this.allMovies = allWMovies;
+    if (hasNameParam) {
+      this.allMovies = movies[params['id'] as keyof typeof movies];
     } else {
-      this.allMovies = allMovies;
+      this.allMovies = movies.guillaume;
     }
 
     this.sortMovies();
@@ -115,14 +133,14 @@ export class MoviesComponent implements OnInit {
         label: 'Durée totale de tous les films',
         value: totalDuration.formatted,
         icon: '🎬',
-        color: 'success'
+        color: 'success',
       },
       {
         label: 'Temps total passé devant des films',
         value: totalWatchingTime.formatted,
         icon: '⏱️',
-        color: 'primary'
-      }
+        color: 'primary',
+      },
     ];
   }
 
@@ -137,10 +155,18 @@ export class MoviesComponent implements OnInit {
         this.sortedMovies.sort((a, b) => b.title.localeCompare(a.title));
         break;
       case 'releaseDate':
-        this.sortedMovies.sort((a, b) => new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime());
+        this.sortedMovies.sort(
+          (a, b) =>
+            new Date(b.releaseDate).getTime() -
+            new Date(a.releaseDate).getTime()
+        );
         break;
       case 'releaseDate-asc':
-        this.sortedMovies.sort((a, b) => new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime());
+        this.sortedMovies.sort(
+          (a, b) =>
+            new Date(a.releaseDate).getTime() -
+            new Date(b.releaseDate).getTime()
+        );
         break;
       case 'rating':
         this.sortedMovies.sort((a, b) => {
@@ -172,15 +198,23 @@ export class MoviesComponent implements OnInit {
         break;
       case 'lastViewedDate':
         this.sortedMovies.sort((a, b) => {
-          const dateA = a.lastViewedDate ? new Date(a.lastViewedDate).getTime() : 0;
-          const dateB = b.lastViewedDate ? new Date(b.lastViewedDate).getTime() : 0;
+          const dateA = a.lastViewedDate
+            ? new Date(a.lastViewedDate).getTime()
+            : 0;
+          const dateB = b.lastViewedDate
+            ? new Date(b.lastViewedDate).getTime()
+            : 0;
           return dateB - dateA;
         });
         break;
       case 'lastViewedDate-asc':
         this.sortedMovies.sort((a, b) => {
-          const dateA = a.lastViewedDate ? new Date(a.lastViewedDate).getTime() : 0;
-          const dateB = b.lastViewedDate ? new Date(b.lastViewedDate).getTime() : 0;
+          const dateA = a.lastViewedDate
+            ? new Date(a.lastViewedDate).getTime()
+            : 0;
+          const dateB = b.lastViewedDate
+            ? new Date(b.lastViewedDate).getTime()
+            : 0;
           return dateA - dateB;
         });
         break;

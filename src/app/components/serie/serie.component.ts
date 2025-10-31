@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Serie } from '../../utils/series/series_1';
+import { Serie } from '../../models/serie-model';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -12,7 +12,7 @@ interface StarInfo {
   standalone: true,
   imports: [CommonModule],
   templateUrl: './serie.component.html',
-  styleUrls: ['./serie.component.scss']
+  styleUrls: ['./serie.component.scss'],
 })
 export class SerieComponent {
   @Input() serie!: Serie;

@@ -2,9 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BookComponent } from '../../components/book/book.component';
 import { MenuComponent } from '../../components/menu/menu.component';
-import { SortDropdownComponent, SortOption } from '../../components/sort-dropdown/sort-dropdown.component';
-import { Book } from '../../utils/books/books';
-import { manwhas } from '../../utils/mangas/manwhas';
+import {
+  SortDropdownComponent,
+  SortOption,
+} from '../../components/sort-dropdown/sort-dropdown.component';
+import { manwhas } from '../../utils/guillaume/mangas/manwhas';
+import { Book } from '../../models/book-model';
 
 interface SagaGroup {
   saga: string;
@@ -16,7 +19,7 @@ interface SagaGroup {
   standalone: true,
   imports: [CommonModule, BookComponent, MenuComponent, SortDropdownComponent],
   templateUrl: './manwhas.html',
-  styleUrls: ['./manwhas.scss']
+  styleUrls: ['./manwhas.scss'],
 })
 export class ManwhasComponent implements OnInit {
   allManwhas: Book[] = [];
@@ -37,11 +40,11 @@ export class ManwhasComponent implements OnInit {
     { value: 'nbTomes', label: 'Nombre de tomes (élevé)' },
     { value: 'nbTomes-asc', label: 'Nombre de tomes (faible)' },
     { value: 'genre', label: 'Genre (A-Z)' },
-    { value: 'genre-desc', label: 'Genre (Z-A)' }
+    { value: 'genre-desc', label: 'Genre (Z-A)' },
   ];
 
   ngOnInit() {
-    this.allManwhas = manwhas.map(manwha => {
+    this.allManwhas = manwhas.map((manwha) => {
       return {
         title: manwha._source.manga.name,
         author: manwha._source.manga.authors[0].name,
@@ -54,7 +57,7 @@ export class ManwhasComponent implements OnInit {
         nbTomes: manwha._source.manga.france.nbBooks || 0,
         isFinished: manwha._source.manga.isFinished || false,
         readTimes: manwha._readTimes || 1,
-      }
+      };
     });
 
     this.sortManwhas();
@@ -83,10 +86,16 @@ export class ManwhasComponent implements OnInit {
         this.sortedManwhas.sort((a, b) => b.author.localeCompare(a.author));
         break;
       case 'readDate':
-        this.sortedManwhas.sort((a, b) => new Date(b.readDate).getTime() - new Date(a.readDate).getTime());
+        this.sortedManwhas.sort(
+          (a, b) =>
+            new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
+        );
         break;
       case 'readDate-asc':
-        this.sortedManwhas.sort((a, b) => new Date(a.readDate).getTime() - new Date(b.readDate).getTime());
+        this.sortedManwhas.sort(
+          (a, b) =>
+            new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
+        );
         break;
       case 'rating':
         this.sortedManwhas.sort((a, b) => {
@@ -113,10 +122,14 @@ export class ManwhasComponent implements OnInit {
         });
         break;
       case 'readTimes':
-        this.sortedManwhas.sort((a, b) => (b.readTimes || 0) - (a.readTimes || 0));
+        this.sortedManwhas.sort(
+          (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
+        );
         break;
       case 'readTimes-asc':
-        this.sortedManwhas.sort((a, b) => (a.readTimes || 0) - (b.readTimes || 0));
+        this.sortedManwhas.sort(
+          (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
+        );
         break;
       case 'nbTomes':
         this.sortedManwhas.sort((a, b) => (b.nbTomes || 0) - (a.nbTomes || 0));

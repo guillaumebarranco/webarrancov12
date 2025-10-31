@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Book } from '../../utils/books/books';
+import { Book } from '../../models/book-model';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -12,7 +12,7 @@ interface StarInfo {
   standalone: true,
   imports: [CommonModule],
   templateUrl: './book.component.html',
-  styleUrls: ['./book.component.scss']
+  styleUrls: ['./book.component.scss'],
 })
 export class BookComponent {
   @Input() book!: Book;

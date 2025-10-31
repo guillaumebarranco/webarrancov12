@@ -1,24 +1,43 @@
-import { Component, OnInit, signal, computed } from '@angular/core';
+import { Component, OnInit, signal, computed, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { BookComponent } from '../../components/book/book.component';
 import { MenuComponent } from '../../components/menu/menu.component';
-import { SortDropdownComponent, SortOption } from '../../components/sort-dropdown/sort-dropdown.component';
-import { StatsDisplayComponent, StatItem } from '../../components/stats-display/stats-display.component';
-import { Book } from '../../utils/books/books';
-import { getTotalPages, getTotalPagesRead, getEstimatedReadingTime } from '../../utils/stats.utils';
-
-// Import de tous les fichiers de livres
-import { books } from '../../utils/books/books';
-import { booksFantasySaga } from '../../utils/books/books-fantasy-saga';
-import { booksSaga } from '../../utils/books/books-saga';
+import {
+  SortDropdownComponent,
+  SortOption,
+} from '../../components/sort-dropdown/sort-dropdown.component';
+import {
+  StatsDisplayComponent,
+  StatItem,
+} from '../../components/stats-display/stats-display.component';
+import { Book } from '../../models/book-model';
+import {
+  books,
+  booksFantasySaga,
+  booksSaga,
+} from '../../utils/guillaume/books';
+import {
+  getTotalPages,
+  getTotalPagesRead,
+  getEstimatedReadingTime,
+} from '../../utils/stats.utils';
+import { ActivatedRoute, Params } from '@angular/router';
+import { kevinBooks1, kevinBooks2 } from '../../utils/kevin/books';
 
 @Component({
   selector: 'app-books',
   standalone: true,
-  imports: [CommonModule, FormsModule, BookComponent, MenuComponent, SortDropdownComponent, StatsDisplayComponent],
+  imports: [
+    CommonModule,
+    FormsModule,
+    BookComponent,
+    MenuComponent,
+    SortDropdownComponent,
+    StatsDisplayComponent,
+  ],
   templateUrl: './books.html',
-  styleUrls: ['./books.scss']
+  styleUrls: ['./books.scss'],
 })
 export class BooksComponent implements OnInit {
   selectedSort = signal<string>('readDate');
@@ -26,22 +45,38 @@ export class BooksComponent implements OnInit {
   selectedGroupBy = signal<string>('none');
   stats: StatItem[] = [];
 
-  allBooks = signal<Book[]>([
-    ...books,
-    ...booksFantasySaga,
-    ...booksSaga
-  ]);
+  activatedRoute = inject(ActivatedRoute);
+
+  booksList = signal<{ [key: string]: Book[] }>({
+    guillaume: [...books, ...booksFantasySaga, ...booksSaga],
+    kevin: [...kevinBooks1, ...kevinBooks2],
+  });
+
+  allBooks = computed<Book[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+
+    return hasNameParam
+      ? this.booksList()[params['id']]
+      : this.booksList()['guillaume'];
+  });
+
+  // allBooks = signal<Book[]>([...books, ...booksFantasySaga, ...booksSaga]);
 
   filteredBooks = computed(() => {
     let filteredBooks = [...this.allBooks()];
 
     // Filtrage par année
     if (this.selectedYearFilter() === '2025') {
-      filteredBooks = filteredBooks.filter(b => b.readDate.startsWith('2025'));
+      filteredBooks = filteredBooks.filter((b) =>
+        b.readDate.startsWith('2025')
+      );
     } else if (this.selectedYearFilter() === '2024') {
-      filteredBooks = filteredBooks.filter(b => b.readDate.startsWith('2024'));
+      filteredBooks = filteredBooks.filter((b) =>
+        b.readDate.startsWith('2024')
+      );
     } else if (this.selectedYearFilter() === 'before2024') {
-      filteredBooks = filteredBooks.filter(b => {
+      filteredBooks = filteredBooks.filter((b) => {
         const year = parseInt(b.readDate.substring(0, 4));
         return year < 2024;
       });
@@ -63,9 +98,15 @@ export class BooksComponent implements OnInit {
       case 'author-desc':
         return sortedBooks.sort((a, b) => b.author.localeCompare(a.author));
       case 'readDate':
-        return sortedBooks.sort((a, b) => new Date(b.readDate).getTime() - new Date(a.readDate).getTime());
+        return sortedBooks.sort(
+          (a, b) =>
+            new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
+        );
       case 'readDate-asc':
-        return sortedBooks.sort((a, b) => new Date(a.readDate).getTime() - new Date(b.readDate).getTime());
+        return sortedBooks.sort(
+          (a, b) =>
+            new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
+        );
       case 'rating':
         return sortedBooks.sort((a, b) => {
           const ratingA = a.rating || 0;
@@ -89,9 +130,13 @@ export class BooksComponent implements OnInit {
           return readTimesB - readTimesA;
         });
       case 'readTimes':
-        return sortedBooks.sort((a, b) => (b.readTimes || 0) - (a.readTimes || 0));
+        return sortedBooks.sort(
+          (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
+        );
       case 'readTimes-asc':
-        return sortedBooks.sort((a, b) => (a.readTimes || 0) - (b.readTimes || 0));
+        return sortedBooks.sort(
+          (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
+        );
       case 'pages':
         return sortedBooks.sort((a, b) => (b.pages || 0) - (a.pages || 0));
       case 'pages-asc':
@@ -101,7 +146,10 @@ export class BooksComponent implements OnInit {
       case 'genre-desc':
         return sortedBooks.sort((a, b) => b.genre.localeCompare(a.genre));
       default:
-        return sortedBooks.sort((a, b) => new Date(b.readDate).getTime() - new Date(a.readDate).getTime());
+        return sortedBooks.sort(
+          (a, b) =>
+            new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
+        );
     }
   });
 
@@ -109,7 +157,7 @@ export class BooksComponent implements OnInit {
     if (this.selectedGroupBy() === 'none') {
       return null;
     }
-    const groups: { key: string, books: Book[] }[] = [];
+    const groups: { key: string; books: Book[] }[] = [];
     const map = new Map<string, Book[]>();
     for (const book of this.filteredBooks()) {
       let key = '';
@@ -140,7 +188,7 @@ export class BooksComponent implements OnInit {
     { value: 'pages', label: 'Pages (élevé)' },
     { value: 'pages-asc', label: 'Pages (faible)' },
     { value: 'genre', label: 'Genre (A-Z)' },
-    { value: 'genre-desc', label: 'Genre (Z-A)' }
+    { value: 'genre-desc', label: 'Genre (Z-A)' },
   ];
 
   yearFilterOptions = [
@@ -183,19 +231,19 @@ export class BooksComponent implements OnInit {
         label: 'Pages totales de tous les livres',
         value: `${totalPages.toLocaleString()} pages`,
         icon: '📚',
-        color: 'success'
+        color: 'success',
       },
       {
         label: 'Pages totales lues (avec relectures)',
         value: `${totalPagesRead.toLocaleString()} pages`,
         icon: '📖',
-        color: 'info'
+        color: 'info',
       },
       {
         label: 'Temps estimé de lecture',
         value: estimatedReadingTime.formatted,
         icon: '⏱️',
-        color: 'primary'
+        color: 'primary',
       },
     ];
   }

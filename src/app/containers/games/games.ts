@@ -2,13 +2,21 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GameComponent } from '../../components/game/game.component';
 import { MenuComponent } from '../../components/menu/menu.component';
-import { SortDropdownComponent, SortOption } from '../../components/sort-dropdown/sort-dropdown.component';
-import { StatsDisplayComponent, StatItem } from '../../components/stats-display/stats-display.component';
-import { Game, games1 } from '../../utils/games/games_1';
-import { games2 } from '../../utils/games/games_2';
-import { games3 } from '../../utils/games/games_3';
-import { games4 } from '../../utils/games/games_4';
-import { formatTimeStats, ItemWithGameLength, TimeStats } from '../../utils/stats.utils';
+import {
+  SortDropdownComponent,
+  SortOption,
+} from '../../components/sort-dropdown/sort-dropdown.component';
+import {
+  StatsDisplayComponent,
+  StatItem,
+} from '../../components/stats-display/stats-display.component';
+import { Game } from '../../models/game-model';
+import { games1, games2, games3, games4 } from '../../utils/guillaume/games';
+import {
+  formatTimeStats,
+  ItemWithGameLength,
+  TimeStats,
+} from '../../utils/stats.utils';
 
 export function getTotalDuration(items: ItemWithGameLength[]): TimeStats {
   let totalHours = 0;
@@ -22,7 +30,9 @@ export function getTotalDuration(items: ItemWithGameLength[]): TimeStats {
 export function getTotalPlayedTime(items: ItemWithGameLength[]): TimeStats {
   let totalHours = 0;
   for (const item of items) {
-    const length = item.averageTimeToFinish * item.timesFinished + item.additionnalEstimatedTime;
+    const length =
+      item.averageTimeToFinish * item.timesFinished +
+      item.additionnalEstimatedTime;
     if (length) {
       totalHours += length;
     } else {
@@ -35,9 +45,15 @@ export function getTotalPlayedTime(items: ItemWithGameLength[]): TimeStats {
 @Component({
   selector: 'app-games',
   standalone: true,
-  imports: [CommonModule, GameComponent, MenuComponent, SortDropdownComponent, StatsDisplayComponent],
+  imports: [
+    CommonModule,
+    GameComponent,
+    MenuComponent,
+    SortDropdownComponent,
+    StatsDisplayComponent,
+  ],
   templateUrl: './games.html',
-  styleUrls: ['./games.scss']
+  styleUrls: ['./games.scss'],
 })
 export class GamesComponent implements OnInit {
   allGames: Game[] = [];
@@ -57,12 +73,12 @@ export class GamesComponent implements OnInit {
     { value: 'averageTimeToFinish', label: 'Temps (long)' },
     { value: 'averageTimeToFinish-asc', label: 'Temps (court)' },
     { value: 'totalPlayedTime', label: 'Temps passé (élevé)' },
-    { value: 'totalPlayedTime-asc', label: 'Temps passé (faible)' }
+    { value: 'totalPlayedTime-asc', label: 'Temps passé (faible)' },
   ];
 
   ngOnInit() {
     // Utiliser les jeux du fichier existant
-    this.allGames = [...games1, ...games2, ...games3, ...games4,];
+    this.allGames = [...games1, ...games2, ...games3, ...games4];
 
     this.sortGames();
     this.updateStats();
@@ -83,14 +99,14 @@ export class GamesComponent implements OnInit {
         label: 'Temps total pour terminer tous les jeux',
         value: totalTime.formatted,
         icon: '🎮',
-        color: 'success'
+        color: 'success',
       },
       {
         label: 'Temps total passé à jouer',
         value: totalPlayTime.formatted,
         icon: '⏱️',
-        color: 'primary'
-      }
+        color: 'primary',
+      },
     ];
   }
 
@@ -105,18 +121,30 @@ export class GamesComponent implements OnInit {
         this.sortedGames.sort((a, b) => b.title.localeCompare(a.title));
         break;
       case 'releaseDate':
-        this.sortedGames.sort((a, b) => new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime());
+        this.sortedGames.sort(
+          (a, b) =>
+            new Date(b.releaseDate).getTime() -
+            new Date(a.releaseDate).getTime()
+        );
         break;
       case 'releaseDate-asc':
-        this.sortedGames.sort((a, b) => new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime());
+        this.sortedGames.sort(
+          (a, b) =>
+            new Date(a.releaseDate).getTime() -
+            new Date(b.releaseDate).getTime()
+        );
         break;
       case 'rating':
         this.sortedGames.sort((a, b) => {
           if (b.rating !== a.rating) {
             return b.rating - a.rating;
           }
-          const totalTimeA = a.averageTimeToFinish * a.timesFinished + a.additionnalEstimatedTime;
-          const totalTimeB = b.averageTimeToFinish * b.timesFinished + b.additionnalEstimatedTime;
+          const totalTimeA =
+            a.averageTimeToFinish * a.timesFinished +
+            a.additionnalEstimatedTime;
+          const totalTimeB =
+            b.averageTimeToFinish * b.timesFinished +
+            b.additionnalEstimatedTime;
           return totalTimeB - totalTimeA;
         });
         break;
@@ -125,8 +153,12 @@ export class GamesComponent implements OnInit {
           if (a.rating !== b.rating) {
             return a.rating - b.rating;
           }
-          const totalTimeA = a.averageTimeToFinish * a.timesFinished + a.additionnalEstimatedTime;
-          const totalTimeB = b.averageTimeToFinish * b.timesFinished + b.additionnalEstimatedTime;
+          const totalTimeA =
+            a.averageTimeToFinish * a.timesFinished +
+            a.additionnalEstimatedTime;
+          const totalTimeB =
+            b.averageTimeToFinish * b.timesFinished +
+            b.additionnalEstimatedTime;
           return totalTimeB - totalTimeA;
         });
         break;
@@ -137,22 +169,34 @@ export class GamesComponent implements OnInit {
         this.sortedGames.sort((a, b) => a.timesFinished - b.timesFinished);
         break;
       case 'averageTimeToFinish':
-        this.sortedGames.sort((a, b) => b.averageTimeToFinish - a.averageTimeToFinish);
+        this.sortedGames.sort(
+          (a, b) => b.averageTimeToFinish - a.averageTimeToFinish
+        );
         break;
       case 'averageTimeToFinish-asc':
-        this.sortedGames.sort((a, b) => a.averageTimeToFinish - b.averageTimeToFinish);
+        this.sortedGames.sort(
+          (a, b) => a.averageTimeToFinish - b.averageTimeToFinish
+        );
         break;
       case 'totalPlayedTime':
         this.sortedGames.sort((a, b) => {
-          const totalTimeA = a.averageTimeToFinish * a.timesFinished + a.additionnalEstimatedTime;
-          const totalTimeB = b.averageTimeToFinish * b.timesFinished + b.additionnalEstimatedTime;
+          const totalTimeA =
+            a.averageTimeToFinish * a.timesFinished +
+            a.additionnalEstimatedTime;
+          const totalTimeB =
+            b.averageTimeToFinish * b.timesFinished +
+            b.additionnalEstimatedTime;
           return totalTimeB - totalTimeA;
         });
         break;
       case 'totalPlayedTime-asc':
         this.sortedGames.sort((a, b) => {
-          const totalTimeA = a.averageTimeToFinish * a.timesFinished + a.additionnalEstimatedTime;
-          const totalTimeB = b.averageTimeToFinish * b.timesFinished + b.additionnalEstimatedTime;
+          const totalTimeA =
+            a.averageTimeToFinish * a.timesFinished +
+            a.additionnalEstimatedTime;
+          const totalTimeB =
+            b.averageTimeToFinish * b.timesFinished +
+            b.additionnalEstimatedTime;
           return totalTimeA - totalTimeB;
         });
         break;

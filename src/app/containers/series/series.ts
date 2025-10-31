@@ -2,21 +2,33 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SerieComponent } from '../../components/serie/serie.component';
 import { MenuComponent } from '../../components/menu/menu.component';
-import { SortDropdownComponent, SortOption } from '../../components/sort-dropdown/sort-dropdown.component';
-import { StatsDisplayComponent, StatItem } from '../../components/stats-display/stats-display.component';
-import { Serie } from '../../utils/series/series_1';
-import { getTotalWatchingTime, getTotalDuration } from '../../utils/stats.utils';
-
-// Import de tous les fichiers de séries
-import { series1 } from '../../utils/series/series_1';
-import { series2 } from '../../utils/series/series_2';
+import {
+  SortDropdownComponent,
+  SortOption,
+} from '../../components/sort-dropdown/sort-dropdown.component';
+import {
+  StatsDisplayComponent,
+  StatItem,
+} from '../../components/stats-display/stats-display.component';
+import { Serie } from '../../models/serie-model';
+import { series1, series2 } from '../../utils/guillaume/series';
+import {
+  getTotalWatchingTime,
+  getTotalDuration,
+} from '../../utils/stats.utils';
 
 @Component({
   selector: 'app-series',
   standalone: true,
-  imports: [CommonModule, SerieComponent, MenuComponent, SortDropdownComponent, StatsDisplayComponent],
+  imports: [
+    CommonModule,
+    SerieComponent,
+    MenuComponent,
+    SortDropdownComponent,
+    StatsDisplayComponent,
+  ],
   templateUrl: './series.html',
-  styleUrls: ['./series.scss']
+  styleUrls: ['./series.scss'],
 })
 export class SeriesComponent implements OnInit {
   allSeries: Serie[] = [];
@@ -38,15 +50,12 @@ export class SeriesComponent implements OnInit {
     { value: 'nbSeasons', label: 'Saisons (élevé)' },
     { value: 'nbSeasons-asc', label: 'Saisons (faible)' },
     { value: 'nbEpisodesTotal', label: 'Épisodes (élevé)' },
-    { value: 'nbEpisodesTotal-asc', label: 'Épisodes (faible)' }
+    { value: 'nbEpisodesTotal-asc', label: 'Épisodes (faible)' },
   ];
 
   ngOnInit() {
     // Agréger toutes les séries de tous les fichiers
-    this.allSeries = [
-      ...series1,
-      ...series2
-    ];
+    this.allSeries = [...series1, ...series2];
 
     this.sortSeries();
     this.updateStats();
@@ -67,14 +76,14 @@ export class SeriesComponent implements OnInit {
         label: 'Durée totale de toutes les séries',
         value: totalDuration.formatted,
         icon: '📺',
-        color: 'success'
+        color: 'success',
       },
       {
         label: 'Temps total passé devant des séries',
         value: totalWatchingTime.formatted,
         icon: '⏱️',
-        color: 'primary'
-      }
+        color: 'primary',
+      },
     ];
   }
 
@@ -89,10 +98,18 @@ export class SeriesComponent implements OnInit {
         this.sortedSeries.sort((a, b) => b.title.localeCompare(a.title));
         break;
       case 'releaseDate':
-        this.sortedSeries.sort((a, b) => new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime());
+        this.sortedSeries.sort(
+          (a, b) =>
+            new Date(b.releaseDate).getTime() -
+            new Date(a.releaseDate).getTime()
+        );
         break;
       case 'releaseDate-asc':
-        this.sortedSeries.sort((a, b) => new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime());
+        this.sortedSeries.sort(
+          (a, b) =>
+            new Date(a.releaseDate).getTime() -
+            new Date(b.releaseDate).getTime()
+        );
         break;
       case 'rating':
         this.sortedSeries.sort((a, b) => {

@@ -2,11 +2,22 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BookComponent } from '../../components/book/book.component';
 import { MenuComponent } from '../../components/menu/menu.component';
-import { SortDropdownComponent, SortOption } from '../../components/sort-dropdown/sort-dropdown.component';
-import { StatsDisplayComponent, StatItem } from '../../components/stats-display/stats-display.component';
-import { Book } from '../../utils/books/books';
-import { mangas } from '../../utils/mangas/mangas';
-import { getTotalMangaPages, getTotalMangaTomesRead, getEstimatedMangaReadingTime, PAGES_PER_MANGA_TOME } from '../../utils/stats.utils';
+import {
+  SortDropdownComponent,
+  SortOption,
+} from '../../components/sort-dropdown/sort-dropdown.component';
+import {
+  StatsDisplayComponent,
+  StatItem,
+} from '../../components/stats-display/stats-display.component';
+import { Book } from '../../models/book-model';
+import { mangas } from '../../utils/guillaume/mangas/mangas';
+import {
+  getTotalMangaPages,
+  getTotalMangaTomesRead,
+  getEstimatedMangaReadingTime,
+  PAGES_PER_MANGA_TOME,
+} from '../../utils/stats.utils';
 
 interface SagaGroup {
   saga: string;
@@ -16,9 +27,15 @@ interface SagaGroup {
 @Component({
   selector: 'app-mangas',
   standalone: true,
-  imports: [CommonModule, BookComponent, MenuComponent, SortDropdownComponent, StatsDisplayComponent],
+  imports: [
+    CommonModule,
+    BookComponent,
+    MenuComponent,
+    SortDropdownComponent,
+    StatsDisplayComponent,
+  ],
   templateUrl: './mangas.html',
-  styleUrls: ['./mangas.scss']
+  styleUrls: ['./mangas.scss'],
 })
 export class MangasComponent implements OnInit {
   allMangas: Book[] = [];
@@ -40,11 +57,11 @@ export class MangasComponent implements OnInit {
     { value: 'nbTomes', label: 'Nombre de tomes (élevé)' },
     { value: 'nbTomes-asc', label: 'Nombre de tomes (faible)' },
     { value: 'genre', label: 'Genre (A-Z)' },
-    { value: 'genre-desc', label: 'Genre (Z-A)' }
+    { value: 'genre-desc', label: 'Genre (Z-A)' },
   ];
 
   ngOnInit() {
-    this.allMangas = mangas.map(manga => {
+    this.allMangas = mangas.map((manga) => {
       return {
         title: manga._source.manga.frenchName || manga._source.manga.name,
         author: manga._source.manga.authors[0].name,
@@ -57,7 +74,7 @@ export class MangasComponent implements OnInit {
         nbTomes: manga._source.manga.france.nbBooks || 0,
         isFinished: manga._source.manga.isFinished || false,
         readTimes: manga._readTimes || 1,
-      }
+      };
     });
 
     this.sortMangas();
@@ -82,33 +99,32 @@ export class MangasComponent implements OnInit {
         label: 'Total des tomes',
         value: `${totalTomes.toLocaleString()} tomes`,
         icon: '📚',
-        color: 'success'
+        color: 'success',
       },
       {
         label: 'Total des pages',
         value: `${totalPages.toLocaleString()} pages`,
         icon: '📖',
-        color: 'info'
+        color: 'info',
       },
       {
         label: 'Total des tomes lus (avec relectures)',
         value: `${totalTomesRead.toLocaleString()} tomes`,
         icon: '📚',
-        color: 'success'
+        color: 'success',
       },
       {
         label: 'Total des pages lues (avec relectures)',
         value: `${totalPagesRead.toLocaleString()} pages`,
         icon: '📖',
-        color: 'info'
+        color: 'info',
       },
       {
         label: 'Temps estimé de lecture',
         value: estimatedReadingTime.formatted,
         icon: '⏱️',
-        color: 'primary'
+        color: 'primary',
       },
-
     ];
   }
 
@@ -149,10 +165,16 @@ export class MangasComponent implements OnInit {
         this.sortedMangas.sort((a, b) => b.author.localeCompare(a.author));
         break;
       case 'readDate':
-        this.sortedMangas.sort((a, b) => new Date(b.readDate).getTime() - new Date(a.readDate).getTime());
+        this.sortedMangas.sort(
+          (a, b) =>
+            new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
+        );
         break;
       case 'readDate-asc':
-        this.sortedMangas.sort((a, b) => new Date(a.readDate).getTime() - new Date(b.readDate).getTime());
+        this.sortedMangas.sort(
+          (a, b) =>
+            new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
+        );
         break;
       case 'rating':
         this.sortedMangas.sort((a, b) => {
@@ -179,10 +201,14 @@ export class MangasComponent implements OnInit {
         });
         break;
       case 'readTimes':
-        this.sortedMangas.sort((a, b) => (b.readTimes || 0) - (a.readTimes || 0));
+        this.sortedMangas.sort(
+          (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
+        );
         break;
       case 'readTimes-asc':
-        this.sortedMangas.sort((a, b) => (a.readTimes || 0) - (b.readTimes || 0));
+        this.sortedMangas.sort(
+          (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
+        );
         break;
       case 'nbTomes':
         this.sortedMangas.sort((a, b) => (b.nbTomes || 0) - (a.nbTomes || 0));

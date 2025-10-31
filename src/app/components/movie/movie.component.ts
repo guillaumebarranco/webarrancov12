@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Movie } from '../../utils/movies/movies_1';
+import { Movie } from '../../models/movie-model';
 
 interface StarInfo {
   type: 'full' | 'half' | 'empty';
@@ -12,7 +12,7 @@ interface StarInfo {
   standalone: true,
   imports: [CommonModule],
   templateUrl: './movie.component.html',
-  styleUrls: ['./movie.component.scss']
+  styleUrls: ['./movie.component.scss'],
 })
 export class MovieComponent {
   @Input() movie!: Movie;
