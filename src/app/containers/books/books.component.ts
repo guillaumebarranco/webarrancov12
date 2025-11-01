@@ -78,6 +78,7 @@ export class BooksComponent {
   booksList = signal<{ [key: string]: Book[] }>({
     guillaume: [...books, ...booksFantasySaga, ...booksSaga],
     kevin: [...kevinBooks1, ...kevinBooks2],
+    william: [],
   });
 
   allBooks = computed<Book[]>(() => {

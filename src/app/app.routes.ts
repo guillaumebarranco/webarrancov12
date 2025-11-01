@@ -8,6 +8,7 @@ import { SeriesComponent } from './containers/series/series.component';
 import { GamesComponent } from './containers/games/games.component';
 import { DashboardComponent } from './containers/dashboard/dashboard.component';
 import { NewsComponent } from './containers/news/news';
+import { SelectMoviesComponent } from './containers/select-movies/select-movies.component';
 
 export const routes: Routes = [
   {
@@ -57,6 +58,10 @@ export const routes: Routes = [
     component: NewsComponent,
   },
   {
+    path: 'select-movies',
+    component: SelectMoviesComponent,
+  },
+  {
     path: ':id',
     children: [
       {
@@ -96,6 +101,10 @@ export const routes: Routes = [
       {
         path: 'games',
         component: GamesComponent,
+      },
+      {
+        path: 'select-movies',
+        component: SelectMoviesComponent,
       },
     ],
   },

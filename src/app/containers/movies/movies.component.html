@@ -3,6 +3,18 @@
 <div class="movies-container">
   <h1>Films visionnés ({{ allMovies().length }})</h1>
 
+  @if(allMovies().length === 0) {
+  <div class="empty-state">
+    <p class="empty-message">Vous n'avez aucun film dans votre collection.</p>
+    <p class="empty-subtitle">
+      Commencez dès maintenant à créer votre cinémathèque personnelle !
+    </p>
+    <button class="btn btn-primary" [routerLink]="getSelectMoviesRoute()">
+      Sélectionner mes films
+    </button>
+  </div>
+  }
+
   <div class="movies-header">
     <app-stats-display
       [stats]="stats()"

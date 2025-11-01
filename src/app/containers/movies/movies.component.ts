@@ -39,11 +39,12 @@ import {
   moviesSagaPage5,
 } from '../../utils/guillaume/movies';
 import { williamMovies } from '../../utils/william/movies/william_movies';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-movies',
   imports: [
+    RouterLink,
     CommonModule,
     MovieComponent,
     MenuComponent,
@@ -196,6 +197,12 @@ export class MoviesComponent {
       },
     ];
   });
+
+  getSelectMoviesRoute(): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam ? `/${params['id']}/select-movies` : '/select-movies';
+  }
 
   onSortChange(sortValue: string) {
     this.selectedSort.set(sortValue);

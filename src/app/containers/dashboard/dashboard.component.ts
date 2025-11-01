@@ -48,11 +48,7 @@ import { Movie } from '../../models/movie-model';
 import { williamMovies } from '../../utils/william/movies/william_movies';
 import { Game } from '../../models/game-model';
 import { Serie } from '../../models/serie-model';
-import {
-  getEstimatedReadingTime,
-  getTotalPagesRead,
-  MINUTES_PER_PAGE,
-} from '../../utils/stats.utils';
+import { getTotalPagesRead, MINUTES_PER_PAGE } from '../../utils/stats.utils';
 
 interface TopBook extends Book {
   formattedReadingTime: string;
@@ -83,6 +79,7 @@ export class DashboardComponent {
   booksList = signal<{ [key: string]: Book[] }>({
     guillaume: [...books, ...booksFantasySaga, ...booksSaga],
     kevin: [...kevinBooks1, ...kevinBooks2],
+    william: [],
   });
 
   allBooks = computed<Book[]>(() => {
@@ -272,7 +269,9 @@ export class DashboardComponent {
 
   stats = computed<StatItem[]>(() => {
     const booksTotalReadingTime =
-      (getTotalPagesRead(this.allBooks()) * MINUTES_PER_PAGE) / 60;
+      this.allBooks().length > 0
+        ? (getTotalPagesRead(this.allBooks()) * MINUTES_PER_PAGE) / 60
+        : 0;
 
     const mangasTotalTomes = this.allMangas().reduce(
       (sum, manga) => sum + (manga.nbTomes || 0) * (manga.readTimes || 1),
