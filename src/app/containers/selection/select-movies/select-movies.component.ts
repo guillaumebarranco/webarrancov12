@@ -25,7 +25,7 @@ import {
   moviesSagaPage4,
   moviesSagaPage5,
 } from '../../../utils/guillaume/movies';
-import { williamMovies } from '../../../utils/william/movies/william_movies';
+import { williamMovies } from '../../../utils/william/movies';
 
 @Component({
   selector: 'app-select-movies',

@@ -14,6 +14,8 @@ import { SelectSeriesComponent } from './containers/selection/select-series/sele
 import { SelectMangasComponent } from './containers/selection/select-mangas/select-mangas.component';
 import { SelectManwhasComponent } from './containers/selection/select-manwhas/select-manwhas.component';
 import { SelectGamesComponent } from './containers/selection/select-games/select-games.component';
+import { MusicsComponent } from './containers/collections/musics/musics.component';
+import { SelectMusicsComponent } from './containers/selection/select-musics/select-musics.component';
 
 export const routes: Routes = [
   {
@@ -59,6 +61,10 @@ export const routes: Routes = [
     component: GamesComponent,
   },
   {
+    path: 'musics',
+    component: MusicsComponent,
+  },
+  {
     path: 'news',
     component: NewsComponent,
   },
@@ -85,6 +91,10 @@ export const routes: Routes = [
   {
     path: 'select-games',
     component: SelectGamesComponent,
+  },
+  {
+    path: 'select-musics',
+    component: SelectMusicsComponent,
   },
   {
     path: ':id',
@@ -128,6 +138,10 @@ export const routes: Routes = [
         component: GamesComponent,
       },
       {
+        path: 'musics',
+        component: MusicsComponent,
+      },
+      {
         path: 'select-movies',
         component: SelectMoviesComponent,
       },
@@ -150,6 +164,10 @@ export const routes: Routes = [
       {
         path: 'select-games',
         component: SelectGamesComponent,
+      },
+      {
+        path: 'select-musics',
+        component: SelectMusicsComponent,
       },
     ],
   },

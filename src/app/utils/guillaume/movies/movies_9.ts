@@ -474,4 +474,20 @@ export const moviesPage9: Movie[] = [
     timesWatched: 1,
     lastViewedDate: '2025-08-28',
   },
+  {
+    title: 'Dans tes rêves',
+    director: 'Denis Thybaud',
+    actors: [
+      { name: 'Disiz' },
+      { name: 'Béatrice Dalle' },
+      { name: 'Vincent Elbaz' },
+    ],
+    coverUrl: '/movies_pictures/dans_tes_reves.jpg',
+    releaseDate: '2005-10-05',
+    rating: 0,
+    length: 95,
+    genre: 'Comedy, Drama',
+    timesWatched: 0,
+    lastViewedDate: '',
+  },
 ];

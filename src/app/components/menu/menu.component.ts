@@ -58,6 +58,12 @@ export class MenuComponent implements OnInit {
       icon: '🎮',
       hideOnMobile: false,
     },
+    {
+      label: 'Musiques',
+      route: this.getRoute('musics'),
+      icon: '🎵',
+      hideOnMobile: false,
+    },
   ];
 
   ngOnInit() {

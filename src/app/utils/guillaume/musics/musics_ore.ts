@@ -1,0 +1,61 @@
+import { Music } from '../../../models/music-model';
+
+export const musicsOre: Music[] = [
+  // Album : L'EP d'Oré (2020) - Oré
+  {
+    title: 'Agence matrimoniale',
+    artist: 'Oré',
+    album: "L'EP d'Oré",
+    coverUrl: '/musics_pictures/ore-ep.jpg',
+    releaseDate: '2020-11-20',
+    rating: 0,
+    duration: 214,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 0,
+  },
+  {
+    title: 'Imagination',
+    artist: 'Oré',
+    album: "L'EP d'Oré",
+    coverUrl: '/musics_pictures/ore-ep.jpg',
+    releaseDate: '2020-11-20',
+    rating: 0,
+    duration: 213,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 0,
+  },
+  {
+    title: '1000g',
+    artist: 'Oré',
+    album: "L'EP d'Oré",
+    coverUrl: '/musics_pictures/ore-ep.jpg',
+    releaseDate: '2020-11-20',
+    rating: 0,
+    duration: 188,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 0,
+  },
+  {
+    title: 'Vacances',
+    artist: 'Oré',
+    album: "L'EP d'Oré",
+    coverUrl: '/musics_pictures/ore-ep.jpg',
+    releaseDate: '2020-11-20',
+    rating: 0,
+    duration: 233,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 0,
+  },
+  {
+    title: 'Orétrip',
+    artist: 'Oré',
+    album: "L'EP d'Oré",
+    coverUrl: '/musics_pictures/ore-ep.jpg',
+    releaseDate: '2020-11-20',
+    rating: 0,
+    duration: 179,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 0,
+  },
+];
+

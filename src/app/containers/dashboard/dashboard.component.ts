@@ -45,7 +45,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { Book } from '../../models/book-model';
 import { kevinBooks1, kevinBooks2 } from '../../utils/kevin/books';
 import { Movie } from '../../models/movie-model';
-import { williamMovies } from '../../utils/william/movies/william_movies';
+import { williamMovies } from '../../utils/william/movies';
 import { Game } from '../../models/game-model';
 import { Serie } from '../../models/serie-model';
 import { getTotalPagesRead, MINUTES_PER_PAGE } from '../../utils/stats.utils';
