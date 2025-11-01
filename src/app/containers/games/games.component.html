@@ -1,18 +1,26 @@
 <app-menu></app-menu>
 
 <div class="games-container">
-  <h1>🎮 Jeux vidéo ({{ allGames.length }})</h1>
+  <h1>🎮 Jeux vidéo ({{ allGames().length }})</h1>
 
   <div class="games-header">
-    <app-stats-display [stats]="stats" [count]="allGames.length" countLabel="jeux">
+    <app-stats-display
+      [stats]="stats()"
+      [count]="allGames().length"
+      countLabel="jeux"
+    >
     </app-stats-display>
 
-    <app-sort-dropdown [sortOptions]="sortOptions" [selectedSort]="selectedSort" (sortChange)="onSortChange($event)">
+    <app-sort-dropdown
+      [sortOptions]="sortOptions()"
+      [selectedSort]="selectedSort()"
+      (sortChange)="onSortChange($event)"
+    >
     </app-sort-dropdown>
   </div>
 
   <div class="games">
-    @for (game of sortedGames; track game.title) {
+    @for (game of sortedGames(); track game.title) {
     <div class="game-card">
       <app-game [game]="game"></app-game>
     </div>

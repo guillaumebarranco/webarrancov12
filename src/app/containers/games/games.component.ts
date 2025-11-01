@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, computed, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GameComponent } from '../../components/game/game.component';
 import { MenuComponent } from '../../components/menu/menu.component';
@@ -17,6 +17,7 @@ import {
   ItemWithGameLength,
   TimeStats,
 } from '../../utils/stats.utils';
+import { ActivatedRoute, Params } from '@angular/router';
 
 export function getTotalDuration(items: ItemWithGameLength[]): TimeStats {
   let totalHours = 0;
@@ -55,13 +56,12 @@ export function getTotalPlayedTime(items: ItemWithGameLength[]): TimeStats {
   templateUrl: './games.component.html',
   styleUrls: ['./games.component.scss'],
 })
-export class GamesComponent implements OnInit {
-  allGames: Game[] = [];
-  sortedGames: Game[] = [];
-  selectedSort: string = 'rating';
-  stats: StatItem[] = [];
+export class GamesComponent {
+  activatedRoute = inject(ActivatedRoute);
 
-  sortOptions: SortOption[] = [
+  selectedSort = signal<string>('rating');
+
+  sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
     { value: 'title-desc', label: 'Titre (Z-A)' },
     { value: 'releaseDate', label: 'Date de sortie (récent)' },
@@ -74,27 +74,112 @@ export class GamesComponent implements OnInit {
     { value: 'averageTimeToFinish-asc', label: 'Temps (court)' },
     { value: 'totalPlayedTime', label: 'Temps passé (élevé)' },
     { value: 'totalPlayedTime-asc', label: 'Temps passé (faible)' },
-  ];
+  ]);
 
-  ngOnInit() {
-    // Utiliser les jeux du fichier existant
-    this.allGames = [...games1, ...games2, ...games3, ...games4];
+  gamesList = signal<{ [key: string]: Game[] }>({
+    guillaume: [...games1, ...games2, ...games3, ...games4],
+    william: [],
+    kevin: [],
+  });
 
-    this.sortGames();
-    this.updateStats();
-    console.log(`Collection de ${this.allGames.length} jeux chargée`);
-  }
+  allGames = computed<Game[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? this.gamesList()[params['id']]
+      : this.gamesList()['guillaume'];
+  });
 
-  onSortChange(sortValue: string) {
-    this.selectedSort = sortValue;
-    this.sortGames();
-  }
+  sortedGames = computed<Game[]>(() => {
+    switch (this.selectedSort()) {
+      case 'title':
+        return this.allGames().sort((a, b) => a.title.localeCompare(b.title));
+      case 'title-desc':
+        return this.allGames().sort((a, b) => b.title.localeCompare(a.title));
+      case 'releaseDate':
+        return this.allGames().sort(
+          (a, b) =>
+            new Date(b.releaseDate).getTime() -
+            new Date(a.releaseDate).getTime()
+        );
+      case 'releaseDate-asc':
+        return this.allGames().sort(
+          (a, b) =>
+            new Date(a.releaseDate).getTime() -
+            new Date(b.releaseDate).getTime()
+        );
+      case 'rating':
+        return this.allGames().sort((a, b) => {
+          if (b.rating !== a.rating) {
+            return b.rating - a.rating;
+          }
+          const totalTimeA =
+            a.averageTimeToFinish * a.timesFinished +
+            a.additionnalEstimatedTime;
+          const totalTimeB =
+            b.averageTimeToFinish * b.timesFinished +
+            b.additionnalEstimatedTime;
+          return totalTimeB - totalTimeA;
+        });
+      case 'rating-asc':
+        return this.allGames().sort((a, b) => {
+          if (a.rating !== b.rating) {
+            return a.rating - b.rating;
+          }
+          const totalTimeA =
+            a.averageTimeToFinish * a.timesFinished +
+            a.additionnalEstimatedTime;
+          const totalTimeB =
+            b.averageTimeToFinish * b.timesFinished +
+            b.additionnalEstimatedTime;
+          return totalTimeB - totalTimeA;
+        });
+      case 'timesFinished':
+        return this.allGames().sort(
+          (a, b) => b.timesFinished - a.timesFinished
+        );
+      case 'timesFinished-asc':
+        return this.allGames().sort(
+          (a, b) => a.timesFinished - b.timesFinished
+        );
+      case 'averageTimeToFinish':
+        return this.allGames().sort(
+          (a, b) => b.averageTimeToFinish - a.averageTimeToFinish
+        );
+      case 'averageTimeToFinish-asc':
+        return this.allGames().sort(
+          (a, b) => a.averageTimeToFinish - b.averageTimeToFinish
+        );
+      case 'totalPlayedTime':
+        return this.allGames().sort((a, b) => {
+          const totalTimeA =
+            a.averageTimeToFinish * a.timesFinished +
+            a.additionnalEstimatedTime;
+          const totalTimeB =
+            b.averageTimeToFinish * b.timesFinished +
+            b.additionnalEstimatedTime;
+          return totalTimeB - totalTimeA;
+        });
+      case 'totalPlayedTime-asc':
+        return this.allGames().sort((a, b) => {
+          const totalTimeA =
+            a.averageTimeToFinish * a.timesFinished +
+            a.additionnalEstimatedTime;
+          const totalTimeB =
+            b.averageTimeToFinish * b.timesFinished +
+            b.additionnalEstimatedTime;
+          return totalTimeA - totalTimeB;
+        });
+      default:
+        return this.allGames().sort((a, b) => a.title.localeCompare(b.title));
+    }
+  });
 
-  private updateStats() {
-    const totalTime = getTotalDuration(this.allGames);
-    const totalPlayTime = getTotalPlayedTime(this.allGames);
+  stats = computed<StatItem[]>(() => {
+    const totalTime = getTotalDuration(this.allGames());
+    const totalPlayTime = getTotalPlayedTime(this.allGames());
 
-    this.stats = [
+    return [
       {
         label: 'Temps total pour terminer tous les jeux',
         value: totalTime.formatted,
@@ -108,100 +193,9 @@ export class GamesComponent implements OnInit {
         color: 'primary',
       },
     ];
-  }
+  });
 
-  private sortGames() {
-    this.sortedGames = [...this.allGames];
-
-    switch (this.selectedSort) {
-      case 'title':
-        this.sortedGames.sort((a, b) => a.title.localeCompare(b.title));
-        break;
-      case 'title-desc':
-        this.sortedGames.sort((a, b) => b.title.localeCompare(a.title));
-        break;
-      case 'releaseDate':
-        this.sortedGames.sort(
-          (a, b) =>
-            new Date(b.releaseDate).getTime() -
-            new Date(a.releaseDate).getTime()
-        );
-        break;
-      case 'releaseDate-asc':
-        this.sortedGames.sort(
-          (a, b) =>
-            new Date(a.releaseDate).getTime() -
-            new Date(b.releaseDate).getTime()
-        );
-        break;
-      case 'rating':
-        this.sortedGames.sort((a, b) => {
-          if (b.rating !== a.rating) {
-            return b.rating - a.rating;
-          }
-          const totalTimeA =
-            a.averageTimeToFinish * a.timesFinished +
-            a.additionnalEstimatedTime;
-          const totalTimeB =
-            b.averageTimeToFinish * b.timesFinished +
-            b.additionnalEstimatedTime;
-          return totalTimeB - totalTimeA;
-        });
-        break;
-      case 'rating-asc':
-        this.sortedGames.sort((a, b) => {
-          if (a.rating !== b.rating) {
-            return a.rating - b.rating;
-          }
-          const totalTimeA =
-            a.averageTimeToFinish * a.timesFinished +
-            a.additionnalEstimatedTime;
-          const totalTimeB =
-            b.averageTimeToFinish * b.timesFinished +
-            b.additionnalEstimatedTime;
-          return totalTimeB - totalTimeA;
-        });
-        break;
-      case 'timesFinished':
-        this.sortedGames.sort((a, b) => b.timesFinished - a.timesFinished);
-        break;
-      case 'timesFinished-asc':
-        this.sortedGames.sort((a, b) => a.timesFinished - b.timesFinished);
-        break;
-      case 'averageTimeToFinish':
-        this.sortedGames.sort(
-          (a, b) => b.averageTimeToFinish - a.averageTimeToFinish
-        );
-        break;
-      case 'averageTimeToFinish-asc':
-        this.sortedGames.sort(
-          (a, b) => a.averageTimeToFinish - b.averageTimeToFinish
-        );
-        break;
-      case 'totalPlayedTime':
-        this.sortedGames.sort((a, b) => {
-          const totalTimeA =
-            a.averageTimeToFinish * a.timesFinished +
-            a.additionnalEstimatedTime;
-          const totalTimeB =
-            b.averageTimeToFinish * b.timesFinished +
-            b.additionnalEstimatedTime;
-          return totalTimeB - totalTimeA;
-        });
-        break;
-      case 'totalPlayedTime-asc':
-        this.sortedGames.sort((a, b) => {
-          const totalTimeA =
-            a.averageTimeToFinish * a.timesFinished +
-            a.additionnalEstimatedTime;
-          const totalTimeB =
-            b.averageTimeToFinish * b.timesFinished +
-            b.additionnalEstimatedTime;
-          return totalTimeA - totalTimeB;
-        });
-        break;
-      default:
-        this.sortedGames.sort((a, b) => a.title.localeCompare(b.title));
-    }
+  onSortChange(sortValue: string) {
+    this.selectedSort.set(sortValue);
   }
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BookComponent } from '../../components/book/book.component';
 import { MenuComponent } from '../../components/menu/menu.component';
@@ -18,6 +18,7 @@ import {
   getEstimatedMangaReadingTime,
   PAGES_PER_MANGA_TOME,
 } from '../../utils/stats.utils';
+import { ActivatedRoute, Params } from '@angular/router';
 
 interface SagaGroup {
   saga: string;
@@ -37,13 +38,12 @@ interface SagaGroup {
   templateUrl: './mangas.component.html',
   styleUrls: ['./mangas.component.scss'],
 })
-export class MangasComponent implements OnInit {
-  allMangas: Book[] = [];
-  sortedMangas: Book[] = [];
-  selectedSort: string = 'rating';
-  stats: StatItem[] = [];
+export class MangasComponent {
+  activatedRoute = inject(ActivatedRoute);
 
-  sortOptions: SortOption[] = [
+  selectedSort = signal<string>('rating');
+
+  sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
     { value: 'title-desc', label: 'Titre (Z-A)' },
     { value: 'author', label: 'Auteur (A-Z)' },
@@ -58,10 +58,23 @@ export class MangasComponent implements OnInit {
     { value: 'nbTomes-asc', label: 'Nombre de tomes (faible)' },
     { value: 'genre', label: 'Genre (A-Z)' },
     { value: 'genre-desc', label: 'Genre (Z-A)' },
-  ];
+  ]);
 
-  ngOnInit() {
-    this.allMangas = mangas.map((manga) => {
+  mangasList = signal<{ [key: string]: any[] }>({
+    guillaume: [...mangas],
+    kevin: [],
+    william: [],
+  });
+
+  allMangas = computed<Book[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+
+    const mangas = hasNameParam
+      ? this.mangasList()[params['id']]
+      : this.mangasList()['guillaume'];
+
+    return mangas.map((manga: any) => {
       return {
         title: manga._source.manga.frenchName || manga._source.manga.name,
         author: manga._source.manga.authors[0].name,
@@ -76,25 +89,89 @@ export class MangasComponent implements OnInit {
         readTimes: manga._readTimes || 1,
       };
     });
+  });
 
-    this.sortMangas();
-    this.updateStats();
-    console.log(`Collection de ${this.allMangas.length} mangas chargée`);
-  }
+  sortedMangas = computed<Book[]>(() => {
+    switch (this.selectedSort()) {
+      case 'title':
+        return this.allMangas().sort((a, b) => a.title.localeCompare(b.title));
+      case 'title-desc':
+        return this.allMangas().sort((a, b) => b.title.localeCompare(a.title));
+      case 'author':
+        return this.allMangas().sort((a, b) =>
+          a.author.localeCompare(b.author)
+        );
+      case 'author-desc':
+        return this.allMangas().sort((a, b) =>
+          b.author.localeCompare(a.author)
+        );
+      case 'readDate':
+        return this.allMangas().sort(
+          (a, b) =>
+            new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
+        );
+      case 'readDate-asc':
+        return this.allMangas().sort(
+          (a, b) =>
+            new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
+        );
+      case 'rating':
+        return this.allMangas().sort((a, b) => {
+          const ratingA = a.rating || 0;
+          const ratingB = b.rating || 0;
+          if (ratingB !== ratingA) {
+            return ratingB - ratingA;
+          }
+          const readTimesA = a.readTimes || 0;
+          const readTimesB = b.readTimes || 0;
+          return readTimesB - readTimesA;
+        });
+      case 'rating-asc':
+        return this.allMangas().sort((a, b) => {
+          const ratingA = a.rating || 0;
+          const ratingB = b.rating || 0;
+          if (ratingA !== ratingB) {
+            return ratingA - ratingB;
+          }
+          const readTimesA = a.readTimes || 0;
+          const readTimesB = b.readTimes || 0;
+          return readTimesB - readTimesA;
+        });
+      case 'readTimes':
+        return this.allMangas().sort(
+          (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
+        );
+      case 'readTimes-asc':
+        return this.allMangas().sort(
+          (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
+        );
+      case 'nbTomes':
+        return this.allMangas().sort(
+          (a, b) => (b.nbTomes || 0) - (a.nbTomes || 0)
+        );
+      case 'nbTomes-asc':
+        return this.allMangas().sort(
+          (a, b) => (a.nbTomes || 0) - (b.nbTomes || 0)
+        );
+      case 'genre':
+        return this.allMangas().sort((a, b) => a.genre.localeCompare(b.genre));
+      case 'genre-desc':
+        return this.allMangas().sort((a, b) => b.genre.localeCompare(a.genre));
+      default:
+        return this.allMangas().sort(
+          (a, b) => (b.rating || 0) - (a.rating || 0)
+        );
+    }
+  });
 
-  onSortChange(sortValue: string) {
-    this.selectedSort = sortValue;
-    this.sortMangas();
-  }
-
-  private updateStats() {
+  stats = computed<StatItem[]>(() => {
     const totalTomes = this.calculateTotalTomes();
     const totalPages = this.calculateTotalPages();
-    const totalTomesRead = getTotalMangaTomesRead(this.allMangas);
-    const totalPagesRead = getTotalMangaPages(this.allMangas);
-    const estimatedReadingTime = getEstimatedMangaReadingTime(this.allMangas);
+    const totalTomesRead = getTotalMangaTomesRead(this.allMangas());
+    const totalPagesRead = getTotalMangaPages(this.allMangas());
+    const estimatedReadingTime = getEstimatedMangaReadingTime(this.allMangas());
 
-    this.stats = [
+    return [
       {
         label: 'Total des tomes',
         value: `${totalTomes.toLocaleString()} tomes`,
@@ -126,11 +203,14 @@ export class MangasComponent implements OnInit {
         color: 'primary',
       },
     ];
-  }
+  });
 
+  onSortChange(sortValue: string) {
+    this.selectedSort.set(sortValue);
+  }
   private calculateTotalTomes(): number {
     let total = 0;
-    for (const manga of this.allMangas) {
+    for (const manga of this.allMangas()) {
       if (manga.nbTomes) {
         total += manga.nbTomes;
       }
@@ -140,90 +220,11 @@ export class MangasComponent implements OnInit {
 
   private calculateTotalPages(): number {
     let total = 0;
-    for (const manga of this.allMangas) {
+    for (const manga of this.allMangas()) {
       if (manga.nbTomes) {
         total += manga.nbTomes * PAGES_PER_MANGA_TOME;
       }
     }
     return total;
-  }
-
-  private sortMangas() {
-    this.sortedMangas = [...this.allMangas];
-
-    switch (this.selectedSort) {
-      case 'title':
-        this.sortedMangas.sort((a, b) => a.title.localeCompare(b.title));
-        break;
-      case 'title-desc':
-        this.sortedMangas.sort((a, b) => b.title.localeCompare(a.title));
-        break;
-      case 'author':
-        this.sortedMangas.sort((a, b) => a.author.localeCompare(b.author));
-        break;
-      case 'author-desc':
-        this.sortedMangas.sort((a, b) => b.author.localeCompare(a.author));
-        break;
-      case 'readDate':
-        this.sortedMangas.sort(
-          (a, b) =>
-            new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
-        );
-        break;
-      case 'readDate-asc':
-        this.sortedMangas.sort(
-          (a, b) =>
-            new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
-        );
-        break;
-      case 'rating':
-        this.sortedMangas.sort((a, b) => {
-          const ratingA = a.rating || 0;
-          const ratingB = b.rating || 0;
-          if (ratingB !== ratingA) {
-            return ratingB - ratingA;
-          }
-          const readTimesA = a.readTimes || 0;
-          const readTimesB = b.readTimes || 0;
-          return readTimesB - readTimesA;
-        });
-        break;
-      case 'rating-asc':
-        this.sortedMangas.sort((a, b) => {
-          const ratingA = a.rating || 0;
-          const ratingB = b.rating || 0;
-          if (ratingA !== ratingB) {
-            return ratingA - ratingB;
-          }
-          const readTimesA = a.readTimes || 0;
-          const readTimesB = b.readTimes || 0;
-          return readTimesB - readTimesA;
-        });
-        break;
-      case 'readTimes':
-        this.sortedMangas.sort(
-          (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
-        );
-        break;
-      case 'readTimes-asc':
-        this.sortedMangas.sort(
-          (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
-        );
-        break;
-      case 'nbTomes':
-        this.sortedMangas.sort((a, b) => (b.nbTomes || 0) - (a.nbTomes || 0));
-        break;
-      case 'nbTomes-asc':
-        this.sortedMangas.sort((a, b) => (a.nbTomes || 0) - (b.nbTomes || 0));
-        break;
-      case 'genre':
-        this.sortedMangas.sort((a, b) => a.genre.localeCompare(b.genre));
-        break;
-      case 'genre-desc':
-        this.sortedMangas.sort((a, b) => b.genre.localeCompare(a.genre));
-        break;
-      default:
-        this.sortedMangas.sort((a, b) => (b.rating || 0) - (a.rating || 0));
-    }
   }
 }

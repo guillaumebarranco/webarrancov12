@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, computed, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SerieComponent } from '../../components/serie/serie.component';
 import { MenuComponent } from '../../components/menu/menu.component';
@@ -16,10 +16,10 @@ import {
   getTotalWatchingTime,
   getTotalDuration,
 } from '../../utils/stats.utils';
+import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'app-series',
-  standalone: true,
   imports: [
     CommonModule,
     SerieComponent,
@@ -30,13 +30,12 @@ import {
   templateUrl: './series.component.html',
   styleUrls: ['./series.component.scss'],
 })
-export class SeriesComponent implements OnInit {
-  allSeries: Serie[] = [];
-  sortedSeries: Serie[] = [];
-  selectedSort: string = 'rating';
-  stats: StatItem[] = [];
+export class SeriesComponent {
+  activatedRoute = inject(ActivatedRoute);
 
-  sortOptions: SortOption[] = [
+  selectedSort = signal<string>('rating');
+
+  sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
     { value: 'title-desc', label: 'Titre (Z-A)' },
     { value: 'releaseDate', label: 'Date de sortie (récent)' },
@@ -51,27 +50,84 @@ export class SeriesComponent implements OnInit {
     { value: 'nbSeasons-asc', label: 'Saisons (faible)' },
     { value: 'nbEpisodesTotal', label: 'Épisodes (élevé)' },
     { value: 'nbEpisodesTotal-asc', label: 'Épisodes (faible)' },
-  ];
+  ]);
 
-  ngOnInit() {
-    // Agréger toutes les séries de tous les fichiers
-    this.allSeries = [...series1, ...series2];
+  seriesList = signal<{ [key: string]: Serie[] }>({
+    guillaume: [...series1, ...series2],
+    william: [],
+    kevin: [],
+  });
 
-    this.sortSeries();
-    this.updateStats();
-    console.log(`Collection de ${this.allSeries.length} séries chargée`);
-  }
+  allSeries = computed<Serie[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? this.seriesList()[params['id']]
+      : this.seriesList()['guillaume'];
+  });
 
-  onSortChange(sortValue: string) {
-    this.selectedSort = sortValue;
-    this.sortSeries();
-  }
+  sortedSeries = computed<Serie[]>(() => {
+    switch (this.selectedSort()) {
+      case 'title':
+        return this.allSeries().sort((a, b) => a.title.localeCompare(b.title));
+      case 'title-desc':
+        return this.allSeries().sort((a, b) => b.title.localeCompare(a.title));
+      case 'releaseDate':
+        return this.allSeries().sort(
+          (a, b) =>
+            new Date(b.releaseDate).getTime() -
+            new Date(a.releaseDate).getTime()
+        );
+      case 'releaseDate-asc':
+        return this.allSeries().sort(
+          (a, b) =>
+            new Date(a.releaseDate).getTime() -
+            new Date(b.releaseDate).getTime()
+        );
+      case 'rating':
+        return this.allSeries().sort((a, b) => {
+          if (b.rating !== a.rating) {
+            return b.rating - a.rating;
+          }
+          return b.timesWatched - a.timesWatched;
+        });
+      case 'rating-asc':
+        return this.allSeries().sort((a, b) => {
+          if (a.rating !== b.rating) {
+            return a.rating - b.rating;
+          }
+          return b.timesWatched - a.timesWatched;
+        });
+      case 'timesWatched':
+        return this.allSeries().sort((a, b) => b.timesWatched - a.timesWatched);
+      case 'timesWatched-asc':
+        return this.allSeries().sort((a, b) => a.timesWatched - b.timesWatched);
+      case 'totalLength':
+        return this.allSeries().sort((a, b) => b.totalLength - a.totalLength);
+      case 'totalLength-asc':
+        return this.allSeries().sort((a, b) => a.totalLength - b.totalLength);
+      case 'nbSeasons':
+        return this.allSeries().sort((a, b) => b.nbSeasons - a.nbSeasons);
+      case 'nbSeasons-asc':
+        return this.allSeries().sort((a, b) => a.nbSeasons - b.nbSeasons);
+      case 'nbEpisodesTotal':
+        return this.allSeries().sort(
+          (a, b) => b.nbEpisodesTotal - a.nbEpisodesTotal
+        );
+      case 'nbEpisodesTotal-asc':
+        return this.allSeries().sort(
+          (a, b) => a.nbEpisodesTotal - b.nbEpisodesTotal
+        );
+      default:
+        return this.allSeries().sort((a, b) => a.title.localeCompare(b.title));
+    }
+  });
 
-  private updateStats() {
-    const totalDuration = getTotalDuration(this.allSeries);
-    const totalWatchingTime = getTotalWatchingTime(this.allSeries);
+  stats = computed<StatItem[]>(() => {
+    const totalDuration = getTotalDuration(this.allSeries());
+    const totalWatchingTime = getTotalWatchingTime(this.allSeries());
 
-    this.stats = [
+    return [
       {
         label: 'Durée totale de toutes les séries',
         value: totalDuration.formatted,
@@ -85,74 +141,9 @@ export class SeriesComponent implements OnInit {
         color: 'primary',
       },
     ];
-  }
+  });
 
-  private sortSeries() {
-    this.sortedSeries = [...this.allSeries];
-
-    switch (this.selectedSort) {
-      case 'title':
-        this.sortedSeries.sort((a, b) => a.title.localeCompare(b.title));
-        break;
-      case 'title-desc':
-        this.sortedSeries.sort((a, b) => b.title.localeCompare(a.title));
-        break;
-      case 'releaseDate':
-        this.sortedSeries.sort(
-          (a, b) =>
-            new Date(b.releaseDate).getTime() -
-            new Date(a.releaseDate).getTime()
-        );
-        break;
-      case 'releaseDate-asc':
-        this.sortedSeries.sort(
-          (a, b) =>
-            new Date(a.releaseDate).getTime() -
-            new Date(b.releaseDate).getTime()
-        );
-        break;
-      case 'rating':
-        this.sortedSeries.sort((a, b) => {
-          if (b.rating !== a.rating) {
-            return b.rating - a.rating;
-          }
-          return b.timesWatched - a.timesWatched;
-        });
-        break;
-      case 'rating-asc':
-        this.sortedSeries.sort((a, b) => {
-          if (a.rating !== b.rating) {
-            return a.rating - b.rating;
-          }
-          return b.timesWatched - a.timesWatched;
-        });
-        break;
-      case 'timesWatched':
-        this.sortedSeries.sort((a, b) => b.timesWatched - a.timesWatched);
-        break;
-      case 'timesWatched-asc':
-        this.sortedSeries.sort((a, b) => a.timesWatched - b.timesWatched);
-        break;
-      case 'totalLength':
-        this.sortedSeries.sort((a, b) => b.totalLength - a.totalLength);
-        break;
-      case 'totalLength-asc':
-        this.sortedSeries.sort((a, b) => a.totalLength - b.totalLength);
-        break;
-      case 'nbSeasons':
-        this.sortedSeries.sort((a, b) => b.nbSeasons - a.nbSeasons);
-        break;
-      case 'nbSeasons-asc':
-        this.sortedSeries.sort((a, b) => a.nbSeasons - b.nbSeasons);
-        break;
-      case 'nbEpisodesTotal':
-        this.sortedSeries.sort((a, b) => b.nbEpisodesTotal - a.nbEpisodesTotal);
-        break;
-      case 'nbEpisodesTotal-asc':
-        this.sortedSeries.sort((a, b) => a.nbEpisodesTotal - b.nbEpisodesTotal);
-        break;
-      default:
-        this.sortedSeries.sort((a, b) => a.title.localeCompare(b.title));
-    }
+  onSortChange(sortValue: string) {
+    this.selectedSort.set(sortValue);
   }
 }

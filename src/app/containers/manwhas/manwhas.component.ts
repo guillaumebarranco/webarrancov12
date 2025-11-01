@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, computed, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BookComponent } from '../../components/book/book.component';
 import { MenuComponent } from '../../components/menu/menu.component';
@@ -8,25 +8,34 @@ import {
 } from '../../components/sort-dropdown/sort-dropdown.component';
 import { manwhas } from '../../utils/guillaume/mangas/manwhas';
 import { Book } from '../../models/book-model';
-
-interface SagaGroup {
-  saga: string;
-  books: Book[];
-}
-
+import { ActivatedRoute, Params } from '@angular/router';
+import {
+  getEstimatedMangaReadingTime,
+  getTotalMangaPages,
+  getTotalMangaTomesRead,
+  PAGES_PER_MANGA_TOME,
+} from '../../utils/stats.utils';
+import {
+  StatsDisplayComponent,
+  StatItem,
+} from '../../components/stats-display/stats-display.component';
 @Component({
   selector: 'app-manwhas',
-  standalone: true,
-  imports: [CommonModule, BookComponent, MenuComponent, SortDropdownComponent],
+  imports: [
+    CommonModule,
+    BookComponent,
+    MenuComponent,
+    SortDropdownComponent,
+    StatsDisplayComponent,
+  ],
   templateUrl: './manwhas.component.html',
   styleUrls: ['./manwhas.component.scss'],
 })
-export class ManwhasComponent implements OnInit {
-  allManwhas: Book[] = [];
-  sortedManwhas: Book[] = [];
-  selectedSort: string = 'rating';
+export class ManwhasComponent {
+  activatedRoute = inject(ActivatedRoute);
+  selectedSort = signal<string>('rating');
 
-  sortOptions: SortOption[] = [
+  sortOptions = signal<SortOption[]>([
     { value: 'title', label: 'Titre (A-Z)' },
     { value: 'title-desc', label: 'Titre (Z-A)' },
     { value: 'author', label: 'Auteur (A-Z)' },
@@ -41,64 +50,65 @@ export class ManwhasComponent implements OnInit {
     { value: 'nbTomes-asc', label: 'Nombre de tomes (faible)' },
     { value: 'genre', label: 'Genre (A-Z)' },
     { value: 'genre-desc', label: 'Genre (Z-A)' },
-  ];
+  ]);
 
-  ngOnInit() {
-    this.allManwhas = manwhas.map((manwha) => {
+  manwhasList = signal<{ [key: string]: any[] }>({
+    guillaume: [...manwhas],
+    kevin: [],
+    william: [],
+  });
+
+  allManwhas = computed<Book[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+
+    const manwhas = hasNameParam
+      ? this.manwhasList()[params['id']]
+      : this.manwhasList()['guillaume'];
+
+    return manwhas.map((manga: any) => {
       return {
-        title: manwha._source.manga.name,
-        author: manwha._source.manga.authors[0].name,
-        coverUrl: manwha._source.manga.france.logo || '',
-        readDate: manwha._source.manga.lastUpdate || '',
-        rating: manwha._score || 0,
-        genre: manwha._source.manga.type || '',
-        saga: manwha._source.manga.name,
+        title: manga._source.manga.frenchName || manga._source.manga.name,
+        author: manga._source.manga.authors[0].name,
+        coverUrl: manga._source.manga.france.logo || '',
+        readDate: manga._source.manga.lastUpdate || '',
+        rating: manga._score || 0,
+        genre: manga._source.manga.type || '',
+        saga: manga._source.manga.name,
         sagaOrder: 0,
-        nbTomes: manwha._source.manga.france.nbBooks || 0,
-        isFinished: manwha._source.manga.isFinished || false,
-        readTimes: manwha._readTimes || 1,
+        nbTomes: manga._source.manga.france.nbBooks || 0,
+        isFinished: manga._source.manga.isFinished || false,
+        readTimes: manga._readTimes || 1,
       };
     });
+  });
 
-    this.sortManwhas();
-    console.log(`Collection de ${this.allManwhas.length} manwhas chargée`);
-  }
-
-  onSortChange(sortValue: string) {
-    this.selectedSort = sortValue;
-    this.sortManwhas();
-  }
-
-  private sortManwhas() {
-    this.sortedManwhas = [...this.allManwhas];
-
-    switch (this.selectedSort) {
+  sortedManwhas = computed<Book[]>(() => {
+    switch (this.selectedSort()) {
       case 'title':
-        this.sortedManwhas.sort((a, b) => a.title.localeCompare(b.title));
-        break;
+        return this.allManwhas().sort((a, b) => a.title.localeCompare(b.title));
       case 'title-desc':
-        this.sortedManwhas.sort((a, b) => b.title.localeCompare(a.title));
-        break;
+        return this.allManwhas().sort((a, b) => b.title.localeCompare(a.title));
       case 'author':
-        this.sortedManwhas.sort((a, b) => a.author.localeCompare(b.author));
-        break;
+        return this.allManwhas().sort((a, b) =>
+          a.author.localeCompare(b.author)
+        );
       case 'author-desc':
-        this.sortedManwhas.sort((a, b) => b.author.localeCompare(a.author));
-        break;
+        return this.allManwhas().sort((a, b) =>
+          b.author.localeCompare(a.author)
+        );
       case 'readDate':
-        this.sortedManwhas.sort(
+        return this.allManwhas().sort(
           (a, b) =>
             new Date(b.readDate).getTime() - new Date(a.readDate).getTime()
         );
-        break;
       case 'readDate-asc':
-        this.sortedManwhas.sort(
+        return this.allManwhas().sort(
           (a, b) =>
             new Date(a.readDate).getTime() - new Date(b.readDate).getTime()
         );
-        break;
       case 'rating':
-        this.sortedManwhas.sort((a, b) => {
+        return this.allManwhas().sort((a, b) => {
           const ratingA = a.rating || 0;
           const ratingB = b.rating || 0;
           if (ratingB !== ratingA) {
@@ -108,9 +118,8 @@ export class ManwhasComponent implements OnInit {
           const readTimesB = b.readTimes || 0;
           return readTimesB - readTimesA;
         });
-        break;
       case 'rating-asc':
-        this.sortedManwhas.sort((a, b) => {
+        return this.allManwhas().sort((a, b) => {
           const ratingA = a.rating || 0;
           const ratingB = b.rating || 0;
           if (ratingA !== ratingB) {
@@ -120,31 +129,97 @@ export class ManwhasComponent implements OnInit {
           const readTimesB = b.readTimes || 0;
           return readTimesB - readTimesA;
         });
-        break;
       case 'readTimes':
-        this.sortedManwhas.sort(
+        return this.allManwhas().sort(
           (a, b) => (b.readTimes || 0) - (a.readTimes || 0)
         );
-        break;
       case 'readTimes-asc':
-        this.sortedManwhas.sort(
+        return this.allManwhas().sort(
           (a, b) => (a.readTimes || 0) - (b.readTimes || 0)
         );
-        break;
       case 'nbTomes':
-        this.sortedManwhas.sort((a, b) => (b.nbTomes || 0) - (a.nbTomes || 0));
-        break;
+        return this.allManwhas().sort(
+          (a, b) => (b.nbTomes || 0) - (a.nbTomes || 0)
+        );
       case 'nbTomes-asc':
-        this.sortedManwhas.sort((a, b) => (a.nbTomes || 0) - (b.nbTomes || 0));
-        break;
+        return this.allManwhas().sort(
+          (a, b) => (a.nbTomes || 0) - (b.nbTomes || 0)
+        );
       case 'genre':
-        this.sortedManwhas.sort((a, b) => a.genre.localeCompare(b.genre));
-        break;
+        return this.allManwhas().sort((a, b) => a.genre.localeCompare(b.genre));
       case 'genre-desc':
-        this.sortedManwhas.sort((a, b) => b.genre.localeCompare(a.genre));
-        break;
+        return this.allManwhas().sort((a, b) => b.genre.localeCompare(a.genre));
       default:
-        this.sortedManwhas.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+        return this.allManwhas().sort(
+          (a, b) => (b.rating || 0) - (a.rating || 0)
+        );
     }
+  });
+
+  stats = computed<StatItem[]>(() => {
+    const totalTomes = this.calculateTotalTomes();
+    const totalPages = this.calculateTotalPages();
+    const totalTomesRead = getTotalMangaTomesRead(this.allManwhas());
+    const totalPagesRead = getTotalMangaPages(this.allManwhas());
+    const estimatedReadingTime = getEstimatedMangaReadingTime(
+      this.allManwhas()
+    );
+
+    return [
+      {
+        label: 'Total des tomes',
+        value: `${totalTomes.toLocaleString()} tomes`,
+        icon: '📚',
+        color: 'success',
+      },
+      {
+        label: 'Total des pages',
+        value: `${totalPages.toLocaleString()} pages`,
+        icon: '📖',
+        color: 'info',
+      },
+      {
+        label: 'Total des tomes lus (avec relectures)',
+        value: `${totalTomesRead.toLocaleString()} tomes`,
+        icon: '📚',
+        color: 'success',
+      },
+      {
+        label: 'Total des pages lues (avec relectures)',
+        value: `${totalPagesRead.toLocaleString()} pages`,
+        icon: '📖',
+        color: 'info',
+      },
+      {
+        label: 'Temps estimé de lecture',
+        value: estimatedReadingTime.formatted,
+        icon: '⏱️',
+        color: 'primary',
+      },
+    ];
+  });
+
+  onSortChange(sortValue: string) {
+    this.selectedSort.set(sortValue);
+  }
+
+  private calculateTotalTomes(): number {
+    let total = 0;
+    for (const manwha of this.allManwhas()) {
+      if (manwha.nbTomes) {
+        total += manwha.nbTomes;
+      }
+    }
+    return total;
+  }
+
+  private calculateTotalPages(): number {
+    let total = 0;
+    for (const manwha of this.allManwhas()) {
+      if (manwha.nbTomes) {
+        total += manwha.nbTomes * PAGES_PER_MANGA_TOME;
+      }
+    }
+    return total;
   }
 }
