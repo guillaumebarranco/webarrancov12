@@ -1,12 +1,12 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './containers/home/home.component';
-import { BooksComponent } from './containers/books/books';
-import { MangasComponent } from './containers/mangas/mangas';
-import { ManwhasComponent } from './containers/manwhas/manwhas';
-import { MoviesComponent } from './containers/movies/movies';
-import { SeriesComponent } from './containers/series/series';
-import { GamesComponent } from './containers/games/games';
-import { DashboardComponent } from './containers/dashboard/dashboard';
+import { BooksComponent } from './containers/books/books.component';
+import { MangasComponent } from './containers/mangas/mangas.component';
+import { ManwhasComponent } from './containers/manwhas/manwhas.component';
+import { MoviesComponent } from './containers/movies/movies.component';
+import { SeriesComponent } from './containers/series/series.component';
+import { GamesComponent } from './containers/games/games.component';
+import { DashboardComponent } from './containers/dashboard/dashboard.component';
 import { NewsComponent } from './containers/news/news';
 
 export const routes: Routes = [
@@ -59,6 +59,10 @@ export const routes: Routes = [
   {
     path: ':id',
     children: [
+      {
+        path: '',
+        component: DashboardComponent,
+      },
       {
         path: 'dashboard',
         component: DashboardComponent,

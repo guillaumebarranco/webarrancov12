@@ -52,8 +52,8 @@ export function getTotalPlayedTime(items: ItemWithGameLength[]): TimeStats {
     SortDropdownComponent,
     StatsDisplayComponent,
   ],
-  templateUrl: './games.html',
-  styleUrls: ['./games.scss'],
+  templateUrl: './games.component.html',
+  styleUrls: ['./games.component.scss'],
 })
 export class GamesComponent implements OnInit {
   allGames: Game[] = [];

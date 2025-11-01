@@ -1,4 +1,4 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, inject, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MovieComponent } from '../../components/movie/movie.component';
 import { MenuComponent } from '../../components/menu/menu.component';
@@ -43,7 +43,6 @@ import { ActivatedRoute, Params, Router } from '@angular/router';
 
 @Component({
   selector: 'app-movies',
-  standalone: true,
   imports: [
     CommonModule,
     MovieComponent,
@@ -51,16 +50,14 @@ import { ActivatedRoute, Params, Router } from '@angular/router';
     SortDropdownComponent,
     StatsDisplayComponent,
   ],
-  templateUrl: './movies.html',
-  styleUrls: ['./movies.scss'],
+  templateUrl: './movies.component.html',
+  styleUrls: ['./movies.component.scss'],
 })
-export class MoviesComponent implements OnInit {
-  allMovies: Movie[] = [];
-  sortedMovies: Movie[] = [];
-  selectedSort: string = 'rating';
-  stats: StatItem[] = [];
+export class MoviesComponent {
   router = inject(Router);
   activatedRoute = inject(ActivatedRoute);
+
+  selectedSort = signal<string>('rating');
 
   sortOptions: SortOption[] = [
     { value: 'title', label: 'Titre (A-Z)' },
@@ -77,58 +74,114 @@ export class MoviesComponent implements OnInit {
     { value: 'lastViewedDate-asc', label: 'Dernier visionnage (ancien)' },
   ];
 
-  ngOnInit() {
-    const movies = {
-      guillaume: [
-        ...moviesPage1,
-        ...moviesPage2,
-        ...moviesPage3,
-        ...moviesPage4,
-        ...moviesPage5,
-        ...moviesPage6,
-        ...moviesPage7,
-        ...moviesPage8,
-        ...moviesPage9,
-        ...moviesSagaPage1,
-        ...moviesSagaPage2,
-        ...moviesSagaPage3,
-        ...moviesSagaPage4,
-        ...moviesSagaPage5,
-        ...moviesLove1,
-        ...moviesLove2,
-        ...moviesMcu,
-        ...moviesDc,
-        ...moviesOtherSuperheroes,
-        ...moviesAnimated1,
-        ...moviesAnimated2,
-      ],
-      william: [...williamMovies],
-    };
+  moviesList = signal<{ [key: string]: Movie[] }>({
+    guillaume: [
+      ...moviesPage1,
+      ...moviesPage2,
+      ...moviesPage3,
+      ...moviesPage4,
+      ...moviesPage5,
+      ...moviesPage6,
+      ...moviesPage7,
+      ...moviesPage8,
+      ...moviesPage9,
+      ...moviesSagaPage1,
+      ...moviesSagaPage2,
+      ...moviesSagaPage3,
+      ...moviesSagaPage4,
+      ...moviesSagaPage5,
+      ...moviesLove1,
+      ...moviesLove2,
+      ...moviesMcu,
+      ...moviesDc,
+      ...moviesOtherSuperheroes,
+      ...moviesAnimated1,
+      ...moviesAnimated2,
+    ],
+    william: [...williamMovies],
+    kevin: [],
+  });
+
+  allMovies = computed<Movie[]>(() => {
     const params: Params = this.activatedRoute.snapshot.params;
-
     const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? this.moviesList()[params['id']]
+      : this.moviesList()['guillaume'];
+  });
 
-    if (hasNameParam) {
-      this.allMovies = movies[params['id'] as keyof typeof movies];
-    } else {
-      this.allMovies = movies.guillaume;
+  sortedMovies = computed<Movie[]>(() => {
+    const sortedMovies = [...this.allMovies()];
+
+    switch (this.selectedSort()) {
+      case 'title':
+        return sortedMovies.sort((a, b) => a.title.localeCompare(b.title));
+      case 'title-desc':
+        return sortedMovies.sort((a, b) => b.title.localeCompare(a.title));
+      case 'releaseDate':
+        return sortedMovies.sort(
+          (a, b) =>
+            new Date(b.releaseDate).getTime() -
+            new Date(a.releaseDate).getTime()
+        );
+      case 'releaseDate-asc':
+        return sortedMovies.sort(
+          (a, b) =>
+            new Date(a.releaseDate).getTime() -
+            new Date(b.releaseDate).getTime()
+        );
+      case 'rating':
+        return sortedMovies.sort((a, b) => {
+          if (b.rating !== a.rating) {
+            return b.rating - a.rating;
+          }
+          return b.timesWatched - a.timesWatched;
+        });
+      case 'rating-asc':
+        return sortedMovies.sort((a, b) => {
+          if (a.rating !== b.rating) {
+            return a.rating - b.rating;
+          }
+          return b.timesWatched - a.timesWatched;
+        });
+      case 'timesWatched':
+        return sortedMovies.sort((a, b) => b.timesWatched - a.timesWatched);
+      case 'timesWatched-asc':
+        return sortedMovies.sort((a, b) => a.timesWatched - b.timesWatched);
+      case 'length':
+        return sortedMovies.sort((a, b) => b.length - a.length);
+      case 'length-asc':
+        return sortedMovies.sort((a, b) => a.length - b.length);
+      case 'lastViewedDate':
+        return sortedMovies.sort((a, b) => {
+          const dateA = a.lastViewedDate
+            ? new Date(a.lastViewedDate).getTime()
+            : 0;
+          const dateB = b.lastViewedDate
+            ? new Date(b.lastViewedDate).getTime()
+            : 0;
+          return dateB - dateA;
+        });
+      case 'lastViewedDate-asc':
+        return sortedMovies.sort((a, b) => {
+          const dateA = a.lastViewedDate
+            ? new Date(a.lastViewedDate).getTime()
+            : 0;
+          const dateB = b.lastViewedDate
+            ? new Date(b.lastViewedDate).getTime()
+            : 0;
+          return dateA - dateB;
+        });
+      default:
+        return sortedMovies.sort((a, b) => a.title.localeCompare(b.title));
     }
+  });
 
-    this.sortMovies();
-    this.updateStats();
-    console.log(`Collection de ${this.allMovies.length} films chargée`);
-  }
+  stats = computed<StatItem[]>(() => {
+    const totalDuration = getTotalDuration(this.allMovies());
+    const totalWatchingTime = getTotalWatchingTime(this.allMovies());
 
-  onSortChange(sortValue: string) {
-    this.selectedSort = sortValue;
-    this.sortMovies();
-  }
-
-  private updateStats() {
-    const totalDuration = getTotalDuration(this.allMovies);
-    const totalWatchingTime = getTotalWatchingTime(this.allMovies);
-
-    this.stats = [
+    return [
       {
         label: 'Durée totale de tous les films',
         value: totalDuration.formatted,
@@ -142,84 +195,9 @@ export class MoviesComponent implements OnInit {
         color: 'primary',
       },
     ];
-  }
+  });
 
-  private sortMovies() {
-    this.sortedMovies = [...this.allMovies];
-
-    switch (this.selectedSort) {
-      case 'title':
-        this.sortedMovies.sort((a, b) => a.title.localeCompare(b.title));
-        break;
-      case 'title-desc':
-        this.sortedMovies.sort((a, b) => b.title.localeCompare(a.title));
-        break;
-      case 'releaseDate':
-        this.sortedMovies.sort(
-          (a, b) =>
-            new Date(b.releaseDate).getTime() -
-            new Date(a.releaseDate).getTime()
-        );
-        break;
-      case 'releaseDate-asc':
-        this.sortedMovies.sort(
-          (a, b) =>
-            new Date(a.releaseDate).getTime() -
-            new Date(b.releaseDate).getTime()
-        );
-        break;
-      case 'rating':
-        this.sortedMovies.sort((a, b) => {
-          if (b.rating !== a.rating) {
-            return b.rating - a.rating;
-          }
-          return b.timesWatched - a.timesWatched;
-        });
-        break;
-      case 'rating-asc':
-        this.sortedMovies.sort((a, b) => {
-          if (a.rating !== b.rating) {
-            return a.rating - b.rating;
-          }
-          return b.timesWatched - a.timesWatched;
-        });
-        break;
-      case 'timesWatched':
-        this.sortedMovies.sort((a, b) => b.timesWatched - a.timesWatched);
-        break;
-      case 'timesWatched-asc':
-        this.sortedMovies.sort((a, b) => a.timesWatched - b.timesWatched);
-        break;
-      case 'length':
-        this.sortedMovies.sort((a, b) => b.length - a.length);
-        break;
-      case 'length-asc':
-        this.sortedMovies.sort((a, b) => a.length - b.length);
-        break;
-      case 'lastViewedDate':
-        this.sortedMovies.sort((a, b) => {
-          const dateA = a.lastViewedDate
-            ? new Date(a.lastViewedDate).getTime()
-            : 0;
-          const dateB = b.lastViewedDate
-            ? new Date(b.lastViewedDate).getTime()
-            : 0;
-          return dateB - dateA;
-        });
-        break;
-      case 'lastViewedDate-asc':
-        this.sortedMovies.sort((a, b) => {
-          const dateA = a.lastViewedDate
-            ? new Date(a.lastViewedDate).getTime()
-            : 0;
-          const dateB = b.lastViewedDate
-            ? new Date(b.lastViewedDate).getTime()
-            : 0;
-          return dateA - dateB;
-        });
-        break;
-      default:
-        this.sortedMovies.sort((a, b) => a.title.localeCompare(b.title));
-    }
+  onSortChange(sortValue: string) {
+    this.selectedSort.set(sortValue);
   }
 }

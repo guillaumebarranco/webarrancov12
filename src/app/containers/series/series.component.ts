@@ -27,8 +27,8 @@ import {
     SortDropdownComponent,
     StatsDisplayComponent,
   ],
-  templateUrl: './series.html',
-  styleUrls: ['./series.scss'],
+  templateUrl: './series.component.html',
+  styleUrls: ['./series.component.scss'],
 })
 export class SeriesComponent implements OnInit {
   allSeries: Serie[] = [];

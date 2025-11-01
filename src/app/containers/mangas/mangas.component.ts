@@ -34,8 +34,8 @@ interface SagaGroup {
     SortDropdownComponent,
     StatsDisplayComponent,
   ],
-  templateUrl: './mangas.html',
-  styleUrls: ['./mangas.scss'],
+  templateUrl: './mangas.component.html',
+  styleUrls: ['./mangas.component.scss'],
 })
 export class MangasComponent implements OnInit {
   allMangas: Book[] = [];

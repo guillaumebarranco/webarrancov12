@@ -27,7 +27,6 @@ import { kevinBooks1, kevinBooks2 } from '../../utils/kevin/books';
 
 @Component({
   selector: 'app-books',
-  standalone: true,
   imports: [
     CommonModule,
     FormsModule,
@@ -36,16 +35,45 @@ import { kevinBooks1, kevinBooks2 } from '../../utils/kevin/books';
     SortDropdownComponent,
     StatsDisplayComponent,
   ],
-  templateUrl: './books.html',
-  styleUrls: ['./books.scss'],
+  templateUrl: './books.component.html',
+  styleUrls: ['./books.component.scss'],
 })
-export class BooksComponent implements OnInit {
+export class BooksComponent {
   selectedSort = signal<string>('readDate');
   selectedYearFilter = signal<string>('all');
   selectedGroupBy = signal<string>('none');
-  stats: StatItem[] = [];
 
   activatedRoute = inject(ActivatedRoute);
+
+  sortOptions: SortOption[] = [
+    { value: 'title', label: 'Titre (A-Z)' },
+    { value: 'title-desc', label: 'Titre (Z-A)' },
+    { value: 'author', label: 'Auteur (A-Z)' },
+    { value: 'author-desc', label: 'Auteur (Z-A)' },
+    { value: 'readDate', label: 'Date de lecture (récent)' },
+    { value: 'readDate-asc', label: 'Date de lecture (ancien)' },
+    { value: 'rating', label: 'Note (élevée)' },
+    { value: 'rating-asc', label: 'Note (faible)' },
+    { value: 'readTimes', label: 'Relectures (élevé)' },
+    { value: 'readTimes-asc', label: 'Relectures (faible)' },
+    { value: 'pages', label: 'Pages (élevé)' },
+    { value: 'pages-asc', label: 'Pages (faible)' },
+    { value: 'genre', label: 'Genre (A-Z)' },
+    { value: 'genre-desc', label: 'Genre (Z-A)' },
+  ];
+
+  yearFilterOptions = [
+    { value: 'all', label: 'Toutes' },
+    { value: '2025', label: '2025' },
+    { value: '2024', label: '2024' },
+    { value: 'before2024', label: 'Avant 2024' },
+  ];
+
+  groupByOptions = [
+    { value: 'none', label: 'Aucun' },
+    { value: 'author', label: 'Auteur' },
+    { value: 'genre', label: 'Genre' },
+  ];
 
   booksList = signal<{ [key: string]: Book[] }>({
     guillaume: [...books, ...booksFantasySaga, ...booksSaga],
@@ -61,7 +89,11 @@ export class BooksComponent implements OnInit {
       : this.booksList()['guillaume'];
   });
 
-  // allBooks = signal<Book[]>([...books, ...booksFantasySaga, ...booksSaga]);
+  currentUser = computed(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam ? this.capitalizeFirstLetter(params['id']) : '';
+  });
 
   filteredBooks = computed(() => {
     let filteredBooks = [...this.allBooks()];
@@ -174,59 +206,12 @@ export class BooksComponent implements OnInit {
     return groups;
   });
 
-  sortOptions: SortOption[] = [
-    { value: 'title', label: 'Titre (A-Z)' },
-    { value: 'title-desc', label: 'Titre (Z-A)' },
-    { value: 'author', label: 'Auteur (A-Z)' },
-    { value: 'author-desc', label: 'Auteur (Z-A)' },
-    { value: 'readDate', label: 'Date de lecture (récent)' },
-    { value: 'readDate-asc', label: 'Date de lecture (ancien)' },
-    { value: 'rating', label: 'Note (élevée)' },
-    { value: 'rating-asc', label: 'Note (faible)' },
-    { value: 'readTimes', label: 'Relectures (élevé)' },
-    { value: 'readTimes-asc', label: 'Relectures (faible)' },
-    { value: 'pages', label: 'Pages (élevé)' },
-    { value: 'pages-asc', label: 'Pages (faible)' },
-    { value: 'genre', label: 'Genre (A-Z)' },
-    { value: 'genre-desc', label: 'Genre (Z-A)' },
-  ];
-
-  yearFilterOptions = [
-    { value: 'all', label: 'Toutes' },
-    { value: '2025', label: '2025' },
-    { value: '2024', label: '2024' },
-    { value: 'before2024', label: 'Avant 2024' },
-  ];
-
-  groupByOptions = [
-    { value: 'none', label: 'Aucun' },
-    { value: 'author', label: 'Auteur' },
-    { value: 'genre', label: 'Genre' },
-  ];
-
-  ngOnInit() {
-    this.updateStats();
-    console.log(`Collection de ${this.allBooks.length} livres chargée`);
-  }
-
-  onSortChange(sortValue: string) {
-    this.selectedSort.set(sortValue);
-  }
-
-  onYearFilterChange(year: string) {
-    this.selectedYearFilter.set(year);
-  }
-
-  onGroupByChange(groupBy: string) {
-    this.selectedGroupBy.set(groupBy);
-  }
-
-  private updateStats() {
+  stats = computed<StatItem[]>(() => {
     const totalPages = getTotalPages(this.allBooks());
     const totalPagesRead = getTotalPagesRead(this.allBooks());
     const estimatedReadingTime = getEstimatedReadingTime(this.allBooks());
 
-    this.stats = [
+    return [
       {
         label: 'Pages totales de tous les livres',
         value: `${totalPages.toLocaleString()} pages`,
@@ -246,5 +231,21 @@ export class BooksComponent implements OnInit {
         color: 'primary',
       },
     ];
+  });
+
+  capitalizeFirstLetter(val: string) {
+    return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+  }
+
+  onSortChange(sortValue: string) {
+    this.selectedSort.set(sortValue);
+  }
+
+  onYearFilterChange(year: string) {
+    this.selectedYearFilter.set(year);
+  }
+
+  onGroupByChange(groupBy: string) {
+    this.selectedGroupBy.set(groupBy);
   }
 }

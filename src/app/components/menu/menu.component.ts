@@ -1,5 +1,5 @@
-import { Component, OnInit, HostListener } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit, HostListener, inject } from '@angular/core';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -7,25 +7,71 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.scss']
+  styleUrls: ['./menu.component.scss'],
 })
 export class MenuComponent implements OnInit {
   isMobile = false;
 
-  menuItems = [
-    { label: 'Home', route: '/dashboard', icon: '📊', hideOnMobile: false },
-    { label: 'Livres', route: '/books', icon: '📚', hideOnMobile: false },
-    { label: 'Mangas', route: '/mangas', icon: '📖', hideOnMobile: false },
-    { label: 'Manwhas', route: '/manwhas', icon: '🎨', hideOnMobile: true },
-    { label: 'Films', route: '/movies', icon: '🎬', hideOnMobile: false },
-    { label: 'Séries', route: '/series', icon: '📺', hideOnMobile: false },
-    { label: 'Jeux', route: '/games', icon: '🎮', hideOnMobile: false }
-  ];
+  activatedRoute = inject(ActivatedRoute);
+  router = inject(Router);
 
-  constructor(private router: Router) { }
+  menuItems = [
+    {
+      label: 'Home',
+      route: this.getRoute('dashboard'),
+      icon: '📊',
+      hideOnMobile: false,
+    },
+    {
+      label: 'Livres',
+      route: this.getRoute('books'),
+      icon: '📚',
+      hideOnMobile: false,
+    },
+    {
+      label: 'Mangas',
+      route: this.getRoute('mangas'),
+      icon: '📖',
+      hideOnMobile: false,
+    },
+    {
+      label: 'Manwhas',
+      route: this.getRoute('manwhas'),
+      icon: '🎨',
+      hideOnMobile: true,
+    },
+    {
+      label: 'Films',
+      route: this.getRoute('movies'),
+      icon: '🎬',
+      hideOnMobile: false,
+    },
+    {
+      label: 'Séries',
+      route: this.getRoute('series'),
+      icon: '📺',
+      hideOnMobile: false,
+    },
+    {
+      label: 'Jeux',
+      route: this.getRoute('games'),
+      icon: '🎮',
+      hideOnMobile: false,
+    },
+  ];
 
   ngOnInit() {
     this.checkScreenSize();
+  }
+
+  getRoute(route: string): string {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+
+    if (hasNameParam) {
+      return `/${params['id']}/${route}`;
+    }
+    return `/${route}`;
   }
 
   @HostListener('window:resize')
@@ -38,7 +84,9 @@ export class MenuComponent implements OnInit {
   }
 
   get visibleMenuItems() {
-    return this.menuItems.filter(item => !item.hideOnMobile || !this.isMobile);
+    return this.menuItems.filter(
+      (item) => !item.hideOnMobile || !this.isMobile
+    );
   }
 
   isActive(route: string): boolean {

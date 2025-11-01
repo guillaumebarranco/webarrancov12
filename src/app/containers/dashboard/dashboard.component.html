@@ -7,7 +7,7 @@
     <!-- Statistiques générales -->
     <div class="dashboard-section">
       <h2>📊 Vue d'ensemble</h2>
-      <app-stats-display [stats]="stats" [count]="0" countLabel="">
+      <app-stats-display [stats]="stats()" [count]="0" countLabel="">
       </app-stats-display>
     </div>
 
@@ -20,12 +20,17 @@
         <div class="top5-category">
           <h3>📖 Livres les plus lus</h3>
           <div class="top5-list">
-            <div *ngFor="let book of topBooks; let i = index" class="top5-item">
+            @for (book of topBooks(); track book.title; let i = $index) {
+            <div class="top5-item">
               <span class="rank">#{{ i + 1 }}</span>
               <span class="title">{{ book.title }}</span>
-              <span class="count">{{ book.readTimes }}x ({{ book.formattedReadingTime }})</span>
+              <span class="count"
+                >{{ book.readTimes }}x ({{ book.formattedReadingTime }})</span
+              >
             </div>
-            <div *ngIf="topBooks.length === 0" class="no-data">Aucun livre relu</div>
+            } @if (topBooks().length === 0) {
+            <div class="no-data">Aucun livre relu</div>
+            }
           </div>
         </div>
 
@@ -33,12 +38,17 @@
         <div class="top5-category">
           <h3>📚 Mangas les plus lus</h3>
           <div class="top5-list">
-            <div *ngFor="let manga of topMangas; let i = index" class="top5-item">
+            @for (manga of topMangas(); track manga.title; let i = $index) {
+            <div class="top5-item">
               <span class="rank">#{{ i + 1 }}</span>
               <span class="title">{{ manga.title }}</span>
-              <span class="count">{{ manga.readTimes }}x ({{ manga.formattedReadingTime }})</span>
+              <span class="count"
+                >{{ manga.readTimes }}x ({{ manga.formattedReadingTime }})</span
+              >
             </div>
-            <div *ngIf="topMangas.length === 0" class="no-data">Aucun manga relu</div>
+            } @if (topMangas().length === 0) {
+            <div class="no-data">Aucun manga relu</div>
+            }
           </div>
         </div>
 
@@ -46,12 +56,19 @@
         <div class="top5-category">
           <h3>🎬 Films les plus vus</h3>
           <div class="top5-list">
-            <div *ngFor="let movie of topMovies; let i = index" class="top5-item">
+            @for (movie of topMovies(); track movie.title; let i = $index) {
+            <div class="top5-item">
               <span class="rank">#{{ i + 1 }}</span>
               <span class="title">{{ movie.title }}</span>
-              <span class="count">{{ movie.timesWatched }}x ({{ movie.formattedWatchingTime }})</span>
+              <span class="count"
+                >{{ movie.timesWatched }}x ({{
+                  movie.formattedWatchingTime
+                }})</span
+              >
             </div>
-            <div *ngIf="topMovies.length === 0" class="no-data">Aucun film revu</div>
+            } @if (topMovies().length === 0) {
+            <div class="no-data">Aucun film revu</div>
+            }
           </div>
         </div>
 
@@ -59,12 +76,19 @@
         <div class="top5-category">
           <h3>📺 Séries les plus vues</h3>
           <div class="top5-list">
-            <div *ngFor="let serie of topSeries; let i = index" class="top5-item">
+            @for (serie of topSeries(); track serie.title; let i = $index) {
+            <div class="top5-item">
               <span class="rank">#{{ i + 1 }}</span>
               <span class="title">{{ serie.title }}</span>
-              <span class="count">{{ serie.timesWatched }}x ({{ serie.formattedWatchingTime }})</span>
+              <span class="count"
+                >{{ serie.timesWatched }}x ({{
+                  serie.formattedWatchingTime
+                }})</span
+              >
             </div>
-            <div *ngIf="topSeries.length === 0" class="no-data">Aucune série revue</div>
+            } @if (topSeries().length === 0) {
+            <div class="no-data">Aucune série revue</div>
+            }
           </div>
         </div>
 
@@ -72,12 +96,15 @@
         <div class="top5-category">
           <h3>🎮 Jeux avec le plus de temps passé</h3>
           <div class="top5-list">
-            <div *ngFor="let game of topGames; let i = index" class="top5-item">
+            @for (game of topGames(); track game.title; let i = $index) {
+            <div class="top5-item">
               <span class="rank">#{{ i + 1 }}</span>
               <span class="title">{{ game.title }}</span>
               <span class="count">{{ game.formattedPlayedTime }}</span>
             </div>
-            <div *ngIf="topGames.length === 0" class="no-data">Aucun jeu avec du temps passé</div>
+            } @if (topGames().length === 0) {
+            <div class="no-data">Aucun jeu avec du temps passé</div>
+            }
           </div>
         </div>
       </div>

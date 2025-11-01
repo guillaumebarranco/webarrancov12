@@ -18,8 +18,8 @@ interface SagaGroup {
   selector: 'app-manwhas',
   standalone: true,
   imports: [CommonModule, BookComponent, MenuComponent, SortDropdownComponent],
-  templateUrl: './manwhas.html',
-  styleUrls: ['./manwhas.scss'],
+  templateUrl: './manwhas.component.html',
+  styleUrls: ['./manwhas.component.scss'],
 })
 export class ManwhasComponent implements OnInit {
   allManwhas: Book[] = [];
