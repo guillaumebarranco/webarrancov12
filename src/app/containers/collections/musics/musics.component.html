@@ -23,14 +23,34 @@
     >
     </app-stats-display>
 
-    <div class="controls">
-      <button class="view-toggle" (click)="toggleViewMode()">
-        @if (viewMode() === 'albums') {
-          <span>🎵 Toutes les chansons</span>
-        } @else {
-          <span>💿 Vue par albums</span>
-        }
-      </button>
+    <div class="musics-filters">
+      <div class="musics-filters-item">
+        <p>Vue :</p>
+        <select
+          class="app-dropdown"
+          [(ngModel)]="selectedViewMode"
+          (change)="onViewModeChange($any($event.target).value)"
+          style="margin-bottom: 8px"
+        >
+          <option *ngFor="let option of viewModeOptions" [value]="option.value">
+            {{ option.label }}
+          </option>
+        </select>
+      </div>
+
+      <div class="musics-filters-item">
+        <p>Filtrer :</p>
+        <select
+          class="app-dropdown"
+          [(ngModel)]="selectedFilter"
+          (change)="onFilterChange($any($event.target).value)"
+          style="margin-bottom: 8px"
+        >
+          <option *ngFor="let option of filterOptions" [value]="option.value">
+            {{ option.label }}
+          </option>
+        </select>
+      </div>
 
       <app-sort-dropdown
         [sortOptions]="sortOptions"
@@ -41,7 +61,15 @@
     </div>
   </div>
 
-  @if (viewMode() === 'albums') {
+  @if(selectedFilter() === 'popular') {
+  <p>Résultats affichés: {{ filteredMusics().length }}</p>
+  }
+
+  @if (selectedFilter() === 'popular' && filteredMusics().length === 0) {
+    <p class="empty-message">Aucune chanson n'a été écoutée plus de 10 fois.</p>
+  }
+
+  @if (selectedViewMode() === 'albums') {
     <!-- Vue par Albums -->
     @if (completeAlbums().length > 0) {
       <div class="section">
@@ -79,7 +107,7 @@
       </div>
     }
   } @else {
-    <!-- Vue toutes les chansons -->
+    <!-- Vue toutes les musiques -->
     <div class="musics">
       @for (music of sortedMusics(); track `${music.title}-${music.artist}`) {
         <div class="music-card">

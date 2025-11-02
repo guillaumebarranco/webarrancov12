@@ -1,5 +1,6 @@
 import { Component, inject, signal, computed } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { MusicComponent } from '../../../components/music/music.component';
 import { MenuComponent } from '../../../components/menu/menu.component';
 import {
@@ -27,6 +28,7 @@ interface Album {
   imports: [
     RouterLink,
     CommonModule,
+    FormsModule,
     MusicComponent,
     MenuComponent,
     SortDropdownComponent,
@@ -39,7 +41,21 @@ export class MusicsComponent {
   activatedRoute = inject(ActivatedRoute);
 
   selectedSort = signal<string>('rating');
-  viewMode = signal<'albums' | 'all'>('albums'); // Mode d'affichage : albums ou toutes les chansons
+  selectedViewMode = signal<string>('albums'); // 'albums' ou 'all'
+  selectedFilter = signal<string>('all'); // 'all' ou 'popular'
+
+  viewModeOptions = [
+    { value: 'albums', label: 'Grouper par album' },
+    { value: 'all', label: 'Afficher toutes les musiques' },
+  ];
+
+  filterOptions = [
+    { value: 'all', label: 'Afficher tout' },
+    {
+      value: 'popular',
+      label: 'Afficher les plus écoutés (au-delà de 10 fois)',
+    },
+  ];
 
   sortOptions: SortOption[] = [
     { value: 'title', label: 'Titre (A-Z)' },
@@ -70,12 +86,23 @@ export class MusicsComponent {
       : this.musicsList()['guillaume'];
   });
 
+  // Musiques filtrées selon le filtre sélectionné
+  filteredMusics = computed<Music[]>(() => {
+    let filtered = [...this.allMusics()];
+
+    if (this.selectedFilter() === 'popular') {
+      filtered = filtered.filter((music) => music.timesListened > 10);
+    }
+
+    return filtered;
+  });
+
   // Grouper les musiques par album et identifier les albums complets (8+ chansons)
   completeAlbums = computed<Album[]>(() => {
     const albumsMap = new Map<string, Music[]>();
 
-    // Grouper les musiques par album
-    this.allMusics().forEach((music) => {
+    // Grouper les musiques filtrées par album
+    this.filteredMusics().forEach((music) => {
       const key = `${music.album}|${music.artist}`;
       if (!albumsMap.has(key)) {
         albumsMap.set(key, []);
@@ -114,14 +141,14 @@ export class MusicsComponent {
       this.completeAlbums().map((album) => `${album.name}|${album.artist}`)
     );
 
-    return this.allMusics().filter((music) => {
+    return this.filteredMusics().filter((music) => {
       const key = `${music.album}|${music.artist}`;
       return !completeAlbumNames.has(key);
     });
   });
 
   sortedMusics = computed<Music[]>(() => {
-    const sortedMusics = [...this.allMusics()];
+    const sortedMusics = [...this.filteredMusics()];
 
     switch (this.selectedSort()) {
       case 'title':
@@ -195,6 +222,20 @@ export class MusicsComponent {
     this.selectedSort.set(sortValue);
   }
 
+  onViewModeChange(viewMode: string) {
+    this.selectedViewMode.set(viewMode);
+    // Changer le filtre par défaut selon le mode de vue
+    if (viewMode === 'albums') {
+      this.selectedFilter.set('all');
+    } else {
+      this.selectedFilter.set('popular');
+    }
+  }
+
+  onFilterChange(filter: string) {
+    this.selectedFilter.set(filter);
+  }
+
   getSelectMusicsRoute(): string {
     const params: Params = this.activatedRoute.snapshot.params;
     const hasNameParam = params['id'] !== undefined;
@@ -206,9 +247,16 @@ export class MusicsComponent {
       (sum, music) => sum + music.duration,
       0
     );
-    const hours = Math.floor(totalSeconds / 3600);
+    const days = Math.floor(totalSeconds / (24 * 3600));
+    const hours = Math.floor((totalSeconds % (24 * 3600)) / 3600);
     const minutes = Math.floor((totalSeconds % 3600) / 60);
-    return `${hours}h ${minutes}min`;
+
+    let formatted = '';
+    if (days > 0) formatted += `${days} jours`;
+    if (hours > 0) formatted += (formatted ? ', ' : '') + `${hours}h`;
+    if (minutes > 0) formatted += (formatted ? ' ' : '') + `${minutes}min`;
+    if (!formatted) formatted = '0min';
+    return formatted;
   }
 
   private calculateTotalListeningTime(): string {
@@ -216,13 +264,16 @@ export class MusicsComponent {
       (sum, music) => sum + music.duration * music.timesListened,
       0
     );
-    const hours = Math.floor(totalSeconds / 3600);
+    const days = Math.floor(totalSeconds / (24 * 3600));
+    const hours = Math.floor((totalSeconds % (24 * 3600)) / 3600);
     const minutes = Math.floor((totalSeconds % 3600) / 60);
-    return `${hours}h ${minutes}min`;
-  }
 
-  toggleViewMode() {
-    this.viewMode.set(this.viewMode() === 'albums' ? 'all' : 'albums');
+    let formatted = '';
+    if (days > 0) formatted += `${days} jours`;
+    if (hours > 0) formatted += (formatted ? ', ' : '') + `${hours}h`;
+    if (minutes > 0) formatted += (formatted ? ' ' : '') + `${minutes}min`;
+    if (!formatted) formatted = '0min';
+    return formatted;
   }
 
   formatAlbumDuration(seconds: number): string {

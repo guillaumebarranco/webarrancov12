@@ -14,42 +14,21 @@
 
 .musics-header {
   @include containers.header-base;
+}
 
-  .controls {
-    display: flex;
-    gap: 15px;
-    align-items: center;
-  }
+.musics-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-  .view-toggle {
-    padding: 10px 20px;
-    background: white;
-    color: #667eea;
-    border: 2px solid #667eea;
-    border-radius: 8px;
-    font-size: 0.95rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-
-    &:hover {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      transform: translateY(-2px);
-      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-    }
-
-    &:active {
-      transform: translateY(0);
-    }
-
-    span {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-  }
+.musics-filters-item {
+  display: flex;
+  gap: 10px;
+  color: #34495e;
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
 }
 
 .musics-count {
@@ -190,16 +169,6 @@
     flex-direction: column;
     gap: 15px;
     text-align: center;
-
-    .controls {
-      flex-direction: column;
-      width: 100%;
-
-      .view-toggle {
-        width: 100%;
-        justify-content: center;
-      }
-    }
   }
 
   .section {
