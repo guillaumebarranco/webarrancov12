@@ -33,7 +33,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 256,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 27,
   },
   {
     title: "16h00 - Tu m'dois d'l'oseille",
@@ -277,7 +277,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 186,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 22,
   },
   {
     title: "C'est toujours 2 connards dans un abribus",

@@ -55,7 +55,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 276,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 17,
   },
 
   // Album : La Cour des grands (2015) - Bigflo & Oli
@@ -167,7 +167,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 15,
   },
   {
     title: 'Le bijoutier',
@@ -554,7 +554,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 234,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 15,
   },
 
   // Album : La Vie de rêve (2020) - Bigflo & Oli

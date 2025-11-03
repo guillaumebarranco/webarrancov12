@@ -622,7 +622,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 16,
   },
   {
     title: 'Fuck You (Part 1)',
@@ -655,7 +655,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 262,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 22,
   },
   {
     title: 'Mélissa',
@@ -765,7 +765,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 204,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 21,
   },
   {
     title: 'Dans Tes Rêves (Radar Mix) (Titres bonus)',
@@ -776,6 +776,6 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 206,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 23,
   },
 ];

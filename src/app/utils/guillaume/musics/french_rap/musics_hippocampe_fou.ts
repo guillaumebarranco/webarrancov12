@@ -222,7 +222,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 74,
   },
   {
     title: 'La grande évasion',
@@ -233,7 +233,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 221,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 12,
   },
   {
     title: 'Dream',
@@ -255,7 +255,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 11,
   },
   {
     title: 'Chorale des orphelins à la langue coupée',
@@ -323,7 +323,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 41,
   },
   {
     title: 'Lent',
@@ -345,7 +345,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 32,
   },
   {
     title: 'Pas le temps',
@@ -367,7 +367,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 31,
   },
   {
     title: 'Underground',
@@ -389,7 +389,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 67,
   },
   {
     title: 'Langue paternelle',
@@ -400,7 +400,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 234,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 14,
   },
 
   // Album : Pas pour les jeunes (2021) - L'Hippocampe Fou
@@ -470,7 +470,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 197,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 14,
   },
   {
     title: "J'ai fini le taf",
@@ -514,7 +514,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 192,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 15,
   },
   {
     title: 'Pool',
@@ -547,7 +547,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 19,
   },
   {
     title: 'Tout seul',
@@ -558,7 +558,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 12,
   },
   {
     title: 'Écho (Élodie)',
@@ -580,7 +580,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 17,
   },
   {
     title: "L'éternité (Papa)",
@@ -602,7 +602,7 @@ export const musicsHippocampeFou: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 16,
   },
   {
     title: 'Au revoir',

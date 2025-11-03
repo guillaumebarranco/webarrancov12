@@ -44,7 +44,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 23,
   },
   {
     title: 'La Mère Des Enfants Perdus',
