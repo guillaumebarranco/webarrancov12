@@ -482,9 +482,9 @@ export const musicsOrelsan: Music[] = [
   {
     title: 'Notes pour trop tard',
     artist: 'Orelsan',
-    album: 'La fête est finie - Épilogue',
+    album: 'La fête est finie',
     coverUrl: '/musics_pictures/71sP99FzAJL.jpg',
-    releaseDate: '2018-11-23',
+    releaseDate: '2017-10-20',
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',

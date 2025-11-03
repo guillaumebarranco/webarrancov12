@@ -2425,7 +2425,6 @@ export const musicsOthers2: Music[] = [
     timesListened: 8,
   },
 
-
   {
     title: 'Pubis ennemi',
     artist: 'Hippocampe Fou',
@@ -2906,7 +2905,6 @@ export const musicsOthers2: Music[] = [
     timesListened: 8,
   },
 
-
   {
     title: 'Frère Jacques, dormez-vous?',
     artist: 'CoComelon en Français',
@@ -3078,18 +3076,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Interlude micro ouvert',
     artist: 'SNIPER',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'La main verte - Live',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -5584,18 +5570,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Apocalypticodramatic',
-    artist: 'Tryo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'Yacht Club (feat. Juice WRLD)',
     artist: 'Lil Yachty',
     album: 'Unknown',
@@ -6534,18 +6508,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Great Wide Open',
     artist: 'Thirty Seconds To Mars',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'El dulce de leche',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -8188,18 +8150,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'France Télécom - Live',
-    artist: 'Tryo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Allez en route',
     artist: 'Cécile Bergame',
     album: 'Unknown',
@@ -8394,30 +8344,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Pas du tout',
     artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Chanter',
-    artist: 'Tryo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Comme les journées sont longues',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -11908,18 +11834,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Ta réalité',
-    artist: 'Tryo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Ã€ ma place',
     artist: 'KIK',
     album: 'Unknown',
@@ -12400,18 +12314,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Le petit Chose',
-    artist: 'Tryo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Carry Out (Featuring Justin Timberlake)',
     artist: 'Timbaland',
     album: 'Unknown',
@@ -12796,18 +12698,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Les extrÃªmes',
-    artist: 'Tryo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Je veux tes yeux',
     artist: 'Angèle',
     album: 'Unknown',
@@ -12978,18 +12868,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Lost on You',
     artist: 'LP',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Récréaction',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -14548,18 +14426,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'La corrida',
-    artist: 'Tryo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Commercial',
     artist: 'D.ACE',
     album: 'Unknown',
@@ -14718,18 +14584,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Home',
     artist: 'Edward Sharpe & The Magnetic Zeros',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Ballade en forÃªt',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -15642,18 +15496,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'MaldÃ²n - Version originale',
     artist: 'Zouk Machine',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'G8',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -16912,18 +16754,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Dans les nuages',
-    artist: 'Tryo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Le temps ne nous appartient pas',
     artist: 'D.ACE',
     album: 'Unknown',
@@ -16950,18 +16780,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Happier',
     artist: 'Marshmello',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Désolé pour hier soir XXV - Remix 2020',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -18330,18 +18148,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Azuro et le cristal chantant, Pt. 2',
     artist: 'Azuro',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Obsolète',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -20668,18 +20474,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Ladilafé',
-    artist: 'Tryo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Noir',
     artist: 'Django',
     album: 'Unknown',
@@ -22084,18 +21878,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Les anciens',
-    artist: 'Tryo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Lust for Life (with The Weeknd)',
     artist: 'Lana Del Rey',
     album: 'Unknown',
@@ -22770,18 +22552,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'How Bad Do U Want Me',
     artist: 'Lady Gaga',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Tombé mal',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -23922,18 +23692,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Ã‡A VA ENSEMBLE',
     artist: 'Alpha Wann',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Désolé pour hier soir XXV',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -27256,18 +27014,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Jocelyne',
-    artist: 'Tryo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Gentil',
     artist: 'Abou Tall',
     album: 'Unknown',
@@ -27918,18 +27664,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Rue des etoiles',
     artist: 'Grégoire',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Greenwashing',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -29992,18 +29726,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Rewrite',
-    artist: 'Tryo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Bolero Of Fire',
     artist: 'The Marcus Hedges Trend Orchestra',
     album: 'Unknown',
@@ -30018,18 +29740,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Les maux',
     artist: 'Macregor',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Souffler',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -30510,18 +30220,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Plus de larmes',
     artist: 'Lomepal',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'The Yard',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -31563,7 +31261,6 @@ export const musicsOthers2: Music[] = [
     timesListened: 2,
   },
 
-
   {
     title: 'Aurore boréale',
     artist: 'Hippocampe Fou',
@@ -31723,18 +31420,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Matrix',
     artist: 'Josman',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Watson',
-    artist: 'Tryo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',

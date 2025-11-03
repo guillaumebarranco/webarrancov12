@@ -24,17 +24,7 @@ export const musicsOthers: Music[] = [
     genre: 'Unknown',
     timesListened: 30,
   },
-  {
-    title: 'Cash Money',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 23,
-  },
+
   {
     title: 'B.A.O. - Bouche à oreille',
     artist: 'Youssoupha',
@@ -235,17 +225,7 @@ export const musicsOthers: Music[] = [
     genre: 'Unknown',
     timesListened: 15,
   },
-  {
-    title: 'Le printemps',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 15,
-  },
+
   {
     title: '4h37 - Outro',
     artist: 'Youssoupha',
@@ -268,17 +248,7 @@ export const musicsOthers: Music[] = [
     genre: 'Unknown',
     timesListened: 15,
   },
-  {
-    title: '13 piges',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 14,
-  },
+
   {
     title: 'Xavier',
     artist: 'Diamond Deuklo',
@@ -389,17 +359,7 @@ export const musicsOthers: Music[] = [
     genre: 'Unknown',
     timesListened: 12,
   },
-  {
-    title: 'Fuir la guerre',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 12,
-  },
+
   {
     title: 'Independenza',
     artist: 'IAM',
@@ -480,17 +440,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Mal aimé',
     artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 11,
-  },
-  {
-    title: '11/09',
-    artist: 'James Deano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
