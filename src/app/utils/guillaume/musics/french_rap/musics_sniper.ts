@@ -1,6 +1,17 @@
 import { Music } from '../../../../models/music-model';
 
 export const musicsSniper: Music[] = [
+  {
+    title: 'Panam Hall Starz',
+    artist: 'SNIPER',
+    album: 'Du rire aux larmes',
+    coverUrl: '/musics_pictures/61grGckcuaL.jpg',
+    releaseDate: '2001-06-25',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 22,
+  },
   // Album : Du rire aux larmes (2001) - Sniper
   {
     title: 'Intro',
@@ -800,7 +811,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 17,
   },
   {
     title: 'Je Voulais Un Monde',

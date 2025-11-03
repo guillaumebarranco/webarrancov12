@@ -1,6 +1,17 @@
 import { Music } from '../../../../models/music-model';
 
 export const musicsIAM: Music[] = [
+  {
+    title: 'Independenza',
+    artist: 'IAM',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 12,
+  },
   // Album : L'École du micro d'argent (1997) - IAM
   {
     title: "L'École du micro d'argent",

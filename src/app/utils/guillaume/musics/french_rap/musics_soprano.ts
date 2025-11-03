@@ -512,6 +512,17 @@ export const musicsSoprano: Music[] = [
     genre: 'Rap/Hip-Hop',
     timesListened: 0,
   },
+  {
+    title: 'En feu',
+    artist: 'Soprano',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 14,
+  },
 
   // Psy 4 de la Rime
   {

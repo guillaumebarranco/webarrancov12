@@ -1,6 +1,17 @@
 import { Music } from '../../../../models/music-model';
 
 export const musicsYoussoupha: Music[] = [
+  {
+    title: 'B.A.O. - Bouche à oreille',
+    artist: 'Youssoupha',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 22,
+  },
   // Album : À chaque frère (2007) - Youssoupha
   {
     title: 'À chaque frère',
@@ -510,7 +521,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 335,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 15,
   },
   {
     title: 'Poids plume Remix (Bonus Itunes Version)',

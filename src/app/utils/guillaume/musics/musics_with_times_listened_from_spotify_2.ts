@@ -1,21 +1,9 @@
 import { Music } from '../../../models/music-model';
 
-export const musicsOthers2: Music[] = [
+export const musicsOthers: Music[] = [
   {
     title: 'Post Scriptum',
     artist: 'Kery James',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'La ballade du Frémont',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -400,30 +388,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Crazy Vibes - Street Remix',
     artist: 'Selah Sue',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Compte les hommes',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Alunissons',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -878,18 +842,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Nekfeu - 1995',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
     title: 'Les rois du monde - Roméo & Juliette, Les enfants de Vérone',
     artist: 'Damien Sargue',
     album: 'Unknown',
@@ -1178,18 +1130,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: '1er rÃ´le',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
     title: 'Confessions Nocturnes',
     artist: 'Bob Sinclar',
     album: 'Unknown',
@@ -1396,18 +1336,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Not Afraid',
     artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Pars avec moi',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2018,18 +1946,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Le horla - Instrumental',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
     title: 'I Know - Street Remix',
     artist: 'Youssoupha',
     album: 'Unknown',
@@ -2630,18 +2546,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Parle Ã  ma main (feat. Yelle et Christelle)',
-    artist: 'Fatal Bazooka',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
     title: 'BUBBLE GUM',
     artist: 'Quavo',
     album: 'Unknown',
@@ -2656,18 +2560,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Lent',
     artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Ken Kaneki',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2740,18 +2632,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'La danse des canards - Original Radio Edit 1980',
     artist: 'Jj Lionel',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Ecrire',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -3410,18 +3290,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'De mes cendres',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'Les princes (feat. Nekfeu)',
     artist: 'MZ',
     album: 'Unknown',
@@ -3724,18 +3592,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'I Will (feat. KXNG Crooked, Royce Da 5\'9" & Joell Ortiz)',
     artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Natsukashii',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -4516,18 +4372,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Trou',
     artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'Joint de culotte',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -5344,18 +5188,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Quelle histoire !',
     artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'CDGLAXJFKHNDATH',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -6254,18 +6086,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Rouge Ã  lèvres',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
     title: 'Hardcore',
     artist: 'Ideal J',
     album: 'Unknown',
@@ -6412,18 +6232,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Rudolph Le Petit Renne Au Nez Rouge',
     artist: 'Chansons de NoÃ«l et Chants de NoÃ«l',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Dernier soupir',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -7022,18 +6830,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Sous les nuages',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
     title: '1,2,3 nous irons au bois',
     artist: 'Clipounets chansons enfants et bébés',
     album: 'Unknown',
@@ -7132,18 +6928,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Armed And Dangerous',
     artist: 'Juice WRLD',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Energie sombre',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -7408,18 +7192,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Ma destinée',
     artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Ce soir sans mon sexe',
-    artist: 'Fatal Bazooka',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -8438,18 +8210,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Jeux vidéo et débats',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Boombastic',
     artist: 'Shaggy',
     album: 'Unknown',
@@ -8668,18 +8428,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'The Edge Of Glory',
     artist: 'Lady Gaga',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Martin Eden - Instrumental',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -9578,18 +9326,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Nouvel homme',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Hickory la petite souris',
     artist: 'Monde des Titounis',
     album: 'Unknown',
@@ -9988,18 +9724,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Santiano',
     artist: 'Hugues Aufray',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Reuf (feat. Ed Sheeran)',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -10826,18 +10550,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Reuf - Version Five',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Gucci Flip Flops (feat. Lil Yachty)',
     artist: 'Bhad Bhabie',
     album: 'Unknown',
@@ -11200,18 +10912,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Le couteau dans la paix',
     artist: 'Davodka',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'K-Gol',
-    artist: 'Fatal Bazooka',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -11836,18 +11536,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Ã€ ma place',
     artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Interlude Fifty',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -14222,18 +13910,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Trankillement',
-    artist: 'Fatal Bazooka',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Girl From The North Country',
     artist: 'Timothée Chalamet',
     album: 'Unknown',
@@ -16058,30 +15734,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Incassables',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Egérie - Instrumental',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Yamba Ngai',
     artist: 'Mbilia Bel',
     album: 'Unknown',
@@ -17020,18 +16672,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Jungle Is Massive',
     artist: 'Heartical Théos',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Auto-clash',
-    artist: 'Fatal Bazooka',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -19504,18 +19144,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Compliqué',
     artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Oui et non',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -22382,18 +22010,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: '7:77 am - Instrumental',
-    artist: 'Nekfeu',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'My Style',
     artist: 'Black Eyed Peas',
     album: 'Unknown',
@@ -24494,18 +24110,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Clash gentil',
-    artist: 'Max Boublil',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'The Car Bomb',
     artist: 'Dr. Dre',
     album: 'Unknown',
@@ -24916,18 +24520,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'NOUVEAU KARATÃ‰',
     artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Fous ta cagoule - Instrumental Mix',
-    artist: 'Fatal Bazooka',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -27280,18 +26872,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Lullaby',
     artist: 'Sigala',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Le Bwerk',
-    artist: 'Fatal Bazooka',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -31802,18 +31382,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Parle Ã  ma main (feat. Yelle & Christelle)',
-    artist: 'Fatal Bazooka',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Dans une autre vie',
     artist: 'Youssoupha',
     album: 'Unknown',
@@ -31948,18 +31516,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'My Girl',
     artist: 'The Temptations',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'A la base',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -32630,18 +32186,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Fous ta cagoule - Live in Chambery 07',
-    artist: 'Fatal Bazooka',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Stereo Hearts (feat. Adam Levine)',
     artist: 'Gym Class Heroes',
     album: 'Unknown',
@@ -33014,18 +32558,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Susan Boyle',
-    artist: 'Max Boublil',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Paradise (feat. Lomepal)',
     artist: 'Lefa',
     album: 'Unknown',
@@ -33184,18 +32716,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'LA FIN DU MONDE',
     artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Nique les clones, Pt. II - Instrumental',
-    artist: 'Nekfeu',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',

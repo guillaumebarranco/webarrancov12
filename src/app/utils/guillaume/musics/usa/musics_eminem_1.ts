@@ -3,6 +3,28 @@ import { Music } from '../../../../models/music-model';
 export const musicsEminem1: Music[] = [
   // Album : The Slim Shady LP (1999) - Eminem
   {
+    title: 'Lose Yourself',
+    artist: 'Eminem',
+    album: 'The Slim Shady LP',
+    coverUrl: '/musics_pictures/815UbQWSslL._UF894,1000_QL80_.jpg',
+    releaseDate: '1999-02-23',
+    rating: 0,
+    duration: 180,
+    genre: 'Hip-Hop',
+    timesListened: 11,
+  },
+  {
+    title: 'Remind Me (Intro)',
+    artist: 'Eminem',
+    album: 'The Slim Shady LP',
+    coverUrl: '/musics_pictures/815UbQWSslL._UF894,1000_QL80_.jpg',
+    releaseDate: '1999-02-23',
+    rating: 0,
+    duration: 180,
+    genre: 'Hip-Hop',
+    timesListened: 16,
+  },
+  {
     title: 'Public Service Announcement (skit)',
     artist: 'Eminem',
     album: 'The Slim Shady LP',
