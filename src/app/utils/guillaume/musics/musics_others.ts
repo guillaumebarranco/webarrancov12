@@ -2,17 +2,6 @@ import { Music } from '../../../models/music-model';
 
 export const musicsOthers: Music[] = [
   {
-    title: 'Stade',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 51,
-  },
-  {
     title:
       'Ce matin va être une pure soirée (feat. Big Ali, PZK, Dogg SoSo, Chris Prolls)',
     artist: 'Fatal Bazooka',
@@ -23,17 +12,6 @@ export const musicsOthers: Music[] = [
     duration: 180,
     genre: 'Unknown',
     timesListened: 31,
-  },
-  {
-    title: 'Super Héros',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 30,
   },
   {
     title: 'Stach Stach',
@@ -123,18 +101,6 @@ export const musicsOthers: Music[] = [
     genre: 'Unknown',
     timesListened: 19,
   },
-  {
-    title: 'Salope !',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 19,
-  },
-
   {
     title: 'Koala mouillé',
     artist: 'Nekfeu',
@@ -235,17 +201,7 @@ export const musicsOthers: Music[] = [
     genre: 'Unknown',
     timesListened: 16,
   },
-  {
-    title: 'Promesses',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 16,
-  },
+
   {
     title: 'Ciel noir',
     artist: 'Nekfeu',
