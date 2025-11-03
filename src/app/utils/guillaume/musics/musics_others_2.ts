@@ -806,18 +806,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'Le dernier cri',
-    artist: 'Zippo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
     title: 'Omunye',
     artist: 'Distruction Boyz',
     album: 'Unknown',
@@ -2437,17 +2425,6 @@ export const musicsOthers2: Music[] = [
     timesListened: 8,
   },
 
-  {
-    title: 'i-monde',
-    artist: 'Zippo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
 
   {
     title: 'Pubis ennemi',
@@ -2929,17 +2906,6 @@ export const musicsOthers2: Music[] = [
     timesListened: 8,
   },
 
-  {
-    title: 'Cap 3000',
-    artist: 'Zippo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
 
   {
     title: 'Frère Jacques, dormez-vous?',
@@ -4370,18 +4336,6 @@ export const musicsOthers2: Music[] = [
   },
 
   {
-    title: 'La mer monte',
-    artist: 'Zippo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'TÃ´t le matin',
     artist: 'GaÃ«l Faye',
     album: 'Unknown',
@@ -4648,18 +4602,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Pump It Up',
     artist: 'Nari',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'Etincelle',
-    artist: 'Zippo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -5008,18 +4950,6 @@ export const musicsOthers2: Music[] = [
   {
     title: 'Take on Me',
     artist: 'a-ha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'In girum imus nocte',
-    artist: 'Zippo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -31633,17 +31563,6 @@ export const musicsOthers2: Music[] = [
     timesListened: 2,
   },
 
-  {
-    title: 'In Mars We Trust',
-    artist: 'Zippo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
 
   {
     title: 'Aurore boréale',

@@ -15,6 +15,7 @@ import { musicsSoprano } from './musics_soprano';
 import { musicsKeryJames } from './musics_kery_james';
 import { musicsKenyArkana } from './musics_keny_arkana';
 import { musicsKik } from './musics_kik';
+import { musicsZippo } from './musics_zippo';
 import { musicsOthers } from '../musics_others';
 import { musicsYoussoupha } from './musics_youssoupha';
 import { musicsRapFrVarious } from './musics_rap_fr_various';
@@ -38,6 +39,7 @@ export const frenchRapMusics = [
   ...musicsKeryJames,
   ...musicsKenyArkana,
   ...musicsKik,
+  ...musicsZippo,
   ...musicsOthers,
   ...musicsRapFrVarious,
 ];

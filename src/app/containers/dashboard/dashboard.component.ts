@@ -41,10 +41,12 @@ import {
   moviesSagaPage4,
   moviesSagaPage5,
 } from '../../utils/guillaume/movies';
+import { musics } from '../../utils/guillaume/musics';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Book } from '../../models/book-model';
 import { kevinBooks1, kevinBooks2 } from '../../utils/kevin/books';
 import { Movie } from '../../models/movie-model';
+import { Music } from '../../models/music-model';
 import { williamMovies } from '../../utils/william/movies';
 import { Game } from '../../models/game-model';
 import { Serie } from '../../models/serie-model';
@@ -64,6 +66,10 @@ interface TopGame extends Game {
 
 interface TopSerie extends Serie {
   formattedWatchingTime: string;
+}
+
+interface TopMusic extends Music {
+  formattedListeningTime: string;
 }
 
 @Component({
@@ -195,6 +201,20 @@ export class DashboardComponent {
     }));
   });
 
+  musicsList = signal<{ [key: string]: Music[] }>({
+    guillaume: [...musics],
+    william: [],
+    kevin: [],
+  });
+
+  allMusics = computed<Music[]>(() => {
+    const params: Params = this.activatedRoute.snapshot.params;
+    const hasNameParam = params['id'] !== undefined;
+    return hasNameParam
+      ? this.musicsList()[params['id']]
+      : this.musicsList()['guillaume'];
+  });
+
   topBooks = computed<TopBook[]>(() => {
     return this.allBooks()
       .filter((book) => book.readTimes && book.readTimes > 1)
@@ -267,6 +287,20 @@ export class DashboardComponent {
       .slice(0, 5);
   });
 
+  topMusics = computed<TopMusic[]>(() => {
+    return this.allMusics()
+      .filter((music) => music.timesListened > 1)
+      .map((music) => ({
+        ...music,
+        totalListeningTime: (music.duration / 3600) * music.timesListened, // durée en secondes, converti en heures
+        formattedListeningTime: this.formatTime(
+          (music.duration / 3600) * music.timesListened
+        ),
+      }))
+      .sort((a, b) => b.timesListened - a.timesListened)
+      .slice(0, 5);
+  });
+
   stats = computed<StatItem[]>(() => {
     const booksTotalReadingTime =
       this.allBooks().length > 0
@@ -302,6 +336,12 @@ export class DashboardComponent {
         game.additionnalEstimatedTime,
       0
     );
+
+    const musicsTotalTime =
+      this.allMusics().reduce(
+        (sum, music) => sum + (music.duration / 3600) * music.timesListened,
+        0
+      );
 
     return [
       {
@@ -341,6 +381,12 @@ export class DashboardComponent {
         color: 'success',
       },
       {
+        label: 'Musiques écoutées',
+        value: this.allMusics().length.toString(),
+        icon: '🎵',
+        color: 'warning',
+      },
+      {
         label: 'Temps total passé à lire (livres + mangas + manwhas)',
         value: this.formatTime(
           booksTotalReadingTime +
@@ -361,6 +407,12 @@ export class DashboardComponent {
         value: this.formatTime(gamesTotalTime),
         icon: '🎮',
         color: 'secondary',
+      },
+      {
+        label: 'Temps total passé à écouter de la musique',
+        value: this.formatTime(musicsTotalTime),
+        icon: '🎵',
+        color: 'warning',
       },
     ];
   });

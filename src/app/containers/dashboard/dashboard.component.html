@@ -107,6 +107,24 @@
             }
           </div>
         </div>
+
+        <!-- Top 5 Musiques -->
+        <div class="top5-category">
+          <h3>🎵 Musiques les plus écoutées</h3>
+          <div class="top5-list">
+            @for (music of topMusics(); track music.title; let i = $index) {
+            <div class="top5-item">
+              <span class="rank">#{{ i + 1 }}</span>
+              <span class="title">{{ music.title }} - {{ music.artist }}</span>
+              <span class="count"
+                >{{ music.timesListened }}x ({{ music.formattedListeningTime }})</span
+              >
+            </div>
+            } @if (topMusics().length === 0) {
+            <div class="no-data">Aucune musique écoutée</div>
+            }
+          </div>
+        </div>
       </div>
     </div>
   </div>
