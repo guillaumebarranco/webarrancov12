@@ -411,4 +411,28 @@ export const musicsKenyArkana: Music[] = [
     genre: 'Rap/Hip-Hop',
     timesListened: 0,
   },
+
+  // Autres sorties
+  {
+    title: 'Entre les lignes : clouées au sol',
+    artist: 'Keny Arkana',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 10,
+  },
+  {
+    title: 'Nettoyage au karscher',
+    artist: 'Keny Arkana',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 7,
+  },
 ];

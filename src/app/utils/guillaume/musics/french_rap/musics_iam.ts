@@ -556,4 +556,28 @@ export const musicsIAM: Music[] = [
     genre: 'Rap/Hip-Hop',
     timesListened: 0,
   },
+
+  // Autres sorties
+  {
+    title: 'Sombres Manoeuvres / Manoeuvres Sombres',
+    artist: 'IAM',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 8,
+  },
+  {
+    title: 'La fin de leur monde',
+    artist: 'IAM',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 2,
+  },
 ];

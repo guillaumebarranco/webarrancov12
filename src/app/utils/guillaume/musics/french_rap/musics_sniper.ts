@@ -233,7 +233,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 325,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Visions chaotiques',
@@ -244,7 +244,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 442,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 6,
   },
   {
     title: 'Gravé dans la roche',
@@ -343,7 +343,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 244,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Trop vite (solo Blacko)',
@@ -376,7 +376,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 109,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'Panam All Starz',
@@ -411,7 +411,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 263,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Trait pour trait',
@@ -422,7 +422,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 270,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Eldorado',
@@ -543,7 +543,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 281,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Fallait que je te dise',
@@ -922,5 +922,18 @@ export const musicsSniper: Music[] = [
     duration: 240,
     genre: 'Rap/Hip-Hop',
     timesListened: 19,
+  },
+
+  // Autres sorties
+  {
+    title: 'Adama',
+    artist: 'SNIPER',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 2,
   },
 ];
