@@ -1,4 +1,4 @@
-import { musicsOrelsan } from './musics_orelsan';
+import { musicsOrelsan1 } from './musics_orelsan_1';
 import { musicsDisiz1 } from './musics_disiz_1';
 import { musicsDisiz2 } from './musics_disiz_2';
 import { musicsDisiz3 } from './musics_disiz_3';
@@ -19,9 +19,11 @@ import { musicsZippo } from './musics_zippo';
 import { musicsFatalBazooka } from './musics_fatal_bazooka';
 import { musicsYoussoupha } from './musics_youssoupha';
 import { musicsRapFrVarious } from './musics_rap_fr_various';
+import { musicsOrelsan2 } from './music_orelsan_2';
 
 export const frenchRapMusics = [
-  ...musicsOrelsan,
+  ...musicsOrelsan1,
+  ...musicsOrelsan2,
   ...musicsDisiz1,
   ...musicsDisiz2,
   ...musicsDisiz3,

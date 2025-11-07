@@ -2,92 +2,8 @@ import { Music } from '../../../models/music-model';
 
 export const musicsOthers: Music[] = [
   {
-    title: 'Post Scriptum',
-    artist: 'Kery James',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
     title: 'Beyond',
     artist: 'Leon Bridges',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Sieste',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Leaving Heaven (feat. Skylar Grey)',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Tant que Dieu (feat. Mino) - Remix',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Entre les lignes : clouées au sol',
-    artist: 'Keny Arkana',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Interlude Mc Pikachou',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Bombe humaine',
-    artist: 'Soprano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -110,18 +26,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Victoria',
-    artist: 'Keny Arkana',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
     title: 'rockstar (feat. 21 Savage)',
     artist: 'Post Malone',
     album: 'Unknown',
@@ -134,80 +38,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Câ€™est toujours 2 connards dans un abribus',
-    artist: 'Casseurs Flowters',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Niama na yo',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Berceuse',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Cosmo',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
     title: 'La Marseillaise',
     artist: 'René La Taupe',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: '27 octobre',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'A notre santé',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -244,42 +76,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Charger',
     artist: 'TRIANGLE DES BERMUDES',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'DJ',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Bo gosse',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Drogué Dur A La Drogue Douce',
-    artist: 'James Deano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -338,18 +134,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Ca me fait plaisir',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
     title: 'Skurt Cobain',
     artist: 'Sneazzy',
     album: 'Unknown',
@@ -364,18 +148,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'thank u, next',
     artist: 'Ariana Grande',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Aéroport',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -422,56 +194,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Interlude',
-    artist: 'Kamini',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Inspecteur Disiz',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Dream',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
     title: 'Welcome to the Party (feat. Zhavia) - Valentino Khan Remix',
     artist: 'Diplo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Mahboul',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -518,30 +242,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Changement',
-    artist: 'Orelsan',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Passe-moi le mic',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
     title: '21 Questions',
     artist: '50 Cent',
     album: 'Unknown',
@@ -566,32 +266,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Regarde',
-    artist: 'IAM',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
     title: 'Marche',
     artist: 'Kool Shen',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Quatre Saisons',
-    artist: 'Kery James',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -626,18 +302,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Ferme les yeux et imagine toi (feat.Blacko)',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
     title: 'Vole papillon',
     artist: 'Clipounets chansons enfants et bébés',
     album: 'Unknown',
@@ -662,68 +326,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Burn Out (Sayonara)',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Ciel - Interlude',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: '1000 façons',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Black Out',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
     title: 'Dip (feat. Nicki Minaj)',
     artist: 'Tyga',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Différent',
-    artist: 'Orelsan',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -794,30 +398,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Escale - Interlude',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
-    title: 'Disizilla',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
-  },
-
-  {
     title: 'Smooth Criminal - 2012 Remaster',
     artist: 'Michael Jackson',
     album: 'Unknown',
@@ -878,56 +458,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Jamais Sans Mon Poto',
-    artist: 'Kery James',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Le déni',
-    artist: 'Kamini',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'La petite marchande de porte-clefs',
-    artist: 'Orelsan',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
     title: 'Lost It (feat. Quavo & Offset)',
     artist: 'Rich The Kid',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Le temps précieux',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -1010,32 +542,9 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Those Kinda Nights (feat. Ed Sheeran)',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Honesty & jalousie (Fais un choix dans la vie) (feat. Vinia Mojica)',
+    title:
+      'Honesty & jalousie (Fais un choix dans la vie) (feat. Vinia Mojica)',
     artist: 'Alliance Ethnik',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Processus 2003',
-    artist: 'SNIPER',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -1058,68 +567,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Au revoir',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
     title: '32 mesures de haine',
     artist: 'Sinik',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'La paix',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Un cri court dans la nuit (feat. Nuttea)',
-    artist: 'IAM',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Dialogue entre monstres',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Le missile suit sa lancée',
-    artist: 'Keny Arkana',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -1144,66 +593,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Sound of Freedom',
     artist: 'Bob Sinclar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Entre deux',
-    artist: 'SNIPER',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'La tÃªte dans les étoiles',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'La cour des grands',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Aquatrip',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Halla halla',
-    artist: 'Soprano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -1250,56 +639,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'CP_001_ Intro Civilisation Perdue',
-    artist: 'Orelsan',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Psychostar Show',
-    artist: 'Kamini',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
     title: 'American Boy',
     artist: 'Estelle',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Bon anniversaire',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Soprakountach',
-    artist: 'Soprano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -1324,18 +665,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'BiPolar (feat. Quavo)',
     artist: 'Gucci Mane',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Not Afraid',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -1406,42 +735,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'KaÃ¯ju',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Les Gens Sont Stressés',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Saturne',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
     title: 'Starships',
     artist: 'Nicki Minaj',
     album: 'Unknown',
@@ -1466,18 +759,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Fuck You Part 2',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
     title: 'Work It',
     artist: 'Missy Elliott',
     album: 'Unknown',
@@ -1492,18 +773,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Encore et encore - Remastered',
     artist: 'Francis Cabrel',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Dans la légende',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -1550,30 +819,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Pool',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Un peu de magie',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
     title: 'Le mur du son',
     artist: 'Willy Denzey',
     album: 'Unknown',
@@ -1588,18 +833,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'CHAMPAGNE ROSÃ‰ (feat. Madonna & Cardi B)',
     artist: 'Quavo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Schizophrène',
-    artist: 'Kamini',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -1646,30 +879,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Underground',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'En ce moment-mÃªme',
-    artist: 'Kamini',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
     title: 'La Totomobile',
     artist: 'Rémi Guichard',
     album: 'Unknown',
@@ -1684,78 +893,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Price Tag',
     artist: 'Jessie J',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Majorette',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Rap Genius',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Entre les lignes : Une goutte de plus',
-    artist: 'Keny Arkana',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Juste fais-le (feat. Le Rat Luciano)',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Owi',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
-    title: 'Calmement',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -1790,18 +927,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Sans exceptions (feat. Diams)',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-
-  {
     title: 'Les fourmis marchent',
     artist: 'CoComelon en Français',
     album: 'Unknown',
@@ -1814,32 +939,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'The Monster',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
     title: 'Les boutons de Prune',
     artist: 'Rémi Guichard',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Rubi',
-    artist: 'KIK',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -1876,18 +977,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Promenons-nous dans les bois',
     artist: 'Jémy',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Premonition - Intro',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -1946,56 +1035,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'I Know - Street Remix',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Kamikaze',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Les rÃ¢teaux',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
     title: 'Venom',
     artist: 'Médine',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Un bon son brut pour les truands',
-    artist: 'IAM',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2020,18 +1061,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Ferme tes yeux',
     artist: 'Monde des Titounis',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Complexité Française',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2078,92 +1107,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Dans le fond',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Stepdad',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'No Regrets (feat. Don Toliver)',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Unaccommodating (feat. Young M.A)',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Tout ira bien',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Marsh',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
     title: 'Partis de rien',
     artist: 'Scred Connexion',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Monstrueuse',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2222,80 +1167,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Mastodonte',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Challenge incroyable',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
     title: 'La fuite - Vegedream X Dj Leska / Edit MIx',
     artist: 'Vegedream',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'CP_008_ Nous contre le monde',
-    artist: 'Orelsan',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Cercle rouge',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Du bout des doigts',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Ici câ€™est Toulouse',
-    artist: 'Bigflo & Oli',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2318,56 +1191,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Alléluia / 1989',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
     title: 'Mémo',
     artist: 'Gringe',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Pubis ennemi',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Dans ma tÃªte',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Quand on arrive en ville - Remastered',
-    artist: 'Daniel Balavoine',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2402,18 +1227,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Les gens',
-    artist: 'Kamini',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
     title: 'Hard White',
     artist: 'Nicki Minaj',
     album: 'Unknown',
@@ -2426,104 +1239,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Sombres Manoeuvres / Manoeuvres Sombres',
-    artist: 'IAM',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
     title: 'La souris rejoint petit escargot',
     artist: 'Cécile Bergame',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Lock It Up (feat. Anderson .Paak)',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Stan',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Vivre ou survivre',
-    artist: 'Daniel Balavoine',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Couche-tard et lève-tÃ´t',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Constat Amer',
-    artist: 'Kery James',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'On se connaÃ®t',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Le méchant de James Bond',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2548,18 +1265,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'BUBBLE GUM',
     artist: 'Quavo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Lent',
-    artist: 'Hippocampe Fou',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2702,32 +1407,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Au fond du miroir',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
     title: 'HOW BOUT THAT?',
     artist: 'Quavo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Happy End',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2762,44 +1443,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Intro',
-    artist: 'SNIPER',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Fuck Les Problèmes',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
     title: 'Frère Jacques, dormez-vous?',
     artist: 'CoComelon en Français',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'Très loin',
-    artist: 'KIK',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2824,18 +1469,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Une histoire pour Arthur',
     artist: 'Rémi Guichard',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
-  },
-
-  {
-    title: 'You Gonâ€™ Learn (feat. Royce Da 5\'9" & White Gold)',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2882,42 +1515,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Quoi de neuf?',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'SOS',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'The Ringer',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'Better Now',
     artist: 'Post Malone',
     album: 'Unknown',
@@ -2932,30 +1529,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Santa MarÃ­a (del Buen Ayre)',
     artist: 'Gotan Project',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Maritie et Gilbert Carpentier',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Interlude micro ouvert',
-    artist: 'SNIPER',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -2990,42 +1563,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Cinderella Man',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Rien a déclarer',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Autre espèce',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'SexyBack (feat. Timbaland)',
     artist: 'Justin Timberlake',
     album: 'Unknown',
@@ -3038,44 +1575,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Tout vu, tout lu',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'STARGAZING',
     artist: 'Travis Scott',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Miss désillusion',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Splash',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -3146,18 +1647,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Nettoyage au karscher',
-    artist: 'Keny Arkana',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'What About Us',
     artist: 'P!nk',
     album: 'Unknown',
@@ -3170,32 +1659,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Porcelaine',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'Un elephant ca trompe',
     artist: 'Monde des Titounis',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Terre promise',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -3266,18 +1731,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Perdre la raison',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'Le bal des princesses',
     artist: 'Rémi Guichard',
     album: 'Unknown',
@@ -3302,56 +1755,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Moins vite',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'En cloque',
     artist: 'Renaud',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Miskine',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Démonté',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Brainless',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -3386,56 +1791,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Never Love Again',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'Pablo et le marchand de sable',
     artist: 'Rémi Guichard',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Stepdad - Intro',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Darkness',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Obélix',
-    artist: 'Hippocampe Fou',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -3460,30 +1817,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Kiss Kiss (feat. T-Pain)',
     artist: 'Chris Brown',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: '35 Heures',
-    artist: 'SNIPER',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Les belles histoires - Radio edit',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -3530,18 +1863,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Entre les lignes : prière',
-    artist: 'Keny Arkana',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'Ã€ chaque ligne',
     artist: '1995',
     album: 'Unknown',
@@ -3578,44 +1899,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Approchez',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'I Will (feat. KXNG Crooked, Royce Da 5\'9" & Joell Ortiz)',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'FUCK 12 (feat. Offset)',
     artist: 'Quavo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Poudre dodo',
-    artist: 'KIK',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -3830,18 +2115,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Little Engine',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'Ramenez la coupe Ã  la maison',
     artist: 'Vegedream',
     album: 'Unknown',
@@ -3868,18 +2141,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Get Up (Rattle) [feat. Far East Movement] - Vocal Edit',
     artist: 'Bingo Players',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Chorale des orphelins Ã  la langue coupée',
-    artist: 'Hippocampe Fou',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -3938,44 +2199,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Le fardeau',
-    artist: 'Keny Arkana',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Tout partira',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'Sommet',
     artist: 'Dosseh',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Jamais content',
-    artist: 'KIK',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -4000,30 +2225,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Oh hisse! Oh hisse!',
     artist: 'Natalie Tual',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Faut que ça fuck',
-    artist: 'Kamini',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Hendek',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -4070,18 +2271,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Les épices du souk du Caire',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'SHINE',
     artist: 'Quavo',
     album: 'Unknown',
@@ -4106,18 +2295,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Gagne pain',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'La Chanson Oui Papa',
     artist: 'Bebefinn en Français',
     album: 'Unknown',
@@ -4130,44 +2307,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Différents ?',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'ZEZE (feat. Travis Scott & Offset)',
     artist: 'Kodak Black',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Eau - Interlude',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'Ã‰cho (Ã‰lodie)',
-    artist: 'Hippocampe Fou',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -4214,32 +2355,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Après de près',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
     title: 'Je mange la musique Ã  la cuillère',
     artist: 'Christian Merveille',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 7,
-  },
-
-  {
-    title: 'La cahier de solfège',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -4310,42 +2427,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Tous les jours',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'CP_002_Les aventures de MiniSan',
-    artist: 'Orelsan',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'Visions chaotiques',
-    artist: 'SNIPER',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'PTR - Pourquoi tu rages',
     artist: 'D.ACE',
     album: 'Unknown',
@@ -4360,18 +2441,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Affinity 2018',
     artist: 'The Thrillseekers',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'Trou',
-    artist: 'Hippocampe Fou',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -4442,18 +2511,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Farewell',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'The Jabari',
     artist: 'Ludwig GÃ¶ransson',
     album: 'Unknown',
@@ -4490,18 +2547,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Venom - Music From The Motion Picture',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'Leave Me Alone',
     artist: 'Flipp Dinero',
     album: 'Unknown',
@@ -4514,32 +2559,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Les Raisons De La Colère',
-    artist: 'IAM',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'Papa Mama Loca Pipa',
     artist: 'The Minions',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'Terre - Intro',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -4574,18 +2595,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Quand mÃªme',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'Sweat',
     artist: 'The All-American Rejects',
     album: 'Unknown',
@@ -4610,18 +2619,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Ulysse',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'Swish Swish',
     artist: 'Katy Perry',
     album: 'Unknown',
@@ -4636,30 +2633,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Oac, oac, diri-diri-dam',
     artist: 'TraLaLa - Cantece pentru copii',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'Lettre Ã  mon ex',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'La maladie des hommes',
-    artist: 'Kamini',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -4862,18 +2835,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Triste',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'Un air de vacances - Ep.1 les préparatifs',
     artist: 'Lady Gaga',
     album: 'Unknown',
@@ -5006,18 +2967,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Lucie',
-    artist: 'Daniel Balavoine',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'Billy pomme',
     artist: 'Gérard Dalton',
     album: 'Unknown',
@@ -5066,18 +3015,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Kamikaze',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'Namek',
     artist: 'Dinos',
     album: 'Unknown',
@@ -5090,7 +3027,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Aries (YuGo) Part 2 (with Rae Sremmurd & Big Sean feat. Quavo & Pharrell)',
+    title:
+      'Aries (YuGo) Part 2 (with Rae Sremmurd & Big Sean feat. Quavo & Pharrell)',
     artist: 'Mike WiLL Made-It',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -5104,18 +3042,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'We Will Rock You - Remastered 2011',
     artist: 'Queen',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'Lettre Ã  la république',
-    artist: 'Kery James',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -5186,18 +3112,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Quelle histoire !',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'Résiste - Remasterisé en 2004',
     artist: 'France Gall',
     album: 'Unknown',
@@ -5236,42 +3150,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Beat It',
     artist: 'Michael Jackson',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'Le dindon',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'Le coach (feat. Vincenzo)',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'Dramelet',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -5354,18 +3232,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Les mirabelles (Ã  Jocelyn)',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'What You Waiting For?',
     artist: 'Gwen Stefani',
     album: 'Unknown',
@@ -5414,18 +3280,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Battle & Fontaine - feat. AKRO',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'Ainsi font, font, font',
     artist: 'Isabelle Gaboriau',
     album: 'Unknown',
@@ -5450,18 +3304,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Pas le temps',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
     title: 'Where Is The Love?',
     artist: 'Black Eyed Peas',
     album: 'Unknown',
@@ -5476,18 +3318,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Jaloux',
     artist: 'Dadju',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-
-  {
-    title: 'Enfant des rues',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -5620,18 +3450,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Azizam',
     artist: 'Ed Sheeran',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'DIEU EST GRANDE',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -5834,18 +3652,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: '25 To Life',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
     title: 'Boomer',
     artist: 'GaÃ«l Faye',
     album: 'Unknown',
@@ -5882,32 +3688,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Dingue',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
     title: 'Halo',
     artist: 'Beyoncé',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Interlude: 5 étoiles',
-    artist: 'KIK',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -6062,18 +3844,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Jeunesse influençable',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
     title: 'Dope Game',
     artist: 'Baka Not Nice',
     album: 'Unknown',
@@ -6088,18 +3858,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Hardcore',
     artist: 'Ideal J',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Le bistrot du coin',
-    artist: 'Soprano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -6136,18 +3894,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'LÃ -haut',
     artist: 'Hugo TSR',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Beautiful',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -6244,30 +3990,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'What Was I Made For?',
     artist: 'Bongo Cat',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Jeunesse influençable - Bonus',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'La bagarre',
-    artist: 'Kamini',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -6410,18 +4132,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Go To Sleep',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
     title: 'Azuro et le mystère de la pyramide, Pt. 1',
     artist: 'Azuro',
     album: 'Unknown',
@@ -6446,7 +4156,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (feat. Freshlyground)',
+    title:
+      'Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (feat. Freshlyground)',
     artist: 'Shakira',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -6460,18 +4171,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Barbie World (with Aqua) [From Barbie The Album]',
     artist: 'Nicki Minaj',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Alfred - Interlude',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -6614,7 +4313,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Familia (with Anuel Aa, feat. Bantu) - Spider-Man: Into the Spider-Verse',
+    title:
+      'Familia (with Anuel Aa, feat. Bantu) - Spider-Man: Into the Spider-Verse',
     artist: 'Nicki Minaj',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -6710,32 +4410,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Crack A Bottle',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
     title: 'Barbichette Song',
     artist: 'Afida Turner',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'CP_010_ On a gagné',
-    artist: 'Orelsan',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -6770,32 +4446,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Chez les Corses',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
     title: 'Caravane',
     artist: 'RaphaÃ«l',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'La mitraillette',
-    artist: 'James Deano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -6866,18 +4518,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Legacy',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
     title: 'Petit escargot',
     artist: 'Laurent Lahaye',
     album: 'Unknown',
@@ -6928,30 +4568,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Armed And Dangerous',
     artist: 'Juice WRLD',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Alfred - Outro',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Night Club System',
-    artist: 'Kamini',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -7022,18 +4638,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Atlantis',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
     title: 'Twist the Key',
     artist: 'Vader the Villin',
     album: 'Unknown',
@@ -7072,18 +4676,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Wakanda',
     artist: 'Ludwig GÃ¶ransson',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Jeunesse du monde',
-    artist: 'Keny Arkana',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -7190,18 +4782,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Ma destinée',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
     title: 'Les manchots et les pingouins',
     artist: 'Pigloo',
     album: 'Unknown',
@@ -7216,18 +4796,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Madara',
     artist: 'Médine',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Faute de goÃ»t',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -7288,18 +4856,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Panic Room',
     artist: 'Au/Ra',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'A poings fermés',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -7408,18 +4964,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Ooh Ahh (My Life Be Like) [feat. Tobymac]',
     artist: 'Grits',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'Donc',
-    artist: 'Soprano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -7562,18 +5106,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Need Me',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
     title: 'Petite Taupe est malade, Pt.1 : Les remèdes des amis',
     artist: 'Petite Taupe',
     album: 'Unknown',
@@ -7612,18 +5144,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Dessert',
     artist: 'Dawin',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-
-  {
-    title: 'In Too Deep',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -7754,18 +5274,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Ass Like That',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Bowls of Peace II',
     artist: 'Sophisto',
     album: 'Unknown',
@@ -7804,18 +5312,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Vive les promeneurs',
     artist: 'Freddy Gladieux',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'New York en Décembre_freestyle 2025',
-    artist: 'Bigflo & Oli',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -7874,32 +5370,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Chloraseptic',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Monsieur Malonga',
     artist: 'Tabu Ley Rochereau',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Retroman',
-    artist: 'Hippocampe Fou',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -7946,32 +5418,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'SUBLIME',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Hopeless Romantic (feat. Swae Lee)',
     artist: 'Wiz Khalifa',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Ã€ chaque frère',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -8020,18 +5468,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'La pÃªche aux moules',
     artist: 'Les Momes Du Ce2',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Lotus',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -8114,32 +5550,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Pas du tout',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'A chaque jour suffit sa peine',
     artist: 'Nessbeal',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Je suis de celles',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -8522,32 +5934,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'ASTRONAUTE',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'La chenille',
     artist: 'La Bande Ã  Basile',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Atlantis - Bonus',
-    artist: 'Bigflo & Oli',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -8714,18 +6102,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Gens pressés',
-    artist: 'Keny Arkana',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Hasard',
     artist: 'Mac Tyer',
     album: 'Unknown',
@@ -8824,18 +6200,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Unstoppable',
     artist: 'Bongo Cat',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Till I Collapse',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -9050,18 +6414,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Mexico en Janvier_freestyle 2025',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Limelight',
     artist: 'T.I.',
     album: 'Unknown',
@@ -9088,18 +6440,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Another One Bites The Dust - Remastered 2011',
     artist: 'Queen',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'A qui la faute',
-    artist: 'Kery James',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -9244,18 +6584,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Ooh Yea (feat. Ty Dolla $ign)',
     artist: 'Fabolous',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Les apparences nous mentent',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -9518,18 +6846,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Entre les mots : Enfant de la Terre',
-    artist: 'Keny Arkana',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Sangarius',
     artist: 'Dreamworx',
     album: 'Unknown',
@@ -9674,18 +6990,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'POIDS LOURD',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Horse Racing Farts',
     artist: 'Mr Farts',
     album: 'Unknown',
@@ -9818,18 +7122,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'No Love',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Burn',
     artist: 'Ellie Goulding',
     album: 'Unknown',
@@ -9878,18 +7170,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Pas Pour Les Jeunes',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Hot N Cold',
     artist: 'Katy Perry',
     album: 'Unknown',
@@ -9928,18 +7208,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'I Know You Want Me (Calle Ocho)',
     artist: 'Pitbull',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Le marchand de sable',
-    artist: 'Hippocampe Fou',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -10310,18 +7578,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Arbuste généalogique',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'GOTTI',
     artist: '6ix9ine',
     album: 'Unknown',
@@ -10382,18 +7638,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Megazord',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Pour un flirt',
     artist: 'Michel Delpech',
     album: 'Unknown',
@@ -10408,18 +7652,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Royals',
     artist: 'Lorde',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Parle-moi',
-    artist: 'Soprano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -10622,18 +7854,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Mes échecs',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Umbrella - Radio Edit',
     artist: 'Rihanna',
     album: 'Unknown',
@@ -10718,30 +7938,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Headlights',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Aketo vs. Tunisiano',
-    artist: 'SNIPER',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Johny Johny Yes Papa',
     artist: 'LooLoo Kids',
     album: 'Unknown',
@@ -10778,32 +7974,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Adolescente - Version 2007',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Knockout',
     artist: 'Deorro',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Marshall Mathers',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -10850,18 +8022,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Rose',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Besoin de rien, envie de toi',
     artist: 'Peter & Sloane',
     album: 'Unknown',
@@ -10888,18 +8048,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Apache (Jump On It)',
     artist: 'The Sugarhill Gang',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'La fille de la piscine',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -10946,32 +8094,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Normal',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Havana (feat. Young Thug)',
     artist: 'Camila Cabello',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Macadam',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -11042,30 +8166,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Las Estrellas',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Gnat',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Church',
     artist: 'Fall Out Boy',
     album: 'Unknown',
@@ -11092,18 +8192,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Coccinelle et papillon',
     artist: 'Natalie Tual',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Fall',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -11162,30 +8250,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Gangsta',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Christelle est une ordure',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'See You When I Git There',
     artist: 'Lou Rawls',
     album: 'Unknown',
@@ -11234,18 +8298,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Insolent 1',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Curse',
     artist: 'Bass Santana',
     album: 'Unknown',
@@ -11260,18 +8312,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Ms. Jackson - Radio Mix',
     artist: 'Outkast',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Insolent 3',
-    artist: 'Bigflo & Oli',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -11450,18 +8490,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'CASINO',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'I Wanna Know',
     artist: 'RL Grime',
     album: 'Unknown',
@@ -11534,18 +8562,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Ã€ ma place',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Little Thing Gone Wild',
     artist: 'Black Rebel Motorcycle Club',
     album: 'Unknown',
@@ -11596,18 +8612,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Where Darkness Reigns but Stars Ignite',
     artist: 'Sanyo Jacobson',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Love Game',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -11702,32 +8706,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'MARYAM',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Fan',
     artist: 'Pascal Obispo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Auto-Dance',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -11752,18 +8732,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Mwaka Moon - Remix',
     artist: 'Kalash',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Stepping Stone',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -12098,32 +9066,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'SOLAAR PLEURE',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Panda',
     artist: 'Desiigner',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'W.T.P.',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -12182,18 +9126,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'A la campagne',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Echographie',
     artist: 'B-Lel',
     album: 'Unknown',
@@ -12232,18 +9164,6 @@ export const musicsOthers: Music[] = [
   {
     title: '(I\'ve Had) The Time of My Life - From "Dirty Dancing" Soundtrack',
     artist: 'Bill Medley',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'INTERSTELLAR',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -12340,18 +9260,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Should I Stay or Should I Go - Remastered',
     artist: 'The Clash',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'L.U.T.T.E',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -12496,18 +9404,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'La danse des abeilles',
     artist: 'Les Enfantastiques',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'GRANDS BOUBOUS DES ANCÃŠTRES',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -12686,18 +9582,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Mouhammad Alix',
-    artist: 'Kery James',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Fuck You',
     artist: 'Dr. Dre',
     album: 'Unknown',
@@ -12782,7 +9666,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Les Portes Du Pénitencier - feat. Nemir, Keny Arkana, Nekfeu, Nor, REDK, Tekila, Lino, Bakar, Sat (FF), Medine, Orelsan, Gringe, Vincenzo, Soprano & Alonzo (Psy 4) [Version Longue]',
+    title:
+      'Les Portes Du Pénitencier - feat. Nemir, Keny Arkana, Nekfeu, Nor, REDK, Tekila, Lino, Bakar, Sat (FF), Medine, Orelsan, Gringe, Vincenzo, Soprano & Alonzo (Psy 4) [Version Longue]',
     artist: 'Shtar Academy',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -12796,18 +9681,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Intro/Promiscuous',
     artist: 'Nelly Furtado',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Au nom du Père... NoÃ«l',
-    artist: 'Hippocampe Fou',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -12868,18 +9741,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Dark Horse',
     artist: 'Katy Perry',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Insolent 2',
-    artist: 'Bigflo & Oli',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -13142,18 +10003,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'CP_003_Toujours perdu quand mÃªme',
-    artist: 'Orelsan',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'On en revient au mÃªme',
     artist: 'Demi Portion',
     album: 'Unknown',
@@ -13202,7 +10051,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Le Singe Fume Sa Cigarette (feat. Nekfeu, Alpha Wann, Jeanjass, Walter, Kéroué, Seven, Ysha & Senamo)',
+    title:
+      'Le Singe Fume Sa Cigarette (feat. Nekfeu, Alpha Wann, Jeanjass, Walter, Kéroué, Seven, Ysha & Senamo)',
     artist: 'Lomepal',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -13240,18 +10090,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Trip',
     artist: 'Ella Mai',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Mon Coeur Fait Vroum (My Heart Goes Vroom) - From "Cars 2"/Soundtrack Version',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -13336,18 +10174,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Oceans Away',
     artist: 'A R I Z O N A',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'James Webb',
-    artist: 'Zippo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -13826,18 +10652,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Plage 80',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'CoÃ±o',
     artist: 'Puri',
     album: 'Unknown',
@@ -14150,18 +10964,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Like Home',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Le pouvoir des fleurs',
     artist: 'Laurent Voulzy',
     album: 'Unknown',
@@ -14320,42 +11122,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Le zonard',
     artist: 'Haroun',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'PÃ‰TROLE',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Rayon de soleil',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Chiens sauvages',
-    artist: 'Zippo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -14618,18 +11384,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'RENCONTRE',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Shut Down',
     artist: 'BLACKPINK',
     album: 'Unknown',
@@ -14774,18 +11528,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Monsieur Tout-le-monde',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Scanner (feat. Léa Castel)',
     artist: 'Gringe',
     album: 'Unknown',
@@ -14846,18 +11588,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Tandem',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Marry You',
     artist: 'Bruno Mars',
     album: 'Unknown',
@@ -14906,18 +11636,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Nul en sport',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Demi-dieux',
     artist: 'Oldelaf',
     album: 'Unknown',
@@ -14942,7 +11660,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Petite Taupe et le mystérieux inconnu, Pt. 2 : En route vers la grotte',
+    title:
+      'Petite Taupe et le mystérieux inconnu, Pt. 2 : En route vers la grotte',
     artist: 'Petite Taupe',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -15110,18 +11829,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Infréquentable',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Maneater - Radio Version',
     artist: 'Nelly Furtado',
     album: 'Unknown',
@@ -15206,18 +11913,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Dis-lui oui',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Man! I Feel Like A Woman!',
     artist: 'Shania Twain',
     album: 'Unknown',
@@ -15232,18 +11927,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'La chamaille',
     artist: 'Les Momes Du Ce2',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Millionnaire',
-    artist: 'Soprano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -15350,18 +12033,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Malgré tout',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Gobisiqolo',
     artist: 'Bhizer',
     album: 'Unknown',
@@ -15412,30 +12083,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'NICE',
     artist: 'The Carters',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Jeune Demoiselle',
-    artist: 'Kery James',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Banlieusards',
-    artist: 'Kery James',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -15542,18 +12189,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'So Bad',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Viking',
     artist: 'D.ACE',
     album: 'Unknown',
@@ -15568,18 +12203,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Gimme More',
     artist: 'Britney Spears',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'NEPTUNE TERMINUS',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -15712,18 +12335,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Fils du hip-hop',
     artist: 'GaÃ«l Faye',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'The Way I Am',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -15914,18 +12525,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Just Lose It',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Do It',
     artist: 'Nelly Furtado',
     album: 'Unknown',
@@ -15950,18 +12549,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Ma sueur et mes larmes',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Bébé requin',
     artist: 'CoComelon en Français',
     album: 'Unknown',
@@ -15976,18 +12563,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'We Want Your Soul - Mike Williams Remix',
     artist: 'Dada Life',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Cold Wind Blows',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -16226,18 +12801,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Greatest',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Mon Répertoire',
     artist: 'Beyoncé',
     album: 'Unknown',
@@ -16442,18 +13005,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Higher',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: 'Famous',
     artist: 'Kanye West',
     album: 'Unknown',
@@ -16622,18 +13173,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Echo',
-    artist: 'Zippo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
     title: '2 Da Moon',
     artist: 'Towkio',
     album: 'Unknown',
@@ -16720,18 +13259,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Les légumes rigolos',
     artist: 'Monde des Titounis',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'Christophe (feat. GIMS)',
-    artist: 'Orelsan',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -17018,18 +13545,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Capitale de la rupture',
-    artist: 'Keny Arkana',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'FenÃªtre sur rue',
     artist: 'Hugo Tsr Crew',
     album: 'Unknown',
@@ -17044,18 +13559,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Des hommes pareils',
     artist: 'Francis Cabrel',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Stay Wide Awake',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -17330,18 +13833,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Nowhere Fast',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Le lapin',
     artist: 'Monde des Titounis',
     album: 'Unknown',
@@ -17426,32 +13917,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'GOSPEL MOLOTOV',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Ces gens-lÃ ',
     artist: 'Florent Pagny',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Voir sans Ãªtre vu',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -17510,32 +13977,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Beautiful Pain',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Feels (feat. Young Thug & J Hus)',
     artist: 'Ed Sheeran',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Must Be The Ganja',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -17678,18 +14121,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'COLLISION',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Ã‰coeuré',
     artist: 'Akhenaton',
     album: 'Unknown',
@@ -17704,18 +14135,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Better Give U Up',
     artist: 'FKJ',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Good Guy (feat. Jessie Reyez)',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -17774,18 +14193,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Bad Guy',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Azuro et le cristal chantant, Pt. 2',
     artist: 'Azuro',
     album: 'Unknown',
@@ -17800,30 +14207,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Ballad Of A Dead Soulja',
     artist: '2Pac',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Seduction',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'APRES-SOIREE',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -17918,18 +14301,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Le zoo de Vincennes',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Iphone 10',
     artist: 'Jupyter Hendrix',
     album: 'Unknown',
@@ -17990,18 +14361,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'One Love',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Elle panique',
     artist: 'Olivia Ruiz',
     album: 'Unknown',
@@ -18016,18 +14375,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'You Will Never Find',
     artist: 'John Holt',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Bitch Please II',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -18158,18 +14505,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Mort de rire',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Luv Me, Luv Me',
     artist: 'Shaggy',
     album: 'Unknown',
@@ -18196,18 +14531,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Assedic: 3 heures du matin',
     artist: 'Akhenaton',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Evil Twin',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -18506,18 +14829,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'RÃªve encore',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Mon plus beau NoÃ«l',
     artist: 'Johnny Hallyday',
     album: 'Unknown',
@@ -18578,18 +14889,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Transe-lucide',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'TÃªte épaules genoux pieds',
     artist: 'CoComelon en Français',
     album: 'Unknown',
@@ -18638,18 +14937,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Adama',
-    artist: 'SNIPER',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Rainy Days (feat. Eminem)',
     artist: 'WESTSIDE BOOGIE',
     album: 'Unknown',
@@ -18686,7 +14973,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'I Like To Move It (feat. The Mad Stuntman) ( Erick "More" Album Mix)',
+    title:
+      'I Like To Move It (feat. The Mad Stuntman) ( Erick "More" Album Mix)',
     artist: 'Reel 2 Real',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -18760,18 +15048,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Tombe la pluie, Pt.2',
     artist: 'Petite Taupe',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'En marge',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -18998,18 +15274,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Business',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Rider toute la Night',
     artist: 'Laeti',
     album: 'Unknown',
@@ -19142,30 +15406,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Compliqué',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Scénario',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Répondez-moi - Remastered',
     artist: 'Francis Cabrel',
     album: 'Unknown',
@@ -19180,18 +15420,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Hard As Hell (feat. Akon) - Main Version - Explicit',
     artist: 'UGK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Stronger Than I Was',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -19468,18 +15696,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Joli calao ne vole pas trop',
     artist: 'Jean-Emile Biayenda',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'River',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -19850,18 +16066,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Bang Bang',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Elle est Ã  toi',
     artist: 'Assia',
     album: 'Unknown',
@@ -19910,7 +16114,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Brotha Part II (feat. Alicia Keys & Eve) - Remix Album Version (and R&B Radio Version)',
+    title:
+      'Brotha Part II (feat. Alicia Keys & Eve) - Remix Album Version (and R&B Radio Version)',
     artist: 'Angie Stone',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -19984,18 +16189,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Gweta',
     artist: 'Toofan',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Em Calls Paul - Skit',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -20174,18 +16367,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Toujours en retard',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Punchlinerz',
     artist: 'Aketo',
     album: 'Unknown',
@@ -20282,18 +16463,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Ã€ petit feu',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Abc Song for Children',
     artist: 'ChuChu TV',
     album: 'Unknown',
@@ -20378,18 +16547,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: '30 ans',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'MoÃse',
     artist: 'disiz',
     album: 'Unknown',
@@ -20428,18 +16585,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'La Puissance',
     artist: 'Rohff',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Passage secret (Soma)',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -20606,18 +16751,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Adolescente - Live',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Pardon',
     artist: 'Guizmo',
     album: 'Unknown',
@@ -20716,18 +16849,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Neighborhood Hero',
     artist: 'Lil Durk',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Brule',
-    artist: 'SNIPER',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -20978,18 +17099,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Poisson étrange',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Evasion - Radio Edit',
     artist: 'Alpha Wann',
     album: 'Unknown',
@@ -21004,18 +17113,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Double P Majuscule',
     artist: 'Alpha Wann',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Soulève-moi',
-    artist: 'Daniel Balavoine',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -21184,18 +17281,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Get Down (feat. Samy Ceezy, Juice & Mister V)',
     artist: 'Tortoz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'ADN',
-    artist: 'Disiz',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -21422,18 +17507,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Coup de Blues / Soleil',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'La Femme Minuscule',
     artist: 'Les Conteurs',
     album: 'Unknown',
@@ -21626,18 +17699,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Zeus (feat. White Gold)',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Rose noire',
     artist: 'Georgio',
     album: 'Unknown',
@@ -21686,18 +17747,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Les numéros',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Ah ! Vous dirai-je maman',
     artist: 'Monde des Titounis',
     album: 'Unknown',
@@ -21736,18 +17785,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Changes',
     artist: '2Pac',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Etoiles Invisibles',
-    artist: 'Orelsan',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -21854,7 +17891,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Brahms: Variations on a Theme by Haydn for 2 Pianos, Op. 56b "St. Antoni Chorale": Variation I. Andante con moto (Live)',
+    title:
+      'Brahms: Variations on a Theme by Haydn for 2 Pianos, Op. 56b "St. Antoni Chorale": Variation I. Andante con moto (Live)',
     artist: 'Johannes Brahms',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -22034,18 +18072,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'GOSPEL',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'COUNT ME IN',
     artist: 'Lil Yachty',
     album: 'Unknown',
@@ -22094,32 +18120,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'La fin de leur monde',
-    artist: 'IAM',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Shorty (Got Her Eyes on Me)',
     artist: 'Donell Jones',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Sing For The Moment',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -22358,18 +18360,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'GOD BLESS',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Partons en voyage',
     artist: 'Gabby et la maison magique',
     album: 'Unknown',
@@ -22408,18 +18398,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Next Up',
     artist: 'Lil Yachty',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Pouces rouges',
-    artist: 'Zippo',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -22934,18 +18912,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'CP_005_Ok... Super...',
-    artist: 'Orelsan',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Fendi',
     artist: 'Ninho',
     album: 'Unknown',
@@ -23054,30 +19020,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Bad Husband',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Cligne des yeux',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Tsha nanu boye',
     artist: 'Robinio Mundibu',
     album: 'Unknown',
@@ -23116,18 +19058,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Voici les clés',
     artist: 'Gérard Lenorman',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Vade retro téléphone',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -23234,18 +19164,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Petit homme mort au combat',
-    artist: 'Daniel Balavoine',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Hallelujah',
     artist: 'Alicia Keys',
     album: 'Unknown',
@@ -23294,7 +19212,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Les portes du pénitencier (version longue) (feat. Nemir, Keny Arkana, Nekfeu, Nor, REDK, Tekila, Lino, Bakar, Sat (FF), Medine, Orelsan, Gringe, Vincenzo, Soprano & Alonzo (Psy 4))',
+    title:
+      'Les portes du pénitencier (version longue) (feat. Nemir, Keny Arkana, Nekfeu, Nor, REDK, Tekila, Lino, Bakar, Sat (FF), Medine, Orelsan, Gringe, Vincenzo, Soprano & Alonzo (Psy 4))',
     artist: 'Shtar Academy',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -23354,32 +19273,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'AMAPIANO',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Dans ton baladeur (DTB)',
     artist: 'Stupeflip',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'BAGARRER',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -23510,18 +19405,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Rhyme Or Reason',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Do You Remember',
     artist: 'Chance the Rapper',
     album: 'Unknown',
@@ -23536,18 +19419,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Si seulement',
     artist: '2TH',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Christophe (Remix Orelsan)',
-    artist: 'KIK',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -23620,18 +19491,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'La voisine',
     artist: 'Natalie Tual',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Pain Au Chocolat',
-    artist: 'IAM',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -23906,30 +19765,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Rien Ã  Foutre',
-    artist: 'Daniel Balavoine',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Partir avant les miens',
-    artist: 'Daniel Balavoine',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Héros national',
     artist: 'Koffi Olomide',
     album: 'Unknown',
@@ -23966,18 +19801,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Almost Famous',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Vida Loca',
     artist: 'Soolking',
     album: 'Unknown',
@@ -23992,18 +19815,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Wonderful Tonight',
     artist: 'Eric Clapton',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Going Through Changes',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -24194,32 +20005,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Les reflets verts',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'MAKEKE',
     artist: 'Krizbeatz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Hiro (feat. Indila)',
-    artist: 'Soprano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -24386,18 +20173,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Talkinâ€™ 2 Myself',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Lighters',
     artist: 'Bad Meets Evil',
     album: 'Unknown',
@@ -24518,32 +20293,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'NOUVEAU KARATÃ‰',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Rock Your Body',
     artist: 'Justin Timberlake',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Papa Au Foyer',
-    artist: 'Hippocampe Fou',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -24650,18 +20401,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Ã‰ternel recommencement',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Flex Like Ouu',
     artist: 'Lil Pump',
     album: 'Unknown',
@@ -24748,18 +20487,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Happier',
     artist: 'Ed Sheeran',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Baby',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -24902,18 +20629,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'H&M',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Marlich',
     artist: 'Tunisiano',
     album: 'Unknown',
@@ -24952,18 +20667,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Les passantes - Live',
     artist: 'Francis Cabrel',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Asshole',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -25022,32 +20725,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Menteur menteuse',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'That Love',
     artist: 'Shaggy',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Le monde est Ã  vendre',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -25286,30 +20965,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'PROSE COMBAT',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Marquises',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Changed My Mind',
     artist: 'E-Dubble',
     album: 'Unknown',
@@ -25324,18 +20979,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Les mains froides',
     artist: 'Oldelaf',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'PRIER SANS CRAINTE',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -25384,30 +21027,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Monster',
     artist: 'Mumford & Sons',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Tragic Endings',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Parking Lot - Skit',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -25478,7 +21097,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Good Vibrations - Live At Finsbury Park Astoria, London, 1968 / First Show',
+    title:
+      'Good Vibrations - Live At Finsbury Park Astoria, London, 1968 / First Show',
     artist: 'The Beach Boys',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -25492,18 +21112,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Nuthin\' But A "G" Thang',
     artist: 'Dr. Dre',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'GIGI',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -25646,18 +21254,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'ZEQUIN THEORY',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'ICY GRL',
     artist: 'Saweetie',
     album: 'Unknown',
@@ -25720,18 +21316,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'CLIC CLIC',
     artist: 'MC Solaar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Same Song & Dance',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -25886,7 +21470,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Simon part en vacances Ã  la montagne, Pt. 2: De surprises en surprises',
+    title:
+      'Simon part en vacances Ã  la montagne, Pt. 2: De surprises en surprises',
     artist: 'Simon',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -26008,18 +21593,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Get It Right (feat. MÃ˜)',
     artist: 'Diplo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Insolent 4',
-    artist: 'Bigflo & Oli',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -26522,30 +22095,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'La Boulette (Génération Nan Nan) - Live 2006',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Intro (Renaissance)',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Jabbing',
     artist: 'CDQ',
     album: 'Unknown',
@@ -26618,18 +22167,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Tiens-moi la main',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Ma rentrée chez Pépé, Pt. 2/6 - Histoire',
     artist: 'Koffi Olomide',
     album: 'Unknown',
@@ -26678,18 +22215,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'CP_001_Intro Civilisation Perdue',
-    artist: 'Orelsan',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Regards aveugles',
     artist: 'Carpe Diem',
     album: 'Unknown',
@@ -26716,18 +22241,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'MiAMi (feat. Gunna)',
     artist: 'Tory Lanez',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Steve Berman - Skit',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -26776,18 +22289,6 @@ export const musicsOthers: Music[] = [
   {
     title: '3SEX',
     artist: 'Indochine',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'La dernière fois que je parle de toi',
-    artist: 'KIK',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -26932,18 +22433,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Une souris verte',
     artist: 'Matthieu Prual',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Le slow',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -27410,18 +22899,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Les meilleurs ennemis',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Offspring',
     artist: 'Deorro',
     album: 'Unknown',
@@ -27566,18 +23043,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Deja Vu',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Loco',
     artist: 'Canardo',
     album: 'Unknown',
@@ -27674,18 +23139,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Lego',
-    artist: 'Zippo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Ensemble',
     artist: 'Tunisiano',
     album: 'Unknown',
@@ -27748,18 +23201,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'No More (feat. Travis Scott, Kodak Black & 21 Savage)',
     artist: 'Metro Boomin',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Paresseuse',
-    artist: 'Bénabar',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -27866,32 +23307,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Zoum (feat. Niska)',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Light Speed',
     artist: 'Dr. Dre',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Les nouveaux Hippies, Pt. 1',
-    artist: 'KIK',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -28094,18 +23511,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Paul - Skit',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Backstabber',
     artist: 'Kesha',
     album: 'Unknown',
@@ -28286,18 +23691,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'JDD',
-    artist: 'Zippo',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Vieux Biolo',
     artist: 'Tabu Ley Rochereau',
     album: 'Unknown',
@@ -28396,18 +23789,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Honey Get Home - Backing Track Master Take - Instrumental',
     artist: 'The Beach Boys',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'So Far...',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -28552,18 +23933,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Au calme',
     artist: 'Nakk Mendosa',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Trait pour trait',
-    artist: 'SNIPER',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -29330,44 +24699,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Youssoupha est mort',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'In My Times',
     artist: 'Bhizer',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Tous les divorcés - Radio Edit',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Medicine Ball',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -29690,18 +25023,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Groundhog Day',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'MACRO',
     artist: 'Alpha Wann',
     album: 'Unknown',
@@ -29752,30 +25073,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Machika - Remix',
     artist: 'J Balvin',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Crise de nerfs optiques',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'FAIRE MIEUX',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -29990,18 +25287,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'ALL IN',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Call On Me',
     artist: 'Starley',
     album: 'Unknown',
@@ -30134,18 +25419,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Fuegolando (Kikesa Remix)',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Lost in My Boots',
     artist: 'KWAYE',
     album: 'Unknown',
@@ -30266,18 +25539,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Bisou',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Reveillons Nous',
     artist: 'Aketo',
     album: 'Unknown',
@@ -30350,18 +25611,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Brothers (Remix Rilès)',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Black Widow',
     artist: 'Iggy Azalea',
     album: 'Unknown',
@@ -30386,7 +25635,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Azukita (Steve Aoki, Daddy Yankee, Play-N-Skillz & Elvis Crespo) (feat. Elvis Crespo)',
+    title:
+      'Azukita (Steve Aoki, Daddy Yankee, Play-N-Skillz & Elvis Crespo) (feat. Elvis Crespo)',
     artist: 'Steve Aoki',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -30436,18 +25686,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'SyndrÃ´me de Stockholm',
     artist: 'Carpe Diem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Dans mon monde',
-    artist: 'SNIPER',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -30650,18 +25888,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: '11-Sep',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Get Right',
     artist: 'Jennifer Lopez',
     album: 'Unknown',
@@ -30842,32 +26068,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Aurore boréale',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'La mise au poing',
     artist: 'Davodka',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Retour aux sources',
-    artist: 'SNIPER',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -30962,18 +26164,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Benkei Et Minamoto',
-    artist: 'IAM',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Figue, fille du figuier',
     artist: 'Christian Merveille',
     album: 'Unknown',
@@ -31010,20 +26200,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Le poisson rouge',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'NoÃ«l russe',
-    artist: 'ChÅ“ur Des Polysons',
+    artist: 'ChÅ"ur Des Polysons',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -31130,18 +26308,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Racailles',
-    artist: 'Kery James',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Mis manos (remastered)',
     artist: 'Juanita Cuenca',
     album: 'Unknown',
@@ -31154,31 +26320,7 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Desperation',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Meulé meulé / Aighttt',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Cette année-lÃ ',
+    title: 'Cette année-lÃ ',
     artist: 'Claude François',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -31250,18 +26392,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Monsieur René',
-    artist: 'Bénabar',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Wave Rider (From Hotel Transylvania 3)',
     artist: 'TiÃ«sto',
     album: 'Unknown',
@@ -31288,18 +26418,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Je Crois Pas',
     artist: 'Ikenna',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'La force de reconstruire (feat. Don Diego et K-Rlos)',
-    artist: 'Soprano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -31346,44 +26464,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'A CHAQUE JOUR...',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'La marelle',
-    artist: 'KIK',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Pump It Up',
     artist: 'Endor',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Dans une autre vie',
-    artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -31492,18 +26574,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Red Red Wine',
     artist: 'UB40',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Mr. Mathers - Skit',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -31696,18 +26766,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Les pirates Yohoho',
     artist: 'Monde des Titounis',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Qui aime bien, chÃ¢tie bien',
-    artist: 'Hippocampe Fou',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -31922,18 +26980,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'On Fire',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Heracles',
     artist: 'Moka Boka',
     album: 'Unknown',
@@ -31958,7 +27004,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Your Woman Has Just Been Sighted (Ring the Alarm) (feat. Jermaine Dupri)',
+    title:
+      'Your Woman Has Just Been Sighted (Ring the Alarm) (feat. Jermaine Dupri)',
     artist: 'Nate Dogg',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -32032,18 +27079,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Irreplaceable',
     artist: 'Beyoncé',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Nice Guy (with Jessie Reyez)',
-    artist: 'Eminem',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -32222,18 +27257,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'So Much Better',
-    artist: 'Eminem',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Your Wife (feat. Dr. Dre)',
     artist: 'Nate Dogg',
     album: 'Unknown',
@@ -32402,18 +27425,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'A la Ideal J',
-    artist: 'Kery James',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Tap tap',
     artist: 'Laurent Lahaye',
     album: 'Unknown',
@@ -32474,18 +27485,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'La calvitie',
-    artist: 'Hippocampe Fou',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Noche',
     artist: 'Lacrim',
     album: 'Unknown',
@@ -32500,18 +27499,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'VoilÃ  les kangourous',
     artist: 'Patapouf',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Nouveaux Hippies, Pt. 3',
-    artist: 'KIK',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -32630,18 +27617,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'SUPRÃŠME',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Tuesday (feat. Danelle Sandoval)',
     artist: 'Burak Yeter',
     album: 'Unknown',
@@ -32714,19 +27689,8 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'LA FIN DU MONDE',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
-    title: 'Bella Ciao - MÃºsica Original de la Serie la Casa de Papel/ Money Heist',
+    title:
+      'Bella Ciao - MÃºsica Original de la Serie la Casa de Papel/ Money Heist',
     artist: 'Manu Pilas',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -32870,18 +27834,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'LES ALMADIES (Interlude)',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 2,
-  },
-
-  {
     title: 'Amore',
     artist: 'G-Eazy',
     album: 'Unknown',
@@ -32903,5 +27855,5 @@ export const musicsOthers: Music[] = [
     duration: 180,
     genre: 'Unknown',
     timesListened: 2,
-  }
+  },
 ];

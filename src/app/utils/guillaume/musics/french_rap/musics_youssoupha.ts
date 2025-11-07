@@ -22,7 +22,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 4,
   },
   {
     title: 'Ma destinée',
@@ -33,7 +33,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Les apparences nous mentent',
@@ -44,7 +44,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 4,
   },
   {
     title: 'Macadam',
@@ -55,7 +55,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 197,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 4,
   },
   {
     title: 'Dangereux',
@@ -77,7 +77,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 223,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Nouveau désordre',
@@ -99,7 +99,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 3,
   },
   {
     title: 'One love',
@@ -110,7 +110,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Scénario',
@@ -121,7 +121,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'En marge',
@@ -132,7 +132,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Dans une autre vie',
@@ -143,7 +143,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Le monde est à vendre',
@@ -154,7 +154,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Rendons à Césaire...',
@@ -187,7 +187,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 227,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
 
   // Album : Sur les chemins du retour (2009) - Youssoupha
@@ -255,7 +255,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Escale (interlude)',
@@ -266,7 +266,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 95,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'La même adresse',
@@ -321,7 +321,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 223,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Quinze ans en arrière',
@@ -688,7 +688,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Smile',
@@ -800,7 +800,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 282,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 8,
   },
   {
     title: 'Par amour',
@@ -822,7 +822,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 120,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Devant',
@@ -892,7 +892,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Nouveau karaté',
@@ -903,7 +903,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 160,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Les Almadies (interlude)',
@@ -914,7 +914,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 91,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Dieu est grande',
@@ -925,7 +925,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 176,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Faire mieux',
@@ -936,7 +936,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 191,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Gospel Molotov',
@@ -947,7 +947,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 130,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Grand boubou des ancêtres',
@@ -969,7 +969,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Amour Suprême',
@@ -991,7 +991,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 171,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Gigi',
@@ -1002,7 +1002,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 174,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Prier sans crainte',
@@ -1013,6 +1013,6 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
 ];

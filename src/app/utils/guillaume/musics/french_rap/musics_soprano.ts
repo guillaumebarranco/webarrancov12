@@ -11,7 +11,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 83,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Le divan',
@@ -44,7 +44,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 338,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Halla Halla',
@@ -55,7 +55,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 284,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Dans ma tête',
@@ -66,7 +66,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 193,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 8,
   },
   {
     title: "Moi j'ai pas",
@@ -99,7 +99,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 274,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Juste fais le (feat Le Rat Luciano)',
@@ -110,7 +110,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 253,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Le bistro du coin',
@@ -121,7 +121,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 82,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'À la bien!',
@@ -154,7 +154,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 331,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 4,
   },
   {
     title: 'Ferme les yeux et imagine-toi (feat Blacko)',
@@ -165,7 +165,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 276,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Passe-moi le mic',
@@ -176,7 +176,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 253,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: "Puisqu'il faut vivre",
@@ -222,7 +222,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 181,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Ils nous connaissent pas',

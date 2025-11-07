@@ -222,7 +222,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Splash',
@@ -233,7 +233,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'La fille de la piscine',
@@ -244,7 +244,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 212,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 4,
   },
   {
     title: 'Carré bleu',
@@ -266,7 +266,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Menteur menteuse',
@@ -277,7 +277,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Marquises',
@@ -288,7 +288,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Compliqué',
@@ -299,7 +299,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Meulé meulé / Aighttt',
@@ -310,7 +310,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 223,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Watcha',
@@ -332,7 +332,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 210,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 3,
   },
   {
     title: 'Quand je serai chaos',
@@ -365,7 +365,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 217,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Poisson étrange',
@@ -376,7 +376,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 204,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: "Qu'ils ont de la chance",
@@ -398,7 +398,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'Ça va aller (secret RMX)',
@@ -420,7 +420,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 3,
   },
 
   // Album : Disizilla (2018) - Disiz
@@ -433,7 +433,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 214,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Disizilla',
@@ -444,7 +444,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Mastodonte',
@@ -455,7 +455,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 8,
   },
   {
     title: 'Hendek',
@@ -466,7 +466,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'Mahboul',
@@ -477,7 +477,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 192,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Terre promise',
@@ -488,7 +488,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'Hiroshima',
@@ -510,7 +510,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 221,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 6,
   },
   {
     title: 'N*Q**R la fac',
@@ -543,7 +543,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 212,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Monstrueuse',
@@ -554,7 +554,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 8,
   },
   {
     title: 'Owi',
@@ -565,7 +565,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 189,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Cercle rouge',
@@ -576,7 +576,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 217,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 8,
   },
   {
     title: 'Tout partira',
@@ -587,7 +587,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'Ulysse',
@@ -598,6 +598,6 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 223,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 6,
   },
 ];

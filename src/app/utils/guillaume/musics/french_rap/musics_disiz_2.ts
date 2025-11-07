@@ -110,7 +110,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 314,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: '27 octobre',
@@ -121,7 +121,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 288,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Il est déjà trop tard',
@@ -395,7 +395,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'Validé',
@@ -675,7 +675,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 48,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 6,
   },
   {
     title: 'Banlieusard Syndrome',
@@ -697,7 +697,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 222,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'Kamikaze',
@@ -708,7 +708,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 237,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 8,
   },
   {
     title: 'Rap Genius',
@@ -719,7 +719,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 451,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Fuck Les Problèmes',
@@ -730,7 +730,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 223,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 8,
   },
   {
     title: 'MC Kissinger',
@@ -763,7 +763,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Eau (Interlude)',
@@ -774,7 +774,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 20,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'King of Cool',
@@ -818,7 +818,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 22,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Luv (Prends Le Risque)',
@@ -840,7 +840,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 368,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 8,
   },
   {
     title: 'Happy End',
@@ -851,7 +851,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 298,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 8,
   },
   {
     title: 'Lotus',
@@ -862,6 +862,6 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 277,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 4,
   },
 ];

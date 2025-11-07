@@ -11,7 +11,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 68,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 4,
   },
   {
     title: 'Le Missile Suit Sa Lancée',
@@ -22,7 +22,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 199,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: "J'Viens De L'Incendie",
@@ -99,7 +99,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 330,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'Cueille Ta Vie',
@@ -132,7 +132,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 217,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Entre Les Mots : Du Local Au Global',
@@ -154,7 +154,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 325,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Ils Ont Peur De La Liberté',
@@ -198,7 +198,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 200,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Entre Les Lignes : Prière',
@@ -209,7 +209,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 258,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 7,
   },
 
   // Album : Tout tourne autour du soleil (2012)
@@ -255,7 +255,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 169,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Entre les lignes #1 : Car nous sommes le monde',
@@ -288,7 +288,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 243,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 4,
   },
   {
     title: 'Cynisme vous a tué ?',

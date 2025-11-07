@@ -11,7 +11,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 300,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 6,
   },
 
   // Album : À l'ombre du show business (2008)
@@ -24,7 +24,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 470,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 3,
   },
 
   // Album : Réel (2009)
@@ -105,7 +105,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 389,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Love Music',
@@ -149,7 +149,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Le mystère féminin (feat. Imany)',
@@ -204,7 +204,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 411,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 8,
   },
   {
     title: 'Post Scriptum (écrit par Brav)',
@@ -273,7 +273,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 266,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 3,
   },
   {
     title: 'Douleur ébène',
@@ -427,7 +427,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 396,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: "J'suis pas un héros",

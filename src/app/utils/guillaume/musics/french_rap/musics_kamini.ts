@@ -33,7 +33,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Chevalier',
@@ -99,7 +99,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 214,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Faisons Quéquette',
@@ -121,7 +121,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 202,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Petits Patelins',
@@ -167,7 +167,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 194,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'En ce moment même',
@@ -211,7 +211,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 204,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'La Maladie des Hommes',
@@ -222,7 +222,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 249,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 6,
   },
   {
     title: 'Interlude',
@@ -233,7 +233,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 45,
     genre: 'Rap/Hip-Hop',
-    timesListened: 12,
+    timesListened: 10,
   },
   {
     title: 'Les Gens',
@@ -244,7 +244,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 221,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 8,
   },
   {
     title: 'Night Club System',
@@ -255,7 +255,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 278,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Ovni',

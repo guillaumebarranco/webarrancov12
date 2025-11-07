@@ -99,7 +99,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 189,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Riz sauce rien',
@@ -143,7 +143,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 193,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: "Tu t'es vu quand t'abuses",
@@ -342,7 +342,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 197,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'Partir loin',

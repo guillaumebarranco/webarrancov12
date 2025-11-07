@@ -187,7 +187,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 285,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Les rumeurs',
@@ -677,7 +677,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 243,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'La Fille Facile',
@@ -699,7 +699,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 245,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 7,
   },
   {
     title: 'Mc Pikachou (Ping Pong & King Kong) (interlude)',
@@ -710,7 +710,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 87,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Fuck You (Part 2)',
@@ -721,7 +721,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 283,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: 'Juste Kiffer',
@@ -754,7 +754,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 233,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Métis(Se) (Remix)',

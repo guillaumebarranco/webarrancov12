@@ -99,7 +99,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 237,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: "L'Enfer",
@@ -143,7 +143,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 230,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 8,
   },
   {
     title: 'Bouger la tête',
@@ -211,7 +211,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 6,
   },
   {
     title: 'Tous les saints de la terre',
@@ -244,7 +244,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 260,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: '4.2.1',
@@ -343,7 +343,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 224,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 2,
   },
   {
     title: 'Sombres manœuvres / Manœuvres sombres',

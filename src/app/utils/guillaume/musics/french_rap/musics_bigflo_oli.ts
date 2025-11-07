@@ -11,7 +11,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 284,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Gangsta',
@@ -22,7 +22,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 13,
+    timesListened: 4,
   },
   {
     title: 'Quand même',
@@ -44,7 +44,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 301,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Monsieur tout le monde',
@@ -68,7 +68,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 9,
   },
   {
     title: "C'est qui ces deux-là ?",
