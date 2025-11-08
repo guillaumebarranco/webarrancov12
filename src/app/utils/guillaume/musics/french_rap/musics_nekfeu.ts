@@ -55,7 +55,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 296,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Tempête',
@@ -143,7 +143,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 229,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Elle en avait envie',
@@ -187,7 +187,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Être humain',
@@ -211,7 +211,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 386,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Mauvaise graine',
@@ -455,7 +455,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 171,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'De mon mieux',
@@ -499,7 +499,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 243,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Premier Pas',
@@ -664,7 +664,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 302,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Pixels',
@@ -708,7 +708,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 222,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Premier rôle',
@@ -719,7 +719,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 265,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'À la base',

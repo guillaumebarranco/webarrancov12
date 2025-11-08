@@ -33,7 +33,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 245,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Bombe humaine',
@@ -77,7 +77,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 222,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'La famille (feat Léa Castel)',
@@ -187,7 +187,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 356,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "L'hiver d'un été (Bonus)",
@@ -198,7 +198,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 224,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Album : Cosmopolitanie (2009)
@@ -534,7 +534,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Le monde est stone',

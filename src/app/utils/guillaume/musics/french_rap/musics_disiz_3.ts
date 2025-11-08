@@ -77,7 +77,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Bitchiz',
@@ -176,7 +176,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Year of the Dragon (Bonus Track)',
@@ -187,7 +187,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Malcolm (Bonus Track)',
@@ -198,7 +198,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Album : Pacifique (2017) - Disiz
@@ -211,7 +211,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Passage secret (Soma)',
@@ -255,7 +255,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'À petit feu',
@@ -321,7 +321,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'L.U.T.T.E',
@@ -343,7 +343,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Vibe',
@@ -354,7 +354,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 192,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'ADN',
@@ -387,7 +387,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 199,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Autre espèce',
@@ -409,7 +409,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Pop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Auto-Dance',
@@ -532,7 +532,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Dialogue entre monstres',

@@ -200,7 +200,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 104,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Au bout du compte',
@@ -211,7 +211,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 178,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "À l'heure où je me couche",
@@ -222,7 +222,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 220,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Quand ton père t'engueule",
@@ -233,7 +233,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'En boucle',
@@ -255,7 +255,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 102,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Freestyle Radio Phoenix',
@@ -310,7 +310,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 233,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Promenade imprévue',
@@ -321,7 +321,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 90,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Xavier',
@@ -332,7 +332,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 227,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Wondercash',
@@ -354,7 +354,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 97,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Si facile',
@@ -387,6 +387,6 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 174,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 ];

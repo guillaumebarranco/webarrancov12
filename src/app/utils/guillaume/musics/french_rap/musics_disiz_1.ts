@@ -22,7 +22,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 164,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Un scratch, un beat, un rap',
@@ -33,7 +33,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 235,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "J'pète les plombs",
@@ -44,7 +44,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 225,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "C'est ça la France",
@@ -55,7 +55,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 275,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Dieu seul sait quand le glas sonne',
@@ -66,7 +66,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 182,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "J'irai cracher sur vos tombes",
@@ -77,7 +77,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 362,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Ghetto sitcom',
@@ -88,7 +88,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 292,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Fuck Disiz',
@@ -99,7 +99,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 87,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Klash pas quand même',
@@ -110,7 +110,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 452,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Plus l'temps",
@@ -121,7 +121,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 217,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "L'associé du diable",
@@ -132,7 +132,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 150,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "L'avocat des anges",
@@ -143,7 +143,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 270,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Lyrics de gamin',
@@ -154,7 +154,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 278,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Gnibi',
@@ -165,7 +165,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 228,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'La philosophie du hall',
@@ -176,7 +176,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 303,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Le poisson rouge',
@@ -198,7 +198,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 196,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Le 6e sens',
@@ -209,7 +209,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 332,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Outro',
@@ -233,7 +233,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 264,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Déjà-vu',
@@ -244,7 +244,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 300,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Jeu de société',
@@ -255,7 +255,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 293,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "C'est toujours ça, la France",
@@ -266,7 +266,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 225,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Oh, le ouf !',
@@ -277,7 +277,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 188,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Evry Slang',
@@ -288,7 +288,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 56,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Trop de chichis',
@@ -299,7 +299,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 242,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Le Réveil',
@@ -310,7 +310,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 290,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Nébuleuse',
@@ -321,7 +321,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 370,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'MC Pikachu (interlude)',
@@ -332,7 +332,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 106,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Système D',
@@ -343,7 +343,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 276,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'La Trêve',
@@ -354,7 +354,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 225,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: '91 Unda',
@@ -365,7 +365,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'À nos actes manqués',
@@ -376,7 +376,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 272,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Cours d'histoire",
@@ -387,7 +387,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 415,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Insécurité sociale',
@@ -398,7 +398,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 290,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Je suis guèze !',
@@ -409,7 +409,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Viens, on discute',
@@ -420,7 +420,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 237,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Le bien, c'est ma cible",
@@ -431,7 +431,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 267,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Album : Itinéraire d'un Enfant Bronzé (2004) - Disiz La Peste
@@ -444,7 +444,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 225,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Gnibi',
@@ -455,7 +455,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 227,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Sant Yalla',
@@ -466,7 +466,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 371,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Ayoh Neneh',
@@ -477,7 +477,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Djiguën',
@@ -488,7 +488,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 400,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Môm',
@@ -499,7 +499,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "N'Dioukel",
@@ -510,7 +510,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 256,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Voix du Sénégal',
@@ -521,7 +521,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 342,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Sama Ajana',
@@ -532,7 +532,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Sénégalais de France',
@@ -543,7 +543,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 382,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Soldat de la paix',
@@ -554,7 +554,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 271,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "L'homme rendra des comptes",
@@ -565,7 +565,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 427,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Aime ton prochain comme toi-même',
@@ -576,7 +576,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 245,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "N'Jillou (Part II)",
@@ -587,7 +587,7 @@ export const musicsDisiz1: Music[] = [
     rating: 0,
     duration: 199,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Album : Les Histoires Extraordinaires d'un Jeune de Banlieue (2006) - Disiz La Peste

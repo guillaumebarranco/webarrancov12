@@ -77,7 +77,7 @@ export const musicsKik: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Adieu',
@@ -110,7 +110,7 @@ export const musicsKik: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Bandana Mauve',
@@ -211,7 +211,7 @@ export const musicsKik: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Rubi (feat. Rubi)',
@@ -310,7 +310,7 @@ export const musicsKik: Music[] = [
     rating: 0,
     duration: 120,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Lettre a mon ex',
@@ -376,7 +376,7 @@ export const musicsKik: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Elle sait',

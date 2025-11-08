@@ -18,8 +18,14 @@ import { musicsKik } from './musics_kik';
 import { musicsZippo } from './musics_zippo';
 import { musicsFatalBazooka } from './musics_fatal_bazooka';
 import { musicsYoussoupha } from './musics_youssoupha';
+import { musicsDace } from './musics_dace';
+import { musicsMcSolaar } from './musics_mc_solaar';
 import { musicsRapFrVarious } from './musics_rap_fr_various';
-import { musicsOrelsan2 } from './music_orelsan_2';
+import { musicsOrelsan2 } from './musics_orelsan_2';
+import { musicsDiams } from './musics_diams';
+import { musicsKizito } from './musics_kizito';
+import { musicsSinik } from './musics_sinik';
+import { musicsBooba } from './musics_booba';
 
 export const frenchRapMusics = [
   ...musicsOrelsan1,
@@ -43,5 +49,11 @@ export const frenchRapMusics = [
   ...musicsKik,
   ...musicsZippo,
   ...musicsFatalBazooka,
+  ...musicsDace,
+  ...musicsMcSolaar,
+  ...musicsDiams,
+  ...musicsKizito,
+  ...musicsSinik,
+  ...musicsBooba,
   ...musicsRapFrVarious,
 ];

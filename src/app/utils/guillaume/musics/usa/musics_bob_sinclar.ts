@@ -1,0 +1,48 @@
+import { Music } from '../../../../models/music-model';
+
+export const musicsBobSinclar: Music[] = [
+  {
+    title: 'Rock This Party (Everybody Dance Now)',
+    artist: 'Bob Sinclar',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 36,
+  },
+  {
+    title: 'Rock This Party - Everybody Dance Now',
+    artist: 'Bob Sinclar',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 33,
+  },
+  {
+    title: 'Sound of Freedom',
+    artist: 'Bob Sinclar',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 9,
+  },
+  {
+    title: 'What I Want',
+    artist: 'Bob Sinclar',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 6,
+  },
+];

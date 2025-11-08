@@ -44,7 +44,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Sans exception',
@@ -55,7 +55,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Chercheur d'énergie",
@@ -66,7 +66,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Le Fils du commissaire',
@@ -154,7 +154,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 197,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Loin de la vérité',
@@ -243,7 +243,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Ça fait plaisir',
@@ -254,7 +254,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Travailler plus',
@@ -309,7 +309,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 193,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Tiéquart',
@@ -320,7 +320,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Libre comme l'air",
@@ -331,7 +331,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Rien à déclarer',
@@ -364,7 +364,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Squatter les terrasses',
@@ -375,7 +375,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Le printemps',

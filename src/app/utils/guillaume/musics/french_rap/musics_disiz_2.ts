@@ -11,7 +11,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 268,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Alors tu veux rapper ? / Flowmatic',
@@ -44,7 +44,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 188,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Quand le peuple va se lever',
@@ -77,7 +77,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 50,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'L.O.V.E.',
@@ -143,7 +143,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 270,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Le monde sur mesure',
@@ -178,7 +178,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 125,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Dans le ventre du crocodile',
@@ -189,7 +189,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Rien comme les autres',
@@ -200,7 +200,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 217,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Yeah Yeah Yeah',
@@ -211,7 +211,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 228,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Je t'aime mais je te quitte",
@@ -222,7 +222,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 185,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Jolies planètes',
@@ -233,7 +233,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 182,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Faire la mer',
@@ -244,7 +244,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Trans-Mauritania',
@@ -255,7 +255,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 244,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Problème XXX',
@@ -266,7 +266,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 129,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Les monstres',
@@ -277,7 +277,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 255,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Paradoxe',
@@ -288,7 +288,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 220,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'La luciole',
@@ -299,7 +299,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 238,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Les équilibristes (Bonus Track)',
@@ -310,7 +310,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 165,
     genre: 'Rap Rock',
-    timesListened: 0,
+    timesListened: 1,
   },
   // Album : Lucide (2012) - Disiz
   {
@@ -335,7 +335,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "J'ai la haine",
@@ -347,7 +347,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Mon amour',
@@ -407,7 +407,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 225,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Album : Extra-Lucide (2012) - Disiz
@@ -464,7 +464,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 277,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Extra-lucide',
@@ -563,7 +563,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 250,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Fête foraine',
@@ -585,7 +585,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 257,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Les moyens du bord',

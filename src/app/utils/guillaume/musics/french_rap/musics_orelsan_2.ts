@@ -33,7 +33,7 @@ export const musicsOrelsan2: Music[] = [
     rating: 0,
     duration: 197,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Du propre',
@@ -468,7 +468,6 @@ export const musicsOrelsan2: Music[] = [
     genre: 'Rap/Hip-Hop',
     timesListened: 1,
   },
-
   {
     title: 'Qui dit mieux (feat. Orelsan, Vald & Suikon Blaz AD)',
     artist: 'Gringe',

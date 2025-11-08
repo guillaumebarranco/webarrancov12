@@ -113,7 +113,10 @@ export class MusicsComponent {
     // Filtrer les albums complets (8+ chansons) et créer des objets Album
     const albums: Album[] = [];
     albumsMap.forEach((musics, key) => {
-      if (musics.length >= 8) {
+      if (
+        musics.length >= 8 &&
+        musics.every((music) => music.timesListened > 1)
+      ) {
         const [albumName, artist] = key.split('|');
         albums.push({
           name: albumName,

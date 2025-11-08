@@ -79,7 +79,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Comme d'hab",
@@ -90,7 +90,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Le bouchon',
@@ -123,7 +123,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Raccroche',
@@ -156,7 +156,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Ça coûte rien',
@@ -233,7 +233,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 192,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Mytho',
@@ -266,7 +266,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Demain c'est nous",
@@ -277,7 +277,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'La tempête',
@@ -299,7 +299,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 212,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "C'est que le début",
@@ -310,7 +310,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 189,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Pourquoi pas nous ?',
@@ -321,7 +321,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 196,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Héritage',
@@ -332,7 +332,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Album : La Vraie Vie (2017) - Bigflo & Oli
@@ -510,7 +510,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 216,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Cigarette',
@@ -688,7 +688,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Château de sable',
@@ -734,7 +734,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "J'étais pas là",
@@ -745,7 +745,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Bons élèves',

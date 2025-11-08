@@ -345,7 +345,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 246,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Viens',
@@ -367,7 +367,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 254,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Menace de mort',
@@ -422,7 +422,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 335,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'B.A.O.',
@@ -433,7 +433,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 269,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Gestelude, Pt. 1',
@@ -466,7 +466,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 256,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Dreamin'",
@@ -477,7 +477,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 304,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Gestelude, Pt. 2',
@@ -532,7 +532,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 287,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'On se connaît (Bonus Version Deluxe)',
@@ -543,7 +543,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 274,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Album : NGRTD (2015) - Youssoupha
@@ -556,7 +556,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 191,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Salaam',
@@ -589,7 +589,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Memento',
@@ -767,7 +767,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 194,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Avoir de l'argent",
@@ -778,7 +778,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 253,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Les sentiments à l'envers",
@@ -789,7 +789,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 228,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Alléluia / 1989',
@@ -855,7 +855,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 275,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Album : Neptune Terminus (2021) - Youssoupha
@@ -881,7 +881,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 140,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Zequin theory',
@@ -958,7 +958,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 192,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Prose Combat',
@@ -980,7 +980,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 134,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'God Bless',

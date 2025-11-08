@@ -22,7 +22,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 141,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Psychostar Show',
@@ -77,7 +77,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Psychostar World',
@@ -156,7 +156,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 250,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'La Bagarre',
@@ -178,7 +178,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 333,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Y'a l'Aziz",
@@ -189,7 +189,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 247,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Ça c'est Showbizz",
@@ -200,7 +200,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 244,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Faut que ça Fuck',
@@ -277,7 +277,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 250,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Son de l'Campagne dans ta Gueule",
@@ -288,6 +288,6 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 251,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 ];

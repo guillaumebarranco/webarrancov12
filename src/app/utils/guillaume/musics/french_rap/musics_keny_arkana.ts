@@ -33,7 +33,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 254,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "J'Me Barre",
@@ -66,7 +66,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Eh Connard',
@@ -121,7 +121,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 224,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Victoria',
@@ -187,7 +187,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 247,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Entre Les Lignes : Une Goutte De Plus',
@@ -222,7 +222,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Esprits libres',
@@ -233,7 +233,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 237,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Le Syndrome de l'exclu (feat. RPZ)",
@@ -244,7 +244,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 222,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Capitale de la rupture',
@@ -266,7 +266,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 227,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Vie d'artiste",
@@ -277,7 +277,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 268,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Gens pressés',
@@ -299,7 +299,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 305,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Indignados',
@@ -310,7 +310,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 241,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Casse le schéma',
@@ -321,7 +321,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 214,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "J'ai osé",
@@ -332,7 +332,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 259,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Entre les lignes #2 : 20.12',
@@ -343,7 +343,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 322,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Y a urgence !',
@@ -354,7 +354,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 226,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Le monde est notre reflet',
@@ -365,7 +365,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 234,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Cherche en toi',
@@ -376,7 +376,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 220,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Fille du vent',
@@ -387,7 +387,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 235,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Tout tourne autour du soleil',
@@ -398,7 +398,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 237,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Retour à la terre / Le Retour de l'enfant prodigue",
@@ -409,7 +409,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 515,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Autres sorties

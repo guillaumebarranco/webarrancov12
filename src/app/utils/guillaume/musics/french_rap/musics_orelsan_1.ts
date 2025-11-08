@@ -77,7 +77,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Gros poisson dans une petite mare',
@@ -189,7 +189,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Mauvaise idée',
@@ -433,7 +433,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'La pluie',
@@ -466,7 +466,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Christophe',
