@@ -299,7 +299,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 288,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Kamikaze',
@@ -332,7 +332,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 150,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Good Guy',
@@ -455,7 +455,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 266,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Yah Yah',
@@ -554,7 +554,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'I Will',
@@ -565,7 +565,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 303,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Alfred (Outro)',

@@ -11,7 +11,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 268,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'Alors tu veux rapper ? / Flowmatic',
@@ -22,7 +22,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 410,
     genre: 'Rap/Hip-Hop',
-    timesListened: 22,
+    timesListened: 150,
   },
   {
     title: 'Bête de bombe 4',
@@ -33,7 +33,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 164,
     genre: 'Rap/Hip-Hop',
-    timesListened: 20,
+    timesListened: 150,
   },
   {
     title: "C'est la vérité",
@@ -44,7 +44,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 188,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: 'Quand le peuple va se lever',
@@ -55,7 +55,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 262,
     genre: 'Rap/Hip-Hop',
-    timesListened: 34,
+    timesListened: 150,
   },
   {
     title: 'Odyssée',
@@ -66,7 +66,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 352,
     genre: 'Rap/Hip-Hop',
-    timesListened: 34,
+    timesListened: 180,
   },
   {
     title: "...Derrière l'arbre (interlude)",
@@ -77,7 +77,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 50,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'L.O.V.E.',
@@ -88,7 +88,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 300,
     genre: 'Rap/Hip-Hop',
-    timesListened: 40,
+    timesListened: 230,
   },
   {
     title: 'Papa lova',
@@ -99,7 +99,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 258,
     genre: 'Rap/Hip-Hop',
-    timesListened: 13,
+    timesListened: 150,
   },
   {
     title: 'Le temps précieux',
@@ -110,7 +110,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 314,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 150,
   },
   {
     title: '27 octobre',
@@ -121,7 +121,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 288,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 80,
   },
   {
     title: 'Il est déjà trop tard',
@@ -132,7 +132,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 276,
     genre: 'Rap/Hip-Hop',
-    timesListened: 22,
+    timesListened: 150,
   },
   {
     title: "J'ai changé",
@@ -143,7 +143,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 270,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'Le monde sur mesure',
@@ -154,7 +154,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 214,
     genre: 'Rap/Hip-Hop',
-    timesListened: 20,
+    timesListened: 120,
   },
   {
     title: 'Disiz the end.',
@@ -165,7 +165,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 12,
+    timesListened: 120,
   },
 
   // Album : Dans le Ventre du Crocodile (2010) - Disiz Peter Punk
@@ -178,7 +178,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 125,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Dans le ventre du crocodile',
@@ -189,7 +189,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Rien comme les autres',
@@ -200,7 +200,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 217,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 70,
   },
   {
     title: 'Yeah Yeah Yeah',
@@ -211,7 +211,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 228,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 70,
   },
   {
     title: "Je t'aime mais je te quitte",
@@ -222,7 +222,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 185,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Jolies planètes',
@@ -233,7 +233,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 182,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: 'Faire la mer',
@@ -244,7 +244,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Trans-Mauritania',
@@ -255,7 +255,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 244,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Problème XXX',
@@ -266,7 +266,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 129,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Les monstres',
@@ -277,7 +277,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 255,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Paradoxe',
@@ -288,7 +288,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 220,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'La luciole',
@@ -299,7 +299,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 238,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 200,
   },
   {
     title: 'Les équilibristes (Bonus Track)',
@@ -310,7 +310,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 165,
     genre: 'Rap Rock',
-    timesListened: 1,
+    timesListened: 20,
   },
   // Album : Lucide (2012) - Disiz
   {
@@ -323,7 +323,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 210,
     genre: 'Rap/Hip-Hop',
-    timesListened: 25,
+    timesListened: 250,
   },
   {
     title: 'Moïse',
@@ -335,7 +335,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 250,
   },
   {
     title: "J'ai la haine",
@@ -347,7 +347,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 200,
   },
   {
     title: 'Mon amour',
@@ -359,7 +359,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 18,
+    timesListened: 250,
   },
   {
     title: 'Un frigo un cœur et des couilles',
@@ -371,7 +371,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 192,
     genre: 'Rap/Hip-Hop',
-    timesListened: 28,
+    timesListened: 250,
   },
   {
     title: 'Bête de bombe 5',
@@ -383,7 +383,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 16,
+    timesListened: 200,
   },
   {
     title: 'Gagne pain',
@@ -395,7 +395,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 7,
+    timesListened: 30,
   },
   {
     title: 'Validé',
@@ -407,7 +407,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 225,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 30,
   },
 
   // Album : Extra-Lucide (2012) - Disiz
@@ -420,7 +420,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 36,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 200,
   },
   {
     title: 'Combien de temps ?',
@@ -431,7 +431,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 24,
+    timesListened: 200,
   },
   {
     title: 'Everything',
@@ -442,7 +442,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 217,
     genre: 'Rap/Hip-Hop',
-    timesListened: 35,
+    timesListened: 200,
   },
   {
     title: 'Best day',
@@ -453,7 +453,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 27,
+    timesListened: 200,
   },
   {
     title: "Pour l'homme",
@@ -464,7 +464,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 277,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 200,
   },
   {
     title: 'Extra-lucide',
@@ -475,7 +475,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 296,
     genre: 'Rap/Hip-Hop',
-    timesListened: 24,
+    timesListened: 200,
   },
   {
     title: 'Tu brilles',
@@ -486,7 +486,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 204,
     genre: 'Rap/Hip-Hop',
-    timesListened: 27,
+    timesListened: 200,
   },
   {
     title: 'Toussa toussa (Remix)',
@@ -497,7 +497,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 178,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 150,
   },
   {
     title: 'Go Go Gadget',
@@ -508,7 +508,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 249,
     genre: 'Rap/Hip-Hop',
-    timesListened: 52,
+    timesListened: 250,
   },
   {
     title: 'Porte disparue',
@@ -519,7 +519,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 357,
     genre: 'Rap/Hip-Hop',
-    timesListened: 27,
+    timesListened: 200,
   },
   {
     title: 'Actarus',
@@ -530,7 +530,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 117,
     genre: 'Rap/Hip-Hop',
-    timesListened: 24,
+    timesListened: 200,
   },
   {
     title: 'Je les garde',
@@ -541,7 +541,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 273,
     genre: 'Rap/Hip-Hop',
-    timesListened: 25,
+    timesListened: 250,
   },
   {
     title: 'Les bienveillants',
@@ -552,7 +552,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 254,
     genre: 'Rap/Hip-Hop',
-    timesListened: 33,
+    timesListened: 250,
   },
   {
     title: "C'est ma tournée",
@@ -563,7 +563,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 250,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 200,
   },
   {
     title: 'Fête foraine',
@@ -574,7 +574,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 269,
     genre: 'Rap/Hip-Hop',
-    timesListened: 14,
+    timesListened: 200,
   },
   {
     title: "Salauds d'pauvres",
@@ -585,7 +585,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 257,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 200,
   },
   {
     title: 'Les moyens du bord',
@@ -596,7 +596,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 275,
     genre: 'Rap/Hip-Hop',
-    timesListened: 12,
+    timesListened: 250,
   },
   {
     title: 'Fukushima',
@@ -607,7 +607,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 308,
     genre: 'Rap/Hip-Hop',
-    timesListened: 14,
+    timesListened: 200,
   },
   {
     title: 'Life is good',
@@ -618,7 +618,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 46,
+    timesListened: 250,
   },
   {
     title: 'Polyuréthane (Plastic life)',
@@ -629,7 +629,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 234,
     genre: 'Rap/Hip-Hop',
-    timesListened: 18,
+    timesListened: 150,
   },
   {
     title: 'Bullshitter',
@@ -675,7 +675,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 48,
     genre: 'Rap/Hip-Hop',
-    timesListened: 6,
+    timesListened: 100,
   },
   {
     title: 'Banlieusard Syndrome',
@@ -686,7 +686,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 146,
     genre: 'Rap/Hip-Hop',
-    timesListened: 11,
+    timesListened: 100,
   },
   {
     title: 'Miskine',
@@ -697,7 +697,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 222,
     genre: 'Rap/Hip-Hop',
-    timesListened: 7,
+    timesListened: 150,
   },
   {
     title: 'Kamikaze',
@@ -708,7 +708,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 237,
     genre: 'Rap/Hip-Hop',
-    timesListened: 8,
+    timesListened: 200,
   },
   {
     title: 'Rap Genius',
@@ -719,7 +719,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 451,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 150,
   },
   {
     title: 'Fuck Les Problèmes',
@@ -730,7 +730,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 223,
     genre: 'Rap/Hip-Hop',
-    timesListened: 8,
+    timesListened: 120,
   },
   {
     title: 'MC Kissinger',
@@ -741,7 +741,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 134,
     genre: 'Rap/Hip-Hop',
-    timesListened: 13,
+    timesListened: 180,
   },
   {
     title: 'Spirales',
@@ -752,7 +752,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 266,
     genre: 'Rap/Hip-Hop',
-    timesListened: 19,
+    timesListened: 180,
   },
   {
     title: 'Burn Out (Sayonara)',
@@ -763,7 +763,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 150,
   },
   {
     title: 'Eau (Interlude)',
@@ -774,7 +774,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 20,
     genre: 'Rap/Hip-Hop',
-    timesListened: 7,
+    timesListened: 100,
   },
   {
     title: 'King of Cool',
@@ -785,7 +785,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 251,
     genre: 'Rap/Hip-Hop',
-    timesListened: 19,
+    timesListened: 200,
   },
   {
     title: 'Kadija',
@@ -796,7 +796,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 263,
     genre: 'Rap/Hip-Hop',
-    timesListened: 14,
+    timesListened: 120,
   },
   {
     title: 'Echo',
@@ -807,7 +807,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 257,
     genre: 'Rap/Hip-Hop',
-    timesListened: 12,
+    timesListened: 120,
   },
   {
     title: 'Ciel (Interlude)',
@@ -818,7 +818,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 22,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 100,
   },
   {
     title: 'Luv (Prends Le Risque)',
@@ -829,7 +829,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 210,
     genre: 'Rap/Hip-Hop',
-    timesListened: 19,
+    timesListened: 120,
   },
   {
     title: 'Complexité Française',
@@ -840,7 +840,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 368,
     genre: 'Rap/Hip-Hop',
-    timesListened: 8,
+    timesListened: 120,
   },
   {
     title: 'Happy End',
@@ -851,7 +851,7 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 298,
     genre: 'Rap/Hip-Hop',
-    timesListened: 8,
+    timesListened: 120,
   },
   {
     title: 'Lotus',
@@ -862,140 +862,6 @@ export const musicsDisiz2: Music[] = [
     rating: 0,
     duration: 277,
     genre: 'Rap/Hip-Hop',
-    timesListened: 4,
-  },
-
-  // Autres sorties
-  {
-    title: 'Mahboul',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 10,
-  },
-  {
-    title: 'Disizilla',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 10,
-  },
-  {
-    title: 'Kaïju',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 9,
-  },
-  {
-    title: 'Mastodonte',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 8,
-  },
-  {
-    title: 'Splash',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 7,
-  },
-  {
-    title: 'Terre promise',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 7,
-  },
-  {
-    title: 'Autre espèce',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 7,
-  },
-  {
-    title: 'Hendek',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 7,
-  },
-  {
-    title: 'POIDS LOURD',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 4,
-  },
-  {
-    title: 'CASINO',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 3,
-  },
-  {
-    title: 'RENCONTRE',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 3,
-  },
-  {
-    title: 'Transe-lucide',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 2,
+    timesListened: 80,
   },
 ];

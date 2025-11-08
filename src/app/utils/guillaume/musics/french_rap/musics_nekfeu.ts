@@ -11,7 +11,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 295,
     genre: 'Rap/Hip-Hop',
-    timesListened: 67,
+    timesListened: 120,
   },
   {
     title: 'Mon âme',
@@ -22,7 +22,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 267,
     genre: 'Rap/Hip-Hop',
-    timesListened: 91,
+    timesListened: 250,
   },
   {
     title: 'Le horla',
@@ -33,7 +33,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 46,
+    timesListened: 70,
   },
   {
     title: 'Nique les clones, Pt. II',
@@ -44,7 +44,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 224,
     genre: 'Rap/Hip-Hop',
-    timesListened: 66,
+    timesListened: 150,
   },
   {
     title: "Rêve d'avoir des rêves",
@@ -55,7 +55,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 296,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'Tempête',
@@ -66,7 +66,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 59,
+    timesListened: 120,
   },
   {
     title: 'Égérie',
@@ -77,7 +77,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 210,
     genre: 'Rap/Hip-Hop',
-    timesListened: 56,
+    timesListened: 220,
   },
   {
     title: 'Reuf',
@@ -88,7 +88,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 327,
     genre: 'Rap/Hip-Hop',
-    timesListened: 52,
+    timesListened: 120,
   },
   {
     title: 'La moue des morts',
@@ -99,7 +99,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 272,
     genre: 'Rap/Hip-Hop',
-    timesListened: 37,
+    timesListened: 70,
   },
   {
     title: 'Laisse aller',
@@ -110,7 +110,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 273,
     genre: 'Rap/Hip-Hop',
-    timesListened: 69,
+    timesListened: 120,
   },
   {
     title: 'On verra',
@@ -121,7 +121,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Hip-Hop',
-    timesListened: 54,
+    timesListened: 100,
   },
   {
     title: 'Ma dope',
@@ -132,7 +132,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 227,
     genre: 'Rap/Hip-Hop',
-    timesListened: 52,
+    timesListened: 120,
   },
   {
     title: "Jeux d'ombres",
@@ -143,7 +143,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 229,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Elle en avait envie',
@@ -154,7 +154,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 62,
+    timesListened: 170,
   },
   {
     title: 'Princesse',
@@ -165,7 +165,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 265,
     genre: 'Rap/Hip-Hop',
-    timesListened: 51,
+    timesListened: 80,
   },
   {
     title: 'Risibles amours/Des astres',
@@ -176,7 +176,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 526,
     genre: 'Rap/Hip-Hop',
-    timesListened: 76,
+    timesListened: 150,
   },
   {
     title: "Point d'interrogation",
@@ -187,7 +187,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Être humain',
@@ -198,7 +198,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 290,
     genre: 'Rap/Hip-Hop',
-    timesListened: 49,
+    timesListened: 130,
   },
 
   // Album : Cyborg (2016) - Nekfeu
@@ -211,7 +211,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 386,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: 'Mauvaise graine',
@@ -222,7 +222,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 69,
+    timesListened: 150,
   },
   {
     title: 'Squa',
@@ -233,7 +233,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 242,
     genre: 'Rap/Hip-Hop',
-    timesListened: 62,
+    timesListened: 130,
   },
   {
     title: 'Réalité augmentée',
@@ -244,7 +244,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 250,
     genre: 'Rap/Hip-Hop',
-    timesListened: 44,
+    timesListened: 120,
   },
   {
     title: 'Avant tu riais',
@@ -255,7 +255,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 306,
     genre: 'Rap/Hip-Hop',
-    timesListened: 42,
+    timesListened: 120,
   },
   {
     title: 'Esquimaux',
@@ -266,7 +266,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 204,
     genre: 'Rap/Hip-Hop',
-    timesListened: 32,
+    timesListened: 100,
   },
   {
     title: 'O.D',
@@ -277,7 +277,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 242,
     genre: 'Rap/Hip-Hop',
-    timesListened: 56,
+    timesListened: 100,
   },
   {
     title: 'Vinyle',
@@ -288,7 +288,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 292,
     genre: 'Rap/Hip-Hop',
-    timesListened: 25,
+    timesListened: 70,
   },
   {
     title: 'Saturne',
@@ -299,7 +299,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 363,
     genre: 'Rap/Hip-Hop',
-    timesListened: 39,
+    timesListened: 120,
   },
   {
     title: 'Galatée',
@@ -310,7 +310,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 234,
     genre: 'Rap/Hip-Hop',
-    timesListened: 47,
+    timesListened: 120,
   },
   {
     title: 'Le regard des gens',
@@ -321,7 +321,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 210,
     genre: 'Rap/Hip-Hop',
-    timesListened: 29,
+    timesListened: 100,
   },
   {
     title: 'Programmé',
@@ -332,7 +332,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 30,
+    timesListened: 50,
   },
   {
     title: 'Besoin de sens',
@@ -343,7 +343,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 230,
     genre: 'Rap/Hip-Hop',
-    timesListened: 33,
+    timesListened: 80,
   },
   {
     title: 'Nekketsu',
@@ -354,7 +354,7 @@ export const musicsNekfeu: Music[] = [
     rating: 0,
     duration: 214,
     genre: 'Rap/Hip-Hop',
-    timesListened: 25,
+    timesListened: 100,
   },
 
   // Album : Les étoiles vagabondes (2019) - Nekfeu

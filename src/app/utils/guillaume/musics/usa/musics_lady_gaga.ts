@@ -44,7 +44,7 @@ export const musicsLadyGaga: Music[] = [
     rating: 0,
     duration: 271,
     genre: 'Pop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Dance In The Dark',
@@ -55,7 +55,7 @@ export const musicsLadyGaga: Music[] = [
     rating: 0,
     duration: 289,
     genre: 'Pop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Telephone',
@@ -77,7 +77,7 @@ export const musicsLadyGaga: Music[] = [
     rating: 0,
     duration: 235,
     genre: 'Pop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Teeth',
@@ -88,7 +88,7 @@ export const musicsLadyGaga: Music[] = [
     rating: 0,
     duration: 221,
     genre: 'Pop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Album: The Fame (2008)

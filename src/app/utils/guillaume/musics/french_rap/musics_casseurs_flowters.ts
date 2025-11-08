@@ -11,7 +11,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 103,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 100,
   },
   {
     title: '15h02 - Regarde comme il fait beau (dehors)',
@@ -22,7 +22,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 204,
     genre: 'Rap/Hip-Hop',
-    timesListened: 38,
+    timesListened: 250,
   },
   {
     title: '15h45 - Stupide ! Stupide ! Stupide !',
@@ -33,7 +33,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 256,
     genre: 'Rap/Hip-Hop',
-    timesListened: 27,
+    timesListened: 250,
   },
   {
     title: "16h00 - Tu m'dois d'l'oseille",
@@ -44,7 +44,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 137,
     genre: 'Rap/Hip-Hop',
-    timesListened: 27,
+    timesListened: 180,
   },
   {
     title: '16h22 - Deux connards dans un abribus',
@@ -55,7 +55,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 274,
     genre: 'Rap/Hip-Hop',
-    timesListened: 16,
+    timesListened: 250,
   },
   {
     title: '17h04 - Prends des pièces',
@@ -66,7 +66,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 223,
     genre: 'Rap/Hip-Hop',
-    timesListened: 33,
+    timesListened: 250,
   },
   {
     title: '18h30 - Bloqué',
@@ -77,7 +77,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 229,
     genre: 'Rap/Hip-Hop',
-    timesListened: 32,
+    timesListened: 250,
   },
   {
     title: '19h26 - La mort du disque',
@@ -88,7 +88,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 162,
     genre: 'Rap/Hip-Hop',
-    timesListened: 21,
+    timesListened: 180,
   },
   {
     title: '20h08 - Dans la place pour être',
@@ -99,7 +99,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 45,
+    timesListened: 250,
   },
   {
     title: '20h13 - La nouvelle paire',
@@ -110,7 +110,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 328,
     genre: 'Rap/Hip-Hop',
-    timesListened: 20,
+    timesListened: 180,
   },
   {
     title: '22h31 - Fais les backs',
@@ -121,7 +121,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 183,
     genre: 'Rap/Hip-Hop',
-    timesListened: 36,
+    timesListened: 180,
   },
   {
     title: '01h16 - Les putes et moi',
@@ -132,7 +132,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 379,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 200,
   },
   {
     title: '01h25 - Johnny Galoche',
@@ -143,7 +143,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 116,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 150,
   },
   {
     title: '01h47 - Change de pote',
@@ -154,7 +154,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 190,
     genre: 'Rap/Hip-Hop',
-    timesListened: 30,
+    timesListened: 200,
   },
   {
     title: "03h53 - Manger c'est tricher",
@@ -165,7 +165,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 264,
     genre: 'Rap/Hip-Hop',
-    timesListened: 34,
+    timesListened: 250,
   },
   {
     title: '04h41 - Greenje et Orselane',
@@ -176,7 +176,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 24,
+    timesListened: 200,
   },
   {
     title: '06h16 - Des histoires à raconter',
@@ -187,7 +187,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 404,
     genre: 'Rap/Hip-Hop',
-    timesListened: 38,
+    timesListened: 250,
   },
 
   // Album : Comment c'est loin (2015) - Casseurs Flowters
@@ -200,7 +200,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 104,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Au bout du compte',
@@ -211,7 +211,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 178,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: "À l'heure où je me couche",
@@ -222,7 +222,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 220,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: "Quand ton père t'engueule",
@@ -233,7 +233,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'En boucle',
@@ -244,7 +244,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 236,
     genre: 'Rap/Hip-Hop',
-    timesListened: 47,
+    timesListened: 150,
   },
   {
     title: "Faut qu'on rentre bosser",
@@ -255,7 +255,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 102,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Freestyle Radio Phoenix',
@@ -266,7 +266,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 252,
     genre: 'Rap/Hip-Hop',
-    timesListened: 20,
+    timesListened: 120,
   },
   {
     title: 'Le mal est fait',
@@ -277,7 +277,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 186,
     genre: 'Rap/Hip-Hop',
-    timesListened: 22,
+    timesListened: 80,
   },
   {
     title: "C'est toujours 2 connards dans un abribus",
@@ -288,7 +288,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 157,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 80,
   },
   {
     title: "Pas n'importe quel toon",
@@ -299,7 +299,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 48,
+    timesListened: 150,
   },
   {
     title: "J'essaye, j'essaye",
@@ -310,7 +310,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 233,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'Promenade imprévue',
@@ -321,7 +321,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 90,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Xavier',
@@ -332,7 +332,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 227,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Wondercash',
@@ -343,7 +343,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 78,
     genre: 'Rap/Hip-Hop',
-    timesListened: 48,
+    timesListened: 100,
   },
   {
     title: "On est resté à l'hôtel",
@@ -354,7 +354,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 97,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Si facile',
@@ -365,7 +365,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 236,
     genre: 'Rap/Hip-Hop',
-    timesListened: 35,
+    timesListened: 80,
   },
   {
     title: 'Inachevés',
@@ -376,7 +376,7 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 44,
+    timesListened: 150,
   },
   {
     title: 'Quand on descend vers le centre',
@@ -387,6 +387,6 @@ export const musicsCasseursFlowters: Music[] = [
     rating: 0,
     duration: 174,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
 ];

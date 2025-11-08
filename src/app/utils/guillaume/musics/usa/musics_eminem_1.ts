@@ -22,7 +22,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 33,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'My Name Is',
@@ -33,7 +33,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 268,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Guilty Conscience',
@@ -44,7 +44,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 199,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Brain Damage',
@@ -55,7 +55,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 226,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Paul (skit)',
@@ -77,7 +77,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 245,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "'97 Bonnie and Clyde",
@@ -88,7 +88,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 316,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Bitch (skit)',
@@ -99,7 +99,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 19,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Role Model',
@@ -110,7 +110,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Lounge (skit)',
@@ -121,7 +121,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 46,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'My Fault',
@@ -132,7 +132,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 241,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Ken Kaniff (skit)',
@@ -143,7 +143,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 76,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Cum on Everybody',
@@ -154,7 +154,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Rock Bottom',
@@ -165,7 +165,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 214,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Just Don't Give a Fuck",
@@ -176,7 +176,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 242,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Soap (skit)',
@@ -187,7 +187,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 34,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'As the World Turns',
@@ -198,7 +198,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 265,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "I'm Shady",
@@ -209,7 +209,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Bad Meets Evil',
@@ -220,7 +220,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 253,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Still Don't Give a Fuck",
@@ -231,7 +231,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 252,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Album : The Marshall Mathers LP (2000) - Eminem
@@ -444,7 +444,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 30,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'White America',
@@ -455,7 +455,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 324,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Business',
@@ -477,7 +477,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 298,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Square Dance',
@@ -488,7 +488,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 324,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'The Kiss (skit)',
@@ -499,7 +499,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 76,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Soldier',
@@ -510,7 +510,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 226,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Say Goodbye Hollywood',
@@ -521,7 +521,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 273,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Drips',
@@ -532,7 +532,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 285,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Without Me',
@@ -554,7 +554,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 23,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Sing for the Moment',
@@ -587,7 +587,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 321,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Steve Berman (skit)',
@@ -598,7 +598,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 33,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'When the Music Stops',
@@ -609,7 +609,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 269,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Say What You Say',
@@ -620,7 +620,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 309,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "'Till I Collapse",
@@ -642,7 +642,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 268,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Curtains Close (skit)',
@@ -653,7 +653,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 60,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Album : Encore (2004) - Eminem

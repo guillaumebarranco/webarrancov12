@@ -11,7 +11,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 41,
+    timesListened: 200,
   },
   {
     title: 'Comme un rappeur (Wa ever)',
@@ -22,7 +22,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 28,
+    timesListened: 180,
   },
   {
     title: 'Oto Moto',
@@ -33,7 +33,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 192,
     genre: 'Rap/Hip-Hop',
-    timesListened: 27,
+    timesListened: 150,
   },
   {
     title: 'Abuzeur',
@@ -44,7 +44,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 210,
     genre: 'Rap/Hip-Hop',
-    timesListened: 31,
+    timesListened: 180,
   },
   {
     title: 'En réunion',
@@ -55,7 +55,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Hip-Hop',
-    timesListened: 20,
+    timesListened: 30,
   },
   {
     title: 'Arrête la voiture / Elle attend son fils',
@@ -66,7 +66,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 26,
+    timesListened: 120,
   },
   {
     title: "Un jour j'ai fait un tag",
@@ -77,7 +77,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: 'Bitchiz',
@@ -88,7 +88,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 196,
     genre: 'Rap/Hip-Hop',
-    timesListened: 24,
+    timesListened: 150,
   },
   {
     title: 'Bonnie sans Clyde',
@@ -99,7 +99,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 27,
+    timesListened: 120,
   },
   {
     title: 'Souveraine',
@@ -110,7 +110,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 36,
+    timesListened: 180,
   },
   {
     title: 'La promesse',
@@ -121,7 +121,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 223,
     genre: 'Rap/Hip-Hop',
-    timesListened: 28,
+    timesListened: 130,
   },
   {
     title: 'Chaque week-end',
@@ -132,7 +132,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 16,
+    timesListened: 150,
   },
   {
     title: 'Les 10 Commandements du MC',
@@ -143,7 +143,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 212,
     genre: 'Rap/Hip-Hop',
-    timesListened: 29,
+    timesListened: 150,
   },
   {
     title: 'Bête de bombe 6',
@@ -154,7 +154,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Hip-Hop',
-    timesListened: 28,
+    timesListened: 130,
   },
   {
     title: 'Heureusement',
@@ -165,7 +165,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 193,
     genre: 'Rap/Hip-Hop',
-    timesListened: 20,
+    timesListened: 130,
   },
   {
     title: "On s'comprend pas",
@@ -176,7 +176,7 @@ export const musicsDisiz3: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: 'Year of the Dragon (Bonus Track)',
@@ -223,17 +223,6 @@ export const musicsDisiz3: Music[] = [
     duration: 198,
     genre: 'Rap/Pop',
     timesListened: 2,
-  },
-  {
-    title: 'Splash',
-    artist: 'Disiz',
-    album: 'Pacifique',
-    coverUrl: '/musics_pictures/Pacific-Digisleeve-Edition-limitee.jpg',
-    releaseDate: '2017-06-23',
-    rating: 0,
-    duration: 195,
-    genre: 'Rap/Pop',
-    timesListened: 7,
   },
   {
     title: 'La fille de la piscine',
@@ -447,17 +436,6 @@ export const musicsDisiz3: Music[] = [
     timesListened: 10,
   },
   {
-    title: 'Mastodonte',
-    artist: 'Disiz',
-    album: 'Disizilla',
-    coverUrl: '/musics_pictures/Disizilla.jpg',
-    releaseDate: '2018-09-21',
-    rating: 0,
-    duration: 198,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 8,
-  },
-  {
     title: 'Hendek',
     artist: 'Disiz',
     album: 'Disizilla',
@@ -579,6 +557,17 @@ export const musicsDisiz3: Music[] = [
     timesListened: 8,
   },
   {
+    title: 'Mastodonte',
+    artist: 'Disiz',
+    album: 'Disizilla',
+    coverUrl: '/musics_pictures/Disizilla.jpg',
+    releaseDate: '2018-09-21',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 8,
+  },
+  {
     title: 'Tout partira',
     artist: 'Disiz',
     album: 'Disizilla',
@@ -614,6 +603,28 @@ export const musicsDisiz3: Music[] = [
     timesListened: 4,
   },
   {
+    title: 'Transe-lucide',
+    artist: 'Disiz',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 150,
+  },
+  {
+    title: 'Splash',
+    artist: 'Disiz',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 7,
+  },
+  {
     title: 'CASINO',
     artist: 'Disiz',
     album: 'Unknown',
@@ -634,16 +645,5 @@ export const musicsDisiz3: Music[] = [
     duration: 180,
     genre: 'Rap/Hip-Hop',
     timesListened: 3,
-  },
-  {
-    title: 'Transe-lucide',
-    artist: 'Disiz',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 2,
   },
 ];

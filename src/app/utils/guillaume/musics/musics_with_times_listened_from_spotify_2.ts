@@ -2090,18 +2090,6 @@ export const musicsOthers: Music[] = [
   },
 
   {
-    title: 'Complicated',
-    artist: 'Avril Lavigne',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
     title: 'Umbrella - Radio Edit',
     artist: 'Rihanna',
     album: 'Unknown',
@@ -2176,18 +2164,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Johny Johny Yes Papa',
     artist: 'LooLoo Kids',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 4,
-  },
-
-  {
-    title: 'Xxplosive',
-    artist: 'Dr. Dre',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -6114,18 +6090,6 @@ export const musicsOthers: Music[] = [
   {
     title: 'Code of Honor',
     artist: 'DJ ESCO',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 3,
-  },
-
-  {
-    title: 'The Watcher',
-    artist: 'Dr. Dre',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',

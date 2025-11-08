@@ -11,7 +11,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 274,
     genre: 'Rap/Hip-Hop',
-    timesListened: 36,
+    timesListened: 200,
   },
   {
     title: 'Changement',
@@ -22,7 +22,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 197,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 150,
   },
   {
     title: 'Soirée ratée',
@@ -33,7 +33,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 185,
     genre: 'Rap/Hip-Hop',
-    timesListened: 25,
+    timesListened: 150,
   },
   {
     title: 'Différent',
@@ -44,7 +44,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 224,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 150,
   },
   {
     title: 'No Life',
@@ -55,7 +55,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 250,
     genre: 'Rap/Hip-Hop',
-    timesListened: 19,
+    timesListened: 120,
   },
   {
     title: 'Pour le pire',
@@ -66,7 +66,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 214,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 200,
   },
   {
     title: "Perdu d'avance",
@@ -77,7 +77,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 200,
   },
   {
     title: 'Gros poisson dans une petite mare',
@@ -88,7 +88,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 273,
     genre: 'Rap/Hip-Hop',
-    timesListened: 21,
+    timesListened: 180,
   },
   {
     title: 'Logo dans le ciel',
@@ -99,7 +99,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 217,
     genre: 'Rap/Hip-Hop',
-    timesListened: 16,
+    timesListened: 180,
   },
   {
     title: '50 pour cent',
@@ -110,7 +110,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 280,
     genre: 'Rap/Hip-Hop',
-    timesListened: 17,
+    timesListened: 250,
   },
   {
     title: 'Jimmy Punchline',
@@ -121,7 +121,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 246,
     genre: 'Rap/Hip-Hop',
-    timesListened: 26,
+    timesListened: 250,
   },
   {
     title: 'Entre bien et mal (feat. Gringe)',
@@ -132,7 +132,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 281,
     genre: 'Rap/Hip-Hop',
-    timesListened: 17,
+    timesListened: 150,
   },
   {
     title: 'Courez courez',
@@ -143,7 +143,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 243,
     genre: 'Rap/Hip-Hop',
-    timesListened: 24,
+    timesListened: 200,
   },
   {
     title: "La peur de l'échec (feat. Ron Thal)",
@@ -154,7 +154,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 314,
     genre: 'Rap/Hip-Hop',
-    timesListened: 11,
+    timesListened: 180,
   },
 
   // Album : Le Chant des sirènes (2011)
@@ -167,7 +167,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 189,
     genre: 'Rap/Hip-Hop',
-    timesListened: 36,
+    timesListened: 150,
   },
   {
     title: 'Le Chant des sirènes',
@@ -178,7 +178,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 212,
     genre: 'Rap/Hip-Hop',
-    timesListened: 16,
+    timesListened: 120,
   },
   {
     title: "Plus rien ne m'étonne",
@@ -189,7 +189,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: 'Mauvaise idée',
@@ -200,7 +200,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 120,
   },
   {
     title: 'Double vie',
@@ -211,7 +211,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 150,
   },
   {
     title: 'Finir mal',
@@ -222,7 +222,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 220,
     genre: 'Rap/Hip-Hop',
-    timesListened: 19,
+    timesListened: 230,
   },
   {
     title: 'Si seul',
@@ -233,7 +233,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 200,
   },
   {
     title: 'Des trous dans la tête',
@@ -244,7 +244,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 188,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 180,
   },
   {
     title: 'La Petite Marchande de porte-clefs',
@@ -255,7 +255,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 20,
   },
   {
     title: '1990',
@@ -266,7 +266,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 194,
     genre: 'Rap/Hip-Hop',
-    timesListened: 22,
+    timesListened: 150,
   },
   {
     title: '2010',
@@ -277,7 +277,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 164,
     genre: 'Rap/Hip-Hop',
-    timesListened: 33,
+    timesListened: 180,
   },
   {
     title: 'La Morale',
@@ -288,7 +288,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 18,
+    timesListened: 100,
   },
   {
     title: 'Elle viendra quand même',
@@ -299,7 +299,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Hip-Hop',
-    timesListened: 17,
+    timesListened: 150,
   },
   {
     title: 'Suicide social',
@@ -310,7 +310,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 217,
     genre: 'Rap/Hip-Hop',
-    timesListened: 13,
+    timesListened: 150,
   },
   {
     title: 'La Terre est ronde',
@@ -321,7 +321,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 196,
     genre: 'Rap/Hip-Hop',
-    timesListened: 34,
+    timesListened: 180,
   },
   {
     title: 'Ils sont cools',
@@ -332,7 +332,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 223,
     genre: 'Rap/Hip-Hop',
-    timesListened: 27,
+    timesListened: 250,
   },
 
   // Album : La fête est finie (2017)
@@ -345,7 +345,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 202,
     genre: 'Rap/Hip-Hop',
-    timesListened: 54,
+    timesListened: 200,
   },
   {
     title: 'La fête est finie',
@@ -356,7 +356,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 36,
+    timesListened: 70,
   },
   {
     title: 'Basique',
@@ -367,7 +367,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 28,
+    timesListened: 70,
   },
   {
     title: 'Tout va bien',
@@ -378,7 +378,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 28,
+    timesListened: 80,
   },
   {
     title: 'Défaite de famille',
@@ -389,7 +389,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 41,
+    timesListened: 150,
   },
   {
     title: 'La lumière',
@@ -400,7 +400,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 193,
     genre: 'Rap/Hip-Hop',
-    timesListened: 18,
+    timesListened: 50,
   },
   {
     title: 'Bonne meuf',
@@ -411,7 +411,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 37,
+    timesListened: 150,
   },
   {
     title: 'Zone',
@@ -422,7 +422,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 225,
     genre: 'Rap/Hip-Hop',
-    timesListened: 50,
+    timesListened: 150,
   },
   {
     title: 'Dans ma ville, on traîne',
@@ -433,7 +433,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'La pluie',
@@ -444,7 +444,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 232,
     genre: 'Rap/Hip-Hop',
-    timesListened: 38,
+    timesListened: 120,
   },
   {
     title: 'Paradis',
@@ -455,7 +455,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 196,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 150,
   },
   {
     title: "Quand est-ce que ça s'arrête",
@@ -466,7 +466,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'Christophe',
@@ -477,7 +477,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 224,
     genre: 'Rap/Hip-Hop',
-    timesListened: 37,
+    timesListened: 100,
   },
   {
     title: 'Notes pour trop tard',
@@ -488,7 +488,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 39,
+    timesListened: 200,
   },
 
   // Album : La fête est finie - Épilogue (2018)
@@ -501,7 +501,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 226,
     genre: 'Rap/Hip-Hop',
-    timesListened: 26,
+    timesListened: 50,
   },
   {
     title: 'Fantômes',
@@ -512,7 +512,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 41,
+    timesListened: 100,
   },
   {
     title: 'Discipline',
@@ -523,7 +523,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 194,
     genre: 'Rap/Hip-Hop',
-    timesListened: 50,
+    timesListened: 100,
   },
   {
     title: 'Adieu les filles',
@@ -534,7 +534,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 45,
+    timesListened: 100,
   },
   {
     title: 'Tout ce que je sais',
@@ -545,7 +545,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Hip-Hop',
-    timesListened: 34,
+    timesListened: 100,
   },
   {
     title: 'Épilogue',
@@ -556,7 +556,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Hip-Hop',
-    timesListened: 27,
+    timesListened: 100,
   },
   {
     title: 'Mes grands-parents',
@@ -567,7 +567,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 217,
     genre: 'Rap/Hip-Hop',
-    timesListened: 53,
+    timesListened: 150,
   },
   {
     title: 'Excuses ou mensonges',
@@ -578,7 +578,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 210,
     genre: 'Rap/Hip-Hop',
-    timesListened: 28,
+    timesListened: 100,
   },
   {
     title: 'La famille, la famille',
@@ -589,7 +589,7 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 222,
     genre: 'Rap/Hip-Hop',
-    timesListened: 53,
+    timesListened: 120,
   },
   {
     title: 'Dis-moi',
@@ -600,6 +600,6 @@ export const musicsOrelsan1: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 21,
+    timesListened: 100,
   },
 ];

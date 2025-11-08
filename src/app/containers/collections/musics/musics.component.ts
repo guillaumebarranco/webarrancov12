@@ -115,7 +115,7 @@ export class MusicsComponent {
     albumsMap.forEach((musics, key) => {
       if (
         musics.length >= 8 &&
-        musics.every((music) => music.timesListened > 1)
+        musics.every((music) => music.timesListened > 0)
       ) {
         const [albumName, artist] = key.split('|');
         albums.push({
@@ -128,13 +128,16 @@ export class MusicsComponent {
       }
     });
 
-    // Tri par artiste, puis par nom d'album
+    // Tri par artiste, puis par date de sortie (du plus ancien au plus récent)
     return albums.sort((a, b) => {
       const artistCompare = a.artist.localeCompare(b.artist);
       if (artistCompare !== 0) {
         return artistCompare;
       }
-      return a.name.localeCompare(b.name);
+      // Tri par date de sortie pour les albums d'un même artiste
+      const dateA = new Date(a.musics[0].releaseDate).getTime();
+      const dateB = new Date(b.musics[0].releaseDate).getTime();
+      return dateA - dateB;
     });
   });
 

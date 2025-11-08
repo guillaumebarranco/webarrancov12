@@ -100,6 +100,17 @@ export const musicsVarietyUsVarious: Music[] = [
     genre: 'Unknown',
     timesListened: 37,
   },
+  {
+    title: 'Complicated',
+    artist: 'Avril Lavigne',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 4,
+  },
 
   {
     title: 'Who Let The Dogs Out',

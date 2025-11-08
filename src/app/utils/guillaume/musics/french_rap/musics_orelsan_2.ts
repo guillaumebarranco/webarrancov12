@@ -33,7 +33,7 @@ export const musicsOrelsan2: Music[] = [
     rating: 0,
     duration: 197,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 65,
   },
   {
     title: 'Du propre',
@@ -323,7 +323,7 @@ export const musicsOrelsan2: Music[] = [
     rating: 0,
     duration: 189,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 3,
   },
   {
     title: 'Deux et demi',

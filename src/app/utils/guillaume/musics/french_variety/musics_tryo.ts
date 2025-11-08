@@ -200,7 +200,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Pompafric',
@@ -222,7 +222,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 335,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Dans les nuages',
@@ -288,7 +288,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 246,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Désolé pour hier soir',
@@ -411,7 +411,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 307,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Bye bye',
@@ -422,7 +422,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 177,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Marcher droit',
@@ -433,7 +433,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 186,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Mrs Roy',
@@ -444,7 +444,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 206,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Le Temps',
@@ -455,7 +455,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 306,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Abdallâh',
@@ -466,7 +466,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 210,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Une saison de trop',
@@ -477,7 +477,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 234,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Travailler plus',
@@ -488,7 +488,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 152,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Poussière d'étoile",
@@ -499,6 +499,6 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 261,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 1,
   },
 ];

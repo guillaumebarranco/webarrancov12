@@ -11,7 +11,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 31,
+    timesListened: 120,
   },
   {
     title: 'Stach Stach',
@@ -22,7 +22,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 30,
+    timesListened: 50,
   },
   // Album : T'as vu ? (2007) - Fatal Bazooka
   {
@@ -34,7 +34,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Fous ta cagoule',
@@ -45,7 +45,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 20,
+    timesListened: 200,
   },
   {
     title: 'Viens bégère',
@@ -56,7 +56,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: "J'aime trop ton boule",
@@ -67,7 +67,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 180,
   },
   {
     title: 'MC Chamallow',
@@ -78,7 +78,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Viva Bazooka',
@@ -89,7 +89,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Saturday Night Kebab',
@@ -100,7 +100,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'Ouais ma gueule',
@@ -111,7 +111,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Ego trip',
@@ -122,7 +122,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'MC Introverti',
@@ -133,7 +133,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Mauvaise foi nocturne',
@@ -144,7 +144,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 14,
+    timesListened: 250,
   },
   {
     title: 'Sale connasse',
@@ -155,7 +155,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'Chienne de vie',
@@ -166,7 +166,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: "C'est une pute !",
@@ -177,7 +177,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'Auto-clash',
@@ -188,7 +188,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 3,
+    timesListened: 100,
   },
   {
     title: 'MC Québec City',
@@ -199,7 +199,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Parle à ma main',
@@ -210,7 +210,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'Trankillement',
@@ -221,7 +221,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 3,
+    timesListened: 120,
   },
   {
     title: 'Crêpes au froment',
@@ -232,7 +232,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Trankillement (Remix)',
@@ -243,7 +243,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Parle à ma main (Remix)',
@@ -254,7 +254,7 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Bouge !',
@@ -265,6 +265,6 @@ export const musicsFatalBazooka: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap Parodique',
-    timesListened: 1,
+    timesListened: 10,
   },
 ];

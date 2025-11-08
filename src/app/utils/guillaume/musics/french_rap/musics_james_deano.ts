@@ -11,7 +11,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 16,
+    timesListened: 30,
   },
   {
     title: 'Les Blancs ne savent pas danser',
@@ -22,7 +22,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 21,
+    timesListened: 150,
   },
   {
     title: 'Arrête de fuir',
@@ -33,7 +33,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 25,
+    timesListened: 150,
   },
   {
     title: '11 du 9',
@@ -77,7 +77,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 223,
     genre: 'Rap/Hip-Hop',
-    timesListened: 40,
+    timesListened: 200,
   },
   {
     title: 'Ma vie de célibataire',
@@ -88,7 +88,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 33,
+    timesListened: 120,
   },
   {
     title: 'Drogué dur à la drogue douce',
@@ -110,7 +110,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 100,
   },
   {
     title: 'Koh Lanta',
@@ -121,7 +121,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Hip-Hop',
-    timesListened: 22,
+    timesListened: 50,
   },
   {
     title: 'Les Femmes',
@@ -154,7 +154,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 197,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: 'Loin de la vérité',
@@ -298,7 +298,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 32,
+    timesListened: 50,
   },
   {
     title: 'Bien acquis',
@@ -375,7 +375,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 15,
   },
   {
     title: 'Le printemps',
@@ -386,7 +386,7 @@ export const musicsJamesDeano: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 30,
   },
   {
     title: 'Fuir la guerre',
@@ -435,17 +435,6 @@ export const musicsJamesDeano: Music[] = [
     timesListened: 9,
   },
   {
-    title: 'Battle & Fontaine - feat. AKRO',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 6,
-  },
-  {
     title: 'La mitraillette',
     artist: 'James Deano',
     album: 'Unknown',
@@ -455,16 +444,5 @@ export const musicsJamesDeano: Music[] = [
     duration: 180,
     genre: 'Rap/Hip-Hop',
     timesListened: 5,
-  },
-  {
-    title: '11-Sep',
-    artist: 'James Deano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 2,
   },
 ];

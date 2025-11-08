@@ -11,7 +11,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 284,
     genre: 'Rap/Hip-Hop',
-    timesListened: 5,
+    timesListened: 70,
   },
   {
     title: 'Gangsta',
@@ -22,7 +22,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 4,
+    timesListened: 80,
   },
   {
     title: 'Quand même',
@@ -33,7 +33,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 216,
     genre: 'Rap/Hip-Hop',
-    timesListened: 6,
+    timesListened: 70,
   },
   {
     title: 'Jeunesse influençable',
@@ -44,7 +44,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 301,
     genre: 'Rap/Hip-Hop',
-    timesListened: 5,
+    timesListened: 100,
   },
   {
     title: 'Monsieur tout le monde',
@@ -55,7 +55,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 276,
     genre: 'Rap/Hip-Hop',
-    timesListened: 17,
+    timesListened: 100,
   },
 
   // Album : La Cour des grands (2015) - Bigflo & Oli
@@ -68,7 +68,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 70,
   },
   {
     title: "C'est qui ces deux-là ?",
@@ -79,7 +79,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 70,
   },
   {
     title: "Comme d'hab",
@@ -90,7 +90,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 60,
   },
   {
     title: 'Le bouchon',
@@ -101,7 +101,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 26,
+    timesListened: 100,
   },
   {
     title: 'Marco',
@@ -112,7 +112,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 212,
     genre: 'Rap/Hip-Hop',
-    timesListened: 21,
+    timesListened: 100,
   },
   {
     title: "J'attends la vague (solo Bigflo)",
@@ -123,7 +123,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 70,
   },
   {
     title: 'Raccroche',
@@ -134,7 +134,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 212,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 70,
   },
   {
     title: 'Le cordon',
@@ -145,7 +145,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 14,
+    timesListened: 30,
   },
   {
     title: "Aujourd'hui",
@@ -156,7 +156,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'Ça coûte rien',
@@ -167,7 +167,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 70,
   },
   {
     title: 'Le bijoutier',
@@ -178,7 +178,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 22,
+    timesListened: 120,
   },
   {
     title: 'Nous aussi',
@@ -189,7 +189,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 206,
     genre: 'Rap/Hip-Hop',
-    timesListened: 55,
+    timesListened: 150,
   },
   {
     title: 'Nik ta mère',
@@ -200,7 +200,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 193,
     genre: 'Rap/Hip-Hop',
-    timesListened: 16,
+    timesListened: 70,
   },
   {
     title: 'Le philosophe sans la barbe (solo Oli)',
@@ -211,7 +211,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Hip-Hop',
-    timesListened: 24,
+    timesListened: 80,
   },
   {
     title: 'Miroir',
@@ -222,7 +222,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 14,
+    timesListened: 60,
   },
   {
     title: "C'est pas du rap…",
@@ -233,7 +233,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 192,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 70,
   },
   {
     title: 'Mytho',
@@ -244,7 +244,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 21,
+    timesListened: 50,
   },
   {
     title: 'À mon retour',
@@ -255,7 +255,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Hip-Hop',
-    timesListened: 33,
+    timesListened: 100,
   },
   {
     title: "Début d'empire",
@@ -266,7 +266,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: "Demain c'est nous",
@@ -277,7 +277,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'La tempête',
@@ -288,7 +288,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 30,
+    timesListened: 80,
   },
   {
     title: "Du disque dur au disque d'or",
@@ -299,7 +299,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 212,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 70,
   },
   {
     title: "C'est que le début",
@@ -310,7 +310,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 189,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 60,
   },
   {
     title: 'Pourquoi pas nous ?',
@@ -321,7 +321,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 196,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 60,
   },
   {
     title: 'Héritage',
@@ -332,7 +332,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 40,
   },
 
   // Album : La Vraie Vie (2017) - Bigflo & Oli
@@ -345,7 +345,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 29,
+    timesListened: 70,
   },
   {
     title: 'Alors alors',
@@ -356,7 +356,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 187,
     genre: 'Rap/Hip-Hop',
-    timesListened: 24,
+    timesListened: 60,
   },
   {
     title: 'Personne',
@@ -367,7 +367,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 189,
     genre: 'Rap/Hip-Hop',
-    timesListened: 37,
+    timesListened: 80,
   },
   {
     title: 'Sal*pe !',
@@ -378,7 +378,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Rap/Hip-Hop',
-    timesListened: 19,
+    timesListened: 50,
   },
   {
     title: 'Trop tard',
@@ -389,7 +389,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 25,
+    timesListened: 80,
   },
   {
     title: 'Papa',
@@ -400,7 +400,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 245,
     genre: 'Rap/Hip-Hop',
-    timesListened: 33,
+    timesListened: 100,
   },
   {
     title: 'Répondez-moi',
@@ -411,7 +411,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 28,
+    timesListened: 90,
   },
   {
     title: 'Olivio (solo Oli)',
@@ -422,7 +422,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 193,
     genre: 'Rap/Hip-Hop',
-    timesListened: 22,
+    timesListened: 70,
   },
   {
     title: 'La vie normale',
@@ -433,7 +433,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Rap/Hip-Hop',
-    timesListened: 54,
+    timesListened: 120,
   },
   {
     title: 'Autre part',
@@ -444,7 +444,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 192,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 30,
   },
   {
     title: 'Dommage',
@@ -455,7 +455,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 37,
+    timesListened: 100,
   },
   {
     title: 'Ça va trop vite',
@@ -466,7 +466,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Hip-Hop',
-    timesListened: 31,
+    timesListened: 70,
   },
   {
     title: 'Sac à dos',
@@ -477,7 +477,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 195,
     genre: 'Rap/Hip-Hop',
-    timesListened: 31,
+    timesListened: 70,
   },
   {
     title: 'Dans mon lit',
@@ -488,7 +488,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 202,
     genre: 'Rap/Hip-Hop',
-    timesListened: 27,
+    timesListened: 80,
   },
   {
     title: 'Je suis',
@@ -499,7 +499,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 227,
     genre: 'Rap/Hip-Hop',
-    timesListened: 20,
+    timesListened: 70,
   },
   {
     title: 'Toulouse',
@@ -510,7 +510,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 216,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 16,
   },
   {
     title: 'Cigarette',
@@ -521,7 +521,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 193,
     genre: 'Rap/Hip-Hop',
-    timesListened: 30,
+    timesListened: 60,
   },
   {
     title: 'Dites rien à ma mère',
@@ -532,7 +532,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap/Hip-Hop',
-    timesListened: 28,
+    timesListened: 50,
   },
   {
     title: 'Pour un pote',
@@ -543,18 +543,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 19,
-  },
-  {
-    title: 'Shape of You (de Berywam)',
-    artist: 'Bigflo & Oli',
-    album: 'La Vraie Vie',
-    coverUrl: '/musics_pictures/La-vraie-vie.jpg',
-    releaseDate: '2017-06-23',
-    rating: 0,
-    duration: 234,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 30,
   },
 
   // Album : La Vie de rêve (2020) - Bigflo & Oli
@@ -734,7 +723,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 35,
   },
   {
     title: "J'étais pas là",
@@ -745,7 +734,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 34,
   },
   {
     title: 'Bons élèves',
@@ -981,40 +970,7 @@ export const musicsBigfloOli: Music[] = [
 
   // Autres sorties
   {
-    title: 'Ici c',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 8,
-  },
-  {
-    title: 'Jeunesse influençable - Bonus',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 5,
-  },
-  {
     title: 'New York en Décembre_freestyle 2025',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 4,
-  },
-  {
-    title: 'Atlantis - Bonus',
     artist: 'Bigflo & Oli',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -1044,7 +1000,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 3,
+    timesListened: 30,
   },
   {
     title: 'Insolent 3',
@@ -1055,18 +1011,7 @@ export const musicsBigfloOli: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 3,
-  },
-  {
-    title: 'Monsieur Tout-le-monde',
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 3,
+    timesListened: 20,
   },
   {
     title: 'Tandem',
@@ -1100,16 +1045,5 @@ export const musicsBigfloOli: Music[] = [
     duration: 180,
     genre: 'Rap/Hip-Hop',
     timesListened: 2,
-  },
-  {
-    title: "Ici c'est Toulouse",
-    artist: 'Bigflo & Oli',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 8,
   },
 ];

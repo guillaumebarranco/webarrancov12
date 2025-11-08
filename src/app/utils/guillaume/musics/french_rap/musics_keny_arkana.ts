@@ -11,7 +11,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 68,
     genre: 'Rap/Hip-Hop',
-    timesListened: 4,
+    timesListened: 19,
   },
   {
     title: 'Le Missile Suit Sa Lancée',
@@ -22,7 +22,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 199,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 10,
   },
   {
     title: "J'Viens De L'Incendie",
@@ -33,7 +33,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 254,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: "J'Me Barre",
@@ -44,7 +44,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 150,
   },
   {
     title: 'La Mère Des Enfants Perdus',
@@ -55,7 +55,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 180,
   },
   {
     title: 'Entre Les Lignes : Clouée Au Sol',
@@ -66,7 +66,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 201,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Eh Connard',
@@ -77,7 +77,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 241,
     genre: 'Rap/Hip-Hop',
-    timesListened: 19,
+    timesListened: 100,
   },
   {
     title: 'La Rage',
@@ -88,7 +88,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 242,
     genre: 'Rap/Hip-Hop',
-    timesListened: 14,
+    timesListened: 80,
   },
   {
     title: 'Le Fardeau',
@@ -99,7 +99,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 330,
     genre: 'Rap/Hip-Hop',
-    timesListened: 7,
+    timesListened: 10,
   },
   {
     title: 'Cueille Ta Vie',
@@ -110,7 +110,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 250,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 200,
   },
   {
     title: 'Nettoyage Au Kärcher',
@@ -121,7 +121,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 224,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 180,
   },
   {
     title: 'Victoria',
@@ -132,7 +132,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 217,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 80,
   },
   {
     title: 'Entre Les Mots : Du Local Au Global',
@@ -154,7 +154,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 325,
     genre: 'Rap/Hip-Hop',
-    timesListened: 5,
+    timesListened: 10,
   },
   {
     title: 'Ils Ont Peur De La Liberté',
@@ -165,7 +165,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 19,
+    timesListened: 50,
   },
   {
     title: 'Je Suis La Solitaire',
@@ -187,7 +187,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 247,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Entre Les Lignes : Une Goutte De Plus',
@@ -222,7 +222,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Esprits libres',
@@ -233,7 +233,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 237,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: "Le Syndrome de l'exclu (feat. RPZ)",
@@ -244,7 +244,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 222,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Capitale de la rupture',
@@ -255,7 +255,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 169,
     genre: 'Rap/Hip-Hop',
-    timesListened: 2,
+    timesListened: 10,
   },
   {
     title: 'Entre les lignes #1 : Car nous sommes le monde',
@@ -266,7 +266,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 227,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: "Vie d'artiste",
@@ -277,7 +277,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 268,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Gens pressés',
@@ -288,7 +288,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 243,
     genre: 'Rap/Hip-Hop',
-    timesListened: 4,
+    timesListened: 30,
   },
   {
     title: 'Cynisme vous a tué ?',
@@ -299,7 +299,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 305,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Indignados',
@@ -310,7 +310,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 241,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Casse le schéma',
@@ -321,7 +321,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 214,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: "J'ai osé",
@@ -332,7 +332,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 259,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Entre les lignes #2 : 20.12',
@@ -343,7 +343,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 322,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Y a urgence !',
@@ -354,7 +354,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 226,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Le monde est notre reflet',
@@ -365,7 +365,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 234,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Cherche en toi',
@@ -376,7 +376,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 220,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Fille du vent',
@@ -387,7 +387,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 235,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Tout tourne autour du soleil',
@@ -398,7 +398,7 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 237,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: "Retour à la terre / Le Retour de l'enfant prodigue",
@@ -409,30 +409,6 @@ export const musicsKenyArkana: Music[] = [
     rating: 0,
     duration: 515,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
-  },
-
-  // Autres sorties
-  {
-    title: 'Entre les lignes : clouées au sol',
-    artist: 'Keny Arkana',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
     timesListened: 10,
-  },
-  {
-    title: 'Nettoyage au karscher',
-    artist: 'Keny Arkana',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 7,
   },
 ];

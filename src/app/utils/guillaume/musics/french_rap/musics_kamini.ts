@@ -11,7 +11,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 309,
     genre: 'Rap/Hip-Hop',
-    timesListened: 32,
+    timesListened: 220,
   },
   {
     title: "Un P'tit Coup de Motherfuck",
@@ -22,7 +22,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 141,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'Psychostar Show',
@@ -33,7 +33,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 150,
   },
   {
     title: 'Chevalier',
@@ -44,7 +44,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 173,
     genre: 'Rap/Hip-Hop',
-    timesListened: 16,
+    timesListened: 200,
   },
   {
     title: 'Frustration',
@@ -55,7 +55,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 214,
     genre: 'Rap/Hip-Hop',
-    timesListened: 11,
+    timesListened: 120,
   },
   {
     title: 'Bien Gamin',
@@ -66,7 +66,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 175,
     genre: 'Rap/Hip-Hop',
-    timesListened: 12,
+    timesListened: 150,
   },
   {
     title: "J'suis Blanc",
@@ -77,7 +77,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'Psychostar World',
@@ -88,7 +88,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 266,
     genre: 'Rap/Hip-Hop',
-    timesListened: 27,
+    timesListened: 200,
   },
   {
     title: 'Schizophrène',
@@ -99,7 +99,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 214,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 70,
   },
   {
     title: 'Faisons Quéquette',
@@ -110,7 +110,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 196,
     genre: 'Rap/Hip-Hop',
-    timesListened: 13,
+    timesListened: 150,
   },
   {
     title: 'Le Déni',
@@ -121,7 +121,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 202,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 80,
   },
   {
     title: 'Petits Patelins',
@@ -132,7 +132,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 305,
     genre: 'Rap/Hip-Hop',
-    timesListened: 13,
+    timesListened: 80,
   },
 
   // Album : Extraterrien (2015) - Kamini
@@ -145,7 +145,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 13,
+    timesListened: 30,
   },
   {
     title: "Parce qu'on est Con",
@@ -156,7 +156,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 250,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'La Bagarre',
@@ -167,7 +167,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 194,
     genre: 'Rap/Hip-Hop',
-    timesListened: 5,
+    timesListened: 40,
   },
   {
     title: 'En ce moment même',
@@ -178,7 +178,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 333,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: "Y'a l'Aziz",
@@ -189,7 +189,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 247,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: "Ça c'est Showbizz",
@@ -200,7 +200,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 244,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 70,
   },
   {
     title: 'Faut que ça Fuck',
@@ -211,7 +211,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 204,
     genre: 'Rap/Hip-Hop',
-    timesListened: 7,
+    timesListened: 30,
   },
   {
     title: 'La Maladie des Hommes',
@@ -222,7 +222,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 249,
     genre: 'Rap/Hip-Hop',
-    timesListened: 6,
+    timesListened: 30,
   },
   {
     title: 'Interlude',
@@ -244,7 +244,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 221,
     genre: 'Rap/Hip-Hop',
-    timesListened: 8,
+    timesListened: 20,
   },
   {
     title: 'Night Club System',
@@ -255,7 +255,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 278,
     genre: 'Rap/Hip-Hop',
-    timesListened: 5,
+    timesListened: 30,
   },
   {
     title: 'Ovni',
@@ -266,7 +266,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Hip-Hop',
-    timesListened: 13,
+    timesListened: 70,
   },
   {
     title: "Ce que j'aurais aimé être",
@@ -277,7 +277,7 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 250,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 40,
   },
   {
     title: "Son de l'Campagne dans ta Gueule",
@@ -288,6 +288,6 @@ export const musicsKamini: Music[] = [
     rating: 0,
     duration: 251,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 30,
   },
 ];
