@@ -11,7 +11,7 @@ export const musicsKesha: Music[] = [
     rating: 0,
     duration: 187,
     genre: 'Pop',
-    timesListened: 28,
+    timesListened: 150,
   },
   {
     title: 'Tik Tok',
@@ -22,7 +22,7 @@ export const musicsKesha: Music[] = [
     rating: 0,
     duration: 199,
     genre: 'Pop',
-    timesListened: 48,
+    timesListened: 200,
   },
   {
     title: 'Take It Off',
@@ -33,7 +33,7 @@ export const musicsKesha: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Pop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Kiss N Tell',
@@ -44,7 +44,7 @@ export const musicsKesha: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Pop',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: 'Stephen',
@@ -55,7 +55,7 @@ export const musicsKesha: Music[] = [
     rating: 0,
     duration: 212,
     genre: 'Pop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Blah Blah Blah (feat. 3OH!3)',
@@ -66,7 +66,7 @@ export const musicsKesha: Music[] = [
     rating: 0,
     duration: 172,
     genre: 'Pop',
-    timesListened: 15,
+    timesListened: 120,
   },
   {
     title: 'Hungover',
@@ -77,7 +77,7 @@ export const musicsKesha: Music[] = [
     rating: 0,
     duration: 232,
     genre: 'Pop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: "Party at a Rich Dude's House",
@@ -154,7 +154,7 @@ export const musicsKesha: Music[] = [
     rating: 0,
     duration: 237,
     genre: 'Pop',
-    timesListened: 1,
+    timesListened: 10,
   },
 
   // Autres

@@ -21,7 +21,7 @@ export const musicsGwenStefani: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Pop',
-    timesListened: 78,
+    timesListened: 200,
   },
   {
     title: 'Hollaback Girl',
@@ -32,7 +32,7 @@ export const musicsGwenStefani: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Pop',
-    timesListened: 76,
+    timesListened: 100,
   },
   {
     title: 'What You Waiting For?',

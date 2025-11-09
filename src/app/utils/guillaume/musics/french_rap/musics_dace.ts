@@ -88,7 +88,7 @@ export const musicsDace: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 7,
+    timesListened: 20,
   },
   {
     title: 'Petite sœur',
@@ -99,7 +99,7 @@ export const musicsDace: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 1,
+    timesListened: 5,
   },
   {
     title: 'Zouzou',
@@ -200,6 +200,6 @@ export const musicsDace: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 5,
+    timesListened: 40,
   },
 ];

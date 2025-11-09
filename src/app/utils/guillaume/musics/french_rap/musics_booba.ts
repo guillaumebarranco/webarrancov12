@@ -22,7 +22,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 281,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Groupe sanguin',
@@ -55,7 +55,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 290,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Si tu kiffes pas...',
@@ -66,7 +66,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 270,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Têtes brûlées',
@@ -77,7 +77,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 258,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: '92 I',
@@ -110,7 +110,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 260,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Avertisseurs',
@@ -132,7 +132,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 297,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Mauvais Œil',
@@ -167,7 +167,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 144,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Indépendants',
@@ -222,7 +222,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 172,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 30,
   },
   {
     title: 'Le bitume avec une plume',
@@ -233,7 +233,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 284,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Animals',
@@ -244,7 +244,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 276,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Sans ratures',
@@ -310,7 +310,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 289,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 20,
   },
 
   // Album : Panthéon (2004)
@@ -323,7 +323,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 244,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Le mal par le mal',
@@ -356,7 +356,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 279,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'Hors-saison',
@@ -389,7 +389,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 271,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'La Faucheuse',
@@ -400,7 +400,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 282,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Mon son',
@@ -411,7 +411,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 169,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Alter égo',
@@ -455,7 +455,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 325,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 20,
   },
 
   // Album : Ouest side (2006)
@@ -468,7 +468,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 87,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Garde la pêche',
@@ -479,7 +479,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 171,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 180,
   },
   {
     title: 'Le Duc de Boulogne',
@@ -490,7 +490,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'Boîte vocale',
@@ -501,7 +501,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Boulbi',
@@ -512,7 +512,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 243,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 180,
   },
   {
     title: 'Ouest Side',
@@ -523,7 +523,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 220,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: '92izi',
@@ -534,7 +534,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 302,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 30,
   },
   {
     title: 'Ouais ouais',
@@ -545,7 +545,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 274,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Pitbull',
@@ -556,7 +556,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 229,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'Je me souviens',
@@ -567,7 +567,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 210,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Le météore',
@@ -578,7 +578,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 224,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Au bout des rêves',
@@ -589,7 +589,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 264,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'Gun in Hand',
@@ -600,7 +600,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 282,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'Au fond de la classe',
@@ -611,7 +611,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 235,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Couleur ébène',
@@ -622,7 +622,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 220,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Outro',
@@ -633,7 +633,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 174,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 30,
   },
 
   // Album : Autopsie Vol. 2 (2007)
@@ -657,7 +657,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 181,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Le D.U.C.',
@@ -668,7 +668,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 262,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Boulbi (Freestyle Cut Killer Show)',
@@ -745,7 +745,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 308,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Freestyle',
@@ -855,7 +855,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 67,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 30,
   },
   {
     title: 'Boîte vocale (Freestyle)',
@@ -888,7 +888,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 147,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Au bout des rêves (Freestyle)',
@@ -945,7 +945,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 322,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'Non Stop',
@@ -967,7 +967,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 55,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Ne me parle pas de rue',
@@ -978,7 +978,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 332,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Trashhh',
@@ -1000,7 +1000,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 156,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Murderer',
@@ -1044,7 +1044,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 67,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Rats des villes',
@@ -1055,7 +1055,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 224,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'Reste en chien',
@@ -1066,7 +1066,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 72,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 120,
   },
   {
     title: 'Salade, tomates, oignons (Yuksek Remix)',
@@ -1077,7 +1077,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 194,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Ride',
@@ -1110,7 +1110,7 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 229,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 30,
   },
   {
     title: 'Démarrer',
@@ -1154,7 +1154,6 @@ export const musicsBooba: Music[] = [
     rating: 0,
     duration: 297,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 80,
   },
 ];
-

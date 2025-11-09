@@ -22,7 +22,7 @@ export const musicsSinik: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 150,
   },
   {
     title: 'Mots pour maux',
@@ -121,7 +121,7 @@ export const musicsSinik: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Pardonnez-moi',
@@ -165,7 +165,7 @@ export const musicsSinik: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 30,
   },
   {
     title: 'Dis-leur 2 ma part',
@@ -200,7 +200,7 @@ export const musicsSinik: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Sarkozik',
@@ -310,7 +310,7 @@ export const musicsSinik: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Si proche des miens',
@@ -343,7 +343,7 @@ export const musicsSinik: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Mon pire ennemi (Remix)',
@@ -365,7 +365,18 @@ export const musicsSinik: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 20,
+  },
+  // Autres sorties
+  {
+    title: '32 mesures de haine',
+    artist: 'Sinik',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 9,
   },
 ];
-

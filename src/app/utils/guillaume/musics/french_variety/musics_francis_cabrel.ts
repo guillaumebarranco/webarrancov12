@@ -11,7 +11,7 @@ export const musicsFrancisCabrel: Music[] = [
     rating: 0,
     duration: 339,
     genre: 'Variété française',
-    timesListened: 36,
+    timesListened: 200,
   },
   {
     title: 'Assis sur le rebord du monde',
@@ -33,7 +33,7 @@ export const musicsFrancisCabrel: Music[] = [
     rating: 0,
     duration: 306,
     genre: 'Variété française',
-    timesListened: 8,
+    timesListened: 30,
   },
   {
     title: 'Samedi soir sur la Terre',
@@ -55,7 +55,7 @@ export const musicsFrancisCabrel: Music[] = [
     rating: 0,
     duration: 276,
     genre: 'Variété française',
-    timesListened: 0,
+    timesListened: 30,
   },
   {
     title: 'Les Vidanges du diable',
@@ -123,7 +123,7 @@ export const musicsFrancisCabrel: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Variété française',
-    timesListened: 27,
+    timesListened: 150,
   },
   {
     title: 'Sarbacane',
@@ -134,7 +134,7 @@ export const musicsFrancisCabrel: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Variété française',
-    timesListened: 27,
+    timesListened: 50,
   },
   {
     title: "L'encre de tes yeux",
@@ -145,7 +145,7 @@ export const musicsFrancisCabrel: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Variété française',
-    timesListened: 13,
+    timesListened: 120,
   },
   {
     title: "Je l'aime à mourir",
@@ -156,7 +156,7 @@ export const musicsFrancisCabrel: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Variété française',
-    timesListened: 31,
+    timesListened: 150,
   },
   {
     title: 'Encore et encore',
@@ -167,7 +167,7 @@ export const musicsFrancisCabrel: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Variété française',
-    timesListened: 9,
+    timesListened: 50,
   },
   {
     title: 'Gardien de nuit',
@@ -178,6 +178,6 @@ export const musicsFrancisCabrel: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Variété française',
-    timesListened: 8,
+    timesListened: 30,
   },
 ];

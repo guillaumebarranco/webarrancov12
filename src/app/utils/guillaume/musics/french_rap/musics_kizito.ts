@@ -22,7 +22,7 @@ export const musicsKizito: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Émeutes',
@@ -66,7 +66,7 @@ export const musicsKizito: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'Ghetto Girls',
@@ -77,7 +77,7 @@ export const musicsKizito: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: "La plume et l'enclume",
@@ -99,7 +99,7 @@ export const musicsKizito: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: "Le monde m'appartient",
@@ -157,4 +157,3 @@ export const musicsKizito: Music[] = [
     timesListened: 0,
   },
 ];
-

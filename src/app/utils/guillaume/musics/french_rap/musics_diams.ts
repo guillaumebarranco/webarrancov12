@@ -11,7 +11,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 38,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Incassables',
@@ -22,7 +22,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 244,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Mon répertoire',
@@ -33,7 +33,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 329,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Cruelle à vie',
@@ -44,7 +44,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 392,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'DJ',
@@ -55,7 +55,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 269,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Madame qui ?',
@@ -66,7 +66,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 236,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: '1980',
@@ -77,7 +77,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 220,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Où je vais',
@@ -88,7 +88,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 291,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Vénus',
@@ -99,7 +99,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 166,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Ma souffrance',
@@ -110,7 +110,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 344,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Évasion',
@@ -121,7 +121,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 303,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Amoré',
@@ -132,7 +132,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 259,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Daddy',
@@ -143,7 +143,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 270,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Parce que',
@@ -154,7 +154,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 242,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Suzy (2003)',
@@ -165,7 +165,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 253,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Album : Dans ma bulle (2006)
@@ -189,7 +189,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 231,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'Ma France à moi',
@@ -200,7 +200,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 273,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Feuille blanche',
@@ -222,7 +222,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 291,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Car tu portes mon nom',
@@ -244,7 +244,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 341,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Dans ma bulle',
@@ -266,7 +266,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 403,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Big up',
@@ -288,7 +288,7 @@ export const musicsDiams: Music[] = [
     rating: 0,
     duration: 360,
     genre: 'Rap français',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'T.S.',
@@ -335,4 +335,3 @@ export const musicsDiams: Music[] = [
     timesListened: 0,
   },
 ];
-

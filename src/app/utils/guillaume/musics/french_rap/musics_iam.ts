@@ -22,7 +22,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 232,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Dangereux',
@@ -33,7 +33,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 226,
     genre: 'Rap/Hip-Hop',
-    timesListened: 11,
+    timesListened: 50,
   },
   {
     title: 'Nés sous la même étoile',
@@ -44,7 +44,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 230,
     genre: 'Rap/Hip-Hop',
-    timesListened: 18,
+    timesListened: 80,
   },
   {
     title: 'La Saga',
@@ -55,7 +55,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 242,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 60,
   },
   {
     title: 'Petit frère',
@@ -66,7 +66,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 284,
     genre: 'Rap/Hip-Hop',
-    timesListened: 18,
+    timesListened: 100,
   },
   {
     title: 'Elle donne son corps avant son nom',
@@ -77,7 +77,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 252,
     genre: 'Rap/Hip-Hop',
-    timesListened: 18,
+    timesListened: 100,
   },
   {
     title: "L'Empire du côté obscur",
@@ -88,7 +88,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 267,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Regarde',
@@ -99,7 +99,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 237,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 50,
   },
   {
     title: "L'Enfer",
@@ -110,7 +110,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 292,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Quand tu allais, on revenait',
@@ -121,7 +121,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 288,
     genre: 'Rap/Hip-Hop',
-    timesListened: 11,
+    timesListened: 50,
   },
   {
     title: 'Chez le mac',
@@ -132,7 +132,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 282,
     genre: 'Rap/Hip-Hop',
-    timesListened: 16,
+    timesListened: 100,
   },
   {
     title: 'Un bon son brut pour les truands',
@@ -143,7 +143,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 230,
     genre: 'Rap/Hip-Hop',
-    timesListened: 8,
+    timesListened: 30,
   },
   {
     title: 'Bouger la tête',
@@ -154,7 +154,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 283,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 30,
   },
   {
     title: 'Un cri court dans la nuit',
@@ -165,7 +165,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 232,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Libère mon imagination',
@@ -176,7 +176,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 320,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Demain, c'est loin",
@@ -187,7 +187,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 540,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 100,
   },
 
   // Album : Arts Martiens (2013) - IAM
@@ -200,7 +200,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 262,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Les raisons de la colère',
@@ -211,7 +211,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 6,
+    timesListened: 30,
   },
   {
     title: 'Tous les saints de la terre',
@@ -222,7 +222,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 212,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'La part du démon',
@@ -233,7 +233,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 223,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Benkei et Minamoto',
@@ -244,7 +244,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 260,
     genre: 'Rap/Hip-Hop',
-    timesListened: 2,
+    timesListened: 20,
   },
   {
     title: '4.2.1',
@@ -255,7 +255,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 245,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Marvel',
@@ -266,7 +266,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 275,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Misère',
@@ -277,7 +277,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 244,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: "L'Amour qu'on me donne",
@@ -288,7 +288,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 224,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Habitude',
@@ -299,7 +299,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 251,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Mon encre, si amère',
@@ -310,7 +310,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 263,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Debout les braves',
@@ -321,7 +321,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 261,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Après la fête...',
@@ -332,7 +332,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 220,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Pain au chocolat',
@@ -343,7 +343,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 224,
     genre: 'Rap/Hip-Hop',
-    timesListened: 2,
+    timesListened: 20,
   },
   {
     title: 'Sombres manœuvres / Manœuvres sombres',
@@ -354,7 +354,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 404,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Notre dame veille',
@@ -365,7 +365,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 179,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: "Dernier coup d'éclat",
@@ -376,7 +376,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 322,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
 
   // Album : Yasuke (2024) - IAM
@@ -389,7 +389,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 215,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Yasuke',
@@ -400,7 +400,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 178,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Mosaïque',
@@ -411,7 +411,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 250,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Self Made Men',
@@ -422,7 +422,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 270,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Les choses, telles qu'elles paraissent",
@@ -433,7 +433,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 243,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'On va tous les zinguer',
@@ -444,7 +444,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Eldorado',
@@ -455,7 +455,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 222,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Le train de l'argent",
@@ -466,7 +466,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 317,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Qui est ?',
@@ -477,7 +477,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 242,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Remember',
@@ -488,7 +488,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 231,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Rap Warrior',
@@ -499,7 +499,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 302,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Good Morning Song',
@@ -510,7 +510,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 239,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Fin des illusions',
@@ -521,7 +521,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 437,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: "Quand est-ce qu'on s'aime",
@@ -532,7 +532,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 230,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'MC, tu perds ton sang froid',
@@ -543,7 +543,7 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
   {
     title: 'Once Upon a Time',
@@ -554,21 +554,11 @@ export const musicsIAM: Music[] = [
     rating: 0,
     duration: 308,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 1,
   },
 
   // Autres sorties
-  {
-    title: 'Sombres Manoeuvres / Manoeuvres Sombres',
-    artist: 'IAM',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 8,
-  },
+
   {
     title: 'La fin de leur monde',
     artist: 'IAM',

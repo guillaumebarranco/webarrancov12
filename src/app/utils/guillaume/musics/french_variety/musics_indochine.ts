@@ -10,7 +10,7 @@ export const musicsIndochine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 25,
+    timesListened: 200,
   },
   {
     title: "L'aventurier",
@@ -21,7 +21,7 @@ export const musicsIndochine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 24,
+    timesListened: 250,
   },
   {
     title: 'Trois nuits par semaine',
@@ -32,6 +32,6 @@ export const musicsIndochine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 9,
+    timesListened: 80,
   },
 ];

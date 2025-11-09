@@ -22,7 +22,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 2,
+    timesListened: 150,
   },
   {
     title: 'Ma nature',
@@ -33,7 +33,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 8,
+    timesListened: 150,
   },
   {
     title: 'Le misérable',
@@ -44,7 +44,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Reste Telle Que Tu Es',
@@ -88,7 +88,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'Femme pressée',
@@ -143,7 +143,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Les amoureux du hip-hop',
@@ -154,7 +154,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 3,
+    timesListened: 120,
   },
 
   // Album : On ne vit qu'une fois (2004)
@@ -167,7 +167,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 0,
+    timesListened: 120,
   },
   {
     title: 'Ma conscience',
@@ -178,7 +178,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 0,
+    timesListened: 150,
   },
   {
     title: "J'avance en chantant",
@@ -189,7 +189,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 0,
+    timesListened: 30,
   },
   {
     title: 'Préparatifs',
@@ -211,7 +211,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Moi et mes gars',
@@ -244,7 +244,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Je doute',
@@ -266,7 +266,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: "C'est trop",
@@ -277,7 +277,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 0,
+    timesListened: 120,
   },
   {
     title: 'Malédiction',
@@ -299,7 +299,7 @@ export const musicsSinguila: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Soul',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'En bas de ma fenêtre',

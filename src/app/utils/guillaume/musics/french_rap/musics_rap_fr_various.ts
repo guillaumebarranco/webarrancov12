@@ -10,7 +10,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 37,
+    timesListened: 80,
   },
   {
     title: 'Ma femme',
@@ -24,17 +24,6 @@ export const musicsRapFrVarious: Music[] = [
     timesListened: 18,
   },
   {
-    title: 'La Boulette (Génération Nan Nan)',
-    artist: "Diam's",
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 20,
-  },
-  {
     title: 'Au summum',
     artist: '113',
     album: 'Unknown',
@@ -43,7 +32,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 16,
+    timesListened: 30,
   },
   {
     title: 'La tribu de Dana',
@@ -54,7 +43,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 13,
+    timesListened: 80,
   },
   {
     title: 'Wati by Night',
@@ -65,7 +54,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 25,
+    timesListened: 50,
   },
   {
     title: 'Le bilan',
@@ -76,7 +65,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 17,
+    timesListened: 70,
   },
   {
     title: 'Petit Martien',
@@ -87,7 +76,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 16,
+    timesListened: 100,
   },
   {
     title: 'Le Vice',
@@ -153,7 +142,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 6,
+    timesListened: 10,
   },
   {
     title: 'On gère',
@@ -175,7 +164,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 16,
+    timesListened: 50,
   },
   {
     title: 'Chanson Triste',
@@ -186,7 +175,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 10,
+    timesListened: 70,
   },
   {
     title: 'Marche',
@@ -208,7 +197,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 10,
+    timesListened: 20,
   },
   {
     title: 'Titi parisien - Remix',
@@ -234,17 +223,6 @@ export const musicsRapFrVarious: Music[] = [
     timesListened: 9,
   },
   {
-    title: '32 mesures de haine',
-    artist: 'Sinik',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-  {
     title: 'Garçon',
     artist: 'Koxie',
     album: 'Unknown',
@@ -253,7 +231,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 9,
+    timesListened: 120,
   },
   {
     title: 'Simple et funky',
@@ -286,7 +264,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 8,
+    timesListened: 30,
   },
   {
     title: 'Partis de rien',
@@ -299,7 +277,6 @@ export const musicsRapFrVarious: Music[] = [
     genre: 'Unknown',
     timesListened: 8,
   },
-
   {
     title: 'R.A.P',
     artist: 'A2h',
@@ -342,10 +319,10 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 8,
+    timesListened: 50,
   },
   {
-    title: '1000Â°C',
+    title: '1000°C',
     artist: 'Lomepal',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -364,7 +341,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 20,
   },
   {
     title: 'Les princes (feat. Nekfeu)',
@@ -518,7 +495,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 20,
   },
   {
     title: 'Bataclan',
@@ -562,7 +539,7 @@ export const musicsRapFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 20,
   },
   {
     title: 'Là-haut',

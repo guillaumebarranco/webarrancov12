@@ -233,7 +233,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Rap/Hip-Hop',
-    timesListened: 12,
+    timesListened: 50,
   },
   {
     title: "Le ghetto n'est pas un abri",
@@ -345,7 +345,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 246,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'Viens',
@@ -356,7 +356,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 241,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 30,
   },
   {
     title: "J'ai changé",
@@ -367,7 +367,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 254,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: 'Menace de mort',
@@ -378,7 +378,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 14,
+    timesListened: 50,
   },
   {
     title: 'Histoires vraies',
@@ -389,7 +389,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 278,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 30,
   },
   {
     title: 'Irréversible',
@@ -400,7 +400,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 243,
     genre: 'Rap/Hip-Hop',
-    timesListened: 21,
+    timesListened: 30,
   },
   {
     title: 'Les Disques de mon père',
@@ -411,7 +411,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 296,
     genre: 'Rap/Hip-Hop',
-    timesListened: 27,
+    timesListened: 50,
   },
   {
     title: "L'enfer c'est les autres",
@@ -422,7 +422,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 335,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'B.A.O.',
@@ -433,7 +433,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 269,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: 'Gestelude, Pt. 1',
@@ -455,7 +455,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 212,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 80,
   },
   {
     title: "Tout l'amour du monde",
@@ -466,7 +466,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 256,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: "Dreamin'",
@@ -477,7 +477,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 304,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: 'Gestelude, Pt. 2',
@@ -488,7 +488,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 176,
     genre: 'Rap/Hip-Hop',
-    timesListened: 13,
+    timesListened: 20,
   },
   {
     title: 'La vie est belle',
@@ -499,7 +499,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 331,
     genre: 'Rap/Hip-Hop',
-    timesListened: 17,
+    timesListened: 50,
   },
   {
     title: 'Espérance de vie',
@@ -510,7 +510,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 325,
     genre: 'Rap/Hip-Hop',
-    timesListened: 17,
+    timesListened: 50,
   },
   {
     title: '4h37 (Outro)',
@@ -521,7 +521,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 335,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 30,
   },
   {
     title: 'Poids plume Remix (Bonus Itunes Version)',
@@ -543,7 +543,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 274,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
 
   // Album : NGRTD (2015) - Youssoupha
@@ -556,7 +556,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 191,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Salaam',
@@ -567,7 +567,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 277,
     genre: 'Rap/Hip-Hop',
-    timesListened: 22,
+    timesListened: 50,
   },
   {
     title: 'Points communs',
@@ -578,7 +578,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 279,
     genre: 'Rap/Hip-Hop',
-    timesListened: 28,
+    timesListened: 50,
   },
   {
     title: "Maman m'a dit",
@@ -589,7 +589,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'Memento',
@@ -600,7 +600,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Rap/Hip-Hop',
-    timesListened: 18,
+    timesListened: 80,
   },
   {
     title: 'Love Musik',
@@ -611,7 +611,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'Rap/Hip-Hop',
-    timesListened: 26,
+    timesListened: 80,
   },
   {
     title: 'À cause de moi',
@@ -622,7 +622,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 199,
     genre: 'Rap/Hip-Hop',
-    timesListened: 22,
+    timesListened: 50,
   },
   {
     title: 'Chanson française',
@@ -633,7 +633,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 42,
+    timesListened: 150,
   },
   {
     title: 'Entourage',
@@ -644,7 +644,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 300,
     genre: 'Rap/Hip-Hop',
-    timesListened: 19,
+    timesListened: 80,
   },
   {
     title: 'Le score',
@@ -655,7 +655,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 221,
     genre: 'Rap/Hip-Hop',
-    timesListened: 25,
+    timesListened: 80,
   },
   {
     title: 'Niquer ma vie',
@@ -666,7 +666,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 269,
     genre: 'Rap/Hip-Hop',
-    timesListened: 16,
+    timesListened: 60,
   },
   {
     title: 'Mannschaft',
@@ -677,7 +677,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 293,
     genre: 'Rap/Hip-Hop',
-    timesListened: 14,
+    timesListened: 50,
   },
   {
     title: 'Black Out',
@@ -688,7 +688,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 219,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 50,
   },
   {
     title: 'Smile',
@@ -699,7 +699,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 221,
     genre: 'Rap/Hip-Hop',
-    timesListened: 24,
+    timesListened: 100,
   },
   {
     title: 'Négritude',
@@ -710,7 +710,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 267,
     genre: 'Rap/Hip-Hop',
-    timesListened: 18,
+    timesListened: 100,
   },
   {
     title: 'Mourir mille fois',
@@ -721,7 +721,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 301,
     genre: 'Rap/Hip-Hop',
-    timesListened: 11,
+    timesListened: 80,
   },
 
   // Album : Polaroïd Experience (2018) - Youssoupha
@@ -767,7 +767,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 194,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: "Avoir de l'argent",
@@ -789,7 +789,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 228,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Alléluia / 1989',
@@ -967,7 +967,7 @@ export const musicsYoussoupha: Music[] = [
     rating: 0,
     duration: 196,
     genre: 'Rap/Hip-Hop',
-    timesListened: 38,
+    timesListened: 60,
   },
   {
     title: 'AMBITION - GUINÉE CONAKRY',
@@ -1195,17 +1195,6 @@ export const musicsYoussoupha: Music[] = [
   },
   {
     title: 'I Know - Street Remix',
-    artist: 'Youssoupha',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 8,
-  },
-  {
-    title: 'On se connaît',
     artist: 'Youssoupha',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',

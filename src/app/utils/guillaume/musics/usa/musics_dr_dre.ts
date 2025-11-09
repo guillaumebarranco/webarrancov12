@@ -44,7 +44,7 @@ export const musicsDrDre: Music[] = [
     rating: 0,
     duration: 270,
     genre: 'Hip-Hop',
-    timesListened: 48,
+    timesListened: 150,
   },
   {
     title: "Big Ego's",
@@ -77,7 +77,7 @@ export const musicsDrDre: Music[] = [
     rating: 0,
     duration: 244,
     genre: 'Hip-Hop',
-    timesListened: 24,
+    timesListened: 120,
   },
   {
     title: 'Bar One',
@@ -110,7 +110,7 @@ export const musicsDrDre: Music[] = [
     rating: 0,
     duration: 222,
     genre: 'Hip-Hop',
-    timesListened: 20,
+    timesListened: 50,
   },
   {
     title: 'The Next Episode',
@@ -121,7 +121,7 @@ export const musicsDrDre: Music[] = [
     rating: 0,
     duration: 161,
     genre: 'Hip-Hop',
-    timesListened: 53,
+    timesListened: 250,
   },
   {
     title: "Let's Get High",

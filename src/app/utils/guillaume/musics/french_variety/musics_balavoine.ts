@@ -10,7 +10,7 @@ export const musicsBalavoine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 29,
+    timesListened: 250,
   },
   {
     title: 'Je ne suis pas un héros',
@@ -21,7 +21,7 @@ export const musicsBalavoine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 26,
+    timesListened: 250,
   },
   {
     title: 'Le chanteur',
@@ -32,7 +32,7 @@ export const musicsBalavoine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 36,
+    timesListened: 300,
   },
   {
     title: 'Lucie',
@@ -43,7 +43,7 @@ export const musicsBalavoine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 6,
+    timesListened: 150,
   },
   {
     title: 'Mon fils ma bataille',
@@ -54,7 +54,7 @@ export const musicsBalavoine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 60,
+    timesListened: 300,
   },
   {
     title: "Aimer est plus fort que d'être aimé",
@@ -65,7 +65,7 @@ export const musicsBalavoine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 11,
+    timesListened: 200,
   },
   {
     title: "Dieu que c'est beau",
@@ -76,7 +76,7 @@ export const musicsBalavoine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 21,
+    timesListened: 150,
   },
   {
     title: "L'Aziza",
@@ -87,7 +87,7 @@ export const musicsBalavoine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 13,
+    timesListened: 150,
   },
   {
     title: "La vie ne m'apprend rien",
@@ -98,7 +98,7 @@ export const musicsBalavoine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 20,
+    timesListened: 120,
   },
   {
     title: 'Vivre ou survivre',
@@ -109,7 +109,7 @@ export const musicsBalavoine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 8,
+    timesListened: 120,
   },
 
   // Autres sorties
@@ -122,7 +122,7 @@ export const musicsBalavoine: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 8,
+    timesListened: 150,
   },
   {
     title: 'Soulève-moi',
@@ -147,7 +147,7 @@ export const musicsBalavoine: Music[] = [
     timesListened: 2,
   },
   {
-    title: 'Rien Ã  Foutre',
+    title: 'Rien à Foutre',
     artist: 'Daniel Balavoine',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',

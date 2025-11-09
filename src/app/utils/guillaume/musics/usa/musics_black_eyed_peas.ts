@@ -10,7 +10,7 @@ export const musicsBlackEyedPeas: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 44,
+    timesListened: 200,
   },
   {
     title: 'Hey Mama',
@@ -21,7 +21,7 @@ export const musicsBlackEyedPeas: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 16,
+    timesListened: 30,
   },
   {
     title: 'I Gotta Feeling',
@@ -32,18 +32,7 @@ export const musicsBlackEyedPeas: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
-  },
-  {
-    title: 'Pump It Up',
-    artist: 'Black Eyed Peas',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
+    timesListened: 50,
   },
   {
     title: 'Where Is The Love?',

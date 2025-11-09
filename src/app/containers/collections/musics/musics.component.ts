@@ -293,6 +293,7 @@ export class MusicsComponent {
 
   sortedStandaloneMusics = computed<Music[]>(() => {
     const sorted = [...this.standaloneMusics()];
-    return sorted.sort((a, b) => a.title.localeCompare(b.title));
+    // Tri par nombre d'écoutes (du plus écouté au moins écouté)
+    return sorted.sort((a, b) => b.timesListened - a.timesListened);
   });
 }

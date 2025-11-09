@@ -1,17 +1,6 @@
 import { Music } from '../../../../models/music-model';
 
 export const musicsSniper: Music[] = [
-  {
-    title: 'Panam Hall Starz',
-    artist: 'SNIPER',
-    album: 'Du rire aux larmes',
-    coverUrl: '/musics_pictures/61grGckcuaL.jpg',
-    releaseDate: '2001-06-25',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 22,
-  },
   // Album : Du rire aux larmes (2001) - Sniper
   {
     title: 'Intro',
@@ -22,7 +11,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 92,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Sniper processus',
@@ -33,7 +22,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 258,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Pris pour cible',
@@ -44,7 +33,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 244,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'Faut de tout pour faire un monde',
@@ -55,7 +44,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 288,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Intro "Le crew est de sortie"',
@@ -66,7 +55,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 29,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Le crew est de sortie',
@@ -77,7 +66,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 271,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Intro "Tribal poursuite"',
@@ -88,7 +77,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 41,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Tribal poursuite',
@@ -99,7 +88,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 281,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'La France (solo Tunisiano)',
@@ -110,7 +99,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 378,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Intro "Du rire aux larmes"',
@@ -121,7 +110,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 64,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Du rire aux larmes',
@@ -132,7 +121,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 301,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: 'Aketo vs. Tunisiano',
@@ -143,7 +132,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 244,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 200,
   },
   {
     title: 'La sentence',
@@ -154,7 +143,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 241,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'Quand on te dit',
@@ -165,7 +154,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 236,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Aketo solo (solo Aketo)',
@@ -176,7 +165,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 255,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Fait divers',
@@ -187,7 +176,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 301,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: 'La rumba',
@@ -198,7 +187,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 259,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: "On s'en sort bien",
@@ -209,7 +198,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 245,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
 
   // Album : Gravé dans la roche (2003) - Sniper
@@ -222,7 +211,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 127,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Processus 2003',
@@ -233,7 +222,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 325,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 20,
   },
   {
     title: 'Visions chaotiques',
@@ -244,7 +233,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 442,
     genre: 'Rap/Hip-Hop',
-    timesListened: 6,
+    timesListened: 20,
   },
   {
     title: 'Gravé dans la roche',
@@ -255,7 +244,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 285,
     genre: 'Rap/Hip-Hop',
-    timesListened: 28,
+    timesListened: 200,
   },
   {
     title: 'Pourquoi',
@@ -266,7 +255,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 307,
     genre: 'Rap/Hip-Hop',
-    timesListened: 15,
+    timesListened: 150,
   },
   {
     title: 'Recette maison',
@@ -277,7 +266,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 230,
     genre: 'Rap/Hip-Hop',
-    timesListened: 11,
+    timesListened: 20,
   },
   {
     title: "Y'a pas de mérite",
@@ -288,7 +277,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 246,
     genre: 'Rap/Hip-Hop',
-    timesListened: 23,
+    timesListened: 230,
   },
   {
     title: 'Sans (re)pères',
@@ -299,7 +288,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 301,
     genre: 'Rap/Hip-Hop',
-    timesListened: 18,
+    timesListened: 250,
   },
   {
     title: "Ce que j'ai sur le cœur",
@@ -310,7 +299,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 312,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: '35 heures',
@@ -321,7 +310,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 227,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'Hall Story',
@@ -332,7 +321,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 352,
     genre: 'Rap/Hip-Hop',
-    timesListened: 14,
+    timesListened: 80,
   },
   {
     title: 'Entre deux',
@@ -343,7 +332,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 244,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 20,
   },
   {
     title: 'Trop vite (solo Blacko)',
@@ -365,7 +354,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 377,
     genre: 'Rap/Hip-Hop',
-    timesListened: 11,
+    timesListened: 20,
   },
   {
     title: 'Interlude micro ouvert',
@@ -376,7 +365,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 109,
     genre: 'Rap/Hip-Hop',
-    timesListened: 7,
+    timesListened: 20,
   },
   {
     title: 'Panam All Starz',
@@ -387,7 +376,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 468,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 200,
   },
 
   // Album : Trait pour trait (2006) - Sniper
@@ -400,7 +389,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 263,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Dans mon monde',
@@ -411,7 +400,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 263,
     genre: 'Rap/Hip-Hop',
-    timesListened: 2,
+    timesListened: 20,
   },
   {
     title: 'Trait pour trait',
@@ -422,7 +411,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 270,
     genre: 'Rap/Hip-Hop',
-    timesListened: 2,
+    timesListened: 50,
   },
   {
     title: 'Eldorado',
@@ -433,7 +422,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 395,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Zamalia (solo Blacko)',
@@ -444,7 +433,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 257,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Génération Tanguy',
@@ -455,7 +444,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 282,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: 'Donne tout',
@@ -466,7 +455,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 271,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 120,
   },
   {
     title: "La France (itinéraire d'une polémique) (solo Tunisiano)",
@@ -477,7 +466,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 401,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: 'Hommes de loi',
@@ -488,7 +477,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 331,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Il était une foi',
@@ -499,7 +488,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 338,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Radio',
@@ -510,7 +499,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 75,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Retour aux sources (solo Aketo)',
@@ -521,7 +510,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 325,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 200,
   },
   {
     title: 'Elle',
@@ -532,7 +521,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 335,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Brûle',
@@ -543,7 +532,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 281,
     genre: 'Rap/Hip-Hop',
-    timesListened: 2,
+    timesListened: 100,
   },
   {
     title: 'Fallait que je te dise',
@@ -554,7 +543,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 577,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
 
   // Album : Le Regard des gens (2008) - Tunisiano
@@ -567,7 +556,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Equivoque',
@@ -578,7 +567,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: 'Le regard des gens',
@@ -589,7 +578,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: 'Dégouté',
@@ -600,7 +589,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'Toucher mes rêves (feat. Lyricson)',
@@ -611,7 +600,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Nos rues',
@@ -622,7 +611,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Marlich',
@@ -633,7 +622,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: 'Citoyen du monde (feat. Zaho)',
@@ -644,7 +633,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Je porte plainte',
@@ -655,7 +644,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 120,
   },
   {
     title: 'Biographie',
@@ -666,7 +655,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: "On s'en fiche (feat. Akil)",
@@ -677,7 +666,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Qui es tu ?',
@@ -688,7 +677,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'Solitude (feat. Amel Bent)',
@@ -699,7 +688,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'Carte Postale',
@@ -710,7 +699,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 200,
   },
   {
     title: 'Ensemble',
@@ -721,7 +710,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 100,
   },
   {
     title: 'Répondez-moi',
@@ -732,7 +721,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 120,
   },
 
   // Album : Marqué à vie (2014) - Tunisiano
@@ -800,7 +789,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 13,
+    timesListened: 30,
   },
   {
     title: 'Val 2 Zoive (feat. Lino)',
@@ -822,7 +811,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 12,
+    timesListened: 30,
   },
   {
     title: 'Ils Nous Condamnent (feat. Youssoupha)',
@@ -844,7 +833,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 29,
+    timesListened: 100,
   },
   {
     title: 'Fer De Lance',
@@ -855,7 +844,7 @@ export const musicsSniper: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 14,
+    timesListened: 30,
   },
   {
     title: 'Amour Poison (feat. Thomas Mignot)',
@@ -922,40 +911,5 @@ export const musicsSniper: Music[] = [
     duration: 240,
     genre: 'Rap/Hip-Hop',
     timesListened: 19,
-  },
-
-  // Autres sorties
-  {
-    title: 'Adama',
-    artist: 'SNIPER',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 2,
-  },
-  {
-    title: 'Etat sauvage',
-    artist: 'Tunisiano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
-  },
-  {
-    title: 'Mariage forcé',
-    artist: 'Tunisiano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 9,
   },
 ];

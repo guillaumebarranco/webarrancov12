@@ -11,7 +11,7 @@ export const musicsLadyGaga: Music[] = [
     rating: 0,
     duration: 294,
     genre: 'Pop',
-    timesListened: 60,
+    timesListened: 200,
   },
   {
     title: 'Alejandro',
@@ -22,7 +22,7 @@ export const musicsLadyGaga: Music[] = [
     rating: 0,
     duration: 274,
     genre: 'Pop',
-    timesListened: 6,
+    timesListened: 30,
   },
   {
     title: 'Monster',
@@ -66,7 +66,7 @@ export const musicsLadyGaga: Music[] = [
     rating: 0,
     duration: 221,
     genre: 'Pop',
-    timesListened: 29,
+    timesListened: 200,
   },
   {
     title: 'So Happy I Could Die',
@@ -101,7 +101,7 @@ export const musicsLadyGaga: Music[] = [
     rating: 0,
     duration: 242,
     genre: 'Pop',
-    timesListened: 58,
+    timesListened: 200,
   },
   {
     title: 'LoveGame',
@@ -112,7 +112,7 @@ export const musicsLadyGaga: Music[] = [
     rating: 0,
     duration: 218,
     genre: 'Pop',
-    timesListened: 31,
+    timesListened: 200,
   },
   {
     title: 'Paparazzi',
@@ -123,7 +123,7 @@ export const musicsLadyGaga: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Pop',
-    timesListened: 42,
+    timesListened: 200,
   },
   {
     title: 'Poker Face',
@@ -134,7 +134,7 @@ export const musicsLadyGaga: Music[] = [
     rating: 0,
     duration: 237,
     genre: 'Pop',
-    timesListened: 41,
+    timesListened: 200,
   },
   {
     title: 'I Like It Rough',
@@ -156,7 +156,7 @@ export const musicsLadyGaga: Music[] = [
     rating: 0,
     duration: 177,
     genre: 'Pop',
-    timesListened: 0,
+    timesListened: 40,
   },
   {
     title: 'Starstruck',

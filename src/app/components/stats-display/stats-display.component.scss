@@ -67,6 +67,15 @@
   color: #bbdefb;
 }
 
+.stat-danger {
+  background: #dc3545;
+  box-shadow: 0 2px 8px rgba(220, 53, 69, 0.15);
+}
+
+.stat-danger strong {
+  color: #ffcdd2;
+}
+
 .stats-count {
   color: #6c757d;
   font-size: 1.1rem;

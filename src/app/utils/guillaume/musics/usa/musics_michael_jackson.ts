@@ -10,7 +10,7 @@ export const musicsMichaelJackson: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 12,
+    timesListened: 50,
   },
   {
     title: 'Smooth Criminal',
@@ -21,7 +21,7 @@ export const musicsMichaelJackson: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 10,
+    timesListened: 100,
   },
   {
     title: 'Beat It',
@@ -32,7 +32,7 @@ export const musicsMichaelJackson: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 6,
+    timesListened: 100,
   },
   {
     title: 'Billie Jean',
@@ -43,7 +43,7 @@ export const musicsMichaelJackson: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 6,
+    timesListened: 200,
   },
   {
     title: 'Thriller',
@@ -54,7 +54,7 @@ export const musicsMichaelJackson: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 2,
+    timesListened: 100,
   },
   {
     title: 'Bad - 2012 Remaster',
@@ -65,6 +65,6 @@ export const musicsMichaelJackson: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 2,
+    timesListened: 80,
   },
 ];

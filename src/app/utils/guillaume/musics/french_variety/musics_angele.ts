@@ -22,7 +22,7 @@ export const musicsAngele: Music[] = [
     rating: 0,
     duration: 189,
     genre: 'Pop française',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Jalousie',
@@ -44,7 +44,7 @@ export const musicsAngele: Music[] = [
     rating: 0,
     duration: 202,
     genre: 'Pop française',
-    timesListened: 3,
+    timesListened: 10,
   },
   {
     title: 'La Loi de Murphy',
@@ -99,7 +99,7 @@ export const musicsAngele: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Pop française',
-    timesListened: 3,
+    timesListened: 10,
   },
   {
     title: 'Ta reine',

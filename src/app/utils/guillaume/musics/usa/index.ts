@@ -5,10 +5,8 @@ import { musicsBritneySpears } from './musics_britney_spears';
 import { musicsGwenStefani } from './musics_gwen_stefani';
 import { musicsBlackEyedPeas } from './musics_black_eyed_peas';
 import { musicsKesha } from './musics_kesha';
-import { musicsBobSinclar } from './musics_bob_sinclar';
 import { musicsBeyonce } from './musics_beyonce';
 import { musicsMichaelJackson } from './musics_michael_jackson';
-import { musicsUSHER } from './musics_usher';
 import { musicsVarietyUsVarious } from './musics_variety_us_various';
 import { musicsEminem3 } from './musics_eminem_3';
 import { musicsEminem2 } from './musics_eminem_2';
@@ -23,10 +21,8 @@ export const musicsUsa = [
   ...musicsGwenStefani,
   ...musicsBlackEyedPeas,
   ...musicsKesha,
-  ...musicsBobSinclar,
   ...musicsBeyonce,
   ...musicsMichaelJackson,
-  ...musicsUSHER,
   ...musicsVarietyUsVarious,
   ...musicsEminem3,
   ...musicsEminem2,

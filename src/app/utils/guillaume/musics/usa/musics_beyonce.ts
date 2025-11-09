@@ -10,7 +10,7 @@ export const musicsBeyonce: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 22,
+    timesListened: 150,
   },
   {
     title: 'Crazy In Love (feat. Jay-Z)',
@@ -21,7 +21,7 @@ export const musicsBeyonce: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 21,
+    timesListened: 100,
   },
   {
     title: 'Single Ladies (Put a Ring on It)',
@@ -32,7 +32,7 @@ export const musicsBeyonce: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 12,
+    timesListened: 150,
   },
   {
     title: 'Halo',
@@ -43,6 +43,17 @@ export const musicsBeyonce: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 20,
+  },
+  {
+    title: 'Survivor',
+    artist: "Destiny's Child",
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 50,
   },
 ];

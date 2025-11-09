@@ -11,7 +11,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Hip-Hop',
-    timesListened: 16,
+    timesListened: 10,
   },
   {
     title: 'Public Service Announcement (skit)',
@@ -33,7 +33,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 268,
     genre: 'Hip-Hop',
-    timesListened: 1,
+    timesListened: 120,
   },
   {
     title: 'Guilty Conscience',
@@ -44,7 +44,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 199,
     genre: 'Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Brain Damage',
@@ -266,7 +266,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 404,
     genre: 'Hip-Hop',
-    timesListened: 8,
+    timesListened: 180,
   },
   {
     title: 'Paul (skit)',
@@ -310,7 +310,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 290,
     genre: 'Hip-Hop',
-    timesListened: 3,
+    timesListened: 30,
   },
   {
     title: 'The Real Slim Shady',
@@ -321,7 +321,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 284,
     genre: 'Hip-Hop',
-    timesListened: 57,
+    timesListened: 250,
   },
   {
     title: 'Remember Me?',
@@ -354,7 +354,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 320,
     genre: 'Hip-Hop',
-    timesListened: 4,
+    timesListened: 20,
   },
   {
     title: 'Ken Kaniff (skit)',
@@ -420,7 +420,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 322,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 40,
   },
   {
     title: 'Criminal',
@@ -455,7 +455,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 324,
     genre: 'Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Business',
@@ -477,7 +477,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 298,
     genre: 'Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: 'Square Dance',
@@ -543,7 +543,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 290,
     genre: 'Hip-Hop',
-    timesListened: 27,
+    timesListened: 250,
   },
   {
     title: 'Paul Rosenberg (skit)',
@@ -565,7 +565,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 340,
     genre: 'Hip-Hop',
-    timesListened: 2,
+    timesListened: 50,
   },
   {
     title: 'Superman',
@@ -576,7 +576,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 350,
     genre: 'Hip-Hop',
-    timesListened: 17,
+    timesListened: 200,
   },
   {
     title: "Hailie's Song",
@@ -587,7 +587,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 321,
     genre: 'Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Steve Berman (skit)',
@@ -620,7 +620,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 309,
     genre: 'Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: "'Till I Collapse",
@@ -631,7 +631,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 297,
     genre: 'Hip-Hop',
-    timesListened: 4,
+    timesListened: 50,
   },
   {
     title: "My Dad's Gone Crazy",
@@ -710,7 +710,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 297,
     genre: 'Hip-Hop',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Mosh',
@@ -798,7 +798,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 249,
     genre: 'Hip-Hop',
-    timesListened: 3,
+    timesListened: 100,
   },
   {
     title: 'Ass Like That',
@@ -809,7 +809,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 266,
     genre: 'Hip-Hop',
-    timesListened: 4,
+    timesListened: 70,
   },
   {
     title: 'Spend Some Time',
@@ -831,7 +831,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 251,
     genre: 'Hip-Hop',
-    timesListened: 30,
+    timesListened: 250,
   },
   {
     title: 'Crazy in Love',
@@ -888,7 +888,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 326,
     genre: 'Hip-Hop',
-    timesListened: 11,
+    timesListened: 250,
   },
   {
     title: 'Go To Sleep',
@@ -899,7 +899,7 @@ export const musicsEminem1: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 5,
+    timesListened: 70,
   },
   {
     title: 'Higher',

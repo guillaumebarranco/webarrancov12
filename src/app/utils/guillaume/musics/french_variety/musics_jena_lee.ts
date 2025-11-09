@@ -11,7 +11,7 @@ export const musicsJenaLee: Music[] = [
     rating: 0,
     duration: 267,
     genre: 'Pop/R&B',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Du style',
@@ -22,7 +22,7 @@ export const musicsJenaLee: Music[] = [
     rating: 0,
     duration: 197,
     genre: 'Pop/R&B',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: "J'aimerais tellement",
@@ -33,7 +33,7 @@ export const musicsJenaLee: Music[] = [
     rating: 0,
     duration: 232,
     genre: 'Pop/R&B',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Banalité',
@@ -66,7 +66,7 @@ export const musicsJenaLee: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'Pop/R&B',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Dépendance',
@@ -99,7 +99,7 @@ export const musicsJenaLee: Music[] = [
     rating: 0,
     duration: 196,
     genre: 'Pop/R&B',
-    timesListened: 0,
+    timesListened: 30,
   },
   {
     title: 'Je préfère',
@@ -110,7 +110,7 @@ export const musicsJenaLee: Music[] = [
     rating: 0,
     duration: 297,
     genre: 'Pop/R&B',
-    timesListened: 0,
+    timesListened: 30,
   },
   {
     title: 'Victime idéale',
@@ -135,4 +135,3 @@ export const musicsJenaLee: Music[] = [
     timesListened: 0,
   },
 ];
-

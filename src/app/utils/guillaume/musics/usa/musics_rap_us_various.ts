@@ -10,18 +10,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 16,
-  },
-  {
-    title: 'Survivor',
-    artist: "Destiny's Child",
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 16,
+    timesListened: 80,
   },
   {
     title: 'Hey Sexy Lady',
@@ -32,7 +21,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 13,
+    timesListened: 150,
   },
   {
     title: 'Angel',
@@ -43,7 +32,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Reggae',
-    timesListened: 36,
+    timesListened: 250,
   },
   {
     title: "It Wasn't Me",
@@ -54,7 +43,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Reggae',
-    timesListened: 69,
+    timesListened: 250,
   },
   {
     title: 'Live Your Life',
@@ -65,7 +54,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 56,
+    timesListened: 150,
   },
   {
     title: 'My Love (feat. T.I.)',
@@ -76,7 +65,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 46,
+    timesListened: 250,
   },
   {
     title: 'Whatever You Like',
@@ -87,7 +76,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 45,
+    timesListened: 200,
   },
   {
     title: 'Ms. Jackson',
@@ -98,7 +87,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 44,
+    timesListened: 150,
   },
   {
     title: "Drop It Like It's Hot",
@@ -109,7 +98,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 43,
+    timesListened: 80,
   },
   {
     title: 'Hate It Or Love It',
@@ -120,7 +109,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 39,
+    timesListened: 80,
   },
   {
     title: 'Stronger',
@@ -131,18 +120,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 35,
-  },
-  {
-    title: 'Moment 4 Life',
-    artist: 'Nicki Minaj',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 24,
+    timesListened: 150,
   },
   {
     title: 'DNA.',
@@ -153,7 +131,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 11,
+    timesListened: 30,
   },
   {
     title: 'King Kunta',
@@ -164,7 +142,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 19,
+    timesListened: 80,
   },
   {
     title: 'Crank That (Soulja Boy)',
@@ -175,7 +153,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 32,
+    timesListened: 150,
   },
   {
     title: 'Family Affair',
@@ -186,7 +164,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 27,
+    timesListened: 80,
   },
   {
     title: 'How We Do',
@@ -197,7 +175,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 18,
+    timesListened: 50,
   },
   {
     title: 'Bump, Bump, Bump (feat. P. Diddy)',
@@ -208,7 +186,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 18,
+    timesListened: 150,
   },
   {
     title: 'You Be Killin Em',
@@ -219,7 +197,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 18,
+    timesListened: 180,
   },
   {
     title: 'Disco Inferno',
@@ -230,7 +208,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 17,
+    timesListened: 100,
   },
   {
     title: 'Candy Shop',
@@ -241,7 +219,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 17,
+    timesListened: 200,
   },
   {
     title: 'In Da Club',
@@ -252,7 +230,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 16,
+    timesListened: 100,
   },
   {
     title: '21 Questions',
@@ -263,7 +241,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 10,
+    timesListened: 150,
   },
   {
     title: 'P.I.M.P.',
@@ -274,7 +252,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 10,
+    timesListened: 150,
   },
   {
     title: 'Snitch',
@@ -285,7 +263,7 @@ export const musicsRapUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 8,
+    timesListened: 50,
   },
   {
     title: 'Bar One',
@@ -299,6 +277,17 @@ export const musicsRapUsVarious: Music[] = [
     timesListened: 7,
   },
   {
+    title: 'Super Bass',
+    artist: 'Nicki Minaj',
+    album: 'Pink Friday',
+    coverUrl: '/musics_pictures/Nicki-Minaj-Pink-Friday.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 74,
+  },
+  {
     title: 'Barbie World (with Aqua) [From Barbie The Album]',
     artist: 'Nicki Minaj',
     album: 'Unknown',
@@ -308,5 +297,16 @@ export const musicsRapUsVarious: Music[] = [
     duration: 180,
     genre: 'Unknown',
     timesListened: 5,
+  },
+  {
+    title: 'Moment 4 Life',
+    artist: 'Nicki Minaj',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 24,
   },
 ];

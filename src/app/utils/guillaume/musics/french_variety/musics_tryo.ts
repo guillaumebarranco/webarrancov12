@@ -11,7 +11,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 205,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 150,
   },
   {
     title: 'Pour un flirt avec la crise',
@@ -88,7 +88,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 276,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'La main verte',
@@ -99,7 +99,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 133,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'France Télécom',
@@ -110,7 +110,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 168,
     genre: 'Chanson française',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'Yakamonéyé',
@@ -178,7 +178,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 174,
     genre: 'Chanson française',
-    timesListened: 3,
+    timesListened: 30,
   },
   {
     title: 'Sortez-les',
@@ -189,7 +189,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 226,
     genre: 'Chanson française',
-    timesListened: 26,
+    timesListened: 150,
   },
   {
     title: 'Comme les journées',
@@ -211,7 +211,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 230,
     genre: 'Chanson française',
-    timesListened: 15,
+    timesListened: 100,
   },
   {
     title: "Si la vie m'a mis là",
@@ -222,7 +222,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 335,
     genre: 'Chanson française',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: 'Dans les nuages',
@@ -233,7 +233,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 260,
     genre: 'Chanson française',
-    timesListened: 3,
+    timesListened: 30,
   },
   {
     title: 'Monsieur Bibendum',
@@ -244,7 +244,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 162,
     genre: 'Chanson française',
-    timesListened: 36,
+    timesListened: 200,
   },
   {
     title: 'Serre-moi',
@@ -255,7 +255,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 230,
     genre: 'Chanson française',
-    timesListened: 29,
+    timesListened: 200,
   },
   {
     title: 'Ta réalité',
@@ -266,7 +266,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 230,
     genre: 'Chanson française',
-    timesListened: 3,
+    timesListened: 30,
   },
   {
     title: 'Récréaction',
@@ -277,7 +277,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 204,
     genre: 'Chanson française',
-    timesListened: 3,
+    timesListened: 20,
   },
   {
     title: 'Ballade en forêt',
@@ -288,7 +288,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 246,
     genre: 'Chanson française',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Désolé pour hier soir',
@@ -299,7 +299,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 221,
     genre: 'Chanson française',
-    timesListened: 25,
+    timesListened: 250,
   },
   {
     title: 'Pas pareil',
@@ -310,7 +310,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 216,
     genre: 'Chanson française',
-    timesListened: 29,
+    timesListened: 180,
   },
   {
     title: 'Apocalypticodramatic',
@@ -321,7 +321,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 232,
     genre: 'Chanson française',
-    timesListened: 6,
+    timesListened: 40,
   },
   {
     title: "J'ai un but",
@@ -332,7 +332,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 232,
     genre: 'Chanson française',
-    timesListened: 23,
+    timesListened: 150,
   },
 
   // Album : Ce que l'on sème (2008)
@@ -345,7 +345,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 174,
     genre: 'Chanson française',
-    timesListened: 27,
+    timesListened: 180,
   },
   {
     title: 'Tombé Mal',
@@ -356,7 +356,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 234,
     genre: 'Chanson française',
-    timesListened: 2,
+    timesListened: 30,
   },
   {
     title: 'Jocelyne',
@@ -367,7 +367,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 167,
     genre: 'Chanson française',
-    timesListened: 2,
+    timesListened: 20,
   },
   {
     title: 'El dulce de leche',
@@ -378,7 +378,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 271,
     genre: 'Chanson française',
-    timesListened: 5,
+    timesListened: 30,
   },
   {
     title: 'Toi et moi',
@@ -389,7 +389,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Chanson française',
-    timesListened: 16,
+    timesListened: 180,
   },
   {
     title: "L'air du plastique",
@@ -400,7 +400,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'Chanson française',
-    timesListened: 26,
+    timesListened: 200,
   },
   {
     title: "Quand les hommes s'ennuient",
@@ -411,7 +411,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 307,
     genre: 'Chanson française',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: 'Bye bye',
@@ -433,7 +433,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 186,
     genre: 'Chanson française',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: 'Mrs Roy',
@@ -466,7 +466,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 210,
     genre: 'Chanson française',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Une saison de trop',
@@ -488,7 +488,7 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 152,
     genre: 'Chanson française',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: "Poussière d'étoile",
@@ -499,6 +499,6 @@ export const musicsTryo: Music[] = [
     rating: 0,
     duration: 261,
     genre: 'Chanson française',
-    timesListened: 1,
+    timesListened: 10,
   },
 ];

@@ -10,7 +10,7 @@ export const musicsBritneySpears: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 16,
+    timesListened: 80,
   },
   {
     title: 'Toxic',
@@ -21,7 +21,7 @@ export const musicsBritneySpears: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 11,
+    timesListened: 150,
   },
   {
     title: 'Womanizer',
@@ -32,7 +32,7 @@ export const musicsBritneySpears: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 6,
+    timesListened: 80,
   },
   {
     title: 'Circus',
@@ -43,7 +43,7 @@ export const musicsBritneySpears: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 50,
   },
   {
     title: 'Oops!...I Did It Again',
@@ -54,7 +54,7 @@ export const musicsBritneySpears: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 50,
   },
   {
     title: '...Baby One More Time',
@@ -65,6 +65,6 @@ export const musicsBritneySpears: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 50,
   },
 ];

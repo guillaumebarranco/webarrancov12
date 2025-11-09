@@ -10,7 +10,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Une larme qui coule',
@@ -21,7 +21,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 30,
   },
   {
     title: 'Montrez les nous',
@@ -32,7 +32,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Susan Boyle',
@@ -43,7 +43,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 2,
+    timesListened: 200,
   },
   {
     title: 'Chatroulette',
@@ -54,7 +54,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: "L'Inconnue du boulevard Bessières",
@@ -65,7 +65,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: "Depuis que tu n'es plus là",
@@ -76,7 +76,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Chanson raciste',
@@ -87,7 +87,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Clash gentil',
@@ -98,7 +98,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 2,
+    timesListened: 150,
   },
   {
     title: 'Joyeux Noël',
@@ -109,7 +109,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: "J'aime les moches",
@@ -120,7 +120,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: "Mon coloc'",
@@ -131,7 +131,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: "J'kiffe ton tugudu",
@@ -164,7 +164,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Bois !',
@@ -175,7 +175,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 150,
   },
   {
     title: 'En couple',
@@ -186,7 +186,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 120,
   },
   {
     title: 'Boom Boom Boom',
@@ -208,7 +208,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 120,
   },
   {
     title: "T'es bonne…",
@@ -219,7 +219,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: "J'entends rien !",
@@ -230,7 +230,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: 'Prête-moi ta meuf',
@@ -241,7 +241,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Put Your Sex in the Air',
@@ -274,7 +274,7 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'En boîte',
@@ -296,6 +296,6 @@ export const musicsMaxBoublil: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Humour/Chanson française',
-    timesListened: 0,
+    timesListened: 10,
   },
 ];

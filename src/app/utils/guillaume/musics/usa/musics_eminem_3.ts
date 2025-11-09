@@ -11,7 +11,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 304,
     genre: 'Hip-Hop',
-    timesListened: 33,
+    timesListened: 50,
   },
   {
     title: 'Believe',
@@ -22,7 +22,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 315,
     genre: 'Hip-Hop',
-    timesListened: 23,
+    timesListened: 30,
   },
   {
     title: 'Chloraseptic',
@@ -33,7 +33,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 301,
     genre: 'Hip-Hop',
-    timesListened: 4,
+    timesListened: 10,
   },
   {
     title: 'Untouchable',
@@ -55,7 +55,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 221,
     genre: 'Hip-Hop',
-    timesListened: 2,
+    timesListened: 10,
   },
   {
     title: 'Remind Me (intro)',
@@ -99,7 +99,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 245,
     genre: 'Hip-Hop',
-    timesListened: 3,
+    timesListened: 120,
   },
   {
     title: 'Bad Husband',
@@ -110,7 +110,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 287,
     genre: 'Hip-Hop',
-    timesListened: 2,
+    timesListened: 100,
   },
   {
     title: 'Tragic Endings',
@@ -121,7 +121,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 252,
     genre: 'Hip-Hop',
-    timesListened: 2,
+    timesListened: 80,
   },
   {
     title: 'Framed',
@@ -132,7 +132,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 253,
     genre: 'Hip-Hop',
-    timesListened: 31,
+    timesListened: 80,
   },
   {
     title: 'Nowhere Fast',
@@ -176,7 +176,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 265,
     genre: 'Hip-Hop',
-    timesListened: 5,
+    timesListened: 50,
   },
   {
     title: 'In Your Head',
@@ -187,7 +187,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 182,
     genre: 'Hip-Hop',
-    timesListened: 22,
+    timesListened: 50,
   },
   {
     title: 'Castle',
@@ -198,7 +198,7 @@ export const musicsEminem3: Music[] = [
     rating: 0,
     duration: 254,
     genre: 'Hip-Hop',
-    timesListened: 23,
+    timesListened: 50,
   },
   {
     title: 'Arose',

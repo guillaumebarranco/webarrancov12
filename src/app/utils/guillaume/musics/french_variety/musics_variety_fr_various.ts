@@ -10,7 +10,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 19,
+    timesListened: 200,
   },
   {
     title: 'Je te promets',
@@ -21,7 +21,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 19,
+    timesListened: 150,
   },
   {
     title: 'Dis-moi',
@@ -32,7 +32,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 18,
+    timesListened: 80,
   },
   {
     title: 'Dernière danse',
@@ -43,7 +43,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 18,
+    timesListened: 200,
   },
   {
     title: 'Le chemin (feat. Sita)',
@@ -54,7 +54,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 12,
+    timesListened: 180,
   },
   {
     title: 'Sous le vent',
@@ -65,7 +65,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 20,
+    timesListened: 120,
   },
   {
     title: 'La lettre',
@@ -87,7 +87,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 16,
+    timesListened: 50,
   },
   {
     title: 'Chanter pour ceux qui sont loin de chez eux - Remasterisé en 2002',
@@ -98,7 +98,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 15,
+    timesListened: 50,
   },
   {
     title: 'Trop peu de temps',
@@ -109,7 +109,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 20,
+    timesListened: 80,
   },
   {
     title: 'Foule sentimentale',
@@ -120,7 +120,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 13,
+    timesListened: 30,
   },
   {
     title: 'La groupie du pianiste - Remasterisé en 2002',
@@ -131,7 +131,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 13,
+    timesListened: 40,
   },
   {
     title: 'La vie en rose',
@@ -142,7 +142,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 11,
+    timesListened: 30,
   },
   {
     title: 'Sans contrefaçon',
@@ -153,9 +153,8 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 12,
+    timesListened: 50,
   },
-
   {
     title: 'Désenchantée',
     artist: 'Mylène Farmer',
@@ -165,7 +164,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 20,
+    timesListened: 50,
   },
   {
     title: "Pourvu qu'elles soient douces",
@@ -176,7 +175,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 27,
+    timesListened: 80,
   },
   {
     title: 'Ma préférence',
@@ -187,7 +186,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 34,
+    timesListened: 120,
   },
   {
     title: 'Un homme heureux',
@@ -198,7 +197,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 21,
+    timesListened: 100,
   },
   {
     title: 'Ziggy (Un garçon pas comme les autres)',
@@ -209,7 +208,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 23,
+    timesListened: 120,
   },
   {
     title: 'Belle (with Patrick Fiori & Garou)',
@@ -220,7 +219,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 17,
+    timesListened: 120,
   },
   {
     title: 'Les rois du monde',
@@ -231,7 +230,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 13,
+    timesListened: 120,
   },
   {
     title: 'Cendrillon',
@@ -242,7 +241,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 13,
+    timesListened: 100,
   },
   {
     title: "La maladie d'amour",
@@ -253,7 +252,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 21,
+    timesListened: 80,
   },
   {
     title: "Parce qu'on vient de loin",
@@ -264,7 +263,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 21,
+    timesListened: 120,
   },
   {
     title: 'Il jouait du piano debout - Remasterisé en 2004',
@@ -275,7 +274,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 12,
+    timesListened: 50,
   },
   {
     title: 'Il est libre Max',
@@ -286,7 +285,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 29,
+    timesListened: 100,
   },
   {
     title: 'Elle a les yeux revolver',
@@ -297,7 +296,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 17,
+    timesListened: 60,
   },
   {
     title: 'beau-papa',
@@ -319,7 +318,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 29,
+    timesListened: 100,
   },
   {
     title: 'Emmenez-moi',
@@ -330,7 +329,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 17,
+    timesListened: 70,
   },
   {
     title: 'Femme Like U',
@@ -341,10 +340,10 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 15,
+    timesListened: 80,
   },
   {
-    title: 'Le blues du businessman - Remastered',
+    title: 'Le blues du businessman',
     artist: 'Claude Dubois',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -352,7 +351,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 25,
+    timesListened: 100,
   },
   {
     title: 'Sensualité',
@@ -363,9 +362,8 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 10,
+    timesListened: 80,
   },
-
   {
     title: 'Les Champs-Elysées',
     artist: 'Joe Dassin',
@@ -375,18 +373,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 3,
-  },
-  {
-    title: 'Les rois du monde - Roméo & Juliette, Les enfants de Vérone',
-    artist: 'Damien Sargue',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
+    timesListened: 30,
   },
   {
     title: 'Le mur du son',
@@ -397,18 +384,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 9,
-  },
-  {
-    title: 'Le blues du businessman - 2009 Remastered',
-    artist: 'Claude Dubois',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 8,
+    timesListened: 50,
   },
   {
     title: 'Mon amant de Saint-Jean',
@@ -419,7 +395,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 8,
+    timesListened: 40,
   },
   {
     title: 'Respire',
@@ -430,7 +406,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 8,
+    timesListened: 30,
   },
   {
     title: 'Toutes les femmes de ta vie',
@@ -441,7 +417,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 80,
   },
   {
     title: 'Macumba',
@@ -452,7 +428,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 40,
   },
   {
     title: 'Partenaire Particulier',
@@ -463,7 +439,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 100,
   },
   {
     title: 'Une belle personne',
@@ -485,7 +461,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 6,
+    timesListened: 50,
   },
   {
     title: 'La vie par procuration',
@@ -496,7 +472,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 6,
+    timesListened: 80,
   },
   {
     title: 'Les sardines',
@@ -507,7 +483,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 6,
+    timesListened: 40,
   },
   {
     title: 'Elle habite ici',
@@ -529,10 +505,10 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 6,
+    timesListened: 50,
   },
   {
-    title: 'Résiste - Remasterisé en 2004',
+    title: 'Résiste',
     artist: 'France Gall',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -540,7 +516,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 6,
+    timesListened: 40,
   },
   {
     title: 'Le sud',
@@ -551,7 +527,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 30,
   },
   {
     title: 'Les Démons De Minuit',
@@ -562,7 +538,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 120,
   },
   {
     title: 'Mon père était tellement de gauche',
@@ -573,7 +549,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 4,
+    timesListened: 30,
   },
   {
     title: 'Il avait les mots',
@@ -584,7 +560,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Comme avant',
@@ -595,7 +571,7 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 0,
+    timesListened: 100,
   },
   {
     title: "T'en vas pas",
@@ -606,6 +582,6 @@ export const musicsVarietyFrVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 0,
+    timesListened: 30,
   },
 ];

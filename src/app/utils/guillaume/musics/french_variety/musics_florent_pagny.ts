@@ -10,7 +10,7 @@ export const musicsFlorentPagny: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 20,
+    timesListened: 120,
   },
   {
     title: 'Et un jour une femme',
@@ -21,7 +21,7 @@ export const musicsFlorentPagny: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 26,
+    timesListened: 80,
   },
   {
     title: 'Savoir aimer',
@@ -32,6 +32,6 @@ export const musicsFlorentPagny: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 14,
+    timesListened: 50,
   },
 ];

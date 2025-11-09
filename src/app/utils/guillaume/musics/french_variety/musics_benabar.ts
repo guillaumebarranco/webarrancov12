@@ -11,7 +11,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 181,
     genre: 'Variété française',
-    timesListened: 50,
+    timesListened: 250,
   },
   {
     title: 'Maritie et Gilbert Carpentier',
@@ -22,7 +22,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 230,
     genre: 'Variété française',
-    timesListened: 7,
+    timesListened: 20,
   },
   {
     title: 'Quatre murs et un toit',
@@ -33,7 +33,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 211,
     genre: 'Variété française',
-    timesListened: 41,
+    timesListened: 120,
   },
   {
     title: 'Bruxelles',
@@ -44,7 +44,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 207,
     genre: 'Variété française',
-    timesListened: 52,
+    timesListened: 150,
   },
   {
     title: 'Triste compagne',
@@ -55,7 +55,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 171,
     genre: 'Variété française',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'La Berceuse',
@@ -66,7 +66,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 300,
     genre: 'Variété française',
-    timesListened: 19,
+    timesListened: 120,
   },
   {
     title: 'Les Épices du souk du Caire',
@@ -77,7 +77,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 283,
     genre: 'Variété française',
-    timesListened: 7,
+    timesListened: 10,
   },
   {
     title: "Qu'est-ce que tu voulais que je lui dise ?",
@@ -88,7 +88,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 302,
     genre: 'Variété française',
-    timesListened: 0,
+    timesListened: 10,
   },
   {
     title: 'Le Méchant de James Bond',
@@ -99,7 +99,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 191,
     genre: 'Variété française',
-    timesListened: 8,
+    timesListened: 20,
   },
   {
     title: 'Le Fou Rire',
@@ -110,7 +110,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 216,
     genre: 'Variété française',
-    timesListened: 25,
+    timesListened: 120,
   },
   {
     title: 'Tu peux compter sur moi',
@@ -121,7 +121,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 189,
     genre: 'Variété française',
-    timesListened: 41,
+    timesListened: 120,
   },
   {
     title: 'Le Cahier de solfège',
@@ -132,7 +132,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 158,
     genre: 'Variété française',
-    timesListened: 7,
+    timesListened: 10,
   },
 
   // Album : Bénabar (2001)
@@ -156,7 +156,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Variété française',
-    timesListened: 54,
+    timesListened: 120,
   },
   {
     title: 'Vélo',
@@ -167,7 +167,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Variété française',
-    timesListened: 37,
+    timesListened: 100,
   },
   {
     title: 'Porcelaine',
@@ -279,7 +279,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Variété française',
-    timesListened: 52,
+    timesListened: 100,
   },
   {
     title: 'Dis-lui oui',
@@ -290,7 +290,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Variété française',
-    timesListened: 3,
+    timesListened: 50,
   },
   {
     title: 'Paresseuse',
@@ -558,7 +558,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Variété française',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Allez !',
@@ -714,7 +714,7 @@ export const musicsBenabar: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Variété française',
-    timesListened: 4,
+    timesListened: 30,
   },
   {
     title: 'Christelle est une ordure',

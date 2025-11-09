@@ -11,7 +11,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 232,
     genre: 'R&B/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Blown Away',
@@ -22,7 +22,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'R&B/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
   {
     title: 'Smack That',
@@ -33,7 +33,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 213,
     genre: 'R&B/Hip-Hop',
-    timesListened: 84,
+    timesListened: 300,
   },
   {
     title: 'I Wanna Love You',
@@ -44,7 +44,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 247,
     genre: 'R&B/Hip-Hop',
-    timesListened: 1,
+    timesListened: 80,
   },
   {
     title: 'The Rain',
@@ -77,7 +77,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 266,
     genre: 'R&B/Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: "I Can't Wait",
@@ -88,7 +88,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 226,
     genre: 'R&B/Hip-Hop',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: 'Gangsta Bop',
@@ -99,7 +99,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 246,
     genre: 'R&B/Hip-Hop',
-    timesListened: 1,
+    timesListened: 30,
   },
   {
     title: "Tired of Runnin'",
@@ -132,7 +132,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 293,
     genre: 'R&B/Hip-Hop',
-    timesListened: 53,
+    timesListened: 250,
   },
   {
     title: 'Sorry, Blame It On Me',
@@ -143,7 +143,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 296,
     genre: 'R&B/Hip-Hop',
-    timesListened: 22,
+    timesListened: 150,
   },
   {
     title: 'Rush',
@@ -176,7 +176,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 270,
     genre: 'R&B/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
 
   // Album: Trouble (2004)
@@ -189,7 +189,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 236,
     genre: 'R&B/Hip-Hop',
-    timesListened: 18,
+    timesListened: 200,
   },
   {
     title: 'Trouble Nobody',
@@ -200,7 +200,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 203,
     genre: 'R&B/Hip-Hop',
-    timesListened: 13,
+    timesListened: 120,
   },
   {
     title: 'Bananza (Belly Dancer)',
@@ -211,7 +211,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'R&B/Hip-Hop',
-    timesListened: 34,
+    timesListened: 180,
   },
   {
     title: 'Gangsta',
@@ -233,7 +233,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 235,
     genre: 'R&B/Hip-Hop',
-    timesListened: 1,
+    timesListened: 50,
   },
   {
     title: 'Pot of Gold',
@@ -266,7 +266,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 237,
     genre: 'R&B/Hip-Hop',
-    timesListened: 23,
+    timesListened: 200,
   },
   {
     title: "When the Time's Right",
@@ -334,7 +334,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 242,
     genre: 'R&B/Hip-Hop',
-    timesListened: 10,
+    timesListened: 100,
   },
   {
     title: 'Beautiful',
@@ -345,7 +345,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 319,
     genre: 'R&B/Hip-Hop',
-    timesListened: 0,
+    timesListened: 80,
   },
   {
     title: 'Keep You Much Longer',
@@ -389,7 +389,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 253,
     genre: 'R&B/Hip-Hop',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Holla Holla',
@@ -466,7 +466,7 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 198,
     genre: 'R&B/Hip-Hop',
-    timesListened: 0,
+    timesListened: 20,
   },
 
   // Chanson "Dangerous" (album non spécifié dans les données)
@@ -479,6 +479,6 @@ export const musicsAkon: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'R&B/Hip-Hop',
-    timesListened: 5,
+    timesListened: 50,
   },
 ];

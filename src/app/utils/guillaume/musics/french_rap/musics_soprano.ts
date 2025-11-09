@@ -11,7 +11,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 83,
     genre: 'Rap/Hip-Hop',
-    timesListened: 5,
+    timesListened: 10,
   },
   {
     title: 'Le divan',
@@ -33,7 +33,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 245,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: 'Bombe humaine',
@@ -44,7 +44,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 338,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 30,
   },
   {
     title: 'Halla Halla',
@@ -55,7 +55,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 284,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 30,
   },
   {
     title: 'Dans ma tête',
@@ -66,7 +66,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 193,
     genre: 'Rap/Hip-Hop',
-    timesListened: 8,
+    timesListened: 20,
   },
   {
     title: "Moi j'ai pas",
@@ -77,7 +77,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 222,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 150,
   },
   {
     title: 'La famille (feat Léa Castel)',
@@ -88,7 +88,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 252,
     genre: 'Rap/Hip-Hop',
-    timesListened: 12,
+    timesListened: 50,
   },
   {
     title: 'Tant que Dieu (Remix) (feat Mino)',
@@ -99,7 +99,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 274,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 50,
   },
   {
     title: 'Juste fais le (feat Le Rat Luciano)',
@@ -110,7 +110,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 253,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 30,
   },
   {
     title: 'Le bistro du coin',
@@ -121,7 +121,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 82,
     genre: 'Rap/Hip-Hop',
-    timesListened: 5,
+    timesListened: 50,
   },
   {
     title: 'À la bien!',
@@ -132,7 +132,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 238,
     genre: 'Rap/Hip-Hop',
-    timesListened: 17,
+    timesListened: 200,
   },
   {
     title: 'Welcome (feat Psy 4 de la rime)',
@@ -143,7 +143,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 285,
     genre: 'Rap/Hip-Hop',
-    timesListened: 12,
+    timesListened: 120,
   },
   {
     title: 'Parle-moi',
@@ -154,7 +154,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 331,
     genre: 'Rap/Hip-Hop',
-    timesListened: 4,
+    timesListened: 20,
   },
   {
     title: 'Ferme les yeux et imagine-toi (feat Blacko)',
@@ -165,7 +165,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 276,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 80,
   },
   {
     title: 'Passe-moi le mic',
@@ -176,7 +176,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 253,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 20,
   },
   {
     title: "Puisqu'il faut vivre",
@@ -187,7 +187,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 356,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 20,
   },
   {
     title: "L'hiver d'un été (Bonus)",
@@ -198,7 +198,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 224,
     genre: 'Rap/Hip-Hop',
-    timesListened: 1,
+    timesListened: 10,
   },
 
   // Album : Cosmopolitanie (2009)
@@ -222,7 +222,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 181,
     genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 100,
   },
   {
     title: 'Ils nous connaissent pas',
@@ -244,7 +244,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 269,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 20,
   },
   {
     title: 'Fresh Prince (featuring Uncle Phil)',
@@ -255,7 +255,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 197,
     genre: 'Rap/Hip-Hop',
-    timesListened: 13,
+    timesListened: 150,
   },
   {
     title: 'Hello',
@@ -389,7 +389,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 30,
+    timesListened: 100,
   },
   {
     title: 'Flow siamois',
@@ -400,7 +400,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: "Avant de s'en aller",
@@ -411,7 +411,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Meskine',
@@ -422,7 +422,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: "J'ai vu",
@@ -523,7 +523,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 5,
+    timesListened: 100,
   },
   {
     title: 'Le monde est stone',
@@ -534,7 +534,7 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 240,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 80,
   },
 
   // Autres sorties
@@ -547,32 +547,10 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 14,
-  },
-  {
-    title: 'Tant que Dieu (feat. Mino) - Remix',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 10,
+    timesListened: 50,
   },
   {
     title: 'Soprakountach',
-    artist: 'Soprano',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 9,
-  },
-  {
-    title: 'Juste fais-le (feat. Le Rat Luciano)',
     artist: 'Soprano',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -602,7 +580,18 @@ export const musicsSoprano: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 2,
+    timesListened: 80,
+  },
+  {
+    title: 'Inaya',
+    artist: 'Soprano',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 80,
   },
   {
     title: 'La force de reconstruire (feat. Don Diego et K-Rlos)',

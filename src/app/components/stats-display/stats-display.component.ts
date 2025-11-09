@@ -5,7 +5,7 @@ export interface StatItem {
   label: string;
   value: string;
   icon: string;
-  color: 'primary' | 'secondary' | 'success' | 'warning' | 'info';
+  color: 'primary' | 'secondary' | 'success' | 'warning' | 'info' | 'danger';
 }
 
 @Component({

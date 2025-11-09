@@ -343,6 +343,14 @@ export class DashboardComponent {
         0
       );
 
+    const totalCumulativeTime =
+      booksTotalReadingTime +
+      mangasTotalReadingTime +
+      manwhasTotalReadingTime +
+      totalWatchingTime +
+      gamesTotalTime +
+      musicsTotalTime;
+
     return [
       {
         label: 'Livres lus',
@@ -413,6 +421,12 @@ export class DashboardComponent {
         value: this.formatTime(musicsTotalTime),
         icon: '🎵',
         color: 'warning',
+      },
+      {
+        label: 'TEMPS TOTAL CUMULÉ (toutes activités)',
+        value: this.formatTime(totalCumulativeTime),
+        icon: '⏱️',
+        color: 'danger',
       },
     ];
   });

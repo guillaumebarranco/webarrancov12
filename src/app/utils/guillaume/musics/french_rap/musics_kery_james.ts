@@ -11,7 +11,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 300,
     genre: 'Rap/Hip-Hop',
-    timesListened: 6,
+    timesListened: 20,
   },
 
   // Album : À l'ombre du show business (2008)
@@ -24,7 +24,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 470,
     genre: 'Rap/Hip-Hop',
-    timesListened: 3,
+    timesListened: 50,
   },
 
   // Album : Réel (2009)
@@ -37,7 +37,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 266,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: 'Le respect du silence (feat. Le Rat Luciano)',
@@ -48,7 +48,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 330,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 10,
   },
 
   // Album : Dernier MC (2013)
@@ -72,7 +72,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 333,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: "À l'horizon (feat. Corneille)",
@@ -83,7 +83,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 268,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 50,
   },
   {
     title: "Y'a rien (feat. Niro)",
@@ -94,7 +94,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 301,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Quatre Saisons',
@@ -127,7 +127,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 254,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'La vie en rêve (feat. Zaho)',
@@ -138,7 +138,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 284,
     genre: 'Rap/Hip-Hop',
-    timesListened: 19,
+    timesListened: 30,
   },
   {
     title: 'Jamais sans mon poto',
@@ -149,7 +149,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 208,
     genre: 'Rap/Hip-Hop',
-    timesListened: 9,
+    timesListened: 20,
   },
   {
     title: 'Le mystère féminin (feat. Imany)',
@@ -160,7 +160,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 186,
     genre: 'Rap/Hip-Hop',
-    timesListened: 45,
+    timesListened: 100,
   },
   {
     title: 'La mort qui va avec...',
@@ -193,7 +193,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 371,
     genre: 'Rap/Hip-Hop',
-    timesListened: 17,
+    timesListened: 50,
   },
   {
     title: 'Constat Amer',
@@ -215,7 +215,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 374,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Parti de loin (feat. Kenyon Dixon)',
@@ -226,7 +226,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 270,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: '9Trap Music',
@@ -237,7 +237,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 273,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Soldier (feat. Capleton)',
@@ -248,7 +248,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 315,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title:
@@ -394,7 +394,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 209,
     genre: 'Rap/Hip-Hop',
-    timesListened: 0,
+    timesListened: 5,
   },
   {
     title: 'Ailleurs (featuring Toma)',

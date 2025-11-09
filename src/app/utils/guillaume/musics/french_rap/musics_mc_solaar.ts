@@ -222,7 +222,7 @@ export const musicsMcSolaar: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 10,
+    timesListened: 80,
   },
   {
     title: 'Da Vinci Claude',
@@ -233,6 +233,6 @@ export const musicsMcSolaar: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap français',
-    timesListened: 6,
+    timesListened: 20,
   },
 ];

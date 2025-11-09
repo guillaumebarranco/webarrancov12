@@ -99,7 +99,7 @@ export const musicsEminem2: Music[] = [
     rating: 0,
     duration: 270,
     genre: 'Hip-Hop',
-    timesListened: 29,
+    timesListened: 250,
   },
   {
     title: 'Medicine Ball',
@@ -198,7 +198,7 @@ export const musicsEminem2: Music[] = [
     rating: 0,
     duration: 297,
     genre: 'Hip-Hop',
-    timesListened: 5,
+    timesListened: 50,
   },
   {
     title: 'Steve berman (skit)',
@@ -299,7 +299,7 @@ export const musicsEminem2: Music[] = [
     rating: 0,
     duration: 248,
     genre: 'Hip-Hop',
-    timesListened: 9,
+    timesListened: 150,
   },
   {
     title: 'Seduction',
@@ -332,7 +332,7 @@ export const musicsEminem2: Music[] = [
     rating: 0,
     duration: 278,
     genre: 'Hip-Hop',
-    timesListened: 24,
+    timesListened: 150,
   },
   {
     title: 'Cinderella Man',
@@ -387,7 +387,7 @@ export const musicsEminem2: Music[] = [
     rating: 0,
     duration: 263,
     genre: 'Hip-Hop',
-    timesListened: 25,
+    timesListened: 180,
   },
   {
     title: "You're Never Over",
@@ -466,7 +466,7 @@ export const musicsEminem2: Music[] = [
     rating: 0,
     duration: 272,
     genre: 'Hip-Hop',
-    timesListened: 14,
+    timesListened: 100,
   },
   {
     title: 'Legacy',
@@ -499,7 +499,7 @@ export const musicsEminem2: Music[] = [
     rating: 0,
     duration: 238,
     genre: 'Hip-Hop',
-    timesListened: 13,
+    timesListened: 80,
   },
   {
     title: 'Rap God',
@@ -510,7 +510,7 @@ export const musicsEminem2: Music[] = [
     rating: 0,
     duration: 363,
     genre: 'Hip-Hop',
-    timesListened: 21,
+    timesListened: 100,
   },
   {
     title: 'Brainless',

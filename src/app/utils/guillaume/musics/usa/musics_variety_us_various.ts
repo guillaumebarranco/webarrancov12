@@ -2,6 +2,83 @@ import { Music } from '../../../../models/music-model';
 
 export const musicsVarietyUsVarious: Music[] = [
   {
+    title: 'Rock This Party (Everybody Dance Now)',
+    artist: 'Bob Sinclar',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 200,
+  },
+  {
+    title: 'Sound of Freedom',
+    artist: 'Bob Sinclar',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 50,
+  },
+  {
+    title: 'What I Want',
+    artist: 'Bob Sinclar',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 6,
+  },
+  {
+    title: 'Yeah! (feat. Lil Jon & Ludacris)',
+    artist: 'USHER',
+    album: 'Confessions',
+    coverUrl: '/musics_pictures/R-2306427-1275783321.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Rap/Hip-Hop',
+    timesListened: 250,
+  },
+  {
+    title: 'My Boo',
+    artist: 'USHER',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 20,
+  },
+  {
+    title: 'U Remind Me',
+    artist: 'USHER',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 100,
+  },
+  {
+    title: 'Love in this club',
+    artist: 'USHER',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 80,
+  },
+  {
     title: 'I Like To Move It',
     artist: 'will.i.am',
     album: 'Unknown',
@@ -21,7 +98,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 48,
+    timesListened: 100,
   },
   {
     title: 'Temperature',
@@ -32,7 +109,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 43,
+    timesListened: 200,
   },
   {
     title: 'What Goes Around.../...Comes Around (Interlude)',
@@ -43,7 +120,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 41,
+    timesListened: 250,
   },
   {
     title: 'The Magic Key',
@@ -54,7 +131,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 41,
+    timesListened: 250,
   },
   {
     title: 'Right Round',
@@ -65,7 +142,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 41,
+    timesListened: 80,
   },
   {
     title: "Hips Don't Lie (feat. Wyclef Jean)",
@@ -76,7 +153,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 40,
+    timesListened: 150,
   },
   {
     title: "Let's Get Loud",
@@ -87,7 +164,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 39,
+    timesListened: 120,
   },
   {
     title: 'Girlfriend',
@@ -98,7 +175,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 37,
+    timesListened: 200,
   },
   {
     title: 'Complicated',
@@ -111,7 +188,6 @@ export const musicsVarietyUsVarious: Music[] = [
     genre: 'Unknown',
     timesListened: 4,
   },
-
   {
     title: 'Who Let The Dogs Out',
     artist: 'Baha Men',
@@ -121,7 +197,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 34,
+    timesListened: 50,
   },
   {
     title: 'Hey Ya!',
@@ -132,7 +208,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 25,
+    timesListened: 50,
   },
   {
     title: 'Promiscuous',
@@ -143,7 +219,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 23,
+    timesListened: 200,
   },
   {
     title: 'The Final Countdown',
@@ -154,7 +230,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 20,
+    timesListened: 100,
   },
   {
     title: 'You Give Love A Bad Name',
@@ -165,7 +241,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 20,
+    timesListened: 50,
   },
   {
     title: 'Uptown Girl',
@@ -176,7 +252,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 14,
+    timesListened: 50,
   },
   {
     title: 'Like a Boy',
@@ -187,7 +263,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 19,
+    timesListened: 80,
   },
   {
     title: 'When I Grow Up',
@@ -198,7 +274,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 32,
+    timesListened: 80,
   },
   {
     title: 'Get Busy',
@@ -209,7 +285,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 31,
+    timesListened: 100,
   },
   {
     title: 'Cotton Eye Joe',
@@ -220,7 +296,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 28,
+    timesListened: 150,
   },
   {
     title: 'Me & U',
@@ -231,7 +307,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 27,
+    timesListened: 120,
   },
   {
     title: "Can't Hold Us (feat. Ray Dalton)",
@@ -242,7 +318,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 26,
+    timesListened: 50,
   },
   {
     title: 'Empire State Of Mind',
@@ -253,7 +329,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 26,
+    timesListened: 80,
   },
   {
     title: 'Jenny from the Block',
@@ -264,7 +340,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 82,
+    timesListened: 150,
   },
   {
     title: 'Low (feat. T-Pain)',
@@ -275,18 +351,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Rap/Hip-Hop',
-    timesListened: 76,
-  },
-  {
-    title: 'Super Bass',
-    artist: 'Nicki Minaj',
-    album: 'Pink Friday',
-    coverUrl: '/musics_pictures/Nicki-Minaj-Pink-Friday.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 74,
+    timesListened: 200,
   },
   {
     title: "Who's That Girl?",
@@ -297,7 +362,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 30,
+    timesListened: 70,
   },
   {
     title: 'Let Me Blow Ya Mind',
@@ -308,7 +373,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 29,
+    timesListened: 70,
   },
   {
     title: 'Homeless',
@@ -319,7 +384,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 18,
+    timesListened: 50,
   },
   {
     title: "Can't Hold Us (feat. Ray Dalton)",
@@ -330,7 +395,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 17,
+    timesListened: 150,
   },
   {
     title: 'Wannabe',
@@ -341,7 +406,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 15,
+    timesListened: 50,
   },
   {
     title: 'Bring Me To Life',
@@ -352,7 +417,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 15,
+    timesListened: 250,
   },
   {
     title: 'Always On Time',
@@ -363,7 +428,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 14,
+    timesListened: 30,
   },
   {
     title: 'Eye of the Tiger',
@@ -374,7 +439,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 14,
+    timesListened: 250,
   },
   {
     title: 'End Of The Road',
@@ -385,10 +450,10 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 14,
+    timesListened: 40,
   },
   {
-    title: 'Sweet Dreams (Are Made of This) - Remastered',
+    title: 'Sweet Dreams (Are Made of This)',
     artist: 'Eurythmics',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
@@ -396,7 +461,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 13,
+    timesListened: 80,
   },
   {
     title: 'Umbrella',
@@ -407,7 +472,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 13,
+    timesListened: 80,
   },
   {
     title: 'Every Breath You Take',
@@ -418,7 +483,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 12,
+    timesListened: 80,
   },
   {
     title: "If I Ain't Got You",
@@ -440,7 +505,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 11,
+    timesListened: 60,
   },
   {
     title: 'Girl on Fire',
@@ -451,7 +516,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 47,
+    timesListened: 120,
   },
   {
     title: 'Cry Me a River',
@@ -462,7 +527,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 11,
+    timesListened: 120,
   },
   {
     title: "Don't Stop Me Now",
@@ -473,9 +538,8 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 11,
+    timesListened: 100,
   },
-
   {
     title: 'I Only Have Eyes For You',
     artist: 'Boyz II Men',
@@ -496,18 +560,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 8,
-  },
-  {
-    title: 'Sweet Dreams (Are Made of This) - 2005 Remaster',
-    artist: 'Eurythmics',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 10,
+    timesListened: 250,
   },
   {
     title: 'thank u, next',
@@ -529,7 +582,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 10,
+    timesListened: 100,
   },
   {
     title: 'Paper Planes',
@@ -540,7 +593,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 9,
+    timesListened: 50,
   },
   {
     title: 'American Boy',
@@ -551,7 +604,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 9,
+    timesListened: 50,
   },
   {
     title: 'Starships',
@@ -573,7 +626,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 8,
+    timesListened: 50,
   },
   {
     title: 'Whenever, Wherever',
@@ -584,7 +637,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 8,
+    timesListened: 80,
   },
   {
     title: 'SexyBack (feat. Timbaland)',
@@ -595,7 +648,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 80,
   },
   {
     title: 'What About Us',
@@ -617,7 +670,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 30,
   },
   {
     title: 'Call Me Maybe',
@@ -628,7 +681,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 30,
   },
   {
     title: 'Shape of You',
@@ -639,7 +692,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 20,
   },
   {
     title: 'Buttons',
@@ -661,7 +714,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 20,
   },
   {
     title: 'No One Else Comes Close',
@@ -675,6 +728,17 @@ export const musicsVarietyUsVarious: Music[] = [
     timesListened: 7,
   },
   {
+    title: 'Table for two',
+    artist: 'Joe',
+    album: 'Unknown',
+    coverUrl: '/musics_pictures/default.jpg',
+    releaseDate: '2000-01-01',
+    rating: 0,
+    duration: 180,
+    genre: 'Unknown',
+    timesListened: 80,
+  },
+  {
     title: 'Numb',
     artist: 'Linkin Park',
     album: 'Unknown',
@@ -683,7 +747,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 250,
   },
   {
     title: '7 rings',
@@ -705,7 +769,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 150,
   },
   {
     title: 'Crazy',
@@ -716,7 +780,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 6,
+    timesListened: 80,
   },
   {
     title: 'Swish Swish',
@@ -743,17 +807,6 @@ export const musicsVarietyUsVarious: Music[] = [
   {
     title: 'The Way I Are',
     artist: 'Timbaland',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 6,
-  },
-  {
-    title: 'We Will Rock You - Remastered 2011',
-    artist: 'Queen',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -793,7 +846,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 50,
   },
   {
     title: 'So What',
@@ -804,7 +857,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 30,
   },
   {
     title: 'Girls Just Want to Have Fun',
@@ -815,22 +868,11 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 70,
   },
   {
     title: 'I Want To Hold Your Hand - Remastered 2015',
     artist: 'The Beatles',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Unknown',
-    timesListened: 5,
-  },
-  {
-    title: 'Promiscuous - Radio Edit',
-    artist: 'Nelly Furtado',
     album: 'Unknown',
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
@@ -848,7 +890,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 50,
   },
   {
     title: 'Get Lucky (Radio Edit) [feat. Pharrell Williams and Nile Rodgers]',
@@ -859,7 +901,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 50,
   },
   {
     title: 'Twist And Shout - Remastered 2009',
@@ -870,7 +912,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 50,
   },
   {
     title: 'This Love',
@@ -903,7 +945,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 50,
   },
   {
     title: 'Scream & Shout',
@@ -914,7 +956,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 30,
   },
   {
     title: 'Waka Waka',
@@ -925,7 +967,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 40,
   },
   {
     title: 'You Will Never Find (with Cristina Bianchi)',
@@ -936,7 +978,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 20,
   },
   {
     title: 'On The Floor',
@@ -947,7 +989,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 30,
   },
   {
     title: 'Ebony And Ivory',
@@ -958,7 +1000,7 @@ export const musicsVarietyUsVarious: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 20,
   },
   {
     title: 'Sounds Like Heaven',

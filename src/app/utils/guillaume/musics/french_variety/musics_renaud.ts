@@ -10,7 +10,7 @@ export const musicsRenaud: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 40,
+    timesListened: 250,
   },
   {
     title: 'Mistral gagnant',
@@ -21,7 +21,7 @@ export const musicsRenaud: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 15,
+    timesListened: 100,
   },
   {
     title: 'En cloque',
@@ -32,7 +32,7 @@ export const musicsRenaud: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 50,
   },
   {
     title: 'Dès que le vent soufflera',
@@ -43,7 +43,7 @@ export const musicsRenaud: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 120,
   },
   {
     title: 'Laisse béton',
@@ -54,7 +54,7 @@ export const musicsRenaud: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 7,
+    timesListened: 20,
   },
   {
     title: 'Morgane de toi',
@@ -65,7 +65,7 @@ export const musicsRenaud: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 5,
+    timesListened: 20,
   },
   {
     title: 'Docteur Renaud, Mister Renard',
@@ -76,7 +76,7 @@ export const musicsRenaud: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 3,
+    timesListened: 20,
   },
   {
     title: 'Dans mon H.L.M.',
@@ -87,7 +87,7 @@ export const musicsRenaud: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 4,
+    timesListened: 10,
   },
   {
     title: 'Hexagone',
@@ -120,6 +120,6 @@ export const musicsRenaud: Music[] = [
     rating: 0,
     duration: 180,
     genre: 'Unknown',
-    timesListened: 0,
+    timesListened: 100,
   },
 ];
