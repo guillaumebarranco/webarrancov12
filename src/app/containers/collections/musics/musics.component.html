@@ -76,7 +76,7 @@
     </h2>
     <div class="albums-grid">
       @for (album of completeAlbums(); track `${album.name}-${album.artist}`) {
-      <div class="album-card">
+      <div class="album-card" (click)="openAlbumModal(album)">
         <div class="album-cover">
           <img
             [src]="album.coverUrl || '/musics_pictures/default.jpg'"
@@ -122,3 +122,9 @@
   </div>
   }
 </div>
+
+<app-album-modal
+  [album]="selectedAlbum()"
+  [isOpen]="isAlbumModalOpen()"
+  (close)="closeAlbumModal()"
+></app-album-modal>

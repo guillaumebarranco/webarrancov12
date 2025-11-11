@@ -64,7 +64,7 @@ export const musicsOre: Music[] = [
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
     rating: 0,
-    duration: 180,
+    duration: 208,
     genre: 'Unknown',
     timesListened: 11,
   },

@@ -215,7 +215,7 @@ export const musicsKeryJames: Music[] = [
     rating: 0,
     duration: 374,
     genre: 'Rap/Hip-Hop',
-    timesListened: 5,
+    timesListened: 15,
   },
   {
     title: 'Parti de loin (feat. Kenyon Dixon)',
@@ -442,17 +442,6 @@ export const musicsKeryJames: Music[] = [
   },
 
   // Autres sorties
-  {
-    title: 'Post Scriptum',
-    artist: 'Kery James',
-    album: 'Unknown',
-    coverUrl: '/musics_pictures/default.jpg',
-    releaseDate: '2000-01-01',
-    rating: 0,
-    duration: 180,
-    genre: 'Rap/Hip-Hop',
-    timesListened: 10,
-  },
   {
     title: 'A qui la faute',
     artist: 'Kery James',

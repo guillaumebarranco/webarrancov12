@@ -475,7 +475,7 @@ export const musicsOrelsan2: Music[] = [
     coverUrl: '/musics_pictures/default.jpg',
     releaseDate: '2000-01-01',
     rating: 0,
-    duration: 180,
+    duration: 250,
     genre: 'Unknown',
     timesListened: 12,
   },

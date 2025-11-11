@@ -11,17 +11,16 @@ import {
   StatsDisplayComponent,
   StatItem,
 } from '../../../components/stats-display/stats-display.component';
+import {
+  AlbumModalComponent,
+  Album,
+} from '../../../components/album-modal/album-modal.component';
 import { Music } from '../../../models/music-model';
 import { musics } from '../../../utils/guillaume/musics';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 
-interface Album {
-  name: string;
-  artist: string;
-  coverUrl: string;
-  musics: Music[];
-  totalDuration: number;
-}
+const MIN_SONGS_PER_ALBUM = 8;
+const TIMES_LISTENED_FOR_POPULAR = 9;
 
 @Component({
   selector: 'app-musics',
@@ -33,6 +32,7 @@ interface Album {
     MenuComponent,
     SortDropdownComponent,
     StatsDisplayComponent,
+    AlbumModalComponent,
   ],
   templateUrl: './musics.component.html',
   styleUrls: ['./musics.component.scss'],
@@ -42,7 +42,11 @@ export class MusicsComponent {
 
   selectedSort = signal<string>('rating');
   selectedViewMode = signal<string>('albums'); // 'albums' ou 'all'
-  selectedFilter = signal<string>('all'); // 'all' ou 'popular'
+  selectedFilter = signal<string>('popular'); // 'all' ou 'popular'
+
+  // Modal d'album
+  isAlbumModalOpen = signal<boolean>(false);
+  selectedAlbum = signal<Album | null>(null);
 
   viewModeOptions = [
     { value: 'albums', label: 'Grouper par album' },
@@ -51,6 +55,10 @@ export class MusicsComponent {
 
   filterOptions = [
     { value: 'all', label: 'Afficher tout' },
+    {
+      value: 'more_than_once',
+      label: "Afficher les musiques écoutées plus d'une fois",
+    },
     {
       value: 'popular',
       label: 'Afficher les plus écoutés (au-delà de 10 fois)',
@@ -91,13 +99,16 @@ export class MusicsComponent {
     let filtered = [...this.allMusics()];
 
     if (this.selectedFilter() === 'popular') {
-      filtered = filtered.filter((music) => music.timesListened > 10);
+      filtered = filtered.filter(
+        (music) => music.timesListened > TIMES_LISTENED_FOR_POPULAR
+      );
+    } else if (this.selectedFilter() === 'more_than_once') {
+      filtered = filtered.filter((music) => music.timesListened > 1);
     }
 
     return filtered;
   });
 
-  // Grouper les musiques par album et identifier les albums complets (8+ chansons)
   completeAlbums = computed<Album[]>(() => {
     const albumsMap = new Map<string, Music[]>();
 
@@ -112,10 +123,15 @@ export class MusicsComponent {
 
     // Filtrer les albums complets (8+ chansons) et créer des objets Album
     const albums: Album[] = [];
+
+    const minTimesListened =
+      this.selectedFilter() === 'popular' ? TIMES_LISTENED_FOR_POPULAR : 1;
+
     albumsMap.forEach((musics, key) => {
       if (
-        musics.length >= 8 &&
-        musics.every((music) => music.timesListened > 0)
+        !key.includes('Unknown') &&
+        musics.length >= MIN_SONGS_PER_ALBUM &&
+        musics.every((music) => music.timesListened > minTimesListened)
       ) {
         const [albumName, artist] = key.split('|');
         albums.push({
@@ -232,7 +248,7 @@ export class MusicsComponent {
     this.selectedViewMode.set(viewMode);
     // Changer le filtre par défaut selon le mode de vue
     if (viewMode === 'albums') {
-      this.selectedFilter.set('all');
+      this.selectedFilter.set('popular');
     } else {
       this.selectedFilter.set('popular');
     }
@@ -296,4 +312,14 @@ export class MusicsComponent {
     // Tri par nombre d'écoutes (du plus écouté au moins écouté)
     return sorted.sort((a, b) => b.timesListened - a.timesListened);
   });
+
+  openAlbumModal(album: Album) {
+    this.selectedAlbum.set(album);
+    this.isAlbumModalOpen.set(true);
+  }
+
+  closeAlbumModal() {
+    this.isAlbumModalOpen.set(false);
+    this.selectedAlbum.set(null);
+  }
 }
